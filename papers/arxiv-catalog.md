@@ -1,0 +1,338 @@
+# arXiv paper catalog
+
+Union of 272 distinct requested arXiv IDs/versions (270 base papers), including all 35 original user links. Collected from the corrected research union, six original notebooks, and all 47 PHYSICS/CYBERNETICS source documents.
+
+Assembled 24 September 2026. This is an identity and link catalog, not a claim that every paper has been fully read or establishes a CAD trading edge. Grouping is a conservative reading guide based on verified titles and the existing source context. General method papers are not automatically implemented by the notebook. Physics papers remain background unless a specific mathematical correspondence and empirical market test are supplied.
+
+Verification is transparent: most links reuse the completed audit from 20 September Eastern (21 September UTC). Eight prioritized pages were retrieved again on 24 September; the web tool reports an older crawl for Deep Learning for Limit Order Books. Unchecked-today does not mean invalid. The JSON companion preserves requested version, returned title, resolved ID, original source locations, timestamps, and status. An unversioned request remains unversioned; it is not silently replaced with a claimed historical version.
+
+## Citation corrections
+
+The source citation `1511.01120v2` is wrong: the prior request returned 404. The intended paper is [Quantum theory from questions — 1511.01130v2](https://arxiv.org/abs/1511.01130v2), whose title and requested version were retrieved from arXiv on 24 September.
+
+The source's `1003.5201`/`1003.5201v1` is a real but unrelated condensed-matter paper: An Anomalously Elastic, Intermediate Phase in Randomly Layered Superfluids, Superconductors, and Planar Magnets. It is not QBism. The intended reference is [QBism, the Perimeter of Quantum Bayesianism — 1003.5209](https://arxiv.org/abs/1003.5209). Historical mistakes are retained in the audit section, not recommended under incorrect names.
+
+## Market mechanisms and financial modeling (27)
+
+- [High frequency market microstructure noise estimates and liquidity measures](https://arxiv.org/abs/0906.1444v1) — `0906.1444v1`. prior HTTP 200; 2026-09-21T00:54:34.419345+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Stochastic Price Dynamics Implied By the Limit Order Book](https://arxiv.org/abs/1105.4789v1) — `1105.4789v1`. prior HTTP 200; 2026-09-21T00:54:34.255505+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Critical reflexivity in financial markets: a Hawkes process analysis](https://arxiv.org/abs/1302.1405) — `1302.1405`. prior HTTP 200; 2026-09-21T00:55:50.799307+00:00. Version: exact_url_returned_in_prior_audit.
+- [Trade arrival dynamics and quote imbalance in a limit order book](https://arxiv.org/abs/1312.0514v1) — `1312.0514v1`. retrieved 2026-09-24; crawl today. Version: requested_version_identified_on_primary_page. · original 35
+- [Deep Learning for Limit Order Books](https://arxiv.org/abs/1601.01987v7) — `1601.01987v7`. retrieved 2026-09-24; crawl 2 weeks ago. Version: requested_version_identified_on_primary_page. · original 35
+- [Can Agent-Based Models Probe Market Microstructure?](https://arxiv.org/abs/1611.08510v3) — `1611.08510v3`. prior HTTP 200; 2026-09-21T00:54:34.335671+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [A Deep Reinforcement Learning Framework for the Financial Portfolio Management Problem](https://arxiv.org/abs/1706.10059) — `1706.10059`. prior HTTP 200; 2026-09-21T00:55:47.772246+00:00. Version: exact_url_returned_in_prior_audit.
+- [Testing if the market microstructure noise is fully explained by the informational content of some variables from the limit order book](https://arxiv.org/abs/1709.02502v4) — `1709.02502v4`. prior HTTP 200; 2026-09-21T00:54:34.256511+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [From Glosten-Milgrom to the whole limit order book and applications to financial regulation](https://arxiv.org/abs/1902.10743v2) — `1902.10743v2`. retrieved 2026-09-24; crawl today. Version: requested_version_identified_on_primary_page. · original 35
+- [Stock market microstructure inference via multi-agent reinforcement learning](https://arxiv.org/abs/1909.07748v5) — `1909.07748v5`. prior HTTP 200; 2026-09-21T00:54:34.338099+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Deep Reinforcement Learning for Trading](https://arxiv.org/abs/1911.10107) — `1911.10107`. prior HTTP 200; 2026-09-21T00:55:37.085526+00:00. Version: exact_url_returned_in_prior_audit.
+- [Empirical Study of Market Impact Conditional on Order-Flow Imbalance](https://arxiv.org/abs/2004.08290) — `2004.08290`. prior HTTP 200; 2026-09-21T00:55:37.402538+00:00. Version: exact_url_returned_in_prior_audit.
+- [An overall view of key problems in algorithmic trading and recent progress](https://arxiv.org/abs/2006.05515v1) — `2006.05515v1`. prior HTTP 200; 2026-09-21T00:54:34.667522+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [FinRL: A Deep Reinforcement Learning Library for Automated Stock Trading in Quantitative Finance](https://arxiv.org/abs/2011.09607) — `2011.09607`. prior HTTP 200; 2026-09-21T00:55:47.932061+00:00. Version: exact_url_returned_in_prior_audit.
+- [Nine Challenges in Modern Algorithmic Trading and Controls](https://arxiv.org/abs/2101.08813v1) — `2101.08813v1`. prior HTTP 200; 2026-09-21T00:54:34.599763+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Confronting Machine Learning With Financial Research](https://arxiv.org/abs/2103.00366v2) — `2103.00366v2`. prior HTTP 200; 2026-09-21T00:54:34.931166+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Reinforcement Learning for Quantitative Trading](https://arxiv.org/abs/2109.13851v1) — `2109.13851v1`. prior HTTP 200; 2026-09-21T00:54:34.535085+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [The theory of quantitative trading](https://arxiv.org/abs/2201.11070v3) — `2201.11070v3`. prior HTTP 200; 2026-09-21T00:54:34.667522+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [A Data Science Pipeline for Algorithmic Trading: A Comparative Study of Applications for Finance and Cryptoeconomics](https://arxiv.org/abs/2206.14932v1) — `2206.14932v1`. prior HTTP 200; 2026-09-21T00:54:34.421342+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Quantitative Trading using Deep Q Learning](https://arxiv.org/abs/2304.06037v2) — `2304.06037v2`. prior HTTP 200; 2026-09-21T00:54:34.572731+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Logic-Q: Improving Deep Reinforcement Learning-based Quantitative Trading via Program Sketch-based Tuning](https://arxiv.org/abs/2310.05551v3) — `2310.05551v3`. prior HTTP 200; 2026-09-21T00:54:34.494279+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Synergistic Formulaic Alpha Generation for Quantitative Trading based on Reinforcement Learning](https://arxiv.org/abs/2401.02710v2) — `2401.02710v2`. prior HTTP 200; 2026-09-21T00:54:34.493281+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Simulating Financial Market via Large Language Model based Agents](https://arxiv.org/abs/2406.19966) — `2406.19966`. prior HTTP 200; 2026-09-21T00:55:37.446266+00:00. Version: exact_url_returned_in_prior_audit.
+- [Robust Reinforcement Learning in Finance: Modeling Market Impact with Elliptic Uncertainty Sets](https://arxiv.org/abs/2510.19950v3) — `2510.19950v3`. prior HTTP 200; 2026-09-21T00:55:36.789815+00:00. Version: exact_url_returned_in_prior_audit.
+- [Realistic Market Impact Modeling for Reinforcement Learning Trading Environments](https://arxiv.org/abs/2603.29086v2) — `2603.29086v2`. prior HTTP 200; 2026-09-21T00:55:38.360208+00:00. Version: exact_url_returned_in_prior_audit.
+- [Artificial Intelligence and Systemic Risk: A Unified Model of Performative Prediction, Algorithmic Herding, and Cognitive Dependency in Financial Markets](https://arxiv.org/abs/2604.03272v1) — `2604.03272v1`. prior HTTP 200; 2026-09-21T00:55:38.743899+00:00. Version: exact_url_returned_in_prior_audit.
+- [Plan Before You Trade: Inference-Time Optimization for RL Trading Agents](https://arxiv.org/abs/2605.12653v1) — `2605.12653v1`. prior HTTP 200; 2026-09-21T00:55:49.368053+00:00. Version: exact_url_returned_in_prior_audit.
+
+## General modeling, learning, inference and systems background (133)
+
+- [Learning under Concept Drift: an Overview](https://arxiv.org/abs/1010.4784) — `1010.4784`. prior HTTP 200; 2026-09-21T00:55:09.123708+00:00. Version: exact_url_returned_in_prior_audit.
+- [Sequence Transduction with Recurrent Neural Networks](https://arxiv.org/abs/1211.3711) — `1211.3711`. prior HTTP 200; 2026-09-21T00:55:10.517204+00:00. Version: exact_url_returned_in_prior_audit.
+- [Information, Computation, Cognition. Agency-based Hierarchies of Levels](https://arxiv.org/abs/1311.0413) — `1311.0413`. prior HTTP 200; 2026-09-21T00:55:01.826607+00:00. Version: exact_url_returned_in_prior_audit.
+- [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556) — `1409.1556`. prior HTTP 200; 2026-09-21T00:55:06.906134+00:00. Version: exact_url_returned_in_prior_audit.
+- [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980) — `1412.6980`. prior HTTP 200; 2026-09-21T00:55:10.628322+00:00. Version: exact_url_returned_in_prior_audit.
+- [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971) — `1509.02971`. prior HTTP 200; 2026-09-21T00:55:47.857243+00:00. Version: exact_url_returned_in_prior_audit.
+- [Inherent Trade-Offs in the Fair Determination of Risk Scores](https://arxiv.org/abs/1609.05807) — `1609.05807`. prior HTTP 200; 2026-09-21T00:55:08.619437+00:00. Version: exact_url_returned_in_prior_audit.
+- [Fair prediction with disparate impact: A study of bias in recidivism prediction instruments](https://arxiv.org/abs/1610.07524) — `1610.07524`. prior HTTP 200; 2026-09-21T00:55:07.637241+00:00. Version: exact_url_returned_in_prior_audit.
+- [Robust Adversarial Reinforcement Learning](https://arxiv.org/abs/1703.02702) — `1703.02702`. prior HTTP 200; 2026-09-21T00:55:37.142046+00:00. Version: exact_url_returned_in_prior_audit.
+- [Fair Inference On Outcomes](https://arxiv.org/abs/1705.10378v1) — `1705.10378v1`. prior HTTP 200; 2026-09-21T00:55:07.469155+00:00. Version: exact_url_returned_in_prior_audit.
+- [Online Adaptive Machine Learning Based Algorithm for Implied Volatility Surface Modeling](https://arxiv.org/abs/1706.01833v2) — `1706.01833v2`. prior HTTP 200; 2026-09-21T00:54:34.791450+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Runaway Feedback Loops in Predictive Policing](https://arxiv.org/abs/1706.09847) — `1706.09847`. prior HTTP 200; 2026-09-21T00:55:07.394195+00:00. Version: exact_url_returned_in_prior_audit.
+- [Fully Decentralized Policies for Multi-Agent Systems: An Information Theoretic Approach](https://arxiv.org/abs/1707.06334) — `1707.06334`. prior HTTP 200; 2026-09-21T00:55:07.724673+00:00. Version: exact_url_returned_in_prior_audit.
+- [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347) — `1707.06347`. prior HTTP 200; 2026-09-21T00:55:37.930271+00:00. Version: exact_url_returned_in_prior_audit.
+- [A Probability Monad as the Colimit of Spaces of Finite Samples](https://arxiv.org/abs/1712.05363) — `1712.05363`. prior HTTP 200; 2026-09-21T00:54:36.457848+00:00. Version: exact_url_returned_in_prior_audit.
+- [Targeted Backdoor Attacks on Deep Learning Systems Using Data Poisoning](https://arxiv.org/abs/1712.05526) — `1712.05526`. prior HTTP 200; 2026-09-21T00:55:17.978583+00:00. Version: exact_url_returned_in_prior_audit.
+- [Interventions over Predictions: Reframing the Ethical Debate for Actuarial Risk Assessment](https://arxiv.org/abs/1712.08238) — `1712.08238`. prior HTTP 200; 2026-09-21T00:55:07.569114+00:00. Version: exact_url_returned_in_prior_audit.
+- [Delayed Impact of Fair Machine Learning](https://arxiv.org/abs/1803.04383) — `1803.04383`. retrieved 2026-09-24; crawl today. Version: unversioned_request_latest_identified.
+- [Delayed Impact of Fair Machine Learning](https://arxiv.org/abs/1803.04383v2) — `1803.04383v2`. prior HTTP 200; 2026-09-21T00:55:07.341283+00:00. Version: exact_url_returned_in_prior_audit.
+- [Anticipating cryptocurrency prices using machine learning](https://arxiv.org/abs/1805.08550v4) — `1805.08550v4`. prior HTTP 200; 2026-09-21T00:54:34.836351+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [A Broader View on Bias in Automated Decision-Making: Reflecting on Epistemology and Dynamics](https://arxiv.org/abs/1807.00553v2) — `1807.00553v2`. prior HTTP 200; 2026-09-21T00:55:08.498906+00:00. Version: exact_url_returned_in_prior_audit.
+- [Contextual Bandits with Cross-learning](https://arxiv.org/abs/1809.09582) — `1809.09582`. prior HTTP 200; 2026-09-21T00:55:17.808251+00:00. Version: exact_url_returned_in_prior_audit.
+- [The Frontiers of Fairness in Machine Learning](https://arxiv.org/abs/1810.08810) — `1810.08810`. prior HTTP 200; 2026-09-21T00:55:11.486716+00:00. Version: exact_url_returned_in_prior_audit.
+- [Enhancing Stock Movement Prediction with Adversarial Training](https://arxiv.org/abs/1810.09936) — `1810.09936`. prior HTTP 200; 2026-09-21T00:55:47.310715+00:00. Version: exact_url_returned_in_prior_audit.
+- [Model-based Deep Reinforcement Learning for Dynamic Portfolio Optimization](https://arxiv.org/abs/1901.08740) — `1901.08740`. prior HTTP 200; 2026-09-21T00:55:36.910079+00:00. Version: exact_url_returned_in_prior_audit.
+- [Distributionally Robust Reinforcement Learning](https://arxiv.org/abs/1902.08708) — `1902.08708`. prior HTTP 200; 2026-09-21T00:55:37.672576+00:00. Version: exact_url_returned_in_prior_audit.
+- [Billion-scale semi-supervised learning for image classification](https://arxiv.org/abs/1905.00546) — `1905.00546`. prior HTTP 200; 2026-09-21T00:55:10.916110+00:00. Version: exact_url_returned_in_prior_audit.
+- [Automatic Programming of Cellular Automata and Artificial Neural Networks Guided by Philosophy](https://arxiv.org/abs/1905.04232) — `1905.04232`. prior HTTP 200; 2026-09-21T00:54:36.217813+00:00. Version: exact_url_returned_in_prior_audit.
+- [Optimal Decision Making Under Strategic Behavior](https://arxiv.org/abs/1905.09239) — `1905.09239`. prior HTTP 200; 2026-09-21T00:55:09.025238+00:00. Version: exact_url_returned_in_prior_audit.
+- [Equal Opportunity and Affirmative Action via Counterfactual Predictions](https://arxiv.org/abs/1905.10870) — `1905.10870`. prior HTTP 200; 2026-09-21T00:55:09.313650+00:00. Version: exact_url_returned_in_prior_audit.
+- [Invariant Risk Minimization](https://arxiv.org/abs/1907.02893) — `1907.02893`. prior HTTP 200; 2026-09-21T00:55:26.075872+00:00. Version: exact_url_returned_in_prior_audit.
+- [Wasserstein Robust Reinforcement Learning](https://arxiv.org/abs/1907.13196) — `1907.13196`. prior HTTP 200; 2026-09-21T00:55:37.556240+00:00. Version: exact_url_returned_in_prior_audit.
+- [Distributionally Robust Optimization: A Review](https://arxiv.org/abs/1908.05659) — `1908.05659`. prior HTTP 200; 2026-09-21T00:55:28.713103+00:00. Version: exact_url_returned_in_prior_audit.
+- [Deep Learning Theory Review: An Optimal Control and Dynamical Systems Perspective](https://arxiv.org/abs/1908.10920) — `1908.10920`. prior HTTP 200; 2026-09-21T00:55:25.323110+00:00. Version: exact_url_returned_in_prior_audit.
+- [Reinforcement Learning for Portfolio Management](https://arxiv.org/abs/1909.09571) — `1909.09571`. prior HTTP 200; 2026-09-21T00:55:36.969630+00:00. Version: exact_url_returned_in_prior_audit.
+- [Strategic Classification is Causal Modeling in Disguise](https://arxiv.org/abs/1910.10362) — `1910.10362`. prior HTTP 200; 2026-09-21T00:55:09.026239+00:00. Version: exact_url_returned_in_prior_audit.
+- [Fair Generative Modeling via Weak Supervision](https://arxiv.org/abs/1910.12008) — `1910.12008`. prior HTTP 200; 2026-09-21T00:55:26.486354+00:00. Version: exact_url_returned_in_prior_audit.
+- [Optimal Experimental Design for Staggered Rollouts](https://arxiv.org/abs/1911.03764) — `1911.03764`. prior HTTP 200; 2026-09-21T00:55:18.809649+00:00. Version: exact_url_returned_in_prior_audit.
+- [Cybernetical Concepts for Cellular Automaton and Artificial Neural Network Modelling and Implementation](https://arxiv.org/abs/2001.02037) — `2001.02037`. prior HTTP 200; 2026-09-21T00:54:36.142340+00:00. Version: exact_url_returned_in_prior_audit.
+- [Curriculum Labeling: Revisiting Pseudo-Labeling for Semi-Supervised Learning](https://arxiv.org/abs/2001.06001) — `2001.06001`. prior HTTP 200; 2026-09-21T00:55:26.208072+00:00. Version: exact_url_returned_in_prior_audit.
+- [Performative Prediction](https://arxiv.org/abs/2002.06673) — `2002.06673`. retrieved 2026-09-24; crawl today. Version: unversioned_request_latest_identified.
+- [Performative Prediction](https://arxiv.org/abs/2002.06673v4) — `2002.06673v4`. prior HTTP 200; 2026-09-21T00:55:08.817785+00:00. Version: exact_url_returned_in_prior_audit.
+- [Gaming Helps! Learning from Strategic Interactions in Natural Dynamics](https://arxiv.org/abs/2002.07024) — `2002.07024`. prior HTTP 200; 2026-09-21T00:55:08.872462+00:00. Version: exact_url_returned_in_prior_audit.
+- [Causal Strategic Linear Regression](https://arxiv.org/abs/2002.10066) — `2002.10066`. prior HTTP 200; 2026-09-21T00:55:09.026239+00:00. Version: exact_url_returned_in_prior_audit.
+- [Optimal Regularization Can Mitigate Double Descent](https://arxiv.org/abs/2003.01897) — `2003.01897`. prior HTTP 200; 2026-09-21T00:55:10.776247+00:00. Version: exact_url_returned_in_prior_audit.
+- [Manipulation-Proof Machine Learning](https://arxiv.org/abs/2004.03865) — `2004.03865`. prior HTTP 200; 2026-09-21T00:55:28.632810+00:00. Version: exact_url_returned_in_prior_audit.
+- [Limiting Bias from Test-Control Interference in Online Marketplace Experiments](https://arxiv.org/abs/2004.12162) — `2004.12162`. prior HTTP 200; 2026-09-21T00:55:18.461151+00:00. Version: exact_url_returned_in_prior_audit.
+- [Philosophy-Guided Mathematical Formalism for Complex Systems Modelling](https://arxiv.org/abs/2005.01192v5) — `2005.01192v5`. prior HTTP 200; 2026-09-21T00:54:36.217284+00:00. Version: exact_url_returned_in_prior_audit.
+- [Differential Machine Learning](https://arxiv.org/abs/2005.02347v4) — `2005.02347v4`. prior HTTP 200; 2026-09-21T00:54:34.719701+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [An Overview of Deep Semi-Supervised Learning](https://arxiv.org/abs/2006.05278) — `2006.05278`. prior HTTP 200; 2026-09-21T00:55:10.777619+00:00. Version: exact_url_returned_in_prior_audit.
+- [Monitoring and explainability of models in production](https://arxiv.org/abs/2007.06299) — `2007.06299`. prior HTTP 200; 2026-09-21T00:55:22.015127+00:00. Version: exact_url_returned_in_prior_audit.
+- [Philosophy-Guided Modelling and Implementation of Adaptation and Control in Complex Systems](https://arxiv.org/abs/2009.00110v4) — `2009.00110v4`. prior HTTP 200; 2026-09-21T00:54:36.142340+00:00. Version: exact_url_returned_in_prior_audit.
+- [Fairness in Machine Learning: A Survey](https://arxiv.org/abs/2010.04053) — `2010.04053`. prior HTTP 200; 2026-09-21T00:55:11.333523+00:00. Version: exact_url_returned_in_prior_audit.
+- [Do Offline Metrics Predict Online Performance in Recommender Systems?](https://arxiv.org/abs/2011.07931) — `2011.07931`. prior HTTP 200; 2026-09-21T00:55:09.189288+00:00. Version: exact_url_returned_in_prior_audit.
+- [The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027) — `2101.00027`. prior HTTP 200; 2026-09-21T00:55:10.516201+00:00. Version: exact_url_returned_in_prior_audit.
+- [On Statistical Bias In Active Learning: How and When To Fix It](https://arxiv.org/abs/2101.11665) — `2101.11665`. prior HTTP 200; 2026-09-21T00:55:09.135891+00:00. Version: exact_url_returned_in_prior_audit.
+- [Explaining Neural Scaling Laws](https://arxiv.org/abs/2102.06701) — `2102.06701`. prior HTTP 200; 2026-09-21T00:55:10.336172+00:00. Version: exact_url_returned_in_prior_audit.
+- [On the Fairness of Generative Adversarial Networks (GANs)](https://arxiv.org/abs/2103.00950) — `2103.00950`. prior HTTP 200; 2026-09-21T00:55:26.918308+00:00. Version: exact_url_returned_in_prior_audit.
+- [An automatic system to detect equivalence between iterative algorithms](https://arxiv.org/abs/2105.04684) — `2105.04684`. prior HTTP 200; 2026-09-21T00:55:25.788524+00:00. Version: exact_url_returned_in_prior_audit.
+- [The Rich Get Richer: Disparate Impact of Semi-Supervised Learning](https://arxiv.org/abs/2110.06282) — `2110.06282`. prior HTTP 200; 2026-09-21T00:55:10.968378+00:00. Version: exact_url_returned_in_prior_audit.
+- [Machine Learning in Finance-Emerging Trends and Challenges](https://arxiv.org/abs/2110.11999v1) — `2110.11999v1`. prior HTTP 200; 2026-09-21T00:54:34.932177+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Multiple Randomization Designs: Estimation and Inference with Interference](https://arxiv.org/abs/2112.13495) — `2112.13495`. prior HTTP 200; 2026-09-21T00:55:18.304791+00:00. Version: exact_url_returned_in_prior_audit.
+- [Leveraging Unlabeled Data to Predict Out-of-Distribution Performance](https://arxiv.org/abs/2201.04234) — `2201.04234`. prior HTTP 200; 2026-09-21T00:55:30.551187+00:00. Version: exact_url_returned_in_prior_audit.
+- [Machine Learning for Stock Prediction Based on Fundamental Analysis](https://arxiv.org/abs/2202.05702v1) — `2202.05702v1`. prior HTTP 200; 2026-09-21T00:54:34.862891+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Policy Learning with Competing Agents](https://arxiv.org/abs/2204.01884) — `2204.01884`. prior HTTP 200; 2026-09-21T00:55:28.755209+00:00. Version: exact_url_returned_in_prior_audit.
+- [What You See is What You Get: Principled Deep Learning via Distributional Generalization](https://arxiv.org/abs/2204.03230) — `2204.03230`. prior HTTP 200; 2026-09-21T00:55:10.678150+00:00. Version: exact_url_returned_in_prior_audit.
+- [Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding](https://arxiv.org/abs/2205.11487) — `2205.11487`. prior HTTP 200; 2026-09-21T00:55:10.821732+00:00. Version: exact_url_returned_in_prior_audit.
+- [Breaking Feedback Loops in Recommender Systems with Causal Inference](https://arxiv.org/abs/2207.01616v2) — `2207.01616v2`. prior HTTP 200; 2026-09-21T00:55:09.134888+00:00. Version: exact_url_returned_in_prior_audit.
+- [Categorical semantics of compositional reinforcement learning](https://arxiv.org/abs/2208.13687) — `2208.13687`. prior HTTP 200; 2026-09-21T00:54:36.391897+00:00. Version: exact_url_returned_in_prior_audit.
+- [Data Feedback Loops: Model-driven Amplification of Dataset Biases](https://arxiv.org/abs/2209.03942v1) — `2209.03942v1`. prior HTTP 200; 2026-09-21T00:55:10.023434+00:00. Version: exact_url_returned_in_prior_audit.
+- [First-order Policy Optimization for Robust Markov Decision Process](https://arxiv.org/abs/2209.10579) — `2209.10579`. prior HTTP 200; 2026-09-21T00:55:37.086523+00:00. Version: exact_url_returned_in_prior_audit.
+- [Is Conditional Generative Modeling all you need for Decision-Making?](https://arxiv.org/abs/2211.15657) — `2211.15657`. prior HTTP 200; 2026-09-21T00:55:47.185567+00:00. Version: exact_url_returned_in_prior_audit.
+- [Annotated History of Modern AI and Deep Learning](https://arxiv.org/abs/2212.11279) — `2212.11279`. prior HTTP 200; 2026-09-21T00:55:06.825316+00:00. Version: exact_url_returned_in_prior_audit.
+- [Statistical Inference and A/B Testing for First-Price Pacing Equilibria](https://arxiv.org/abs/2301.02276) — `2301.02276`. prior HTTP 200; 2026-09-21T00:55:18.685852+00:00. Version: exact_url_returned_in_prior_audit.
+- [An Efficient Solution to s-Rectangular Robust Markov Decision Processes](https://arxiv.org/abs/2301.13642) — `2301.13642`. prior HTTP 200; 2026-09-21T00:55:37.229701+00:00. Version: exact_url_returned_in_prior_audit.
+- [BIG Hype: Best Intervention in Games via Distributed Hypergradient Descent](https://arxiv.org/abs/2303.01101) — `2303.01101`. prior HTTP 200; 2026-09-21T00:55:25.589273+00:00. Version: exact_url_returned_in_prior_audit.
+- [Difficult Lessons on Social Prediction from Wisconsin Public Schools](https://arxiv.org/abs/2304.06205) — `2304.06205`. prior HTTP 200; 2026-09-21T00:55:18.046434+00:00. Version: exact_url_returned_in_prior_audit.
+- [Can Large Language Models Transform Computational Social Science?](https://arxiv.org/abs/2305.03514) — `2305.03514`. prior HTTP 200; 2026-09-21T00:55:07.015619+00:00. Version: exact_url_returned_in_prior_audit.
+- [A Classification of Feedback Loops and Their Relation to Biases in Automated Decision-Making Systems](https://arxiv.org/abs/2305.06055v1) — `2305.06055v1`. prior HTTP 200; 2026-09-21T00:55:17.580992+00:00. Version: exact_url_returned_in_prior_audit.
+- [The Compositional Structure of Bayesian Inference](https://arxiv.org/abs/2305.06112) — `2305.06112`. prior HTTP 200; 2026-09-21T00:54:36.830696+00:00. Version: exact_url_returned_in_prior_audit.
+- [Modeling Interference Using Experiment Roll-out](https://arxiv.org/abs/2305.10728) — `2305.10728`. prior HTTP 200; 2026-09-21T00:55:18.358094+00:00. Version: exact_url_returned_in_prior_audit.
+- [The Curse of Recursion: Training on Generated Data Makes Models Forget](https://arxiv.org/abs/2305.17493) — `2305.17493`. prior HTTP 200; 2026-09-21T00:55:27.427270+00:00. Version: exact_url_returned_in_prior_audit.
+- [A Survey of Contextual Optimization Methods for Decision Making under Uncertainty](https://arxiv.org/abs/2306.10374) — `2306.10374`. prior HTTP 200; 2026-09-21T00:55:25.671224+00:00. Version: exact_url_returned_in_prior_audit.
+- [Personality Traits in Large Language Models](https://arxiv.org/abs/2307.00184) — `2307.00184`. prior HTTP 200; 2026-09-21T00:55:06.828136+00:00. Version: exact_url_returned_in_prior_audit.
+- [Self-Consuming Generative Models Go MAD](https://arxiv.org/abs/2307.01850) — `2307.01850`. prior HTTP 200; 2026-09-21T00:55:26.073868+00:00. Version: exact_url_returned_in_prior_audit.
+- [Decision-Focused Learning: Foundations, State of the Art, Benchmark and Future Opportunities](https://arxiv.org/abs/2307.13565) — `2307.13565`. prior HTTP 200; 2026-09-21T00:55:25.670225+00:00. Version: exact_url_returned_in_prior_audit.
+- [Rectangularity and duality of distributionally robust Markov Decision Processes](https://arxiv.org/abs/2308.11139) — `2308.11139`. prior HTTP 200; 2026-09-21T00:55:37.675628+00:00. Version: exact_url_returned_in_prior_audit.
+- [Reducing Symbiosis Bias Through Better A/B Tests of Recommendation Algorithms](https://arxiv.org/abs/2309.07107) — `2309.07107`. prior HTTP 200; 2026-09-21T00:55:18.551224+00:00. Version: exact_url_returned_in_prior_audit.
+- [On the Stability of Iterative Retraining of Generative Models on their own Data](https://arxiv.org/abs/2310.00429) — `2310.00429`. prior HTTP 200; 2026-09-21T00:55:17.951095+00:00. Version: exact_url_returned_in_prior_audit.
+- [Constrained Optimization with Decision-Dependent Distributions](https://arxiv.org/abs/2310.02384) — `2310.02384`. prior HTTP 200; 2026-09-21T00:55:18.170303+00:00. Version: exact_url_returned_in_prior_audit.
+- [Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!](https://arxiv.org/abs/2310.03693) — `2310.03693`. prior HTTP 200; 2026-09-21T00:55:06.825826+00:00. Version: exact_url_returned_in_prior_audit.
+- [Test & Evaluation Best Practices for Machine Learning-Enabled Systems](https://arxiv.org/abs/2310.06800) — `2310.06800`. prior HTTP 200; 2026-09-21T00:55:30.552093+00:00. Version: exact_url_returned_in_prior_audit.
+- [Performative Prediction: Past and Future](https://arxiv.org/abs/2310.16608v2) — `2310.16608v2`. prior HTTP 200; 2026-09-21T00:55:17.677268+00:00. Version: exact_url_returned_in_prior_audit.
+- [Tackling Interference Induced by Data Training Loops in A/B Tests: A Weighted Training Approach](https://arxiv.org/abs/2310.17496v5) — `2310.17496v5`. prior HTTP 200; 2026-09-21T00:55:18.254131+00:00. Version: exact_url_returned_in_prior_audit.
+- [Augmented Lagrangian Methods as Layered Control Architectures](https://arxiv.org/abs/2311.06404) — `2311.06404`. prior HTTP 200; 2026-09-21T00:55:25.720722+00:00. Version: exact_url_returned_in_prior_audit.
+- [Designing monitoring strategies for deployed machine learning algorithms: navigating performativity through a causal lens](https://arxiv.org/abs/2311.11463v2) — `2311.11463v2`. prior HTTP 200; 2026-09-21T00:55:25.061190+00:00. Version: exact_url_returned_in_prior_audit.
+- [Semiparametric Efficient Inference in Adaptive Experiments](https://arxiv.org/abs/2311.18274) — `2311.18274`. prior HTTP 200; 2026-09-21T00:55:18.459158+00:00. Version: exact_url_returned_in_prior_audit.
+- [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) — `2312.00752`. prior HTTP 200; 2026-09-21T00:55:25.450984+00:00. Version: exact_url_returned_in_prior_audit.
+- [The Role of Identification in Data-driven Policy Iteration: A System Theoretic Study](https://arxiv.org/abs/2401.06721) — `2401.06721`. prior HTTP 200; 2026-09-21T00:55:25.765978+00:00. Version: exact_url_returned_in_prior_audit.
+- [A Unifying System Theory Framework for Distributed Optimization and Games](https://arxiv.org/abs/2401.12623) — `2401.12623`. prior HTTP 200; 2026-09-21T00:55:25.534482+00:00. Version: exact_url_returned_in_prior_audit.
+- [Towards a Systems Theory of Algorithms](https://arxiv.org/abs/2401.14029v2) — `2401.14029v2`. prior HTTP 200; 2026-09-21T00:55:25.321107+00:00. Version: exact_url_returned_in_prior_audit.
+- [Towards a Theory of Control Architecture: A quantitative framework for layered multi-rate control](https://arxiv.org/abs/2401.15185) — `2401.15185`. prior HTTP 200; 2026-09-21T00:55:25.718714+00:00. Version: exact_url_returned_in_prior_audit.
+- [Developing A Multi-Agent and Self-Adaptive Framework with Deep Reinforcement Learning for Dynamic Portfolio Risk Management](https://arxiv.org/abs/2402.00515) — `2402.00515`. prior HTTP 200; 2026-09-21T00:55:37.536849+00:00. Version: exact_url_returned_in_prior_audit.
+- [Fairness Feedback Loops: Training on Synthetic Data Amplifies Bias](https://arxiv.org/abs/2403.07857) — `2403.07857`. prior HTTP 200; 2026-09-21T00:55:28.280632+00:00. Version: exact_url_returned_in_prior_audit.
+- [Advancing Investment Frontiers: Industry-grade Deep Reinforcement Learning for Portfolio Optimization](https://arxiv.org/abs/2403.07916) — `2403.07916`. prior HTTP 200; 2026-09-21T00:55:36.910079+00:00. Version: exact_url_returned_in_prior_audit.
+- [State Space Models as Foundation Models: A Control Theoretic Overview](https://arxiv.org/abs/2403.16899) — `2403.16899`. prior HTTP 200; 2026-09-21T00:55:25.409689+00:00. Version: exact_url_returned_in_prior_audit.
+- [Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data](https://arxiv.org/abs/2404.01413) — `2404.01413`. prior HTTP 200; 2026-09-21T00:55:18.045437+00:00. Version: exact_url_returned_in_prior_audit.
+- [Reinforcement Learning in Categorical Cybernetics](https://arxiv.org/abs/2404.02688) — `2404.02688`. prior HTTP 200; 2026-09-21T00:54:36.761684+00:00. Version: exact_url_returned_in_prior_audit.
+- [Addressing Polarization and Unfairness in Performative Prediction](https://arxiv.org/abs/2406.16756) — `2406.16756`. prior HTTP 200; 2026-09-21T00:55:38.125808+00:00. Version: exact_url_returned_in_prior_audit.
+- [Gymnasium: A Standard Interface for Reinforcement Learning Environments](https://arxiv.org/abs/2407.17032) — `2407.17032`. prior HTTP 200; 2026-09-21T00:55:37.805477+00:00. Version: exact_url_returned_in_prior_audit.
+- [The Evolution of Reinforcement Learning in Quantitative Finance: A Survey](https://arxiv.org/abs/2408.10932) — `2408.10932`. prior HTTP 200; 2026-09-21T00:55:36.803834+00:00. Version: exact_url_returned_in_prior_audit.
+- [Empirical evidence of Large Language Model's influence on human spoken communication](https://arxiv.org/abs/2409.01754) — `2409.01754`. prior HTTP 200; 2026-09-21T00:55:07.164138+00:00. Version: exact_url_returned_in_prior_audit.
+- [Decline Now: A Combinatorial Model for Algorithmic Collective Action](https://arxiv.org/abs/2410.12633) — `2410.12633`. prior HTTP 200; 2026-09-21T00:55:18.098737+00:00. Version: exact_url_returned_in_prior_audit.
+- [Complexity Control](https://arxiv.org/abs/2410.18752v1) — `2410.18752v1`. prior HTTP 200; 2026-09-21T00:54:59.835778+00:00. Version: exact_url_returned_in_prior_audit.
+- [Practical Performative Policy Learning with Strategic Agents](https://arxiv.org/abs/2412.01344v3) — `2412.01344v3`. prior HTTP 200; 2026-09-21T00:55:28.763342+00:00. Version: exact_url_returned_in_prior_audit.
+- [TRADES: Generating Realistic Market Simulations with Diffusion Models](https://arxiv.org/abs/2502.07071) — `2502.07071`. prior HTTP 200; 2026-09-21T00:55:37.346047+00:00. Version: exact_url_returned_in_prior_audit.
+- [Provably Robust Federated Reinforcement Learning](https://arxiv.org/abs/2502.08123) — `2502.08123`. prior HTTP 200; 2026-09-21T00:55:37.229701+00:00. Version: exact_url_returned_in_prior_audit.
+- [Stop Overvaluing Multi-Agent Debate -- We Must Rethink Evaluation and Embrace Model Heterogeneity](https://arxiv.org/abs/2502.08788) — `2502.08788`. prior HTTP 200; 2026-09-21T00:54:58.995594+00:00. Version: exact_url_returned_in_prior_audit.
+- [Large Language Models Pass the Turing Test](https://arxiv.org/abs/2503.23674) — `2503.23674`. prior HTTP 200; 2026-09-21T00:55:06.557655+00:00. Version: exact_url_returned_in_prior_audit.
+- [A Survey on Test-Time Scaling in Large Language Models: What, How, Where, and How Well?](https://arxiv.org/abs/2503.24235) — `2503.24235`. prior HTTP 200; 2026-09-21T00:54:59.243239+00:00. Version: exact_url_returned_in_prior_audit.
+- [From Tea Leaves to System Maps: A Survey and Framework on Context-aware Machine Learning Monitoring](https://arxiv.org/abs/2506.10770v3) — `2506.10770v3`. prior HTTP 200; 2026-09-21T00:55:30.475828+00:00. Version: exact_url_returned_in_prior_audit.
+- [Large Language Models are Near-Optimal Decision-Makers with a Non-Human Learning Behavior](https://arxiv.org/abs/2506.16163) — `2506.16163`. prior HTTP 200; 2026-09-21T00:55:06.650545+00:00. Version: exact_url_returned_in_prior_audit.
+- [Nonlinear Performative Prediction](https://arxiv.org/abs/2509.01139v1) — `2509.01139v1`. prior HTTP 200; 2026-09-21T00:55:36.415735+00:00. Version: exact_url_returned_in_prior_audit.
+- [SimpleTIR: End-to-End Reinforcement Learning for Multi-Turn Tool-Integrated Reasoning](https://arxiv.org/abs/2509.02479) — `2509.02479`. prior HTTP 200; 2026-09-21T00:54:58.872087+00:00. Version: exact_url_returned_in_prior_audit.
+- [Large Language Model Hacking: Quantifying the Hidden Risks of Using LLMs for Text Annotation](https://arxiv.org/abs/2509.08825) — `2509.08825`. prior HTTP 200; 2026-09-21T00:55:06.318449+00:00. Version: exact_url_returned_in_prior_audit.
+- [On the Computational Complexity of Performative Prediction](https://arxiv.org/abs/2601.20180) — `2601.20180`. prior HTTP 200; 2026-09-21T00:55:38.327681+00:00. Version: exact_url_returned_in_prior_audit.
+- [Dissecting Performative Prediction: A Comprehensive Survey](https://arxiv.org/abs/2602.10176v1) — `2602.10176v1`. prior HTTP 200; 2026-09-21T00:55:38.068401+00:00. Version: exact_url_returned_in_prior_audit.
+- [On-Policy Context Distillation for Language Models](https://arxiv.org/abs/2602.12275) — `2602.12275`. prior HTTP 200; 2026-09-21T00:54:58.992596+00:00. Version: exact_url_returned_in_prior_audit.
+- [The Stability of Online Algorithms in Performative Prediction](https://arxiv.org/abs/2602.24207v1) — `2602.24207v1`. prior HTTP 200; 2026-09-21T00:55:38.276603+00:00. Version: exact_url_returned_in_prior_audit.
+- [AutoSkill: Experience-Driven Lifelong Learning via Skill Self-Evolution](https://arxiv.org/abs/2603.01145) — `2603.01145`. prior HTTP 200; 2026-09-21T00:54:58.874099+00:00. Version: exact_url_returned_in_prior_audit.
+- [Inference Time Policy Optimization for Offline RL with Differentiable World Models](https://arxiv.org/abs/2603.22430) — `2603.22430`. prior HTTP 200; 2026-09-21T00:55:47.241921+00:00. Version: exact_url_returned_in_prior_audit.
+- [Meta-Harness: End-to-End Optimization of Model Harnesses](https://arxiv.org/abs/2603.28052) — `2603.28052`. prior HTTP 200; 2026-09-21T00:54:58.648678+00:00. Version: exact_url_returned_in_prior_audit.
+- [${\pi}_{0.7}$: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities](https://arxiv.org/abs/2604.15483) — `2604.15483`. prior HTTP 200; 2026-09-21T00:55:50.637939+00:00. Version: exact_url_returned_in_prior_audit.
+
+## Broader physics, mathematics and conceptual background (111)
+
+- [Doubles for monoidal categories](https://arxiv.org/abs/0711.1859) — `0711.1859`. prior HTTP 200; 2026-09-21T00:54:42.123659+00:00. Version: exact_url_returned_in_prior_audit.
+- [Infinitesimal affine geometry of metric spaces endowed with a dilatation structure](https://arxiv.org/abs/0804.0135) — `0804.0135`. prior HTTP 200; 2026-09-21T00:55:03.876144+00:00. Version: exact_url_returned_in_prior_audit.
+- [A characterization of sub-riemannian spaces as length dilatation structures constructed via coherent projections](https://arxiv.org/abs/0810.5042) — `0810.5042`. prior HTTP 200; 2026-09-21T00:55:03.935735+00:00. Version: exact_url_returned_in_prior_audit.
+- [Convex Spaces I: Definition and Examples](https://arxiv.org/abs/0903.5522) — `0903.5522`. prior HTTP 200; 2026-09-21T00:54:36.534429+00:00. Version: exact_url_returned_in_prior_audit.
+- [Emergent algebras](https://arxiv.org/abs/0907.1520) — `0907.1520`. prior HTTP 200; 2026-09-21T00:55:03.999272+00:00. Version: exact_url_returned_in_prior_audit.
+- [Locally Compact Contractive Local Groups](https://arxiv.org/abs/0909.4565) — `0909.4565`. prior HTTP 200; 2026-09-21T00:55:04.297095+00:00. Version: exact_url_returned_in_prior_audit.
+- [A Dialogue Concerning Two World Systems: Info-Computational vs. Mechanistic](https://arxiv.org/abs/0910.5001) — `0910.5001`. prior HTTP 200; 2026-09-21T00:55:01.482062+00:00. Version: exact_url_returned_in_prior_audit.
+- [Deformations of normed groupoids and differential calculus. First part](https://arxiv.org/abs/0911.1300) — `0911.1300`. prior HTTP 200; 2026-09-21T00:55:04.221586+00:00. Version: exact_url_returned_in_prior_audit.
+- [QBism, the Perimeter of Quantum Bayesianism](https://arxiv.org/abs/1003.5209) — `1003.5209`. retrieved 2026-09-24; crawl today. Version: unversioned_request_latest_identified.
+- [Braided spaces with dilations and sub-riemannian symmetric spaces](https://arxiv.org/abs/1005.5031) — `1005.5031`. prior HTTP 200; 2026-09-21T00:55:04.073942+00:00. Version: exact_url_returned_in_prior_audit.
+- [Introduction to metric spaces with dilations](https://arxiv.org/abs/1007.2362) — `1007.2362`. prior HTTP 200; 2026-09-21T00:55:04.218499+00:00. Version: exact_url_returned_in_prior_audit.
+- [Knots as processes: a new kind of invariant](https://arxiv.org/abs/1009.2107) — `1009.2107`. prior HTTP 200; 2026-09-21T00:55:04.370284+00:00. Version: exact_url_returned_in_prior_audit.
+- [What is a space? Computations in emergent algebras and the front end visual system](https://arxiv.org/abs/1009.5028) — `1009.5028`. prior HTTP 200; 2026-09-21T00:55:04.074941+00:00. Version: exact_url_returned_in_prior_audit.
+- [More than discrete or continuous: a bird's view](https://arxiv.org/abs/1011.4485) — `1011.4485`. prior HTTP 200; 2026-09-21T00:55:04.171792+00:00. Version: exact_url_returned_in_prior_audit.
+- [Introduction to Vassiliev Knot Invariants](https://arxiv.org/abs/1103.5628) — `1103.5628`. prior HTTP 200; 2026-09-21T00:55:04.270103+00:00. Version: exact_url_returned_in_prior_audit.
+- [Computing with space: a tangle formalism for chora and difference](https://arxiv.org/abs/1103.6007v2) — `1103.6007v2`. prior HTTP 200; 2026-09-21T00:55:04.539702+00:00. Version: exact_url_returned_in_prior_audit.
+- [A review of the possible role of constraints in MHD turbulence](https://arxiv.org/abs/1211.0715v1) — `1211.0715v1`. prior HTTP 200; 2026-09-21T00:54:35.190975+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781) — `1301.3781`. prior HTTP 200; 2026-09-21T00:55:06.714753+00:00. Version: exact_url_returned_in_prior_audit.
+- [Another Survey of Foundational Attitudes Towards Quantum Mechanics](https://arxiv.org/abs/1303.2719v1) — `1303.2719v1`. prior HTTP 200; 2026-09-21T00:54:35.874016+00:00. Version: exact_url_returned_in_prior_audit.
+- [One-shot lossy quantum data compression](https://arxiv.org/abs/1304.2336) — `1304.2336`. prior HTTP 200; 2026-09-21T00:54:59.427219+00:00. Version: exact_url_returned_in_prior_audit.
+- [The second laws of quantum thermodynamics](https://arxiv.org/abs/1305.5278) — `1305.5278`. prior HTTP 200; 2026-09-21T00:54:59.333307+00:00. Version: exact_url_returned_in_prior_audit.
+- [Yet Another Snapshot of Foundational Attitudes Toward Quantum Mechanics](https://arxiv.org/abs/1306.4646v2) — `1306.4646v2`. prior HTTP 200; 2026-09-21T00:54:35.873015+00:00. Version: exact_url_returned_in_prior_audit.
+- [Some Negative Remarks on Operational Approaches to Quantum Theory](https://arxiv.org/abs/1401.7254v1) — `1401.7254v1`. prior HTTP 200; 2026-09-21T00:54:35.977834+00:00. Version: exact_url_returned_in_prior_audit.
+- [Quantum Correlation with Sandwiched Relative Entropies: Advantageous as Order Parameter in Quantum Phase Transitions](https://arxiv.org/abs/1406.5065) — `1406.5065`. prior HTTP 200; 2026-09-21T00:54:59.496540+00:00. Version: exact_url_returned_in_prior_audit.
+- [R\'enyi squashed entanglement, discord, and relative entropy differences](https://arxiv.org/abs/1410.1443) — `1410.1443`. prior HTTP 200; 2026-09-21T00:54:59.638624+00:00. Version: exact_url_returned_in_prior_audit.
+- [Building the Observer into the System: Toward a Realistic Description of Human Interaction with the World](https://arxiv.org/abs/1411.3405v6) — `1411.3405v6`. prior HTTP 200; 2026-09-21T00:54:35.819092+00:00. Version: exact_url_returned_in_prior_audit.
+- [Field topologies in ideal and near ideal magnetohydrodynamics and vortex dynamics](https://arxiv.org/abs/1412.6158v1) — `1412.6158v1`. prior HTTP 200; 2026-09-21T00:54:35.088235+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Towards Quantum Cybernetics](https://arxiv.org/abs/1502.06837v2) — `1502.06837v2`. prior HTTP 200; 2026-09-21T00:54:59.332311+00:00. Version: exact_url_returned_in_prior_audit.
+- [Simulating Astrophysical Magnetic Fields with Smoothed Particle Magnetohydrodynamics](https://arxiv.org/abs/1505.04494v1) — `1505.04494v1`. prior HTTP 200; 2026-09-21T00:54:35.032205+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Strategic Classification](https://arxiv.org/abs/1506.06980v2) — `1506.06980v2`. prior HTTP 200; 2026-09-21T00:55:07.278744+00:00. Version: exact_url_returned_in_prior_audit.
+- [How an autonomous quantum Maxwell demon can harness correlated information](https://arxiv.org/abs/1506.09207) — `1506.09207`. prior HTTP 200; 2026-09-21T00:54:35.325222+00:00. Version: exact_url_returned_in_prior_audit.
+- [Multiscale Structure in Eco-Evolutionary Dynamics](https://arxiv.org/abs/1509.02958) — `1509.02958`. prior HTTP 200; 2026-09-21T00:54:35.818094+00:00. Version: exact_url_returned_in_prior_audit.
+- [Interpretations of quantum theory: A map of madness](https://arxiv.org/abs/1509.04711v1) — `1509.04711v1`. prior HTTP 200; 2026-09-21T00:54:35.897546+00:00. Version: exact_url_returned_in_prior_audit.
+- [Quantum theory from questions](https://arxiv.org/abs/1511.01130v2) — `1511.01130v2`. retrieved 2026-09-24; crawl today. Version: requested_version_identified_on_primary_page.
+- [How device-independent approaches change the meaning of physical theory](https://arxiv.org/abs/1512.01035v3) — `1512.01035v3`. prior HTTP 200; 2026-09-21T00:54:36.070326+00:00. Version: exact_url_returned_in_prior_audit.
+- [On Participatory Realism](https://arxiv.org/abs/1601.04360v1) — `1601.04360v1`. prior HTTP 200; 2026-09-21T00:54:35.976836+00:00. Version: exact_url_returned_in_prior_audit.
+- [A Neural Autoregressive Approach to Collaborative Filtering](https://arxiv.org/abs/1605.09477) — `1605.09477`. prior HTTP 200; 2026-09-21T00:55:09.313650+00:00. Version: exact_url_returned_in_prior_audit.
+- [OpenAI Gym](https://arxiv.org/abs/1606.01540) — `1606.01540`. prior HTTP 200; 2026-09-21T00:55:37.795965+00:00. Version: exact_url_returned_in_prior_audit.
+- [Concrete Problems in AI Safety](https://arxiv.org/abs/1606.06565) — `1606.06565`. prior HTTP 200; 2026-09-21T00:55:07.513949+00:00. Version: exact_url_returned_in_prior_audit.
+- [Leveraging Environmental Correlations: The Thermodynamics of Requisite Variety](https://arxiv.org/abs/1609.05353v1) — `1609.05353v1`. prior HTTP 200; 2026-09-21T00:54:35.325222+00:00. Version: exact_url_returned_in_prior_audit.
+- [On the (im)possibility of fairness](https://arxiv.org/abs/1609.07236) — `1609.07236`. prior HTTP 200; 2026-09-21T00:55:12.073290+00:00. Version: exact_url_returned_in_prior_audit.
+- [Anisotropy in Quasi-Static Magnetohydrodynamic Turbulence](https://arxiv.org/abs/1709.03236v1) — `1709.03236v1`. prior HTTP 200; 2026-09-21T00:54:35.062657+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Hierarchical Neural Story Generation](https://arxiv.org/abs/1805.04833) — `1805.04833`. prior HTTP 200; 2026-09-21T00:55:10.471358+00:00. Version: exact_url_returned_in_prior_audit.
+- [Complexity Matching and Requisite Variety](https://arxiv.org/abs/1806.08808) — `1806.08808`. prior HTTP 200; 2026-09-21T00:54:35.735149+00:00. Version: exact_url_returned_in_prior_audit.
+- [Categories of Optics](https://arxiv.org/abs/1809.00738) — `1809.00738`. prior HTTP 200; 2026-09-21T00:54:36.590773+00:00. Version: exact_url_returned_in_prior_audit.
+- [On evidence for negative energies and masses in the Dirac equation through a unitary time-reversal operator](https://arxiv.org/abs/1809.05046v2) — `1809.05046v2`. prior HTTP 200; 2026-09-21T00:54:34.160423+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [CINIC-10 is not ImageNet or CIFAR-10](https://arxiv.org/abs/1810.03505) — `1810.03505`. prior HTTP 200; 2026-09-21T00:55:10.337111+00:00. Version: exact_url_returned_in_prior_audit.
+- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) — `1810.04805`. prior HTTP 200; 2026-09-21T00:55:06.423316+00:00. Version: exact_url_returned_in_prior_audit.
+- [The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751) — `1904.09751`. prior HTTP 200; 2026-09-21T00:55:10.627324+00:00. Version: exact_url_returned_in_prior_audit.
+- [HuggingFace's Transformers: State-of-the-art Natural Language Processing](https://arxiv.org/abs/1910.03771) — `1910.03771`. prior HTTP 200; 2026-09-21T00:55:10.915108+00:00. Version: exact_url_returned_in_prior_audit.
+- [Constructing symmetric monoidal bicategories functorially](https://arxiv.org/abs/1910.09240) — `1910.09240`. prior HTTP 200; 2026-09-21T00:54:36.534429+00:00. Version: exact_url_returned_in_prior_audit.
+- [On the Measure of Intelligence](https://arxiv.org/abs/1911.01547) — `1911.01547`. prior HTTP 200; 2026-09-21T00:54:58.393611+00:00. Version: exact_url_returned_in_prior_audit.
+- [Queens are Powerful too: Mitigating Gender Bias in Dialogue Generation](https://arxiv.org/abs/1911.03842) — `1911.03842`. prior HTTP 200; 2026-09-21T00:55:10.451501+00:00. Version: exact_url_returned_in_prior_audit.
+- [Reducing Interference Bias in Online Marketplace Pricing Experiments](https://arxiv.org/abs/2004.12489) — `2004.12489`. prior HTTP 200; 2026-09-21T00:55:18.550216+00:00. Version: exact_url_returned_in_prior_audit.
+- [Distributional Generalization: A New Kind of Generalization](https://arxiv.org/abs/2009.08092) — `2009.08092`. prior HTTP 200; 2026-09-21T00:55:10.698039+00:00. Version: exact_url_returned_in_prior_audit.
+- [Examining the consumption of radical content on YouTube](https://arxiv.org/abs/2011.12843) — `2011.12843`. prior HTTP 200; 2026-09-21T00:55:09.136894+00:00. Version: exact_url_returned_in_prior_audit.
+- [Cancellation of the central singularity of the Schwarzschild solution with natural mass inversion process](https://arxiv.org/abs/2103.12845v1) — `2103.12845v1`. prior HTTP 200; 2026-09-21T00:54:34.160423+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Greedy-GQ with Variance Reduction: Finite-time Analysis and Improved Complexity](https://arxiv.org/abs/2103.16377) — `2103.16377`. prior HTTP 200; 2026-09-21T00:55:37.932271+00:00. Version: exact_url_returned_in_prior_audit.
+- [Cybernetics and the Future of Work](https://arxiv.org/abs/2105.07870) — `2105.07870`. prior HTTP 200; 2026-09-21T00:54:59.734035+00:00. Version: exact_url_returned_in_prior_audit.
+- [Anticipating Safety Issues in E2E Conversational AI: Framework and Tooling](https://arxiv.org/abs/2107.03451) — `2107.03451`. prior HTTP 200; 2026-09-21T00:55:10.338631+00:00. Version: exact_url_returned_in_prior_audit.
+- [Correcting the User Feedback-Loop Bias for Recommendation Systems](https://arxiv.org/abs/2109.06037) — `2109.06037`. prior HTTP 200; 2026-09-21T00:55:09.228292+00:00. Version: exact_url_returned_in_prior_audit.
+- [Treatment Effects in Market Equilibrium](https://arxiv.org/abs/2109.11647) — `2109.11647`. prior HTTP 200; 2026-09-21T00:55:18.729504+00:00. Version: exact_url_returned_in_prior_audit.
+- [What complexity science is, and why](https://arxiv.org/abs/2201.03762) — `2201.03762`. prior HTTP 200; 2026-09-21T00:55:06.491413+00:00. Version: exact_url_returned_in_prior_audit.
+- [A Systematic Study of Bias Amplification](https://arxiv.org/abs/2201.11706) — `2201.11706`. prior HTTP 200; 2026-09-21T00:55:10.558682+00:00. Version: exact_url_returned_in_prior_audit.
+- [Adaptive Experimentation in the Presence of Exogenous Nonstationary Variation](https://arxiv.org/abs/2202.09036) — `2202.09036`. prior HTTP 200; 2026-09-21T00:55:18.756872+00:00. Version: exact_url_returned_in_prior_audit.
+- [Lenses for Composable Servers](https://arxiv.org/abs/2203.15633) — `2203.15633`. prior HTTP 200; 2026-09-21T00:54:36.657194+00:00. Version: exact_url_returned_in_prior_audit.
+- [Actegories for the Working Amthematician](https://arxiv.org/abs/2203.16351) — `2203.16351`. prior HTTP 200; 2026-09-21T00:54:36.418891+00:00. Version: exact_url_returned_in_prior_audit.
+- [Performative Power](https://arxiv.org/abs/2203.17232) — `2203.17232`. prior HTTP 200; 2026-09-21T00:55:12.222449+00:00. Version: exact_url_returned_in_prior_audit.
+- [Reducing Marketplace Interference Bias Via Shadow Prices](https://arxiv.org/abs/2205.02274) — `2205.02274`. prior HTTP 200; 2026-09-21T00:55:18.363266+00:00. Version: exact_url_returned_in_prior_audit.
+- [Externally Valid Policy Choice](https://arxiv.org/abs/2205.05561) — `2205.05561`. prior HTTP 200; 2026-09-21T00:55:28.585257+00:00. Version: exact_url_returned_in_prior_audit.
+- [A Formal Definition of Scale-dependent Complexity and the Multi-scale Law of Requisite Variety](https://arxiv.org/abs/2206.04896v2) — `2206.04896v2`. prior HTTP 200; 2026-09-21T00:54:35.627392+00:00. Version: exact_url_returned_in_prior_audit.
+- [New developments in relativistic magnetohydrodynamics](https://arxiv.org/abs/2207.12794v2) — `2207.12794v2`. prior HTTP 200; 2026-09-21T00:54:35.209868+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Switchback Experiments under Geometric Mixing](https://arxiv.org/abs/2209.00197) — `2209.00197`. prior HTTP 200; 2026-09-21T00:55:18.627170+00:00. Version: exact_url_returned_in_prior_audit.
+- [Space-time tradeoffs of lenses and optics via higher category theory](https://arxiv.org/abs/2209.09351) — `2209.09351`. prior HTTP 200; 2026-09-21T00:54:36.534429+00:00. Version: exact_url_returned_in_prior_audit.
+- [Online Feedback Equilibrium Seeking](https://arxiv.org/abs/2210.12088) — `2210.12088`. prior HTTP 200; 2026-09-21T00:55:25.495137+00:00. Version: exact_url_returned_in_prior_audit.
+- [How Democracies Polarize: A Multilevel Perspective](https://arxiv.org/abs/2211.01249) — `2211.01249`. prior HTTP 200; 2026-09-21T00:54:35.730147+00:00. Version: exact_url_returned_in_prior_audit.
+- [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) — `2212.08073`. prior HTTP 200; 2026-09-21T00:55:26.082646+00:00. Version: exact_url_returned_in_prior_audit.
+- [Identifying Equivalent Training Dynamics](https://arxiv.org/abs/2302.09160) — `2302.09160`. prior HTTP 200; 2026-09-21T00:55:25.833962+00:00. Version: exact_url_returned_in_prior_audit.
+- [Experimenting under Stochastic Congestion](https://arxiv.org/abs/2302.12093) — `2302.12093`. prior HTTP 200; 2026-09-21T00:55:18.628459+00:00. Version: exact_url_returned_in_prior_audit.
+- [The Future of Fundamental Science Led by Generative Closed-Loop Artificial Intelligence](https://arxiv.org/abs/2307.07522) — `2307.07522`. prior HTTP 200; 2026-09-21T00:55:07.187681+00:00. Version: exact_url_returned_in_prior_audit.
+- [How to use LLMs for Text Analysis](https://arxiv.org/abs/2307.13106) — `2307.13106`. prior HTTP 200; 2026-09-21T00:55:06.907133+00:00. Version: exact_url_returned_in_prior_audit.
+- [Producer-Side Experiments Based on Counterfactual Interleaving Designs for Online Recommender Systems](https://arxiv.org/abs/2310.16294) — `2310.16294`. prior HTTP 200; 2026-09-21T00:55:18.808647+00:00. Version: exact_url_returned_in_prior_audit.
+- [Smoothed particle magnetohydrodynamics](https://arxiv.org/abs/2311.13666v1) — `2311.13666v1`. prior HTTP 200; 2026-09-21T00:54:35.254802+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [M3-Embedding: Multi-Linguality, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation](https://arxiv.org/abs/2402.03216) — `2402.03216`. prior HTTP 200; 2026-09-21T00:55:30.612270+00:00. Version: exact_url_returned_in_prior_audit.
+- [Interference Among First-Price Pacing Equilibria: A Bias and Variance Analysis](https://arxiv.org/abs/2402.07322) — `2402.07322`. prior HTTP 200; 2026-09-21T00:55:18.686852+00:00. Version: exact_url_returned_in_prior_audit.
+- [Evolving AI Collectives to Enhance Human Diversity and Enable Self-Regulation](https://arxiv.org/abs/2402.12590) — `2402.12590`. prior HTTP 200; 2026-09-21T00:55:06.558953+00:00. Version: exact_url_returned_in_prior_audit.
+- [General relativistic magnetohydrodynamics simulations for binary neutron star mergers](https://arxiv.org/abs/2405.10081v2) — `2405.10081v2`. prior HTTP 200; 2026-09-21T00:54:34.993290+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](https://arxiv.org/abs/2408.06292) — `2408.06292`. prior HTTP 200; 2026-09-21T00:55:06.650545+00:00. Version: exact_url_returned_in_prior_audit.
+- [Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale](https://arxiv.org/abs/2409.08264) — `2409.08264`. prior HTTP 200; 2026-09-21T00:54:58.281669+00:00. Version: exact_url_returned_in_prior_audit.
+- [AI Conversational Interviewing: Transforming Surveys with LLMs as Adaptive Interviewers](https://arxiv.org/abs/2410.01824) — `2410.01824`. prior HTTP 200; 2026-09-21T00:55:07.047683+00:00. Version: exact_url_returned_in_prior_audit.
+- [A bimetric cosmological model based on Andrei Sakharov's twin universe approach](https://arxiv.org/abs/2412.04644v3) — `2412.04644v3`. prior HTTP 200; 2026-09-21T00:54:34.161427+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Effective Field Theories in Magnetohydrodynamics](https://arxiv.org/abs/2504.10763v2) — `2504.10763v2`. prior HTTP 200; 2026-09-21T00:54:35.132193+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Cybernetic Governance in a Coliving House](https://arxiv.org/abs/2504.17113v1) — `2504.17113v1`. prior HTTP 200; 2026-09-21T00:55:04.744345+00:00. Version: exact_url_returned_in_prior_audit.
+- [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/abs/2504.19413) — `2504.19413`. prior HTTP 200; 2026-09-21T00:54:58.339025+00:00. Version: exact_url_returned_in_prior_audit.
+- [Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents](https://arxiv.org/abs/2505.22954) — `2505.22954`. prior HTTP 200; 2026-09-21T00:54:59.080029+00:00. Version: exact_url_returned_in_prior_audit.
+- [Order-Flow Filtration and Directional Association with Short-Horizon Returns](https://arxiv.org/abs/2507.22712v2) — `2507.22712v2`. prior HTTP 200; 2026-09-21T00:55:31.086232+00:00. Version: exact_url_returned_in_prior_audit.
+- [Performative Market Making](https://arxiv.org/abs/2508.04344v2) — `2508.04344v2`. prior HTTP 200; 2026-09-21T00:55:36.369587+00:00. Version: exact_url_returned_in_prior_audit.
+- [SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?](https://arxiv.org/abs/2509.16941) — `2509.16941`. prior HTTP 200; 2026-09-21T00:54:58.471144+00:00. Version: exact_url_returned_in_prior_audit.
+- [Artificially intelligent agents in the social and behavioral sciences: A history and outlook](https://arxiv.org/abs/2510.05743v2) — `2510.05743v2`. prior HTTP 200; 2026-09-21T00:55:06.257056+00:00. Version: exact_url_returned_in_prior_audit.
+- [Adaptation of Agentic AI: A Survey of Post-Training, Memory, and Skills](https://arxiv.org/abs/2512.16301) — `2512.16301`. prior HTTP 200; 2026-09-21T00:54:58.648678+00:00. Version: exact_url_returned_in_prior_audit.
+- [InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scientific Discovery](https://arxiv.org/abs/2602.08990) — `2602.08990`. prior HTTP 200; 2026-09-21T00:54:58.547038+00:00. Version: exact_url_returned_in_prior_audit.
+- [SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks](https://arxiv.org/abs/2602.12670) — `2602.12670`. prior HTTP 200; 2026-09-21T00:54:58.738609+00:00. Version: exact_url_returned_in_prior_audit.
+- [AutoHarness: improving LLM agents by automatically synthesizing a code harness](https://arxiv.org/abs/2603.03329) — `2603.03329`. prior HTTP 200; 2026-09-21T00:54:58.758445+00:00. Version: exact_url_returned_in_prior_audit.
+- [Hyperagents](https://arxiv.org/abs/2603.19461) — `2603.19461`. prior HTTP 200; 2026-09-21T00:54:59.080029+00:00. Version: exact_url_returned_in_prior_audit.
+- [Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering](https://arxiv.org/abs/2604.08224) — `2604.08224`. prior HTTP 200; 2026-09-21T00:54:59.243239+00:00. Version: exact_url_returned_in_prior_audit.
+- [On the Reliability of Computer Use Agents](https://arxiv.org/abs/2604.17849) — `2604.17849`. prior HTTP 200; 2026-09-21T00:54:58.548261+00:00. Version: exact_url_returned_in_prior_audit.
+- [The Agent Use of Agent Beings: Agent Cybernetics Is the Missing Science of Foundation Agents](https://arxiv.org/abs/2605.10754v1) — `2605.10754v1`. prior HTTP 200; 2026-09-21T00:54:58.219889+00:00. Version: exact_url_returned_in_prior_audit.
+- [Scale Invariant Cosmology](https://arxiv.org/abs/gr-qc/9909086v1) — `gr-qc/9909086v1`. prior HTTP 200; 2026-09-21T00:54:34.161427+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [I - Matter, antimatter and geometry II - The twin universe model : a solution to the problem of negative energy particles III - The twin universe model plus electric charges and matter-antimatter symmetry](https://arxiv.org/abs/math-ph/0502042v2) — `math-ph/0502042v2`. prior HTTP 200; 2026-09-21T00:54:34.161427+00:00. Version: exact_url_returned_in_prior_audit. · original 35
+- [Tangent bundles to sub-Riemannian groups](https://arxiv.org/abs/math/0307342) — `math.MG/0307342`. retrieved 2026-09-24; crawl today. Version: unversioned_request_latest_identified.
+- [Tangent bundles to sub-Riemannian groups](https://arxiv.org/abs/math.mg/0307342) — `math.mg/0307342`. prior HTTP 200; 2026-09-21T00:55:04.222582+00:00. Version: not_established.
+
+## Citation mistakes and historical unrelated destinations (1)
+
+- `1003.5201v1` — An Anomalously Elastic, Intermediate Phase in Randomly Layered Superfluids, Superconductors, and Planar Magnets. Valid destination, incorrect source attribution; not QBism.
+
+The separately preserved historical request `1511.01120v2` returned HTTP 404 in the prior audit and is replaced by the verified intended paper `1511.01130v2`.
+
+## The original 35 links, preserved in the supplied order
+
+- [On evidence for negative energies and masses in the Dirac equation through a unitary time-reversal operator](https://arxiv.org/abs/1809.05046v2) — `1809.05046v2`.
+- [Cancellation of the central singularity of the Schwarzschild solution with natural mass inversion process](https://arxiv.org/abs/2103.12845v1) — `2103.12845v1`.
+- [A bimetric cosmological model based on Andrei Sakharov's twin universe approach](https://arxiv.org/abs/2412.04644v3) — `2412.04644v3`.
+- [Scale Invariant Cosmology](https://arxiv.org/abs/gr-qc/9909086v1) — `gr-qc/9909086v1`.
+- [I - Matter, antimatter and geometry II - The twin universe model : a solution to the problem of negative energy particles III - The twin universe model plus electric charges and matter-antimatter symmetry](https://arxiv.org/abs/math-ph/0502042v2) — `math-ph/0502042v2`.
+- [From Glosten-Milgrom to the whole limit order book and applications to financial regulation](https://arxiv.org/abs/1902.10743v2) — `1902.10743v2`.
+- [Trade arrival dynamics and quote imbalance in a limit order book](https://arxiv.org/abs/1312.0514v1) — `1312.0514v1`.
+- [Deep Learning for Limit Order Books](https://arxiv.org/abs/1601.01987v7) — `1601.01987v7`.
+- [Stochastic Price Dynamics Implied By the Limit Order Book](https://arxiv.org/abs/1105.4789v1) — `1105.4789v1`.
+- [Testing if the market microstructure noise is fully explained by the informational content of some variables from the limit order book](https://arxiv.org/abs/1709.02502v4) — `1709.02502v4`.
+- [Can Agent-Based Models Probe Market Microstructure?](https://arxiv.org/abs/1611.08510v3) — `1611.08510v3`.
+- [Stock market microstructure inference via multi-agent reinforcement learning](https://arxiv.org/abs/1909.07748v5) — `1909.07748v5`.
+- [High frequency market microstructure noise estimates and liquidity measures](https://arxiv.org/abs/0906.1444v1) — `0906.1444v1`.
+- [A Data Science Pipeline for Algorithmic Trading: A Comparative Study of Applications for Finance and Cryptoeconomics](https://arxiv.org/abs/2206.14932v1) — `2206.14932v1`.
+- [Synergistic Formulaic Alpha Generation for Quantitative Trading based on Reinforcement Learning](https://arxiv.org/abs/2401.02710v2) — `2401.02710v2`.
+- [Logic-Q: Improving Deep Reinforcement Learning-based Quantitative Trading via Program Sketch-based Tuning](https://arxiv.org/abs/2310.05551v3) — `2310.05551v3`.
+- [Reinforcement Learning for Quantitative Trading](https://arxiv.org/abs/2109.13851v1) — `2109.13851v1`.
+- [Quantitative Trading using Deep Q Learning](https://arxiv.org/abs/2304.06037v2) — `2304.06037v2`.
+- [Nine Challenges in Modern Algorithmic Trading and Controls](https://arxiv.org/abs/2101.08813v1) — `2101.08813v1`.
+- [An overall view of key problems in algorithmic trading and recent progress](https://arxiv.org/abs/2006.05515v1) — `2006.05515v1`.
+- [The theory of quantitative trading](https://arxiv.org/abs/2201.11070v3) — `2201.11070v3`.
+- [Differential Machine Learning](https://arxiv.org/abs/2005.02347v4) — `2005.02347v4`.
+- [Online Adaptive Machine Learning Based Algorithm for Implied Volatility Surface Modeling](https://arxiv.org/abs/1706.01833v2) — `1706.01833v2`.
+- [Anticipating cryptocurrency prices using machine learning](https://arxiv.org/abs/1805.08550v4) — `1805.08550v4`.
+- [Machine Learning for Stock Prediction Based on Fundamental Analysis](https://arxiv.org/abs/2202.05702v1) — `2202.05702v1`.
+- [Confronting Machine Learning With Financial Research](https://arxiv.org/abs/2103.00366v2) — `2103.00366v2`.
+- [Machine Learning in Finance-Emerging Trends and Challenges](https://arxiv.org/abs/2110.11999v1) — `2110.11999v1`.
+- [General relativistic magnetohydrodynamics simulations for binary neutron star mergers](https://arxiv.org/abs/2405.10081v2) — `2405.10081v2`.
+- [Simulating Astrophysical Magnetic Fields with Smoothed Particle Magnetohydrodynamics](https://arxiv.org/abs/1505.04494v1) — `1505.04494v1`.
+- [Anisotropy in Quasi-Static Magnetohydrodynamic Turbulence](https://arxiv.org/abs/1709.03236v1) — `1709.03236v1`.
+- [Field topologies in ideal and near ideal magnetohydrodynamics and vortex dynamics](https://arxiv.org/abs/1412.6158v1) — `1412.6158v1`.
+- [Effective Field Theories in Magnetohydrodynamics](https://arxiv.org/abs/2504.10763v2) — `2504.10763v2`.
+- [A review of the possible role of constraints in MHD turbulence](https://arxiv.org/abs/1211.0715v1) — `1211.0715v1`.
+- [New developments in relativistic magnetohydrodynamics](https://arxiv.org/abs/2207.12794v2) — `2207.12794v2`.
+- [Smoothed particle magnetohydrodynamics](https://arxiv.org/abs/2311.13666v1) — `2311.13666v1`.
+

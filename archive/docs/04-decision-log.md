@@ -1,5 +1,7 @@
 # Research decisions and unresolved questions
 
+Historical baseline: this document records an earlier experiment. Use [the current model derivation](../../docs/10-structural-model-derivation.md) and [iteration protocol](../../docs/12-iteration-and-improvement.md) for active research.
+
 This is a record of the explicit research rationale developed in the conversation. It collects the choices, alternatives, objections and evidence requirements so the project can be understood without the chat. It is not a claim that every possible market mechanism has been enumerated.
 
 ## The question we are actually answering

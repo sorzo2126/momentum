@@ -1,18 +1,18 @@
 # Measurement and transformation implementation
 
-This component implements `ResearchConfig`, `prepare_panel`, `build_features`, and `FEATURE_MODULES`. Its code is in `features_impl.py` and is intended to be embedded into the notebook. It does not fit an estimator or invent a market tape.
+This component implements `ResearchConfig`, `prepare_panel`, `build_features`, and `FEATURE_MODULES`. Its canonical code is in [features.py](../src/momentum/features.py). The current notebook imports that package. It does not fit an estimator or invent a market tape.
 
 ## Provenance
 
-Fichiers consultes : `0.1 AGENTS.md`; `5 algo fractal x.ipynb`, zero-based cells 50, 55, 56; the shared CAD interface contract.
+Files inspected : `0.1 AGENTS.md`; `5 algo fractal x.ipynb`, zero-based cells 50, 55, 56; the shared CAD interface contract.
 
-Sections ou passages utilises : `_regime_motion_context`, `_regime_refine`, `_regime_price_context`, `build_tags_from_features_strict`.
+Passages used : `_regime_motion_context`, `_regime_refine`, `_regime_price_context`, `build_tags_from_features_strict`.
 
-Logique extraite : the source constructs several time scales of normalized displacement, preserves a reference-relative velocity, separates direction from persistence/exhaustion, and uses explicit causal state rules. These are useful organizational ideas. Its state grammar is an implemented convention, and its normalized motion scores are engineered quantities.
+Extracted logic : the source constructs several time scales of normalized displacement, preserves a reference-relative velocity, separates direction from persistence/exhaustion, and uses explicit causal state rules. These are useful organizational ideas. Its state grammar is an implemented convention, and its normalized motion scores are engineered quantities.
 
-Decision deduite : retain interpretable measurements, dimensional consistency, explicit time availability and descriptive phases. Replace source daily/basket assumptions with CGB ticks, observed US duration movement, CAD curve coordinates and optional liquidity/context measurements. Keep future CGB outcomes as the learning target. No original repository file is changed.
+Derived decision : retain interpretable measurements, dimensional consistency, explicit time availability and descriptive phases. Replace source daily/basket assumptions with CGB ticks, observed US duration movement, CAD curve coordinates and optional liquidity/context measurements. Keep future CGB outcomes as the learning target. No original repository file is changed.
 
-Incertitudes ou contradictions : the CAD phases are a new seven-phase research convention, not the source's 22-state GAS/FLUID graph. No claim is made that these definitions are unique physical states or proven predictors. Source Hurst, Lyapunov, entropy and EVT proxy machinery is not silently relabeled or copied into this small intraday data set.
+Uncertainties or contradictions : the CAD phases are a new seven-phase research convention, not the source's 22-state GAS/FLUID graph. These baseline phases are excluded from the current five-state model described in [the derivation](10-structural-model-derivation.md). No claim is made that either partition uniquely identifies physical states or proven predictors. Source Hurst, Lyapunov, entropy and EVT proxy machinery is not silently relabeled or copied into this small intraday data set.
 
 ## Input and time semantics
 

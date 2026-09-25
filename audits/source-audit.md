@@ -1,6 +1,6 @@
 # Source-to-model audit for an intraday CAD duration research notebook
 
-Audit date: 2026-09-24. Source root: `C:/Users/mn262/Downloads/fractal-x-main/fractal-x-main`. This is a read-only source inspection; the original models were not executed, packages were not installed, and original files were not changed. Notebook cell numbers below are **zero-based JSON cell indices**, including Markdown cells. The accompanying `source_inventory.json` records source SHA-256 hashes, cells, saved outputs, and 400 function/class definitions with within-cell line numbers.
+Audit date: 2026-09-24. Source root: `C:/Users/mn262/Downloads/fractal-x-main/fractal-x-main`. This is a read-only source inspection; the original models were not executed, packages were not installed, and original files were not changed. Notebook cell numbers below are **zero-based JSON cell indices**, including Markdown cells. The inspection used a structured inventory of source hashes, cells, saved outputs and 400 function/class definitions. That working inventory is not distributed in this repository; the source locations and findings are recorded below.
 
 This document distinguishes source behavior, mathematical interpretation, and proposed CAD extensions. Physical terminology in a comment is not evidence that the corresponding physical quantity has been identified in financial data. A deployable pipeline is not, by itself, demonstrated predictive alpha.
 

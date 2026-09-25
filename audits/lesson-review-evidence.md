@@ -2,7 +2,7 @@
 
 Recorded: 2026-09-24T20:38:13
 
-This record identifies source material and current implementation files. Hashing is an integrity check, not evidence of having verified every theorem. No original notebook was executed and no market data were fitted during this review.
+This is the historical inspection snapshot for the earlier baseline. Hashes identify files as inspected at the recorded time, not necessarily their current linked versions; package exports and notebook prose changed afterward. Hashing is an integrity check, not evidence of having verified every theorem. No original notebook was executed and no market data were fitted during this review.
 
 ## Reading scope
 
@@ -65,7 +65,7 @@ This record identifies source material and current implementation files. Hashing
 | `PHYSICS/08 kinetic_theory_galaxies.md` | 46494 | `b31c4c5682d1b1972020a05e0e84501a872d1f2b6ff780cdb63d08418e969f48` |
 | `PHYSICS/09 ummo.md` | 29252 | `1e4f1b44bb78ce09af41a9f4c37bf394684fdc9a9da4b75fc13257ee7df82b94` |
 
-## Current implementation
+## Implementation at the recorded review
 
 | File | SHA-256 |
 |---|---|
@@ -73,7 +73,7 @@ This record identifies source material and current implementation files. Hashing
 | [features.py](../src/momentum/features.py) | `28afdb1beb6566ebb59b1bc30b450be24c53c9eacab27c4fe665a546b0d1f06c` |
 | [model.py](../src/momentum/model.py) | `36ee962cc3b5d68f06e6ca09ac7f7f932f595326e8830359a0eebe48b4247d71` |
 | [__init__.py](../src/momentum/__init__.py) | `f429fe0c266389576c2a7ff0de88df301f3b0683e3d67a62033cc1e1670ec82e` |
-| [cad-duration-momentum.ipynb](../notebooks/cad-duration-momentum.ipynb) | `45817e1db6627ac2040271f2fd5b708b4a8e71cd4ec747f44d15fcab90618df2` |
+| [cad-duration-momentum.ipynb](../archive/notebooks/cad-duration-momentum.ipynb) | `45817e1db6627ac2040271f2fd5b708b4a8e71cd4ec747f44d15fcab90618df2` |
 
 ## Notebook and package comparison
 

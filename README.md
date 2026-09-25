@@ -1,36 +1,35 @@
 # Momentum
 
-An organized research project for a live Canadian duration momentum indicator through CGB, over one to four hours. This folder contains the notebook, reusable code, mathematical explanations, research decisions, source audits, English thesis lessons and paper links. **No market data or fitted market results have been supplied.**
+A research project for an intraday CGB duration indicator over 60, 120 and 240 minutes. It contains the model, notebook, mathematical reasoning, iteration protocol, lessons and paper catalog. **Market inputs remain blank; no predictive edge has been established.**
 
 ## Start here
 
-Start with [the current first-principles derivation](docs/10-structural-model-derivation.md), [the runnable notebook](notebooks/cgb-conditional-paths.ipynb), and [the operating guide](docs/11-running-and-testing.md). Every source-inspired idea is tied to an observable quantity or explicitly retained as a hypothesis. The source's numerical state grammar, transition matrices and score-squaring rule are not copied into the model.
-
-For the teaching background, read [the intellectual story and all 47 source lessons](docs/08-the-intellectual-story-and-all-lessons.md), [the mathematical walkthrough](docs/07-understanding-the-framework.md) and [the departures and repair checklist](docs/09-departures-and-repair-checklist.md). Those three guides review the earlier baseline; document 10 records the resulting independent redesign.
-
-1. Read [the decision record](docs/04-decision-log.md) for the question, alternatives and unresolved issues.
-2. Read [the earlier baseline model](docs/01-model.md) for the preceding experiment and implementation appendices.
-3. Run [the current notebook](notebooks/cgb-conditional-paths.ipynb). Its market inputs remain blank; Run All reports awaiting data. The [older self-contained notebook](notebooks/cad-duration-momentum.ipynb) is preserved as a separate baseline.
-4. Read [the English thesis lessons](logic/lessons.md), then the six full English [physics essays](logic/README.md).
-5. Use [the arXiv catalog](papers/arxiv-catalog.md) for actual paper titles, version-specific links and verification dates.
+| Purpose | Open |
+|---|---|
+| Add data and improve the model | [Iteration and improvement](docs/12-iteration-and-improvement.md) |
+| Understand each design choice | [First-principles derivation](docs/10-structural-model-derivation.md) |
+| Run the current implementation | [Notebook](notebooks/cgb-conditional-paths.ipynb) and [operating guide](docs/11-running-and-testing.md) |
+| Study the underlying ideas | [All 47 lessons](docs/08-the-intellectual-story-and-all-lessons.md), [math walkthrough](docs/07-understanding-the-framework.md), [repair checklist](docs/09-departures-and-repair-checklist.md) |
+| Read source material | [English lessons and essays](logic/README.md), [arXiv catalog](papers/arxiv-catalog.md) |
+| Inspect evidence and earlier decisions | [Verification record](audits/implementation-verification.md), [source audit](audits/source-audit.md), [historical archive](archive/README.md) |
 
 ## Contents
 
 | Folder | Contents |
 |---|---|
-| `docs/` | Full model, Step 1 specification, earlier research context, decisions, measurement and predictor contracts |
-| `notebooks/` | Current conditional-path notebook and earlier embedded-code baseline; empty market inputs |
+| `docs/` | Current derivation, measurement contract, operating/iteration guides and source teaching |
+| `notebooks/` | Current conditional-path notebook with blank market inputs |
 | `src/momentum/` | Measurements, states, path forecasts, frozen deployment, CLI and separate execution accounting |
 | `tests/` | Causality, probability, deployment and accounting software checks; no empirical performance claim |
-| `audits/` | Exact source-code audit, source inventory, software checks, math checks and link verification records |
+| `audits/` | Source inspection, lesson coverage, software verification and math checks |
 | `papers/` | arXiv catalog and the earlier complete research-note union |
 | `logic/` | English teaching guide and six complete English physics essays |
-| `reference/` | Earlier Step 1 reference code; original Fractal X notebooks are not redistributed here |
+| `archive/` | Earlier design notes, baseline notebook and Step 1 reference code |
 | `data/` | Input instructions; no market dataset |
 
 ## Mathematics and code
 
-All explanatory documents are Markdown. The teaching guides and current derivation (07–10) embed pre-rendered vector equations from `assets/math`, so ordinary Markdown previews show mathematics without a LaTeX extension. Keep that directory with the files. Original LaTeX is preserved in each SVG's metadata. Older documents use dollar delimiters and need a math-capable preview. A plain-text editor always shows Markdown source. No HTML or notebook-building script is included.
+All explanatory documents are Markdown. Guides 07–10 and 12 embed rendered vector equations from `assets/math`; their LaTeX is preserved in SVG metadata. Keep the assets with the Markdown files. Older documents use dollar delimiters and need a math-capable preview. No HTML deliverable or notebook-generation script is included.
 
 The current notebook imports the canonical package to avoid implementation drift. Install it with `python -m pip install -e .`; `requirements-tested.txt` records the tested dependency versions. A notebook environment is needed to open `.ipynb` interactively. CPU is the default; CUDA is an explicit configuration choice.
 

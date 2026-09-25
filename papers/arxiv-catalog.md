@@ -4,7 +4,7 @@ Union of 272 distinct requested arXiv IDs/versions (270 base papers), including 
 
 Assembled 24 September 2026. This is an identity and link catalog, not a claim that every paper has been fully read or establishes a CAD trading edge. Grouping is a conservative reading guide based on verified titles and the existing source context. General method papers are not automatically implemented by the notebook. Physics papers remain background unless a specific mathematical correspondence and empirical market test are supplied.
 
-Verification is transparent: most links reuse the completed audit from 20 September Eastern (21 September UTC). Eight prioritized pages were retrieved again on 24 September; the web tool reports an older crawl for Deep Learning for Limit Order Books. Unchecked-today does not mean invalid. The JSON companion preserves requested version, returned title, resolved ID, original source locations, timestamps, and status. An unversioned request remains unversioned; it is not silently replaced with a claimed historical version.
+Verification is transparent: most links reuse the completed audit from 20 September Eastern (21 September UTC). Eight prioritized pages were retrieved again on 24 September; the web tool reports an older crawl for Deep Learning for Limit Order Books. Unchecked-today does not mean invalid. The catalog below preserves paper identities, source context and verification status; a separate machine-readable working audit is not included in this repository. An unversioned request remains unversioned; it is not silently replaced with a claimed historical version.
 
 ## Citation corrections
 

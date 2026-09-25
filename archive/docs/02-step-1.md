@@ -1,14 +1,16 @@
 # CAD duration momentum — Step 1 mathematical specification
 
+Historical baseline: this document records an earlier experiment. Use [the current model derivation](../../docs/10-structural-model-derivation.md) and [iteration protocol](../../docs/12-iteration-and-improvement.md) for active research.
+
 Updated 24 September 2026. This document replaces the earlier conceptual Step 1 note with a mathematical contract. The intended holding window is one to four hours, based on the user's wording and subsequent adoption of that specification. The model is a live indicator for outright CGB duration. No market dataset has been supplied, no parameters have been estimated, and no predictive or trading performance has been established.
 
-The accompanying [reference implementation](C:/Users/mn262/OneDrive/Desktop/momentum/reference/cad_momentum_step01.py) implements selected definitions and synthetic consistency checks. It is not a fitted indicator or a market-data loader. The original Fractal X repository is unchanged.
+The accompanying [reference implementation](../reference/cad_momentum_step01.py) implements selected definitions and synthetic consistency checks. It is not a fitted indicator or a market-data loader. The original Fractal X repository is unchanged.
 
 ## 1. Purpose and status of each mathematical statement
 
 The question is: given information usable now, does an observed duration adjustment imply further useful CGB movement over the next one to four hours, and what adverse path could accompany it?
 
-Karim's contribution to this construction is the starting order: define the exposure and environment, construct a reference, then investigate departures and their propagation. The equations below are our explicit CAD application. Accepting that research framework does not supply measured Canadian coefficients or a validated CAD forecast.
+The source framework's contribution to this construction is the starting order: define the exposure and environment, construct a reference, then investigate departures and their propagation. The equations below are our explicit CAD application. Accepting that research framework does not supply measured Canadian coefficients or a validated CAD forecast.
 
 We distinguish four kinds of statement throughout:
 
@@ -442,15 +444,15 @@ Step 1 is complete as a parameterized mathematical specification. It is not oper
 
 ## 18. Source and reasoning record
 
-**Fichiers consultes :** previous Step 1 note; Fractal X PHYSICS 01–04 and the earlier notebook/model audit, with PHYSICS 03–04 revisited for this specification; gitos-lenses causal-deployment-ordering and evidence-reproducibility-reporting; official CGB specification.
+**Files inspected :** previous Step 1 note; Fractal X PHYSICS 01–04 and the earlier notebook/model audit, with PHYSICS 03–04 revisited for this specification; gitos-lenses causal-deployment-ordering and evidence-reproducibility-reporting; official CGB specification.
 
-**Sections ou passages utilises :** environment and beta in [01 beta.md](<C:/Users/mn262/Downloads/fractal-x-main/fractal-x-main/theses/source/PHYSICS/01 beta.md>); exposure coordinates in [02 smart beta.md](<C:/Users/mn262/Downloads/fractal-x-main/fractal-x-main/theses/source/PHYSICS/02 smart beta.md>); hidden state and propagation in [03 zureck.md](<C:/Users/mn262/Downloads/fractal-x-main/fractal-x-main/theses/source/PHYSICS/03 zureck.md>); information timing and absorption in [04 zureck vs laplace.md](<C:/Users/mn262/Downloads/fractal-x-main/fractal-x-main/theses/source/PHYSICS/04 zureck vs laplace.md>).
+**Passages used :** environment and beta in [01 beta.md](../../logic/physics/01-beta.md); exposure coordinates in [02 smart beta.md](../../logic/physics/02-smart-beta.md); hidden state and propagation in [03 zureck.md](../../logic/physics/03-zureck.md); information timing and absorption in [04 zureck vs laplace.md](../../logic/physics/04-zureck-vs-laplace.md).
 
-**Logique extraite :** define exposure, environment, reference and information boundary before a signal; connect structural names to measurable objects; distinguish current explanation from a forecast and a forecast from executable results. These methodological connections are supported by the [deployment lens](https://github.com/wizzo-gmb/gitos-lenses/blob/main/causal-deployment-ordering.md) and [evidence lens](https://github.com/wizzo-gmb/gitos-lenses/blob/main/evidence-reproducibility-reporting.md).
+**Extracted logic :** define exposure, environment, reference and information boundary before a signal; connect structural names to measurable objects; distinguish current explanation from a forecast and a forecast from executable results. These methodological connections are supported by the [deployment lens](https://github.com/wizzo-gmb/gitos-lenses/blob/main/causal-deployment-ordering.md) and [evidence lens](https://github.com/wizzo-gmb/gitos-lenses/blob/main/evidence-reproducibility-reporting.md).
 
-**Decision deduite :** retain outright CGB as the outcome; preserve common/local/curve coordinates; represent pressure-response as a testable family rather than a measured fact; use causal timestamps and separate path and execution outcomes. Algebraic derivations and the small linear pressure model in this document are our CAD design, not quotations from the original notebook or a claimed application of a proven CAD law.
+**Derived decision :** retain outright CGB as the outcome; preserve common/local/curve coordinates; represent pressure-response as a testable family rather than a measured fact; use causal timestamps and separate path and execution outcomes. Algebraic derivations and the small linear pressure model in this document are our CAD design, not quotations from the original notebook or a claimed application of a proven CAD law.
 
-**Incertitudes ou contradictions :** no market data inspected; mechanisms underidentified; temporal/execution parameters unset; no numerical forecasts, likelihood calibration or profitability claim. Only synthetic consistency checks were run. The user's source repository was not modified.
+**Uncertainties or contradictions :** no market data inspected; mechanisms underidentified; temporal/execution parameters unset; no numerical forecasts, likelihood calibration or profitability claim. Only synthetic consistency checks were run. The user's source repository was not modified.
 
 ## 19. Cognitive checklist
 

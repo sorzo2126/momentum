@@ -1,6 +1,6 @@
 # Deriving the CGB model from the account's problem
 
-This is the current design, replacing the earlier baseline as the main research experiment. The preceding three teaching guides explain Karim's work and audit our earlier adaptation. This document derives our choices independently. It does not claim to describe what Karim personally would deploy, to establish a financial law from a physics paper, or to certify a trading edge. There is no supplied market dataset.
+This is the current design, replacing the earlier baseline as the main research experiment. The preceding three teaching guides explain the source framework and audit that baseline. This document derives the CGB choices independently and distinguishes definitions, hypotheses and engineering settings. There is no supplied market dataset or established trading edge.
 
 The organizing idea is demanding: every object must have a purpose, an observable meaning, a mathematical role, an implementation and a way to discover that it fails. Inspiration helps us ask questions. It cannot determine numerical answers before we see evidence.
 
@@ -49,7 +49,7 @@ These are midpoint outcomes. Their definitions do not assert executable profit. 
 
 ## 4. What does physics contribute here?
 
-Karim's framework motivates an environment-first account of motion, reference frames, state changes and feedback. We retain those questions. We do not import his numerical grammar as a physical necessity.
+The source framework motivates an environment-first account of motion, reference frames, state changes and feedback. Those questions guide the following observation map; its numerical choices are derived for this CGB experiment.
 
 | Source intuition | Question for this account | Observable implementation | What is not identified |
 |---|---|---|---|

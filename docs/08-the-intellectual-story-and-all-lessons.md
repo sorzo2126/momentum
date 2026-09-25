@@ -2,9 +2,9 @@
 
 Version note: this guide reviews the source framework and the earlier CGB baseline. The independent redesign that follows this review is derived and implemented in [document 10](10-structural-model-derivation.md). Source fidelity is a comparison tool, not a requirement to copy its numerical choices.
 
-This chapter explains the creative construction, not just implementation compliance. Read it before [the mathematical walkthrough](07-understanding-the-framework.md) if you want the intuition first. The companion [departure checklist](09-departures-and-repair-checklist.md) shows exactly what our current CGB notebook does, what it omits, and what a closer adaptation would require.
+This chapter explains the ideas behind the construction. Read it before [the mathematical walkthrough](07-understanding-the-framework.md) if you want the intuition first. The companion [departure checklist](09-departures-and-repair-checklist.md) records what the earlier CGB baseline implemented and what the subsequent redesign needed to reconsider.
 
-The explanations are our reconstruction of the supplied work, not an impersonation of Karim Khemiri. His authored essays, the papers he collected, his executable model and our CGB extension are related but distinct sources. Collection does not imply authorship or agreement with every claim.
+These explanations independently interpret the supplied work. The authored essays, collected papers, source implementation and CGB extension are distinct sources. Collection does not imply authorship or agreement with every claim.
 
 ## 1. What is especially creative here?
 
@@ -34,7 +34,7 @@ The lesson is not that identities never matter. It is that an explanation should
 
 ## 3. From an intuition about constraint to a potential
 
-Karim organizes the incentives through
+The source author organizes the incentives through
 
 ![Mathematical expression](../assets/math/display-98c1637252a573cd8bf2.svg)
 
@@ -90,7 +90,7 @@ with both the common-duration contribution and the local deviation visible. A CG
 
 The useful question is whether the local deviation changes the interpretation of the common move. CGB falling during a US recovery is different from CGB falling alongside an even larger US selloff. Neither relationship automatically dictates the next trade.
 
-Karim also distinguishes stationary returns from stationary levels. This is important because a stationary one-minute return distribution does not imply that CGB prices will return to yesterday's level. A cointegrated price relationship, a rolling-centered series and a hedge portfolio are different objects.
+The source author also distinguishes stationary returns from stationary levels. This is important because a stationary one-minute return distribution does not imply that CGB prices will return to yesterday's level. A cointegrated price relationship, a rolling-centered series and a hedge portfolio are different objects.
 
 The creative lesson is that the representation should be designed around the question. For our account, the reference is an explanatory coordinate around an outright trade. This is a deliberate change from his basket-and-spread architecture.
 
@@ -128,7 +128,7 @@ Our current phase-transition matrix is only a diagnostic. It does not govern the
 
 ## 9. Statistics prepares the state before machine learning forecasts it
 
-It is inaccurate to say that Karim starts doing statistical estimation only at XGBoost. Before supervised learning, his pipeline estimates weights, betas, local moments, tails, entropy and several normalized proxies.
+Statistical estimation in the source pipeline starts before XGBoost. Before supervised learning, his pipeline estimates weights, betas, local moments, tails, entropy and several normalized proxies.
 
 The useful division of labor is this: statistical measurement describes the environment; the state grammar expresses a hypothesis about its organization; supervised learning estimates what tends to follow from a configuration; the fusion layer combines different descriptions of possible futures.
 
@@ -246,7 +246,7 @@ The translations into CGB below are our proposed applications. Where a paper is 
 
 **P07 — Trou noir.** The French notes challenge interpretations of Schwarzschild coordinates, domains and extensions. The transferable research question is whether an apparent singularity belongs to the system or to its coordinates. For CGB, a z-score exploding as estimated volatility approaches zero can be a representation failure. This lesson does not establish the notes' broad physical conclusions. A restricted coordinate chart cannot by itself settle the geometry of an extended spacetime.
 
-**P08 — Kinetic theory of galaxies.** This is a paper by J.-P. Petit, G. D'Agostini and G. Monnet, not Karim. It studies a distribution interacting with its own gravitational field and uses restrictions on distribution shape to construct a model. The useful general idea is self-consistency: the population creates part of the environment that moves the population. A financial application would need an independently justified crowding/impact relation, not gravitational constants renamed as market coefficients.
+**P08 — Kinetic theory of galaxies.** This is a paper by J.-P. Petit, G. D'Agostini and G. Monnet, not the source author. It studies a distribution interacting with its own gravitational field and uses restrictions on distribution shape to construct a model. The useful general idea is self-consistency: the population creates part of the environment that moves the population. A financial application would need an independently justified crowding/impact relation, not gravitational constants renamed as market coefficients.
 
 **P09 — Ummo / mathematical formalization.** This authored French document extends the mappings to coupled sectors, collective memory, graphs, diffusion and four-valued logic, alongside speculative physical and biological claims. Three useful research prompts are relational coordinates, feedback between individuals and aggregate information, and distinguishing conflicting evidence from missing evidence. These can be formalized without adopting the speculative mechanisms. There is also an explicit algebraic inconsistency: for real ![Mathematical expression](../assets/math/inline-d4a5c335c207c2bb24a3.svg), the simultaneous claims ![Mathematical expression](../assets/math/inline-9dee74ee6143790a1be5.svg) and ![Mathematical expression](../assets/math/inline-c8766e5f963832ad7ea3.svg) permit only the zero case. A bearish market is not a negative square of a real growth rate. We should preserve the creative question and repair the mathematics rather than copy that equation into CGB.
 
@@ -308,7 +308,7 @@ The translations into CGB below are our proposed applications. Where a paper is 
 
 **C26 — Fairness Feedback Loops.** Repeated training on model-influenced or synthetic data can erase representation of some parts of the world. The financial analogy is a feedback process that increasingly trains only on familiar trend days and loses coverage of quiet, conflicting or unusual sessions. This is a hypothesis about sample selection, not a claim that the paper studies bond markets.
 
-**C27 — Practical Performative Policy Learning.** The work seeks a lower-dimensional account of strategic responses rather than specifying every individual's utility. That echoes the useful population reduction in Karim's essays. A CGB extension would need an observed mediator linking a deployed policy to changed conditions; we currently have no such identified map.
+**C27 — Practical Performative Policy Learning.** The work seeks a lower-dimensional account of strategic responses rather than specifying every individual's utility. That echoes the useful population reduction in the source framework's essays. A CGB extension would need an observed mediator linking a deployed policy to changed conditions; we currently have no such identified map.
 
 **C28 — From Tea Leaves to System Maps.** Monitor the surrounding data and deployment system, not only the feature distribution. A contract roll, source outage, changed quote convention or incomplete session can resemble a market break. The right response depends on which part of the system changed.
 

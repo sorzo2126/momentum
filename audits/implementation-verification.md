@@ -1,6 +1,6 @@
 # Conditional-path implementation: evidence and limits
 
-This record concerns the independent implementation described in [the derivation](../docs/10-structural-model-derivation.md), not a claim that it reproduces Karim's private judgment or proves a trading edge. Market inputs remain blank. The software exercise is deterministic and synthetic.
+This record concerns the independent implementation described in [the derivation](../docs/10-structural-model-derivation.md), not a claim that it reproduces the source framework's private judgment or proves a trading edge. Market inputs remain blank. The software exercise is deterministic and synthetic.
 
 ## What changed following the source review
 
@@ -42,7 +42,7 @@ The equations in the teaching guides and current derivation are rendered SVG ima
 
 ## What these checks do not establish
 
-- They do not establish predictive accuracy, profitability, statistical significance or superiority to Karim's source implementation.
+- They do not establish predictive accuracy, profitability, statistical significance or superiority to the source implementation.
 - They do not establish local scale transfer or that a historical path bank covers an unseen event.
 - Equal-session loss weights do not make overlapping paths independent. Effective scenario count is not effective sample size in days.
 - One chronological split is not repeated purged walk-forward validation. Exposure-preserving nulls and event-matched controls remain actual research work.
@@ -54,3 +54,11 @@ The equations in the teaching guides and current derivation are rendered SVG ima
 ## Source attribution versus independent decisions
 
 We retain environment before prediction, explicit references, state-aware questions, pressure/response reasoning and versioned feedback. We independently derive the CGB path target, receiver-time contracts, five-state observation, empirical transition shrinkage, group-aware similarity, conditional path redistribution, convex calibration and deployment interface. The numerical windows, cutoffs and regularizers are labeled provisional in the derivation's parameter ledger. They are not represented as mathematical necessities or the source author's recommendations.
+
+## Documentation and organization update
+
+The [iteration protocol](../docs/12-iteration-and-improvement.md) combines data onboarding, failure diagnosis, framework-derived questions, experiment records and subsequent evaluation. Proposed additions are distinguished from implemented behavior.
+
+Seven earlier experiment files were moved into the [archive](../archive/README.md). Three appendices, totaling 679 lines, were confirmed identical to their canonical audit/contracts after heading normalization and replaced with links. Source authorship remains in provenance and the original essays; repeated personal references were removed from the model explanations.
+
+Verification for this documentation-only update: all local Markdown and notebook links resolve; both notebooks validate and their code cells compile; the archived notebook's code cells are unchanged; active package, tests and dependency files are unchanged. The five rendered guides contain 142 mathematical expressions, all parsed and loaded in light and dark previews without formula code boxes. The existing 14-test result above remains the latest model-suite run; it was not presented as a new market-data evaluation.

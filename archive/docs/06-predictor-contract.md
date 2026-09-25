@@ -1,6 +1,8 @@
 # Implemented predictor: mathematical and API notes
 
-`model_impl.py` is a new CAD application. It imports the feature component's `ResearchConfig` and `FEATURE_MODULES` from the same notebook namespace. It does not modify or claim to reproduce the original Fractal X daily model. All model fitting requires actual supplied observations; definitions execute with no market data. The private integration fixture used to check interfaces is not an empirical result and must not appear as a market backtest in the notebook.
+Historical baseline: this document records an earlier experiment. Use [the current model derivation](../../docs/10-structural-model-derivation.md) and [iteration protocol](../../docs/12-iteration-and-improvement.md) for active research.
+
+The earlier predictor is maintained in [model.py](../../src/momentum/model.py). The archived notebook embeds this earlier implementation; the package imports its shared measurement definitions. It does not modify or claim to reproduce the original Fractal X daily model. All model fitting requires actual supplied observations; definitions execute with no market data. The private integration fixture used to check interfaces is not an empirical result and must not appear as a market backtest in the notebook.
 
 ## 1. Outcome and horizon
 

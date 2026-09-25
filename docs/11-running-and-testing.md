@@ -2,7 +2,7 @@
 
 Start with [the derivation](10-structural-model-derivation.md), then open [the current notebook](../notebooks/cgb-conditional-paths.ipynb). Its market-input cells are blank. Run All reports `awaiting_data` until real inputs are supplied. It imports the canonical package so notebook and command-line forecasts use the same implementation.
 
-The older [CAD notebook](../notebooks/cad-duration-momentum.ipynb) remains as an explicitly separate baseline with its embedded code. It does not run the new path model. The two experiments must not be mistaken for interchangeable versions of the same estimator.
+The older [CAD notebook](../archive/notebooks/cad-duration-momentum.ipynb) remains as an explicitly separate baseline with its embedded code. It does not run the new path model. The two experiments must not be mistaken for interchangeable versions of the same estimator.
 
 ## Install and check
 
@@ -104,7 +104,7 @@ The feedback function is available as `matured_feedback(predictions, panel, feat
 
 First inspect coverage, clocks, missingness, contract boundaries, state occupancy and counts by session. Then compare the mixture with each individual expert and the TRAIN frequency prior on the same TEST rows. Read per-session losses and reliability tables before averaging away the days. Examine adverse-excursion quantile coverage and loss; an endpoint score alone cannot validate the path shape.
 
-The implementation uses one chronological split. It does not yet establish repeated walk-forward stability, permutation significance, a persistence-only benchmark, event-matched controls, a capacity model or a net trading return. Those experiments should follow actual evidence and a locked question. They should not become arbitrary tests added until a favorable result appears.
+The implementation uses one chronological split. It does not yet establish repeated walk-forward stability, permutation significance, a persistence-only benchmark, event-matched controls, a capacity model or a net trading return. Use [the iteration protocol](12-iteration-and-improvement.md) to choose the next experiment from observed failures, with a declared question, comparator and rejection condition.
 
 ## File-to-reason map
 

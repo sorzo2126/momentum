@@ -1,20 +1,22 @@
 # CAD intraday duration momentum: pressure, absorption and continuation
 
+Historical baseline: this document records an earlier experiment. Use [the current model derivation](../../docs/10-structural-model-derivation.md) and [iteration protocol](../../docs/12-iteration-and-improvement.md) for active research.
+
 Research note prepared 23 September 2026 from the supplied Fractal X repository, its relevant thesis sources, and linked primary research. This is a proposed research design. No CAD market dataset was supplied, no indicator was fitted, and no trading edge was established.
 
 The central hypothesis is that an intraday duration trend persists while directional pressure continues to move prices and counter-pressure fails to recover the lost ground. A VWAP rejection is one observable part of that process. Its usefulness depends on what happened before it, which other markets confirm it, how liquidity responds, and whether the next executable move is large enough to cover costs.
 
 The research question is therefore: **following an already observable downward VWAP retest, is subsequent CGB downside continuation stronger when duration markets confirm the move, selling pressure persists, and buying attempts have weak price impact?** The comparison is with the same price setup without those conditions. This is a conditional prediction hypothesis, not an assertion that the proposed mechanism is proven causal.
 
-## What comes from Karim's writing
+## What comes from the source framework's writing
 
-The most directly relevant sentence is: “Microstructural absorption decides whether the bias becomes movement.” It appears in [04 zureck vs laplace.md](<../logic/physics/04-zureck-vs-laplace.md>). The surrounding passage distinguishes directional forcing, the capacity to absorb it, leverage constraints and liquidity. Earlier in that document, a sequential likelihood-ratio test accumulates evidence of a departure from a reference distribution.
+The most directly relevant sentence is: “Microstructural absorption decides whether the bias becomes movement.” It appears in [04 zureck vs laplace.md](../../logic/physics/04-zureck-vs-laplace.md). The surrounding passage distinguishes directional forcing, the capacity to absorb it, leverage constraints and liquidity. Earlier in that document, a sequential likelihood-ratio test accumulates evidence of a departure from a reference distribution.
 
-In [03 zureck.md](<../logic/physics/03-zureck.md>), he writes: “The dominant constraint defines the effective law.” Later he describes positioning as a hidden state inferred from observable flows, open interest and liquidity. The useful implication is that the same chart pattern can behave differently under different constraints. A policy repricing, a temporary liquidity shortage, a relative-value rotation and sustained directional execution can all initially produce falling CGB prices.
+In [03 zureck.md](../../logic/physics/03-zureck.md), he writes: “The dominant constraint defines the effective law.” Later he describes positioning as a hidden state inferred from observable flows, open interest and liquidity. The useful implication is that the same chart pattern can behave differently under different constraints. A policy repricing, a temporary liquidity shortage, a relative-value rotation and sustained directional execution can all initially produce falling CGB prices.
 
-In [01 beta.md](<../logic/physics/01-beta.md>), he writes: “Alpha is the excess generated above a beta built under constraints and consistent with your environment.” For this project, that means defining the exposure and comparison before declaring a signal useful. The exposure is outright CAD duration through CGB. A sensible comparison is a simple CGB momentum/VWAP rule operating at the same times and costs. A cross-market component can then show whether context improves that rule.
+In [01 beta.md](../../logic/physics/01-beta.md), he writes: “Alpha is the excess generated above a beta built under constraints and consistent with your environment.” For this project, that means defining the exposure and comparison before declaring a signal useful. The exposure is outright CAD duration through CGB. A sensible comparison is a simple CGB momentum/VWAP rule operating at the same times and costs. A cross-market component can then show whether context improves that rule.
 
-My interpretation of these passages is: specify the exposure, observe the environment that supports it, measure whether that environment still produces movement, and revise the state when the response changes. This is an application of the writing; it is not a quotation or a claim about what Karim would personally recommend for CAD swaps.
+My interpretation of these passages is: specify the exposure, observe the environment that supports it, measure whether that environment still produces movement, and revise the state when the response changes. This is an application of the writing; it is not a quotation or a claim about a source-author recommendation for CAD swaps.
 
 The thermodynamic and quantum terminology is a modeling analogy. It does not establish that a financial “free energy” decreases, that a fitted spread is stationary, or that normalized model scores are calibrated probabilities. Those are separate mathematical and empirical questions.
 
@@ -181,7 +183,7 @@ A compact display could say: “Downward continuation evidence; US/CAD duration 
 
 ## Accumulate evidence sequentially
 
-Karim's sequential-testing idea can be illustrated with a simple drift detector. Let
+The source framework's sequential-testing idea can be illustrated with a simple drift detector. Let
 
 $$
 z_t=\frac{x_t}{\widehat\sigma_{t-1}},
@@ -242,12 +244,12 @@ The relevant transferable structure is recognition of the current phase, predict
 
 ## Source and decision record
 
-**Fichiers consultes :** `0 README_MODEL.md`, `0.1 AGENTS.md`, `0.2 README_THESES.md`, relevant agent protocol files, `requirements.txt`, notebooks 1–6, `fractal_db.py`, `matrices.py`; the thesis inventory; in-depth reading of PHYSICS 01–06 and the relevant sections of CYBERNETICS 29. The whole thesis corpus was not line-by-line validated.
+**Files inspected :** `0 README_MODEL.md`, `0.1 AGENTS.md`, `0.2 README_THESES.md`, relevant agent protocol files, `requirements.txt`, notebooks 1–6, `fractal_db.py`, `matrices.py`; the thesis inventory; in-depth reading of PHYSICS 01–06 and the relevant sections of CYBERNETICS 29. The whole thesis corpus was not line-by-line validated.
 
-**Sections ou passages utilises :** PHYSICS 01 on the beta reference; PHYSICS 02–03 on selected exposures and changing constraints; PHYSICS 04 on sequential evidence and absorption; PHYSICS 05–06 on reference frames and stationarity; CYBERNETICS 29 on filtration and its limited empirical sample. Notebook 5 cells 76, 109, 125 and 146 were used for the mathematical/timing audit; notebook 6 distinguishes current graph recognition from future predictions.
+**Passages used :** PHYSICS 01 on the beta reference; PHYSICS 02–03 on selected exposures and changing constraints; PHYSICS 04 on sequential evidence and absorption; PHYSICS 05–06 on reference frames and stationarity; CYBERNETICS 29 on filtration and its limited empirical sample. Notebook 5 cells 76, 109, 125 and 146 were used for the mathematical/timing audit; notebook 6 distinguishes current graph recognition from future predictions.
 
-**Logique extraite :** distinguish exposure, environment, observable pressure, realized response, current-state recognition, future prediction and executable action. Use the physics language as a source of hypotheses, with empirical tests for the proposed financial relationships.
+**Extracted logic :** distinguish exposure, environment, observable pressure, realized response, current-state recognition, future prediction and executable action. Use the physics language as a source of hypotheses, with empirical tests for the proposed financial relationships.
 
-**Decision deduite :** research a small, causal CGB continuation indicator with a futures-based core and optional fresh swap/OIS context. Test whether flow-response asymmetry and cross-market confirmation add information beyond the price/VWAP setup.
+**Derived decision :** research a small, causal CGB continuation indicator with a futures-based core and optional fresh swap/OIS context. Test whether flow-response asymmetry and cross-market confirmation add information beyond the price/VWAP setup.
 
-**Incertitudes ou contradictions :** no supplied market data, unknown L2 granularity and timing, very short histories, no audited live alpha evidence, source-level backtest timing concern, and no evidence identifying the named firms' decision rules. Forecast horizon and feature thresholds remain design choices. No source repo files were changed and no model was executed.
+**Uncertainties or contradictions :** no supplied market data, unknown L2 granularity and timing, very short histories, no audited live alpha evidence, source-level backtest timing concern, and no evidence identifying the named firms' decision rules. Forecast horizon and feature thresholds remain design choices. No source repo files were changed and no model was executed.

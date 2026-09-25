@@ -4,11 +4,11 @@ Version note: this guide reviews the source framework and the earlier CGB baseli
 
 ## The direct answer: how faithful is the current model?
 
-The current notebook follows several of Karim Khemiri's research principles, but **it is not a line-by-line implementation of his model**. It is a separate CAD research prototype. The Kalman drift process, seven descriptive phases, direct future-price targets and logarithmic opinion pool were introduced in this project. They should not be attributed to Karim.
+The earlier baseline applied several research principles from the source framework. Its Kalman drift process, seven descriptive phases, direct future-price targets and logarithmic opinion pool were independent project choices. This guide compares that baseline with the source; document 10 describes the subsequent model.
 
 That distinction matters more than whether the files run. Software consistency, faithfulness to a source, correctness of a mathematical interpretation and usefulness in the market are four different questions.
 
-| Layer | Karim's essays and actual implementation | Current CAD implementation |
+| Layer | Source essays and implementation | Earlier CAD baseline |
 |---|---|---|
 | Exposure and environment | Construct a regime-compatible basket/reference under the trading environment | Fix outright CGB; add contextual instruments through declared modules |
 | Stationary reference | Distinguish return residuals and level spreads; investigate stationarity | Observe a lagged CAD–US return relationship; do not claim a stationary level spread |
@@ -24,7 +24,7 @@ That distinction matters more than whether the files run. Software consistency, 
 
 The strongest faithful summary is therefore: **we retained an environment-first research order and several measurement principles, while replacing major mathematical and algorithmic components.** A working prototype is useful, but it is not evidence that every lesson has been implemented.
 
-The explanations below reconstruct the ideas in our own words. They are not quotations or claims about what Karim would personally endorse. They connect the six core essays, the eleven existing lessons, the audited code and selected relevant papers. The 272-entry paper catalog remains a bibliography; this chapter does not claim a fresh full-text reading of every paper in it.
+The explanations below reconstruct the ideas in our own words. They are not quotations or claims about what the source author would personally endorse. They connect the six core essays, the eleven existing lessons, the audited code and selected relevant papers. The 272-entry paper catalog remains a bibliography; this chapter does not claim a fresh full-text reading of every paper in it.
 
 ## 1. Start with the object that changes, not the indicator that looks attractive
 
@@ -46,7 +46,7 @@ This separates three questions that are otherwise easily confused: what the mark
 
 ## 2. Why look at an exposure distribution?
 
-Karim's population object is a density over exposure coordinates:
+The source framework's population object is a density over exposure coordinates:
 
 ![Mathematical expression](../assets/math/display-c8cf6938765fb148b6e3.svg)
 
@@ -62,7 +62,7 @@ Normalization also removes total scale. Two markets could have the same normaliz
 
 ## 3. Read the Hamiltonian as a proposed landscape
 
-Karim writes
+The source author writes
 
 ![Mathematical expression](../assets/math/display-4f21241cf376f225ed33.svg)
 
@@ -160,7 +160,7 @@ That final term is why algebraic spread changes and a self-financing trading led
 
 For the current CGB design, a useful reference can remain stable while CGB falls: its relationship with US duration might remain coherent throughout the selloff. Stability of a relationship does not mean a stationary CGB price.
 
-**In the code:** beta is a lagged reference slope; common movement and residual movement stay visible. We have not reproduced Karim's macro basket construction or established a stationary CAD spread. That is one of the principal gaps in source faithfulness.
+**In the code:** beta is a lagged reference slope; common movement and residual movement stay visible. We have not reproduced the source framework's macro basket construction or established a stationary CAD spread. That is one of the principal gaps in source faithfulness.
 
 ## 8. What a pointer state means in quantum physics
 
@@ -184,7 +184,7 @@ Also distinguish this matrix ![Mathematical expression](../assets/math/inline-59
 
 ## 9. What would a financial pointer analogue need to mean?
 
-Karim proposes a stable spread and its regime as a market analogue. The intuition is attractive: find a description that remains meaningful while individual observations fluctuate.
+The source author proposes a stable spread and its regime as a market analogue. The intuition is attractive: find a description that remains meaningful while individual observations fluctuate.
 
 A candidate CGB description might be sustained duration liquidation. Small recoveries, changes of execution venue or temporary variation in displayed queues need not destroy that description. The relevant question is whether its conditional behavior remains recognizable.
 

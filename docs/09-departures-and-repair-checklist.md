@@ -8,7 +8,7 @@ Read [the intellectual story and complete source lesson map](08-the-intellectual
 
 ## 1. Verdict
 
-We built a separate CGB baseline. We retained causal measurement, an explicit forecast horizon, optional environmental observations, uncertainty reporting and a distinction between prediction and execution. We replaced major components of Karim's architecture: the exposure-basket construction, GAS/FLUIDE blocks, 22-state grammar, structural transition mixture, state-label prediction, Monte Carlo state propagation and Born/Zurek fusion.
+We built a separate CGB baseline. We retained causal measurement, an explicit forecast horizon, optional environmental observations, uncertainty reporting and a distinction between prediction and execution. We replaced major components of the source framework's architecture: the exposure-basket construction, GAS/FLUIDE blocks, 22-state grammar, structural transition mixture, state-label prediction, Monte Carlo state propagation and Born/Zurek fusion.
 
 Those are consequential changes. They must be stated before describing the notebook as following his model. Several replacements are reasonable for the stated account objective, but reasonableness does not make them source-faithful.
 
@@ -94,7 +94,7 @@ Status meanings: **present** means implemented; **partial** means a narrower imp
 
 ## 6. What I would repair first, and why
 
-These are recommendations inferred from the framework and code, not claims that Karim personally requested them.
+These are recommendations inferred from the framework and code, not claims that the source author personally requested them.
 
 ### Repair 1: make the observable pressure–response relation explicit
 

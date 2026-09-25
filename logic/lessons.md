@@ -1,6 +1,6 @@
 # English study notes: from cybernetics and physics to a CAD momentum model
 
-These are explanatory study notes, written for learning and model construction. They are **not verbatim statements by Karim Khemiri**. The six PHYSICS essays identify Khemiri as their author. The CYBERNETICS files are extracted papers by the authors listed below; their inclusion in the repository does not make them Khemiri's work. The financial examples and proposed CAD interpretations here are our research extensions.
+These are independent explanatory study notes for learning and model construction. Authorship of the six PHYSICS essays is recorded in [the source provenance](README.md). The CYBERNETICS papers retain their own authors, credited below. The financial examples and proposed CGB interpretations are our research extensions.
 
 The central question is practical: given the information available now, what distinguishes duration pressure that will continue over the next one, two, or four hours from repricing that has largely finished? The traded object is outright CGB. Canadian rates, US duration, forward rates, trades, and liquidity help describe its environment. They do not automatically determine the answer.
 
@@ -10,12 +10,12 @@ Each lesson connects an idea to mathematics, then asks what we can actually obse
 
 | Key | Exact original filename | Authorship and sections consulted |
 |---|---|---|
-| P1 | `PHYSICS/01 beta.md` | Karim Khemiri. Entire essay, including the opening reference-frame argument and A–C: cointegration, imbalance carry, convexity. |
-| P2 | `PHYSICS/02 smart beta.md` | Karim Khemiri. Entire essay: exposure coordinates, crowd density, penalty landscape, regime changes, adaptation interpretation. |
-| P3 | `PHYSICS/03 zureck.md` | Karim Khemiri. Entire essay: effective laws, hidden crowd density, observable proxies, interaction kernel, free-energy interpretation. |
-| P4 | `PHYSICS/04 zureck vs laplace.md` | Karim Khemiri. Entire essay, especially information timing, quadrant interpretation, sequential test, variety, decision, and benchmark. |
-| P5 | `PHYSICS/05 zureck vs laplace part 2.md` | Karim Khemiri. Entire essay: decoherence/pointer-state analogy, Born probabilities, spread reference frame, local Gaussian risk and EVT. |
-| P6 | `PHYSICS/06 stationary time series.md` | Karim Khemiri. Entire essay: return baskets, accumulated levels, hedge ratio, ADF/KPSS distinction. |
+| P1 | `PHYSICS/01 beta.md` | Entire essay, including the opening reference-frame argument and A–C: cointegration, imbalance carry, convexity. |
+| P2 | `PHYSICS/02 smart beta.md` | Entire essay: exposure coordinates, crowd density, penalty landscape, regime changes, adaptation interpretation. |
+| P3 | `PHYSICS/03 zureck.md` | Entire essay: effective laws, hidden crowd density, observable proxies, interaction kernel, free-energy interpretation. |
+| P4 | `PHYSICS/04 zureck vs laplace.md` | Entire essay, especially information timing, quadrant interpretation, sequential test, variety, decision, and benchmark. |
+| P5 | `PHYSICS/05 zureck vs laplace part 2.md` | Entire essay: decoherence/pointer-state analogy, Born probabilities, spread reference frame, local Gaussian risk and EVT. |
+| P6 | `PHYSICS/06 stationary time series.md` | Entire essay: return baskets, accumulated levels, hedge ratio, ADF/KPSS distinction. |
 | C1 | `CYBERNETICS/01 thermodynamics_requisite_variety.md` | Alexander B. Boyd, Dibyendu Mandal, James P. Crutchfield, *Leveraging Environmental Correlations: The Thermodynamics of Requisite Variety*. Abstract; section II, equations 1–3; memory-matching result and section IV opening, extracted pages 3–4 and 10. |
 | C3 | `CYBERNETICS/03 multiscale_requisite_variety.md` | Alexander F. Siegenfeld and Yaneer Bar-Yam, *A Formal Definition of Scale-dependent Complexity and the Multi-scale Law of Requisite Variety*. Abstract; matching definitions 1–3, complexity-profile definitions 4–6, section 4.2/Theorem 1, pages 4–6 and 9. |
 | C4 | `CYBERNETICS/04 observer_into_system.md` | Chris Fields, *Building the Observer into the System: Toward a Realistic Description of Human Interaction with the World*. Abstract; section 2.2 black-box definition, pages 6–7; observer dependence and surprise, pages 12–13. |

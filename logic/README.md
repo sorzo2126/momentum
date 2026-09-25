@@ -1,6 +1,6 @@
 # English thesis reading pack
 
-Begin with [the English lessons and CAD applications](lessons-english.md).
+Begin with [the English lessons and CAD applications](lessons.md). For the broader explanation across all 47 source files, read [the intellectual story and full lesson map](../docs/08-the-intellectual-story-and-all-lessons.md), then [the mathematical walkthrough](../docs/07-understanding-the-framework.md) and [the source-to-code checklist](../docs/09-departures-and-repair-checklist.md).
 
 The following are full English copies of the six relevant physics essays in the supplied Fractal X source collection. Their prose was already English in the local source inspected for this project. Mathematical delimiters have been normalized for Markdown; the essays' claims remain the author's claims. The study guide distinguishes them from our financial-model interpretation.
 

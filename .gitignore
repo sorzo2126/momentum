@@ -5,3 +5,6 @@ __pycache__/
 *.egg-info/
 data/*
 !data/README.md
+runs/
+.pytest_cache/
+*.log

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "previous_inventoried_files": 1124,
+  "intentional_previous_changes": [
+    "experiments/structure-lab-v1/README.md",
+    "experiments/structure-lab-v1/render-verification.json"
+  ],
+  "all_other_previous_files_preserved": true,
+  "user_edit_unchanged": true,
+  "inline_source_and_data_match_committed_sources": true,
+  "fragment_sha256": "d1b1757b9b9d65d4b299a698ff627d917a79885f3d79b5aff9b3ac83d71e1125",
+  "browser_cases": 17,
+  "data_checks_pass": true,
+  "html_deliverables_added": 0
+}

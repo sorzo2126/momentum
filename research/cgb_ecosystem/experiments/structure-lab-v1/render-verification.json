@@ -1,7 +1,7 @@
 {
   "status": "PASS",
-  "documents": 11,
-  "scheme_checks": 22,
+  "documents": 14,
+  "scheme_checks": 28,
   "rendered_equations": 6,
   "results": [
     {
@@ -32,6 +32,54 @@
       "file": "README.md",
       "scheme": "dark",
       "images": 1,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "chart-workspace/DATA.md",
+      "scheme": "light",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "chart-workspace/DATA.md",
+      "scheme": "dark",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "chart-workspace/README.md",
+      "scheme": "light",
+      "images": 3,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "chart-workspace/README.md",
+      "scheme": "dark",
+      "images": 3,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "chart-workspace/UI-REVIEW.md",
+      "scheme": "light",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "chart-workspace/UI-REVIEW.md",
+      "scheme": "dark",
+      "images": 0,
       "broken": 0,
       "rawMath": false,
       "mathBoxes": 0

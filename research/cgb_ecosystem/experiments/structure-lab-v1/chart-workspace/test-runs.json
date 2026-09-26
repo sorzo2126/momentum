@@ -1,0 +1,30 @@
+[
+  {
+    "time": "2026-09-26T13:28:44.554Z",
+    "status": "FAIL",
+    "failure": "page.waitForFunction: Timeout 30000ms exceeded.",
+    "completed_cases": 8,
+    "fragment_sha256": "765ab74b980d0d2483f6d44f3f779dc6e79bab81a14869c9c0fa3b171346c6d4"
+  },
+  {
+    "time": "2026-09-26T13:29:45.587Z",
+    "status": "FAIL",
+    "failure": "Between-bar cursor selected future completed bar",
+    "completed_cases": 0,
+    "fragment_sha256": "765ab74b980d0d2483f6d44f3f779dc6e79bab81a14869c9c0fa3b171346c6d4"
+  },
+  {
+    "time": "2026-09-26T13:30:10.817Z",
+    "status": "PASS",
+    "failure": null,
+    "completed_cases": 9,
+    "fragment_sha256": "a9755954b5b8858ace85b46928b70dfd8333dafbf84762c5a7e8221f6b1c2472"
+  },
+  {
+    "time": "2026-09-26T13:31:16.457Z",
+    "status": "PASS",
+    "failure": null,
+    "completed_cases": 17,
+    "fragment_sha256": "d1b1757b9b9d65d4b299a698ff627d917a79885f3d79b5aff9b3ac83d71e1125"
+  }
+]

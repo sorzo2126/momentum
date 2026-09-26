@@ -75,6 +75,8 @@ The independent audit checks filtering against direct Gaussian conditioning, hor
 
 ## What the trader should see
 
+The subsequent [chart workspace](chart-workspace/README.md) makes received CGB price the primary view, with known levels, causal event markers, one observed-flow pane and a separate model-balance pane. It is the current interactive presentation direction; the compact snapshot below remains a useful drilldown and comparison baseline. The workspace includes source, screenshots, replay data, iterative browser checks and a human acceptance plan inspired by BigShort's public chart documentation.
+
 ![Actual saved historical synthetic forecast](trader-view/trader-snapshot.png)
 
 This snapshot is selected by a fixed clock rule, not its later outcome. CGB has risen 21.5 ticks over the preceding half-hour. The one-hour forecast assigns approximately 32% to an endpoint continuing upward, 50% to the opposite direction, and 18% to the neutral band. Its mean is −3.4 ticks, while its model 10th–90th percentile range is −20.6 to +13.8 ticks. The current spread is three ticks.

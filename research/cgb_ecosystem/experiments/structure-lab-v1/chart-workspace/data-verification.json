@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "checks": {
+    "exact_causal_ohlc": true,
+    "prefix_invariance_cutoffs": [
+      "2025-02-19T13:20:00+00:00",
+      "2025-02-19T13:30:00+00:00",
+      "2025-02-19T14:05:00+00:00",
+      "2025-02-19T15:30:00+00:00",
+      "2025-02-19T17:00:00+00:00",
+      "2025-02-19T18:55:00+00:00"
+    ],
+    "future_input_poisoning": true,
+    "late_arrival_unavailable": true,
+    "saved_forecast_identity": true,
+    "future_outcomes_excluded": true,
+    "warmup_is_unavailable_not_neutral": true,
+    "missing_flow_is_null": true,
+    "level_known_before_event": true,
+    "event_transition_fixture": true,
+    "event_spam_suppressed": true
+  },
+  "source_files_unchanged": true,
+  "source_sha256": {
+    "results\\base-1729\\inputs\\quotes.csv.gz": "3f36354fb4f8f0185607bdb6658f982c14cfe700dc92e642c42cc0c3c5aed3ff",
+    "results\\base-1729\\features.csv.gz": "bb18c2b5d329eb17f4fc35f8fd4b7fd9961f35a15998ecae19967cd7ab74954e",
+    "results\\base-1729\\observations.csv.gz": "d8b2a15c1917d4abb79524f2397653466cb409d3ec0a6a4af2ec8e8f03ef550a",
+    "results\\base-1729\\predictions-and-outcomes.csv.gz": "f4225940b10eedcb3b3aa9916721d554f780ad433cb716e3e77737543f71e2fd",
+    "model_snapshot\\momentum\\features.py": "28afdb1beb6566ebb59b1bc30b450be24c53c9eacab27c4fe665a546b0d1f06c"
+  },
+  "data_sha256": "50dc1df568950d91fa6ee3a1d594105c8963c8d330df326b60efca4796e791b1",
+  "code_sha256": "9cdd012413855eba486ab20ac0594d77acc9a9da6629028c08576143df7f6a34",
+  "bytes": 216292,
+  "bars": 96,
+  "forecasts": 168,
+  "events": 5,
+  "forecast_counts": {
+    "60": 72,
+    "120": 60,
+    "240": 36
+  }
+}

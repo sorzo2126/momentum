@@ -1,0 +1,193 @@
+{
+  "time": "2026-09-26T13:31:16.457Z",
+  "status": "PASS",
+  "failure": null,
+  "completed_cases": 17,
+  "fragment_sha256": "d1b1757b9b9d65d4b299a698ff627d917a79885f3d79b5aff9b3ac83d71e1125",
+  "browser_errors": [],
+  "checks": [
+    {
+      "scheme": "dark",
+      "width": 1440,
+      "status": "PASS",
+      "horizon_checks": 3,
+      "replay_cutoffs": 8,
+      "causal_levels_events": true,
+      "shared_history_clock": true,
+      "stale_and_history": true,
+      "keyboard": true,
+      "persistence": true,
+      "geometry": true
+    },
+    {
+      "scheme": "dark",
+      "width": 1024,
+      "status": "PASS",
+      "horizon_checks": 3,
+      "replay_cutoffs": 8,
+      "causal_levels_events": true,
+      "shared_history_clock": true,
+      "stale_and_history": true,
+      "keyboard": true,
+      "persistence": true,
+      "geometry": true
+    },
+    {
+      "scheme": "dark",
+      "width": 736,
+      "status": "PASS",
+      "horizon_checks": 3,
+      "replay_cutoffs": 8,
+      "causal_levels_events": true,
+      "shared_history_clock": true,
+      "stale_and_history": true,
+      "keyboard": true,
+      "persistence": true,
+      "geometry": true
+    },
+    {
+      "scheme": "dark",
+      "width": 390,
+      "status": "PASS",
+      "horizon_checks": 3,
+      "replay_cutoffs": 8,
+      "causal_levels_events": true,
+      "shared_history_clock": true,
+      "stale_and_history": true,
+      "keyboard": true,
+      "persistence": true,
+      "geometry": true
+    },
+    {
+      "scheme": "dark",
+      "width": 360,
+      "status": "PASS",
+      "horizon_checks": 3,
+      "replay_cutoffs": 8,
+      "causal_levels_events": true,
+      "shared_history_clock": true,
+      "stale_and_history": true,
+      "keyboard": true,
+      "persistence": true,
+      "geometry": true
+    },
+    {
+      "scheme": "dark",
+      "width": 320,
+      "status": "PASS",
+      "horizon_checks": 3,
+      "replay_cutoffs": 8,
+      "causal_levels_events": true,
+      "shared_history_clock": true,
+      "stale_and_history": true,
+      "keyboard": true,
+      "persistence": true,
+      "geometry": true
+    },
+    {
+      "scheme": "light",
+      "width": 1440,
+      "status": "PASS",
+      "horizon_checks": 3,
+      "replay_cutoffs": 8,
+      "causal_levels_events": true,
+      "shared_history_clock": true,
+      "stale_and_history": true,
+      "keyboard": true,
+      "persistence": true,
+      "geometry": true
+    },
+    {
+      "scheme": "light",
+      "width": 1024,
+      "status": "PASS",
+      "horizon_checks": 3,
+      "replay_cutoffs": 8,
+      "causal_levels_events": true,
+      "shared_history_clock": true,
+      "stale_and_history": true,
+      "keyboard": true,
+      "persistence": true,
+      "geometry": true
+    },
+    {
+      "scheme": "light",
+      "width": 736,
+      "status": "PASS",
+      "horizon_checks": 3,
+      "replay_cutoffs": 8,
+      "causal_levels_events": true,
+      "shared_history_clock": true,
+      "stale_and_history": true,
+      "keyboard": true,
+      "persistence": true,
+      "geometry": true
+    },
+    {
+      "scheme": "light",
+      "width": 390,
+      "status": "PASS",
+      "horizon_checks": 3,
+      "replay_cutoffs": 8,
+      "causal_levels_events": true,
+      "shared_history_clock": true,
+      "stale_and_history": true,
+      "keyboard": true,
+      "persistence": true,
+      "geometry": true
+    },
+    {
+      "scheme": "light",
+      "width": 360,
+      "status": "PASS",
+      "horizon_checks": 3,
+      "replay_cutoffs": 8,
+      "causal_levels_events": true,
+      "shared_history_clock": true,
+      "stale_and_history": true,
+      "keyboard": true,
+      "persistence": true,
+      "geometry": true
+    },
+    {
+      "scheme": "light",
+      "width": 320,
+      "status": "PASS",
+      "horizon_checks": 3,
+      "replay_cutoffs": 8,
+      "causal_levels_events": true,
+      "shared_history_clock": true,
+      "stale_and_history": true,
+      "keyboard": true,
+      "persistence": true,
+      "geometry": true
+    },
+    {
+      "status": "PASS",
+      "width": 360,
+      "coarse_targets": true,
+      "touch_pinning": true,
+      "committed_source": true
+    },
+    {
+      "status": "PASS",
+      "fixture": "missing-flow",
+      "original_data_modified": false
+    },
+    {
+      "status": "PASS",
+      "fixture": "zero-flow",
+      "original_data_modified": false
+    },
+    {
+      "status": "PASS",
+      "fixture": "neutral-model",
+      "original_data_modified": false
+    },
+    {
+      "status": "PASS",
+      "fixture": "missing-forecast",
+      "original_data_modified": false
+    }
+  ]
+}

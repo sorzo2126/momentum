@@ -1420,6 +1420,81 @@
       "sha256": "475267df5bb62c5a5104c11a0a75d764e36db89113ed16e6d0c0add5b86eace9"
     },
     {
+      "path": "experiments/structure-lab-v1/chart-workspace/chart-data.json",
+      "bytes": 216293,
+      "sha256": "50dc1df568950d91fa6ee3a1d594105c8963c8d330df326b60efca4796e791b1"
+    },
+    {
+      "path": "experiments/structure-lab-v1/chart-workspace/data-verification.json",
+      "bytes": 1657,
+      "sha256": "c2e20b97d3859cca218eddb1567aa1c91ef3e0016e722dfc60e833f6cc10d94b"
+    },
+    {
+      "path": "experiments/structure-lab-v1/chart-workspace/DATA.md",
+      "bytes": 8259,
+      "sha256": "e6b37dec3def05ae5fa0a1f750b4d323529dbd65883474899c39b340602a1930"
+    },
+    {
+      "path": "experiments/structure-lab-v1/chart-workspace/delivery-verification.json",
+      "bytes": 530,
+      "sha256": "5caaaa2a3544a092bf7140d0bd527435f8298ae822e353b748193f73c125b187"
+    },
+    {
+      "path": "experiments/structure-lab-v1/chart-workspace/desktop-dark.png",
+      "bytes": 61070,
+      "sha256": "6c9ef34a98006ed04e3a612ccecb42a07ba6e2259988363f0548362a85759936"
+    },
+    {
+      "path": "experiments/structure-lab-v1/chart-workspace/mobile-light.png",
+      "bytes": 52517,
+      "sha256": "4cd1933d44bfd051b79827ee28224d8d67001e71d0e432e8df7bd93d5b7da62a"
+    },
+    {
+      "path": "experiments/structure-lab-v1/chart-workspace/prepare_data.py",
+      "bytes": 15148,
+      "sha256": "9cdd012413855eba486ab20ac0594d77acc9a9da6629028c08576143df7f6a34"
+    },
+    {
+      "path": "experiments/structure-lab-v1/chart-workspace/README.md",
+      "bytes": 12422,
+      "sha256": "efda773c4d33953d4142d8dd85a38daf0d1fc815843116ca9d6fce4f30424039"
+    },
+    {
+      "path": "experiments/structure-lab-v1/chart-workspace/stale-dark.png",
+      "bytes": 94958,
+      "sha256": "c002c7e7cfc48e9f8216b78d0f966d54d2fc571028db939e90a8072c27c9ba19"
+    },
+    {
+      "path": "experiments/structure-lab-v1/chart-workspace/test-runs.json",
+      "bytes": 927,
+      "sha256": "768960e257124eb6a1559f35f0afc31de22bca6379d2d14e73112be1a395cc87"
+    },
+    {
+      "path": "experiments/structure-lab-v1/chart-workspace/UI-REVIEW.md",
+      "bytes": 14831,
+      "sha256": "1466cb0f18ea49e4dd944937c2daba92a1a04ea5ca0f06119909a7055cfb965c"
+    },
+    {
+      "path": "experiments/structure-lab-v1/chart-workspace/ui-verification.json",
+      "bytes": 4595,
+      "sha256": "cd7da4866d2984057e7e05d97df5089f0005385ab13a7fafa81100f72312bc2b"
+    },
+    {
+      "path": "experiments/structure-lab-v1/chart-workspace/verify_ui.cjs",
+      "bytes": 12937,
+      "sha256": "7210848d47feff22f2d4a53121baea75db50c007a9ff72b3659280cab139fe4d"
+    },
+    {
+      "path": "experiments/structure-lab-v1/chart-workspace/workspace.css",
+      "bytes": 5762,
+      "sha256": "a486b7942310b87ca2659ae4c0b04d95be2ec0152976609375dbf1f03df469bd"
+    },
+    {
+      "path": "experiments/structure-lab-v1/chart-workspace/workspace.js",
+      "bytes": 19523,
+      "sha256": "082ca4e56e5b6229b7ab5bd8aa7be650de440107c5cb8f47d9408b6c63587b62"
+    },
+    {
       "path": "experiments/structure-lab-v1/compact-indicator/build_preview_cases.py",
       "bytes": 1675,
       "sha256": "c1690fbc6484059c9d02c2fb371bee2b9455e18206056aede92ddbd7bda525d7"
@@ -1946,8 +2021,8 @@
     },
     {
       "path": "experiments/structure-lab-v1/README.md",
-      "bytes": 14757,
-      "sha256": "0befdec2128b864376c297763b97fa9e26e4307b3554209b1b32d8dcd22a7344"
+      "bytes": 15254,
+      "sha256": "8c06d749e09e0c274ecf1532ed3adb65f11c1924f8c91057f784141d01f03850"
     },
     {
       "path": "experiments/structure-lab-v1/render-check-dark.png",
@@ -1961,8 +2036,8 @@
     },
     {
       "path": "experiments/structure-lab-v1/render-verification.json",
-      "bytes": 3740,
-      "sha256": "b2aa2a803002b75d23dbc41cab7ca4911367f6c43c4e49a7958a5b05f6887b12"
+      "bytes": 4723,
+      "sha256": "c368399d201564ab94745549a70a6d0124f8349c2922f0597ccacec9310aa29b"
     },
     {
       "path": "experiments/structure-lab-v1/trader-view/build_snapshot.py",

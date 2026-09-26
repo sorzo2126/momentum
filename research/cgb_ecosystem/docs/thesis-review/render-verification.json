@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "file": "REPORT.md",
+      "scheme": "light",
+      "images": 19,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "REPORT.md",
+      "scheme": "dark",
+      "images": 19,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "coverage.md",
+      "scheme": "light",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "coverage.md",
+      "scheme": "dark",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "deployment.md",
+      "scheme": "light",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "deployment.md",
+      "scheme": "dark",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "feedback.md",
+      "scheme": "light",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "feedback.md",
+      "scheme": "dark",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "foundations.md",
+      "scheme": "light",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "foundations.md",
+      "scheme": "dark",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "physics-lessons.md",
+      "scheme": "light",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "physics-lessons.md",
+      "scheme": "dark",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "research-plan.md",
+      "scheme": "light",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "research-plan.md",
+      "scheme": "dark",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    }
+  ]
+}

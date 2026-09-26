@@ -9,6 +9,7 @@ The entire simulation study is collected here: hypotheses, mathematical report, 
 3. [Executed results notebook](simulation-results.ipynb): all 11 experiments, tables and embedded plots. Download and open locally if GitHub's notebook preview is unavailable.
 4. [Results interpretation](docs/results-and-limitations.md).
 5. [Reproduction instructions](docs/reproducing.md) and [provenance](docs/provenance.md).
+6. [Full thesis-grounded review](docs/thesis-review/REPORT.md): all 47 source documents, actual component attribution, mathematical derivations, and an [ordered research plan](docs/thesis-review/research-plan.md) for the next synthetic experiments.
 
 ## Everything included
 

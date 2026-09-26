@@ -1,0 +1,148 @@
+{
+  "status": "PASS",
+  "scope": "Saved-artifact comparisons; no fitting, no new simulation, no source modification",
+  "base_60_minutes": [
+    {
+      "run": "base-1729",
+      "supervised_weight": 0.9999999999999999,
+      "structural_weight": 0.0,
+      "pointwise_mixture_supervised_max_abs_difference": {
+        "log_loss": 4.440892098500626e-16,
+        "brier": 4.440892098500626e-16,
+        "endpoint_abs_error_ticks": 2.842170943040401e-14
+      },
+      "log_loss_improvement": 0.10846323255290578,
+      "saved_loss_difference_ci": [
+        -0.1350331778469216,
+        -0.08063348548219498
+      ],
+      "net_cad": 3655.999999999919,
+      "higher_slippage_net_cad": 2425.9999999999186,
+      "trades": 41,
+      "scored_forecasts": 576
+    },
+    {
+      "run": "base-2718",
+      "supervised_weight": 1.0,
+      "structural_weight": 0.0,
+      "pointwise_mixture_supervised_max_abs_difference": {
+        "log_loss": 4.440892098500626e-16,
+        "brier": 4.440892098500626e-16,
+        "endpoint_abs_error_ticks": 2.842170943040401e-14
+      },
+      "log_loss_improvement": 0.11774740932501782,
+      "saved_loss_difference_ci": [
+        -0.18105043588584938,
+        -0.04825590052546125
+      ],
+      "net_cad": 2139.999999999804,
+      "higher_slippage_net_cad": 939.999999999804,
+      "trades": 40,
+      "scored_forecasts": 576
+    },
+    {
+      "run": "base-3141",
+      "supervised_weight": 0.9999999999999999,
+      "structural_weight": 2.220446049250313e-16,
+      "pointwise_mixture_supervised_max_abs_difference": {
+        "log_loss": 4.996003610813204e-16,
+        "brier": 4.440892098500626e-16,
+        "endpoint_abs_error_ticks": 4.973799150320701e-14
+      },
+      "log_loss_improvement": 0.09115475433042078,
+      "saved_loss_difference_ci": [
+        -0.15921049236632598,
+        -0.02780004579781027
+      ],
+      "net_cad": 2205.9999999999304,
+      "higher_slippage_net_cad": 975.9999999999302,
+      "trades": 41,
+      "scored_forecasts": 576
+    }
+  ],
+  "selected_execution_rows": [
+    {
+      "run": "cgb_only-1729",
+      "horizon_minutes": "60",
+      "strategy": "model",
+      "accounting_status": "complete_priced_book",
+      "net_cad": 2325.999999999869,
+      "stress_net_cad": 1845.999999999869,
+      "trades": 16.0,
+      "unpriced_trades": 0.0
+    },
+    {
+      "run": "fast_decay-1729",
+      "horizon_minutes": "60",
+      "strategy": "model",
+      "accounting_status": "complete_priced_book",
+      "net_cad": -538.0000000000182,
+      "stress_net_cad": -1198.0000000000182,
+      "trades": 22.0,
+      "unpriced_trades": 0.0
+    },
+    {
+      "run": "feed_gaps-1729",
+      "horizon_minutes": "60",
+      "strategy": "model",
+      "accounting_status": "INCOMPLETE_UNPRICED_OPEN_TRADE",
+      "net_cad": null,
+      "stress_net_cad": null,
+      "trades": 32.0,
+      "unpriced_trades": 1.0
+    },
+    {
+      "run": "base-2718",
+      "horizon_minutes": "120",
+      "strategy": "model",
+      "accounting_status": "complete_priced_book",
+      "net_cad": -876.0000000000705,
+      "stress_net_cad": -1446.0000000000707,
+      "trades": 19.0,
+      "unpriced_trades": 0.0
+    },
+    {
+      "run": "base-2718",
+      "horizon_minutes": "120",
+      "strategy": "simple_momentum",
+      "accounting_status": "complete_priced_book",
+      "net_cad": 2567.999999999901,
+      "stress_net_cad": 1877.999999999901,
+      "trades": 23.0,
+      "unpriced_trades": 0.0
+    }
+  ],
+  "pressure_driver_decay": {
+    "fast_decay": {
+      "phi_per_minute": 0.65,
+      "half_life_minutes": 1.6090405507426917,
+      "retained_initial_pressure_60_minutes": 5.95389811475977e-12,
+      "cumulative_60_minute_fixed_loading_multiplier": 1.8571428571318
+    },
+    "base": {
+      "phi_per_minute": 0.985,
+      "half_life_minutes": 45.862365452420185,
+      "retained_initial_pressure_60_minutes": 0.4038069876177639,
+      "cumulative_60_minute_fixed_loading_multiplier": 39.15000781310014
+    }
+  },
+  "pressure_driver_assumption": "Isolated initial pressure, no new nonzero-mean forcing; cumulative result assumes a fixed linear loading, not full ecosystem repricing.",
+  "base_2718_240_minute_nominal_80_interval_coverage": 0.6180555555555555,
+  "directional_identity": "With all three endpoint classes present, sum of supervised path mass in class c equals the price head probability for c.",
+  "nuance": "Local within-class paths still determine magnitude and excursions. State-derived features can still enter the price head.",
+  "input_sha256": {
+    "execution-summary.csv": "475267df5bb62c5a5104c11a0a75d764e36db89113ed16e6d0c0add5b86eace9",
+    "fitted-weights.csv": "bd4592a020e36f546adee5c394bf59f2f1949d03770853ac1e50684a9b399e84",
+    "metrics.csv": "526061836f156be7793c02871f34ecac1ce4e4ad7c78e7d4192b0ef7cec351fb",
+    "model_snapshot/momentum/scenarios.py": "c42274671efa55fc03381c206c1e4d2dd1de64c6374ff929ce35a42bc8cf32d7",
+    "model_snapshot/momentum/states.py": "3e608b74bc6d4edc0e440df3cd18672c74e447fbb84099d150c3cdf4609cc571",
+    "results/base-1729/frozen-model/pointwise_losses-60-mixture.csv": "2a2e32434b62bfd6bcca1e3b365f60e451e121c2476d5023a9d529319dd9d9c7",
+    "results/base-1729/frozen-model/pointwise_losses-60-supervised.csv": "91866486c9d4c3cb531414d30b094feedc235cd2ea5df0e0aba8d2ef0151ae42",
+    "results/base-2718/frozen-model/pointwise_losses-60-mixture.csv": "1793069fe2d787fbcbf24cd323b26c4b36464b3eb23a36d499baa8e72355adf4",
+    "results/base-2718/frozen-model/pointwise_losses-60-supervised.csv": "c36b15d58b7df3dfa9667800c24a5ed68cbfb9db4024776ed956f0f48bf59185",
+    "results/base-3141/frozen-model/pointwise_losses-60-mixture.csv": "66d797b86b86975bd21a3f720070b4e5cb762906a16a4fd6250a512a6f3768b6",
+    "results/base-3141/frozen-model/pointwise_losses-60-supervised.csv": "e863100854047c6ab720f909760f7c77fa5277861f2868a611a9edcd214be56a",
+    "simulation/bond_ecosystem.py": "415b7619e973fb677662bd0ccab9d7645e05de72c33c4c126fb5b4fd73e7424d",
+    "simulation/structured_simulation.py": "aa2b3f7413640989600b78836a7dd9922ca29bedc2223a00091645a70e0b7258"
+  }
+}

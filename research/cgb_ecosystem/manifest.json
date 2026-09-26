@@ -1100,6 +1100,176 @@
       "sha256": "1f4843ec38006f807e5c241fe7ab15da1df900c98923a28c6a2fa1c08374e190"
     },
     {
+      "path": "docs/thesis-review/audit_saved_results.py",
+      "bytes": 5874,
+      "sha256": "0055dff84a5ff580362167359f5668d7b92e3c44c4bba69af69c87d024e25757"
+    },
+    {
+      "path": "docs/thesis-review/coverage.json",
+      "bytes": 38963,
+      "sha256": "9e08622e145cd7fb0acead3764ed4a3ed89de255b6b3d0be272e53c5187926f8"
+    },
+    {
+      "path": "docs/thesis-review/coverage.md",
+      "bytes": 20722,
+      "sha256": "c0dd31c1855fa94ac11b2a7d96618708f0828fb3617731527ae12fcd824c412f"
+    },
+    {
+      "path": "docs/thesis-review/deployment.md",
+      "bytes": 39712,
+      "sha256": "2bc9a9e21ad32379bdd1d79415746629b2ba86e5a1ae32bff7b14d789cbe2318"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-00322f646d38a4a7.svg",
+      "bytes": 9529,
+      "sha256": "fb9d256c78d59f623f446f402f8fd1a5709aec2507c8e1eb6cfbe898ab428a4c"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-069519b6f210da9a.svg",
+      "bytes": 9355,
+      "sha256": "21d505b0638ddfce7b7a5815eb147bee94c8e3a0ae37f13c5c17e27f22fc63e1"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-08bb154cdf960fa3.svg",
+      "bytes": 6839,
+      "sha256": "a7f4605a3c606f343613e9b5b0e0c2690bf7b88a2336002ebbfc656b174c46a4"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-147a0abf97613344.svg",
+      "bytes": 13127,
+      "sha256": "204a52661ca8345d846c1ecc3ee4240ecc3fed4112a0988a8ba6b5dcdfb73d6b"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-2b0b8be4d95578e3.svg",
+      "bytes": 19442,
+      "sha256": "70599994108509cd81c28f7ede10125645f596b7ecfb5ba9407bc2a7a38bfec3"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-35a8ce90b46cc1e0.svg",
+      "bytes": 11888,
+      "sha256": "cbc1f255c232193b12016fb5812db01f9069818f686fff2b3a022217b78ec062"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-6d8610f09cd3475d.svg",
+      "bytes": 8405,
+      "sha256": "69f4bf7101e7c81335694eab78b69706a97425cc2e13d29729546aded1ca059e"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-874c4bb8485f27ae.svg",
+      "bytes": 5657,
+      "sha256": "056ec53a52f6e197374941773ae6797d76bc769b6f1d4823fefbc09a1a21be71"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-a00ae92b29e93f0e.svg",
+      "bytes": 10297,
+      "sha256": "6fa3899fe355f7b846af9a2624fdf57811f7b98d20538e66fe839366ab2817f9"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-b0fe54d1b9a8808d.svg",
+      "bytes": 16762,
+      "sha256": "1bd1b348f4af5a05dc5bc318725665c1f2dc7406de6356a53132daaf37306095"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-c7e5af48c18dbfbb.svg",
+      "bytes": 9705,
+      "sha256": "7233dfc8d45071eef8d78655bf1c8c58ea87e971d9d99f0d68f13d593c9300c8"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-d16a09461636ed70.svg",
+      "bytes": 18411,
+      "sha256": "045771cda0bb92735ca5cdc35312a967b43404b5ad1314e9a0ceda96a6577a66"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-d462fdc165ab6c8d.svg",
+      "bytes": 8735,
+      "sha256": "385e572c68c5293f6a0b9c6b2d40d1d6c38f24ce3e5a5c0ce869353b338b462b"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-e2fd91bf3122b71e.svg",
+      "bytes": 10637,
+      "sha256": "830ca587eaf3b61720bd3de6a2e8bf0b1797adb2cdccf767a1d5be49fd7ab0fe"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-e96dfc04f9c934d4.svg",
+      "bytes": 11872,
+      "sha256": "cd0a8408de81301eeedaaaeb6556eb2da304727f5873686616f2548d482a99ac"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-f21ead5699b84536.svg",
+      "bytes": 13752,
+      "sha256": "23789a113c1f9546644a8602cae2729a6b57f647609aeb63814966075d0c18c1"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-f2dbd1c07deefa41.svg",
+      "bytes": 13207,
+      "sha256": "3f6f0bd582278fa49eceb9a88b046420f78d0ef463aca8c28b3818a561a3752e"
+    },
+    {
+      "path": "docs/thesis-review/equations/equation-ff2d9852faf35bf1.svg",
+      "bytes": 12263,
+      "sha256": "4a2922630daa14e2bce85efcc07fe0fd50f8c683f7a6ef2ca6f5905fdc8406cd"
+    },
+    {
+      "path": "docs/thesis-review/equations/source.json",
+      "bytes": 2746,
+      "sha256": "92f2bffebc8c66d12bce1e637b3062aa0182de4f74c592c728f3d942cacff269"
+    },
+    {
+      "path": "docs/thesis-review/feedback.md",
+      "bytes": 47252,
+      "sha256": "bdf27f021e08621147e7c8e9a662cb81f26f3e544c3d08f3c5f97ada7d46c609"
+    },
+    {
+      "path": "docs/thesis-review/foundations.md",
+      "bytes": 41928,
+      "sha256": "1d7072d506e6bdaba16be9c4cb0ca10abebc3c83c656a7cf10dd993c7f692c72"
+    },
+    {
+      "path": "docs/thesis-review/physics-lessons.md",
+      "bytes": 15074,
+      "sha256": "645a2e00d4baf1c539d7b19e03a288ccea88a006d97d8fe9f32d3c916ac25179"
+    },
+    {
+      "path": "docs/thesis-review/render-check-dark.png",
+      "bytes": 123371,
+      "sha256": "f610ee3f14734c8bc9613ccdddeb7bfdc605e247f8233d01f15d62a227f1fada"
+    },
+    {
+      "path": "docs/thesis-review/render-check-light.png",
+      "bytes": 122742,
+      "sha256": "d78ac24ba736dd9c263ea70c54f7f5617d716459c60337ab59983fdc1573f894"
+    },
+    {
+      "path": "docs/thesis-review/render-verification.json",
+      "bytes": 2167,
+      "sha256": "61cb949421390a7bb85910a1be07d4db78488fe806de1e80bd98f741ab5cd67c"
+    },
+    {
+      "path": "docs/thesis-review/REPORT.md",
+      "bytes": 46828,
+      "sha256": "183944ad929a29bb58b0d272927087836935b86731a6e419ad2dd13c253f6b1d"
+    },
+    {
+      "path": "docs/thesis-review/research-plan.md",
+      "bytes": 20718,
+      "sha256": "1182ef9f60d72572fd4e7bf87fe839a0cbbc49413bf10d63f77f896b9c1a66d8"
+    },
+    {
+      "path": "docs/thesis-review/review-verification.json",
+      "bytes": 682,
+      "sha256": "6f7fad9a1fbad1799dcea34a5be359c61dc804bba945826605f90a87a7898a4f"
+    },
+    {
+      "path": "docs/thesis-review/saved-results-audit.json",
+      "bytes": 6221,
+      "sha256": "4a25b2222cd021b4d5435535c7e6206bfa2550f10bc781f120289798367b29a4"
+    },
+    {
+      "path": "docs/thesis-review/verify_review.cjs",
+      "bytes": 3501,
+      "sha256": "539992628f18385bf2b9dcee2b10cc123ae1875aaedc619076ed6cd8ba2616d3"
+    },
+    {
       "path": "equations/equation-001be96eb7555992.svg",
       "bytes": 14454,
       "sha256": "7425cbebd2c3fa823e74e43775a2523d7df63433d280b2faff41f4e24d59b888"
@@ -1456,8 +1626,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3463,
-      "sha256": "44ff13e5cc91ba4401a503fe1a4fd6e9940b810c3d3e2806ce8a1bcd8b40e901"
+      "bytes": 3712,
+      "sha256": "aef661ffe7d19f2f337ee8767a962493d1fd985699e9570a392fb695963fcb68"
     },
     {
       "path": "reference/provided-example.ipynb",

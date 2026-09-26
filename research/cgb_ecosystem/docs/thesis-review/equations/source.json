@@ -1,0 +1,74 @@
+[
+  {
+    "asset": "equation-147a0abf97613344.svg",
+    "latex": "q_i^{\\mathrm{sup}}(x)=\\widehat p(c_i\\mid x)\\frac{\\ell_i(x)}{\\sum_{j:c_j=c_i}\\ell_j(x)}."
+  },
+  {
+    "asset": "equation-a00ae92b29e93f0e.svg",
+    "latex": "\\sum_{i:c_i=c}q_i^{\\mathrm{sup}}(x)=\\widehat p(c\\mid x)."
+  },
+  {
+    "asset": "equation-874c4bb8485f27ae.svg",
+    "latex": "w_{i,t}=D_t n_{i,t}."
+  },
+  {
+    "asset": "equation-00322f646d38a4a7.svg",
+    "latex": "\\sum_i\\Delta n_{i,t}+\\Delta n_{\\mathrm{outside},t}=0."
+  },
+  {
+    "asset": "equation-d16a09461636ed70.svg",
+    "latex": "J_i(w,t)=\\frac12(w-w_i^*)^\\top R_i(w-w_i^*)\n+\\frac{\\gamma_i}{2}\\left[\\|B_iw\\|-L_i(t)\\right]_+^2\n+\\lambda_i(K*\\rho_t)(w)."
+  },
+  {
+    "asset": "equation-b0fe54d1b9a8808d.svg",
+    "latex": "\\dot w_i=-M_i\\nabla_wJ_i(w_i,t)+\\text{declared external forcing}."
+  },
+  {
+    "asset": "equation-2b0b8be4d95578e3.svg",
+    "latex": "\\mathcal F_t[\\rho]=\\int U_t(w)\\rho(w)\\,dw\n+\\frac{\\lambda}{2}\\iint K(w,v)\\rho(w)\\rho(v)\\,dw\\,dv\n+D\\int\\rho(w)\\log\\rho(w)\\,dw."
+  },
+  {
+    "asset": "equation-08bb154cdf960fa3.svg",
+    "latex": "\\partial_t\\rho=\\nabla\\cdot\\left(\\rho\\nabla\\frac{\\delta\\mathcal F_t}{\\delta\\rho}\\right)."
+  },
+  {
+    "asset": "equation-35a8ce90b46cc1e0.svg",
+    "latex": "\\frac{d\\mathcal F_t}{dt}\n=-\\int\\rho\\left\\|\\nabla\\frac{\\delta\\mathcal F_t}{\\delta\\rho}\\right\\|^2dw\n+\\left.\\frac{\\partial\\mathcal F_t}{\\partial t}\\right|_{\\rho}."
+  },
+  {
+    "asset": "equation-f2dbd1c07deefa41.svg",
+    "latex": "\\mathbb E[z_{t+k}\\mid z_t]=\\phi^kz_t,\\qquad\nt_{1/2}=\\frac{\\log(1/2)}{\\log\\phi}."
+  },
+  {
+    "asset": "equation-069519b6f210da9a.svg",
+    "latex": "z_t\\sum_{k=1}^{60}\\phi^k\n=z_t\\frac{\\phi(1-\\phi^{60})}{1-\\phi}."
+  },
+  {
+    "asset": "equation-f21ead5699b84536.svg",
+    "latex": "S(h\\mid a,x_{0:h})=\\exp\\left[-\\int_0^h\\lambda(a+u,x_u)\\,du\\right]."
+  },
+  {
+    "asset": "equation-ff2d9852faf35bf1.svg",
+    "latex": "h_1\\sim h_2\\quad\\Longleftrightarrow\\quad\n\\mathcal L(Y_{t+1:t+H}\\mid h_1)=\\mathcal L(Y_{t+1:t+H}\\mid h_2)."
+  },
+  {
+    "asset": "equation-e96dfc04f9c934d4.svg",
+    "latex": "\\Delta I_j=I\\left(Y_{t+1:t+H};X_t^{(j)}\\mid X_t^{(-j)}\\right)."
+  },
+  {
+    "asset": "equation-e2fd91bf3122b71e.svg",
+    "latex": "\\kappa(x,y)=1-\\frac{W_1(P_x,P_y)}{d(x,y)},\\qquad x\\ne y."
+  },
+  {
+    "asset": "equation-c7e5af48c18dbfbb.svg",
+    "latex": "P_{60}(A)=P_{240}\\{y:y_{0:60}\\in A\\}."
+  },
+  {
+    "asset": "equation-6d8610f09cd3475d.svg",
+    "latex": "H(Y\\mid O)-H(Y\\mid Z,O)=I(Y;Z\\mid O)."
+  },
+  {
+    "asset": "equation-d462fdc165ab6c8d.svg",
+    "latex": "\\mathbb E\\left[\\sum_t a_t\\Delta M_{t+1}-C\\right]\\leq0."
+  }
+]

@@ -1,0 +1,1089 @@
+{
+  "date": "2026-09-26",
+  "source_root_at_review": "C:/Users/mn262/Downloads/fractal-x-main/fractal-x-main",
+  "files": [
+    {
+      "source_relative_path": "theses/source/CYBERNETICS/01 thermodynamics_requisite_variety.md",
+      "sorted_cybernetics_index": 1,
+      "full_text_read": true,
+      "line_count": 2081,
+      "bytes": 85236,
+      "sha256": "c98c8775ee29c65e2a9eeb86947cff405ebd8673de72798fe8cba1b37de41734",
+      "read_ranges": [
+        "1-700",
+        "701-1400",
+        "1401-2081"
+      ],
+      "repaired_ranges": [],
+      "scope": "provided Markdown incl appendices; not proof certification",
+      "reviewer": "foundations",
+      "physical_newline_count": 2081,
+      "python_splitlines_count": 2081,
+      "line_numbering": "Python splitlines",
+      "id": "C01"
+    },
+    {
+      "source_relative_path": "theses/source/CYBERNETICS/02 redundant_attempted_solutions_180_degree.md",
+      "sorted_cybernetics_index": 2,
+      "full_text_read": true,
+      "line_count": 752,
+      "bytes": 50112,
+      "sha256": "9dbce640de769211ce88e5a5b36875d93b3ed201ef2a19d4d872d25cea99e02c",
+      "read_ranges": [
+        "1-390",
+        "391-752"
+      ],
+      "repaired_ranges": [],
+      "scope": "provided Markdown incl appendices; not proof certification",
+      "reviewer": "foundations",
+      "physical_newline_count": 752,
+      "python_splitlines_count": 752,
+      "line_numbering": "Python splitlines",
+      "id": "C02"
+    },
+    {
+      "source_relative_path": "theses/source/CYBERNETICS/03 multiscale_requisite_variety.md",
+      "sorted_cybernetics_index": 3,
+      "full_text_read": true,
+      "line_count": 933,
+      "bytes": 58461,
+      "sha256": "e14fa60c143dce1a4d00ea6c23ec1313374b4ed94c1a4b8b85315cf9ffeef9ba",
+      "read_ranges": [
+        "1-470",
+        "471-933"
+      ],
+      "repaired_ranges": [],
+      "scope": "provided Markdown incl appendices; not proof certification",
+      "reviewer": "foundations",
+      "physical_newline_count": 933,
+      "python_splitlines_count": 933,
+      "line_numbering": "Python splitlines",
+      "id": "C03"
+    },
+    {
+      "source_relative_path": "theses/source/CYBERNETICS/04 observer_into_system.md",
+      "sorted_cybernetics_index": 4,
+      "full_text_read": true,
+      "line_count": 1606,
+      "bytes": 117614,
+      "sha256": "1b226e0a9379b3cc50d9d84761ec48c49e38c6abac197a702fb0d22993afa975",
+      "read_ranges": [
+        "1-400",
+        "401-800",
+        "801-1200",
+        "1201-1606"
+      ],
+      "repaired_ranges": [],
+      "scope": "provided Markdown incl appendices; not proof certification",
+      "reviewer": "foundations",
+      "physical_newline_count": 1606,
+      "python_splitlines_count": 1606,
+      "line_numbering": "Python splitlines",
+      "id": "C04"
+    },
+    {
+      "source_relative_path": "theses/source/CYBERNETICS/05 adaptation_control_complex_systems.md",
+      "sorted_cybernetics_index": 5,
+      "full_text_read": true,
+      "line_count": 692,
+      "bytes": 46099,
+      "sha256": "c89eac2bc8571ec341b87fef7f8b7d40a1e4dab2ef0cfd4b76c117bbfcd8617f",
+      "read_ranges": [
+        "1-350",
+        "351-692"
+      ],
+      "repaired_ranges": [],
+      "scope": "provided Markdown incl appendices; not proof certification",
+      "reviewer": "foundations",
+      "physical_newline_count": 692,
+      "python_splitlines_count": 692,
+      "line_numbering": "Python splitlines",
+      "id": "C05"
+    },
+    {
+      "source_relative_path": "theses/source/CYBERNETICS/06 complex_systems_modelling.md",
+      "sorted_cybernetics_index": 6,
+      "full_text_read": true,
+      "line_count": 895,
+      "bytes": 48688,
+      "sha256": "7f92fe6177f848057a9280d61850006319936403342a39c45ddde558016089aa",
+      "read_ranges": [
+        "1-450",
+        "451-895"
+      ],
+      "repaired_ranges": [],
+      "scope": "provided Markdown incl appendices; not proof certification",
+      "reviewer": "foundations",
+      "physical_newline_count": 895,
+      "python_splitlines_count": 895,
+      "line_numbering": "Python splitlines",
+      "id": "C06"
+    },
+    {
+      "source_relative_path": "theses/source/CYBERNETICS/07 reinforcement_learning_categorical_cybernetics.md",
+      "sorted_cybernetics_index": 7,
+      "full_text_read": true,
+      "line_count": 1201,
+      "bytes": 68153,
+      "sha256": "f8f0718504c6db854bb6dd1889ba46b6dc617b18a1ad7bec760ec85461d94230",
+      "read_ranges": [
+        "1-400",
+        "401-800",
+        "801-1201"
+      ],
+      "repaired_ranges": [],
+      "scope": "provided Markdown incl appendices; not proof certification",
+      "reviewer": "foundations",
+      "physical_newline_count": 1201,
+      "python_splitlines_count": 1201,
+      "line_numbering": "Python splitlines",
+      "id": "C07"
+    },
+    {
+      "source_relative_path": "theses/source/CYBERNETICS/08 agent_cybernetics.md",
+      "sorted_cybernetics_index": 8,
+      "full_text_read": true,
+      "line_count": 1093,
+      "bytes": 84632,
+      "sha256": "532a1edca78d2cd1fd627f73734af5f75dd079145cd3f514196c5c39b7f909df",
+      "read_ranges": [
+        "1-365",
+        "366-730",
+        "731-1093"
+      ],
+      "repaired_ranges": [],
+      "scope": "provided Markdown incl appendices; not proof certification",
+      "reviewer": "foundations",
+      "physical_newline_count": 1093,
+      "python_splitlines_count": 1093,
+      "line_numbering": "Python splitlines",
+      "id": "C08"
+    },
+    {
+      "source_relative_path": "theses/source/CYBERNETICS/08 limits_controllability_quantum_systems.md",
+      "sorted_cybernetics_index": 9,
+      "full_text_read": true,
+      "line_count": 651,
+      "bytes": 35771,
+      "sha256": "c62bd139dbe0c90e021f51f2e20a7aa72b54146874a8abf889f1365577ed48be",
+      "read_ranges": [
+        "1-330",
+        "331-651"
+      ],
+      "repaired_ranges": [],
+      "scope": "provided Markdown incl appendices; not proof certification",
+      "reviewer": "foundations",
+      "physical_newline_count": 651,
+      "python_splitlines_count": 651,
+      "line_numbering": "Python splitlines",
+      "id": "C09"
+    },
+    {
+      "source_relative_path": "theses/source/CYBERNETICS/09 cybernetics_future_work.md",
+      "sorted_cybernetics_index": 10,
+      "full_text_read": true,
+      "line_count": 437,
+      "bytes": 23504,
+      "sha256": "80c271ea38aa58d80fa3a918d4b70eaccac741a59411833ebaea6ee9556c0093",
+      "read_ranges": [
+        "1-437"
+      ],
+      "repaired_ranges": [],
+      "scope": "provided Markdown incl appendices; not proof certification",
+      "reviewer": "foundations",
+      "physical_newline_count": 437,
+      "python_splitlines_count": 437,
+      "line_numbering": "Python splitlines",
+      "id": "C10"
+    },
+    {
+      "source_relative_path": "theses/source/CYBERNETICS/10 complexity_control.md",
+      "sorted_cybernetics_index": 11,
+      "full_text_read": true,
+      "line_count": 558,
+      "bytes": 46663,
+      "sha256": "5fb4750abd6893daf9c1bc2b25c6b7d3d7e43c9e071965365c468c44bdd7c69b",
+      "read_ranges": [
+        "1-280",
+        "281-558"
+      ],
+      "repaired_ranges": [],
+      "scope": "provided Markdown incl appendices; not proof certification",
+      "reviewer": "foundations",
+      "physical_newline_count": 558,
+      "python_splitlines_count": 558,
+      "line_numbering": "Python splitlines",
+      "id": "C11"
+    },
+    {
+      "source_relative_path": "theses/source/CYBERNETICS/11 information_computation_cognition.md",
+      "sorted_cybernetics_index": 12,
+      "full_text_read": true,
+      "line_count": 29,
+      "bytes": 12888,
+      "sha256": "b464a1acccd6676176999e7a3a0692cf1f884b6f68e012feb588286bbdd1aa5f",
+      "read_ranges": [
+        "1-29"
+      ],
+      "repaired_ranges": [],
+      "scope": "provided Markdown incl appendices; not proof certification",
+      "reviewer": "foundations",
+      "physical_newline_count": 29,
+      "python_splitlines_count": 29,
+      "line_numbering": "Python splitlines",
+      "id": "C12"
+    },
+    {
+      "source_relative_path": "theses/source/CYBERNETICS/12 computing_with_space_bateson.md",
+      "sorted_cybernetics_index": 13,
+      "full_text_read": true,
+      "line_count": 3330,
+      "bytes": 136202,
+      "sha256": "3b6dde7fa8a68b9b1d0a287d797ed4148a60fefaec1bf26ef8cff2e18ad64161",
+      "read_ranges": [
+        "1-670",
+        "671-1340",
+        "1341-2010",
+        "2011-2680",
+        "2681-3330"
+      ],
+      "repaired_ranges": [],
+      "scope": "provided Markdown incl appendices; not proof certification",
+      "reviewer": "foundations",
+      "physical_newline_count": 3330,
+      "python_splitlines_count": 3330,
+      "line_numbering": "Python splitlines",
+      "id": "C13"
+    },
+    {
+      "index": 13,
+      "source_relative_path": "theses/source/CYBERNETICS/13 cybernetic_governance.md",
+      "full_text_read": true,
+      "line_count": 642,
+      "sha256": "1b45bafb8808eef7dafb9e726b1ca79c4bc454819c91f0b2d0350ee7fe719f49",
+      "repaired_ranges": [
+        {
+          "start": 300,
+          "end": 345
+        }
+      ],
+      "scope": "Complete provided Markdown, including references and appendices; full-text reading, not independent proof certification or original-PDF visual verification.",
+      "reviewer": "feedback",
+      "physical_newline_count": 642,
+      "python_splitlines_count": 642,
+      "line_numbering": "Python splitlines",
+      "id": "C14",
+      "bytes": 38237
+    },
+    {
+      "index": 14,
+      "source_relative_path": "theses/source/CYBERNETICS/14 ai_agents_social_behavioral_history.md",
+      "full_text_read": true,
+      "line_count": 2156,
+      "sha256": "49762f67a7ef3896c7224058889ded32e2dca67b91744580eca0185d69316cb4",
+      "repaired_ranges": [
+        {
+          "start": 881,
+          "end": 1168
+        }
+      ],
+      "scope": "Complete provided Markdown, including references and appendices; full-text reading, not independent proof certification or original-PDF visual verification.",
+      "reviewer": "feedback",
+      "physical_newline_count": 2156,
+      "python_splitlines_count": 2156,
+      "line_numbering": "Python splitlines",
+      "id": "C15",
+      "bytes": 102326
+    },
+    {
+      "index": 15,
+      "source_relative_path": "theses/source/CYBERNETICS/15 Strategic_Classification.md",
+      "full_text_read": true,
+      "line_count": 1376,
+      "sha256": "e641278e71f98345cb8880fa1a644e9200ae3fda101a1ae7c13af28a23300393",
+      "repaired_ranges": [],
+      "scope": "Complete provided Markdown, including references and appendices; full-text reading, not independent proof certification or original-PDF visual verification.",
+      "reviewer": "feedback",
+      "physical_newline_count": 1376,
+      "python_splitlines_count": 1376,
+      "line_numbering": "Python splitlines",
+      "id": "C16",
+      "bytes": 63878
+    },
+    {
+      "index": 16,
+      "source_relative_path": "theses/source/CYBERNETICS/16 Delayed_Impact_of_Fair_Machine_Learning.md",
+      "full_text_read": true,
+      "line_count": 2301,
+      "sha256": "8996fdeaa2bcadb61d1b531e77b26611d547a607fb9a5b5bcd9dfbafccab6847",
+      "repaired_ranges": [],
+      "scope": "Complete provided Markdown, including references and appendices; full-text reading, not independent proof certification or original-PDF visual verification.",
+      "reviewer": "feedback",
+      "physical_newline_count": 2301,
+      "python_splitlines_count": 2301,
+      "line_numbering": "Python splitlines",
+      "id": "C17",
+      "bytes": 97035
+    },
+    {
+      "index": 17,
+      "source_relative_path": "theses/source/CYBERNETICS/17 Broader_View_on_Bias_ADM_Dynamics.md",
+      "full_text_read": true,
+      "line_count": 505,
+      "sha256": "eed3b83ec4e2e43a53a35fb5e27e509e330de08363a8c5b5c83cd256a46cb440",
+      "repaired_ranges": [],
+      "scope": "Complete provided Markdown, including references and appendices; full-text reading, not independent proof certification or original-PDF visual verification.",
+      "reviewer": "feedback",
+      "physical_newline_count": 505,
+      "python_splitlines_count": 505,
+      "line_numbering": "Python splitlines",
+      "id": "C18",
+      "bytes": 25754
+    },
+    {
+      "index": 18,
+      "source_relative_path": "theses/source/CYBERNETICS/18 Performative_Prediction.md",
+      "full_text_read": true,
+      "line_count": 2029,
+      "sha256": "86507b6f358ea55c2ae4b54b08f79d71e194057909500342e12245bf3f2ded77",
+      "repaired_ranges": [],
+      "scope": "Complete provided Markdown, including references and appendices; full-text reading, not independent proof certification or original-PDF visual verification.",
+      "reviewer": "feedback",
+      "physical_newline_count": 2029,
+      "python_splitlines_count": 2029,
+      "line_numbering": "Python splitlines",
+      "id": "C19",
+      "bytes": 88898
+    },
+    {
+      "index": 19,
+      "source_relative_path": "theses/source/CYBERNETICS/19 Breaking_Feedback_Loops_Recommender_Systems.md",
+      "full_text_read": true,
+      "line_count": 1392,
+      "sha256": "9be042ceafe7f6d8113e38257ed8f215ba46fa85e0a2a1099242b30eab2cd963",
+      "repaired_ranges": [],
+      "scope": "Complete provided Markdown, including references and appendices; full-text reading, not independent proof certification or original-PDF visual verification.",
+      "reviewer": "feedback",
+      "physical_newline_count": 1392,
+      "python_splitlines_count": 1392,
+      "line_numbering": "Python splitlines",
+      "id": "C20",
+      "bytes": 68432
+    },
+    {
+      "index": 20,
+      "source_relative_path": "theses/source/CYBERNETICS/20 Data_Feedback_Loops_Model_Driven_Amplification.md",
+      "full_text_read": true,
+      "line_count": 2376,
+      "sha256": "4dc11b495d7e1d9ac4b25fe22d6a6d3a8a2c5aa4cdd394c64b74a417bd82b843",
+      "repaired_ranges": [],
+      "scope": "Complete provided Markdown, including references and appendices; full-text reading, not independent proof certification or original-PDF visual verification.",
+      "reviewer": "feedback",
+      "physical_newline_count": 2376,
+      "python_splitlines_count": 2376,
+      "line_numbering": "Python splitlines",
+      "id": "C21",
+      "bytes": 111078
+    },
+    {
+      "index": 21,
+      "source_relative_path": "theses/source/CYBERNETICS/21 Classification_of_Feedback_Loops_ADM.md",
+      "full_text_read": true,
+      "line_count": 894,
+      "sha256": "36061d9d694188d8966829c8eab4ccf02f5d7e5f711c0ec32029c76b6691ec8c",
+      "repaired_ranges": [
+        {
+          "start": 190,
+          "end": 250
+        }
+      ],
+      "scope": "Complete provided Markdown, including references and appendices; full-text reading, not independent proof certification or original-PDF visual verification.",
+      "reviewer": "feedback",
+      "physical_newline_count": 894,
+      "python_splitlines_count": 894,
+      "line_numbering": "Python splitlines",
+      "id": "C22",
+      "bytes": 83981
+    },
+    {
+      "index": 22,
+      "source_relative_path": "theses/source/CYBERNETICS/22 Performative_Prediction_Past_and_Future.md",
+      "full_text_read": true,
+      "line_count": 1560,
+      "sha256": "c8b230d77e367aaf7146dd08dd9469360ef7e64031f458b14f754643d45f69b0",
+      "repaired_ranges": [],
+      "scope": "Complete provided Markdown, including references and appendices; full-text reading, not independent proof certification or original-PDF visual verification.",
+      "reviewer": "feedback",
+      "physical_newline_count": 1560,
+      "python_splitlines_count": 1566,
+      "line_numbering": "physical newline-delimited",
+      "id": "C23",
+      "bytes": 108703
+    },
+    {
+      "index": 23,
+      "source_relative_path": "theses/source/CYBERNETICS/23 Interference_Data_Training_Loops_AB_Tests.md",
+      "full_text_read": true,
+      "line_count": 1114,
+      "sha256": "b21dfe3de5445b0b7a4f1ffd4643b2b83cd7725cc94ac725c57be412be63d008",
+      "repaired_ranges": [],
+      "scope": "Complete provided Markdown, including references and appendices; full-text reading, not independent proof certification or original-PDF visual verification.",
+      "reviewer": "feedback",
+      "physical_newline_count": 1114,
+      "python_splitlines_count": 1114,
+      "line_numbering": "Python splitlines",
+      "id": "C24",
+      "bytes": 59915
+    },
+    {
+      "index": 24,
+      "source_relative_path": "theses/source/CYBERNETICS/24 Monitoring_ML_Feedback_Loops_Causal_Estimand.md",
+      "full_text_read": true,
+      "line_count": 934,
+      "sha256": "95847017cb64352855a59f67b39f5d8111a83abff6c9dd8122bbba984408b8f0",
+      "repaired_ranges": [],
+      "scope": "Complete provided Markdown, including references and appendices; full-text reading, not independent proof certification or original-PDF visual verification.",
+      "reviewer": "feedback",
+      "physical_newline_count": 934,
+      "python_splitlines_count": 934,
+      "line_numbering": "Python splitlines",
+      "id": "C25",
+      "bytes": 62951
+    },
+    {
+      "index": 25,
+      "source_relative_path": "theses/source/CYBERNETICS/25 Towards_a_Systems_Theory_of_Algorithms.md",
+      "full_text_read": true,
+      "line_count": 1484,
+      "sha256": "daea5accccbba46cfe305ae77a14fdd575b6a6c1b82ecfa419acb1f64f50ec58",
+      "repaired_ranges": [],
+      "scope": "Complete provided Markdown, including references and appendices; full-text reading, not independent proof certification or original-PDF visual verification.",
+      "reviewer": "feedback",
+      "physical_newline_count": 1484,
+      "python_splitlines_count": 1484,
+      "line_numbering": "Python splitlines",
+      "id": "C26",
+      "bytes": 80372
+    },
+    {
+      "sorted_index_zero_based": 26,
+      "source_relative_path": "theses/source/CYBERNETICS/26 Fairness_Feedback_Loops_OpenReview.md",
+      "full_text_read": true,
+      "line_count": 2506,
+      "line_count_convention": "Physical newline-delimited lines, matching PowerShell Get-Content; embedded OCR form-feed is not an additional line.",
+      "python_splitlines_count": 2506,
+      "embedded_form_feed_count": 0,
+      "sha256": "cc6f13e3d7be810d58b5fe8ab5bffc9c5cbcc382e2083095dad11aa484ac8198",
+      "read_ranges": [
+        [
+          1,
+          600
+        ],
+        [
+          601,
+          1100
+        ],
+        [
+          1101,
+          1800
+        ],
+        [
+          1801,
+          2506
+        ]
+      ],
+      "repaired_ranges": [
+        [
+          239,
+          245
+        ]
+      ],
+      "scope": "Entire provided Markdown, including appendices present in the file; reading is not proof certification; figure pixels and external supplements not inspected.",
+      "limitations": [],
+      "reviewer": "deployment",
+      "physical_newline_count": 2506,
+      "line_numbering": "physical newline-delimited",
+      "id": "C27",
+      "bytes": 96812
+    },
+    {
+      "sorted_index_zero_based": 27,
+      "source_relative_path": "theses/source/CYBERNETICS/27 Practical_Performative_Policy_Learning_Strategic_Agents.md",
+      "full_text_read": true,
+      "line_count": 2138,
+      "line_count_convention": "Physical newline-delimited lines, matching PowerShell Get-Content; embedded OCR form-feed is not an additional line.",
+      "python_splitlines_count": 2162,
+      "embedded_form_feed_count": 24,
+      "sha256": "4f3ce5fe9d42c1fe648002d4085d2d70c293c1bffcdb2ee0f3486bb090e1ee03",
+      "read_ranges": [
+        [
+          1,
+          350
+        ],
+        [
+          351,
+          700
+        ],
+        [
+          701,
+          1050
+        ],
+        [
+          1051,
+          1400
+        ],
+        [
+          1401,
+          1775
+        ],
+        [
+          1776,
+          2138
+        ]
+      ],
+      "repaired_ranges": [],
+      "scope": "Entire provided Markdown, including appendices present in the file; reading is not proof certification; figure pixels and external supplements not inspected.",
+      "limitations": [],
+      "reviewer": "deployment",
+      "physical_newline_count": 2138,
+      "line_numbering": "physical newline-delimited",
+      "id": "C28",
+      "bytes": 122893
+    },
+    {
+      "sorted_index_zero_based": 28,
+      "source_relative_path": "theses/source/CYBERNETICS/28 From_Tea_Leaves_to_System_Maps_ML_Monitoring.md",
+      "full_text_read": true,
+      "line_count": 3371,
+      "line_count_convention": "Physical newline-delimited lines, matching PowerShell Get-Content; embedded OCR form-feed is not an additional line.",
+      "python_splitlines_count": 3371,
+      "embedded_form_feed_count": 0,
+      "sha256": "0f2c0caadd7a4ff75e364a42a541f591b7c20e09256a4b177550cf82ed138285",
+      "read_ranges": [
+        [
+          1,
+          400
+        ],
+        [
+          401,
+          850
+        ],
+        [
+          851,
+          1250
+        ],
+        [
+          1251,
+          1700
+        ],
+        [
+          1701,
+          2150
+        ],
+        [
+          2151,
+          2550
+        ],
+        [
+          2551,
+          2925
+        ],
+        [
+          2926,
+          3371
+        ]
+      ],
+      "repaired_ranges": [],
+      "scope": "Entire provided Markdown, including appendices present in the file; reading is not proof certification; figure pixels and external supplements not inspected.",
+      "limitations": [],
+      "reviewer": "deployment",
+      "physical_newline_count": 3371,
+      "line_numbering": "physical newline-delimited",
+      "id": "C29",
+      "bytes": 171958
+    },
+    {
+      "sorted_index_zero_based": 29,
+      "source_relative_path": "theses/source/CYBERNETICS/29 Order_Flow_Filtration_Directional_Association.md",
+      "full_text_read": true,
+      "line_count": 1191,
+      "line_count_convention": "Physical newline-delimited lines, matching PowerShell Get-Content; embedded OCR form-feed is not an additional line.",
+      "python_splitlines_count": 1191,
+      "embedded_form_feed_count": 0,
+      "sha256": "9f3b8eca89eacf50212499eff43ba28bf30247d5fc2405e701ccffa300d63408",
+      "read_ranges": [
+        [
+          1,
+          350
+        ],
+        [
+          351,
+          750
+        ],
+        [
+          751,
+          1191
+        ]
+      ],
+      "repaired_ranges": [],
+      "scope": "Entire provided Markdown, including appendices present in the file; reading is not proof certification; figure pixels and external supplements not inspected.",
+      "limitations": [],
+      "reviewer": "deployment",
+      "physical_newline_count": 1191,
+      "line_numbering": "physical newline-delimited",
+      "id": "C30",
+      "bytes": 77753
+    },
+    {
+      "sorted_index_zero_based": 30,
+      "source_relative_path": "theses/source/CYBERNETICS/30 Performative_Market_Making.md",
+      "full_text_read": true,
+      "line_count": 1497,
+      "line_count_convention": "Physical newline-delimited lines, matching PowerShell Get-Content; embedded OCR form-feed is not an additional line.",
+      "python_splitlines_count": 1497,
+      "embedded_form_feed_count": 0,
+      "sha256": "9cf4edca60878cc4275936a7e4009eac2b4e673205547480ea761ba90b68de6d",
+      "read_ranges": [
+        [
+          1,
+          375
+        ],
+        [
+          376,
+          750
+        ],
+        [
+          751,
+          1150
+        ],
+        [
+          1151,
+          1497
+        ]
+      ],
+      "repaired_ranges": [],
+      "scope": "Entire provided Markdown, including appendices present in the file; reading is not proof certification; figure pixels and external supplements not inspected.",
+      "limitations": [],
+      "reviewer": "deployment",
+      "physical_newline_count": 1497,
+      "line_numbering": "physical newline-delimited",
+      "id": "C31",
+      "bytes": 82770
+    },
+    {
+      "sorted_index_zero_based": 31,
+      "source_relative_path": "theses/source/CYBERNETICS/31 Nonlinear_Performative_Prediction.md",
+      "full_text_read": true,
+      "line_count": 1386,
+      "line_count_convention": "Physical newline-delimited lines, matching PowerShell Get-Content; embedded OCR form-feed is not an additional line.",
+      "python_splitlines_count": 1436,
+      "embedded_form_feed_count": 50,
+      "sha256": "0eefe99bdafe681d1de5492d3e32c140de3e330c79671d0d8de4f5dcc371577f",
+      "read_ranges": [
+        [
+          1,
+          450
+        ],
+        [
+          451,
+          850
+        ],
+        [
+          851,
+          1386
+        ]
+      ],
+      "repaired_ranges": [],
+      "scope": "Entire provided Markdown, including appendices present in the file; reading is not proof certification; figure pixels and external supplements not inspected.",
+      "limitations": [],
+      "reviewer": "deployment",
+      "physical_newline_count": 1386,
+      "line_numbering": "physical newline-delimited",
+      "id": "C32",
+      "bytes": 60914
+    },
+    {
+      "sorted_index_zero_based": 32,
+      "source_relative_path": "theses/source/CYBERNETICS/32 Robust_RL_in_Finance_Market_Impact.md",
+      "full_text_read": true,
+      "line_count": 2716,
+      "line_count_convention": "Physical newline-delimited lines, matching PowerShell Get-Content; embedded OCR form-feed is not an additional line.",
+      "python_splitlines_count": 2716,
+      "embedded_form_feed_count": 0,
+      "sha256": "225b657c74ec27cddbf5e6f49fde8984cb7f863a11455b59571a1a6c5e188fc5",
+      "read_ranges": [
+        [
+          1,
+          450
+        ],
+        [
+          451,
+          850
+        ],
+        [
+          851,
+          1300
+        ],
+        [
+          1301,
+          1800
+        ],
+        [
+          1801,
+          2250
+        ],
+        [
+          2251,
+          2716
+        ]
+      ],
+      "repaired_ranges": [],
+      "scope": "Entire provided Markdown, including appendices present in the file; reading is not proof certification; figure pixels and external supplements not inspected.",
+      "limitations": [],
+      "reviewer": "deployment",
+      "physical_newline_count": 2716,
+      "line_numbering": "physical newline-delimited",
+      "id": "C33",
+      "bytes": 116294
+    },
+    {
+      "sorted_index_zero_based": 33,
+      "source_relative_path": "theses/source/CYBERNETICS/33 Dissecting_Performative_Prediction_Survey.md",
+      "full_text_read": true,
+      "line_count": 2278,
+      "line_count_convention": "Physical newline-delimited lines, matching PowerShell Get-Content; embedded OCR form-feed is not an additional line.",
+      "python_splitlines_count": 2301,
+      "embedded_form_feed_count": 23,
+      "sha256": "d395e17e4f70a8d0f726bece8cd8be0c1f4357ec1a7a86d823c3a6a72e84aacc",
+      "read_ranges": [
+        [
+          1,
+          400
+        ],
+        [
+          401,
+          800
+        ],
+        [
+          801,
+          1200
+        ],
+        [
+          1201,
+          1600
+        ],
+        [
+          1601,
+          2000
+        ],
+        [
+          2001,
+          2278
+        ]
+      ],
+      "repaired_ranges": [],
+      "scope": "Entire provided Markdown, including appendices present in the file; reading is not proof certification; figure pixels and external supplements not inspected.",
+      "limitations": [],
+      "reviewer": "deployment",
+      "physical_newline_count": 2278,
+      "line_numbering": "physical newline-delimited",
+      "id": "C34",
+      "bytes": 144057
+    },
+    {
+      "sorted_index_zero_based": 34,
+      "source_relative_path": "theses/source/CYBERNETICS/34 Stability_Online_Algorithms_Performative_Prediction.md",
+      "full_text_read": true,
+      "line_count": 787,
+      "line_count_convention": "Physical newline-delimited lines, matching PowerShell Get-Content; embedded OCR form-feed is not an additional line.",
+      "python_splitlines_count": 787,
+      "embedded_form_feed_count": 0,
+      "sha256": "ee77694f9c13f158c7c85889e51d482b864858181ac200d2e340cb0326dd0bcc",
+      "read_ranges": [
+        [
+          1,
+          420
+        ],
+        [
+          421,
+          787
+        ]
+      ],
+      "repaired_ranges": [],
+      "scope": "Entire provided Markdown, including appendices present in the file; reading is not proof certification; figure pixels and external supplements not inspected.",
+      "limitations": [],
+      "reviewer": "deployment",
+      "physical_newline_count": 787,
+      "line_numbering": "physical newline-delimited",
+      "id": "C35",
+      "bytes": 45734
+    },
+    {
+      "sorted_index_zero_based": 35,
+      "source_relative_path": "theses/source/CYBERNETICS/35 Realistic_Market_Impact_RL_Trading_Environments.md",
+      "full_text_read": true,
+      "line_count": 580,
+      "line_count_convention": "Physical newline-delimited lines, matching PowerShell Get-Content; embedded OCR form-feed is not an additional line.",
+      "python_splitlines_count": 580,
+      "embedded_form_feed_count": 0,
+      "sha256": "bec949ce373cf92d99cbab8c5df170ac5998fd180a3db7902d6f05b19d937e33",
+      "read_ranges": [
+        [
+          1,
+          330
+        ],
+        [
+          331,
+          580
+        ]
+      ],
+      "repaired_ranges": [],
+      "scope": "Entire provided Markdown, including appendices present in the file; reading is not proof certification; figure pixels and external supplements not inspected.",
+      "limitations": [],
+      "reviewer": "deployment",
+      "physical_newline_count": 580,
+      "line_numbering": "physical newline-delimited",
+      "id": "C36",
+      "bytes": 29113
+    },
+    {
+      "sorted_index_zero_based": 36,
+      "source_relative_path": "theses/source/CYBERNETICS/36 AI_Systemic_Risk_Financial_Markets.md",
+      "full_text_read": true,
+      "line_count": 2047,
+      "line_count_convention": "Physical newline-delimited lines, matching PowerShell Get-Content; embedded OCR form-feed is not an additional line.",
+      "python_splitlines_count": 2055,
+      "embedded_form_feed_count": 8,
+      "sha256": "ba5b09b1a183ed7c13f1782b8867a4b772cd5511aff6f422f0f8226e191a2115",
+      "read_ranges": [
+        [
+          1,
+          400
+        ],
+        [
+          401,
+          800
+        ],
+        [
+          801,
+          1200
+        ],
+        [
+          1201,
+          1630
+        ],
+        [
+          1631,
+          2047
+        ]
+      ],
+      "repaired_ranges": [],
+      "scope": "Entire provided Markdown, including appendices present in the file; reading is not proof certification; figure pixels and external supplements not inspected.",
+      "limitations": [
+        "External Online Appendices A-G referenced at lines 2045-2046 are absent and were not read."
+      ],
+      "reviewer": "deployment",
+      "physical_newline_count": 2047,
+      "line_numbering": "physical newline-delimited",
+      "id": "C37",
+      "bytes": 107815
+    },
+    {
+      "sorted_index_zero_based": 37,
+      "source_relative_path": "theses/source/CYBERNETICS/37 FinPILOT_Inference_Time_Optimization_RL_Trading.md",
+      "full_text_read": true,
+      "line_count": 1102,
+      "line_count_convention": "Physical newline-delimited lines, matching PowerShell Get-Content; embedded OCR form-feed is not an additional line.",
+      "python_splitlines_count": 1102,
+      "embedded_form_feed_count": 0,
+      "sha256": "16643dfeca0375cb9ce9c0057aea196ea301d04da6604eb6b7e8ac48d2f87353",
+      "read_ranges": [
+        [
+          1,
+          380
+        ],
+        [
+          381,
+          760
+        ],
+        [
+          761,
+          1102
+        ]
+      ],
+      "repaired_ranges": [],
+      "scope": "Entire provided Markdown, including appendices present in the file; reading is not proof certification; figure pixels and external supplements not inspected.",
+      "limitations": [],
+      "reviewer": "deployment",
+      "physical_newline_count": 1102,
+      "line_numbering": "physical newline-delimited",
+      "id": "C38",
+      "bytes": 66011
+    },
+    {
+      "source_relative_path": "theses/source/PHYSICS/01 beta.md",
+      "full_text_read": true,
+      "line_count": 117,
+      "python_splitlines_count": 117,
+      "physical_newline_count": 117,
+      "line_numbering": "Python splitlines",
+      "sha256": "78838c5489e82506a0c6631e0f359dd2d2906fcf7bbb289a55a3061e310e3a24",
+      "reviewer": "root",
+      "read_ranges": [
+        "1-117"
+      ],
+      "repaired_ranges": [],
+      "scope": "Complete provided Markdown; not independent proof or external-supplement verification.",
+      "id": "P01",
+      "bytes": 5763
+    },
+    {
+      "source_relative_path": "theses/source/PHYSICS/02 smart beta.md",
+      "full_text_read": true,
+      "line_count": 161,
+      "python_splitlines_count": 161,
+      "physical_newline_count": 161,
+      "line_numbering": "Python splitlines",
+      "sha256": "26f20ad642da1f9641bc5c5d841b5b2507b821b32a447276fc682d71cac543e5",
+      "reviewer": "root",
+      "read_ranges": [
+        "1-161"
+      ],
+      "repaired_ranges": [],
+      "scope": "Complete provided Markdown; not independent proof or external-supplement verification.",
+      "id": "P02",
+      "bytes": 7546
+    },
+    {
+      "source_relative_path": "theses/source/PHYSICS/03 zureck.md",
+      "full_text_read": true,
+      "line_count": 193,
+      "python_splitlines_count": 193,
+      "physical_newline_count": 193,
+      "line_numbering": "Python splitlines",
+      "sha256": "bbaae911d2709a9517d846eaf2f0db870703bd2debfcd837d2e55c0cd0d27453",
+      "reviewer": "root",
+      "read_ranges": [
+        "1-193"
+      ],
+      "repaired_ranges": [],
+      "scope": "Complete provided Markdown; not independent proof or external-supplement verification.",
+      "id": "P03",
+      "bytes": 6634
+    },
+    {
+      "source_relative_path": "theses/source/PHYSICS/04 zureck vs laplace.md",
+      "full_text_read": true,
+      "line_count": 214,
+      "python_splitlines_count": 214,
+      "physical_newline_count": 214,
+      "line_numbering": "Python splitlines",
+      "sha256": "ead3fe609cf88ab67b3ef4df5a3c1f3d55b99831f10b58b2f0e47411f5974811",
+      "reviewer": "root",
+      "read_ranges": [
+        "1-214"
+      ],
+      "repaired_ranges": [],
+      "scope": "Complete provided Markdown; not independent proof or external-supplement verification.",
+      "id": "P04",
+      "bytes": 6073
+    },
+    {
+      "source_relative_path": "theses/source/PHYSICS/05 zureck vs laplace part 2.md",
+      "full_text_read": true,
+      "line_count": 183,
+      "python_splitlines_count": 183,
+      "physical_newline_count": 183,
+      "line_numbering": "Python splitlines",
+      "sha256": "c93ef38dc3aada14b6ac17b578ed7cdb2586d3a8a2b7002c921261ea56e50f91",
+      "reviewer": "root",
+      "read_ranges": [
+        "1-183"
+      ],
+      "repaired_ranges": [],
+      "scope": "Complete provided Markdown; not independent proof or external-supplement verification.",
+      "id": "P05",
+      "bytes": 6703
+    },
+    {
+      "source_relative_path": "theses/source/PHYSICS/06 stationary time series.md",
+      "full_text_read": true,
+      "line_count": 72,
+      "python_splitlines_count": 72,
+      "physical_newline_count": 72,
+      "line_numbering": "Python splitlines",
+      "sha256": "a6a4dfd063f3b4333847c7c6d8871862c4e3de416a3862715389416b2c50a0b2",
+      "reviewer": "root",
+      "read_ranges": [
+        "1-72"
+      ],
+      "repaired_ranges": [],
+      "scope": "Complete provided Markdown; not independent proof or external-supplement verification.",
+      "id": "P06",
+      "bytes": 3655
+    },
+    {
+      "source_relative_path": "theses/source/PHYSICS/07 trou noir.md",
+      "full_text_read": true,
+      "line_count": 3567,
+      "python_splitlines_count": 3567,
+      "physical_newline_count": 3567,
+      "line_numbering": "Python splitlines",
+      "sha256": "4179c3e65dd55f7db052e9b3904df4c56772aa7cf2d91c2bf2f1dce6c827e304",
+      "reviewer": "root",
+      "read_ranges": [
+        "1-3567"
+      ],
+      "repaired_ranges": [
+        "1356-1422"
+      ],
+      "scope": "Complete provided Markdown; not independent proof or external-supplement verification.",
+      "id": "P07",
+      "bytes": 127027
+    },
+    {
+      "source_relative_path": "theses/source/PHYSICS/08 kinetic_theory_galaxies.md",
+      "full_text_read": true,
+      "line_count": 600,
+      "python_splitlines_count": 600,
+      "physical_newline_count": 600,
+      "line_numbering": "Python splitlines",
+      "sha256": "b31c4c5682d1b1972020a05e0e84501a872d1f2b6ff780cdb63d08418e969f48",
+      "reviewer": "root",
+      "read_ranges": [
+        "1-600"
+      ],
+      "repaired_ranges": [
+        "256-288"
+      ],
+      "scope": "Complete provided Markdown; not independent proof or external-supplement verification.",
+      "id": "P08",
+      "bytes": 46494
+    },
+    {
+      "source_relative_path": "theses/source/PHYSICS/09 ummo.md",
+      "full_text_read": true,
+      "line_count": 950,
+      "python_splitlines_count": 950,
+      "physical_newline_count": 950,
+      "line_numbering": "Python splitlines",
+      "sha256": "1e4f1b44bb78ce09af41a9f4c37bf394684fdc9a9da4b75fc13257ee7df82b94",
+      "reviewer": "root",
+      "read_ranges": [
+        "1-950"
+      ],
+      "repaired_ranges": [],
+      "scope": "Complete provided Markdown; not independent proof or external-supplement verification.",
+      "id": "P09",
+      "bytes": 29252
+    }
+  ],
+  "file_count": 47,
+  "total_physical_lines": 60677,
+  "total_bytes": 3166854,
+  "scope": "Every supplied thesis Markdown document, including text of included appendices and references. Missing external supplements and original figure pixels are not included.",
+  "line_conventions": "Embedded OCR form-feed characters create extra Python splitlines entries in some files. Both physical and Python counts are retained; per-file line_numbering identifies citation convention.",
+  "external_supplements_not_read": [
+    "CYBERNETICS/36 AI_Systemic_Risk_Financial_Markets.md references Online Appendices A-G absent from the provided file."
+  ]
+}

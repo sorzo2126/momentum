@@ -1,0 +1,16 @@
+[
+  {
+    "scheme": "light",
+    "images": 49,
+    "broken": 0,
+    "rawMath": false,
+    "mathBoxes": 0
+  },
+  {
+    "scheme": "dark",
+    "images": 49,
+    "broken": 0,
+    "rawMath": false,
+    "mathBoxes": 0
+  }
+]

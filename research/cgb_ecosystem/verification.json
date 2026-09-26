@@ -1,0 +1,50 @@
+{
+  "checks": [
+    {
+      "check": "quote_units_and_clocks",
+      "status": "PASS",
+      "detail": "Positive uncrossed prices; CGB bid/ask on 0.01 lattice; positive depth; event <= arrival."
+    },
+    {
+      "check": "curve_identities_and_short_history",
+      "status": "PASS",
+      "detail": "Annual effective forwards satisfy discount-ratio identities; swaps exist only in last four TEST sessions."
+    },
+    {
+      "check": "cashflow_curve_and_futures_identities",
+      "status": "PASS",
+      "detail": "Positive decreasing discount factors; dirty = clean + accrued; positive DV01; key-rate sum within C$0.0001 per 100k; YTM inversion; coupon-aware repo carry and cheapest delivery selection."
+    },
+    {
+      "check": "model_and_path_integrity",
+      "status": "PASS",
+      "detail": "Frozen deployment hashes verified; TRAIN-only scenario dates; stochastic matrices; coherent scenario excursions; no hidden truth columns selected."
+    },
+    {
+      "check": "all_forecast_and_cash_ledgers",
+      "status": "PASS",
+      "detail": "Every run: probabilities, indicator identity, quantile order, one-minute delay, no overlap per book, spread counted once, priced-subset mark reconciliation, frozen stress prefix. Aggregate book P&L/drawdown withheld whenever an open trade remains unpriced."
+    },
+    {
+      "check": "missing_targets_remain_visible",
+      "status": "PASS",
+      "detail": "488 published forecasts retained with unavailable future outcomes, excluded explicitly from scoring only."
+    },
+    {
+      "check": "historical_live_replay_matches_batch",
+      "status": "PASS",
+      "detail": "Raw receiver-time replay at first TEST session minute 190 exactly reproduces saved batch probabilities, endpoints and adverse-excursion bounds for all three horizons."
+    },
+    {
+      "check": "feature_prefix_invariance",
+      "status": "PASS",
+      "detail": "Recomputed truncated receiver-time history matches full-run features through the cutoff."
+    },
+    {
+      "check": "provided_notebook_preserved_and_reproduced",
+      "status": "PASS",
+      "detail": "Original notebook SHA unchanged; both normal-scenario variants reproduce identical P&L; only reported ES convention differs."
+    }
+  ],
+  "scope": "Structural/accounting checks on synthetic inputs, not evidence of market alpha."
+}

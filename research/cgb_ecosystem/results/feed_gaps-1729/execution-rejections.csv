@@ -1,0 +1,19 @@
+run,horizon_minutes,strategy,decision_time,reason
+feed_gaps-1729,60,model,2025-02-25 15:10:00+00:00,open_trade_exit_unpriced
+feed_gaps-1729,60,simple_momentum,2025-02-25 15:10:00+00:00,open_trade_exit_unpriced
+feed_gaps-1729,60,always_long,2025-02-19 15:10:00+00:00,open_trade_exit_unpriced
+feed_gaps-1729,60,always_long,2025-02-20 15:10:00+00:00,open_trade_exit_unpriced
+feed_gaps-1729,60,always_long,2025-02-21 15:10:00+00:00,open_trade_exit_unpriced
+feed_gaps-1729,60,always_long,2025-02-24 15:10:00+00:00,open_trade_exit_unpriced
+feed_gaps-1729,60,always_long,2025-02-25 15:10:00+00:00,open_trade_exit_unpriced
+feed_gaps-1729,60,always_long,2025-02-26 15:10:00+00:00,open_trade_exit_unpriced
+feed_gaps-1729,60,always_long,2025-02-27 15:10:00+00:00,open_trade_exit_unpriced
+feed_gaps-1729,60,always_long,2025-02-28 15:10:00+00:00,open_trade_exit_unpriced
+feed_gaps-1729,60,always_short,2025-02-19 15:10:00+00:00,open_trade_exit_unpriced
+feed_gaps-1729,60,always_short,2025-02-20 15:10:00+00:00,open_trade_exit_unpriced
+feed_gaps-1729,60,always_short,2025-02-21 15:10:00+00:00,open_trade_exit_unpriced
+feed_gaps-1729,60,always_short,2025-02-24 15:10:00+00:00,open_trade_exit_unpriced
+feed_gaps-1729,60,always_short,2025-02-25 15:10:00+00:00,open_trade_exit_unpriced
+feed_gaps-1729,60,always_short,2025-02-26 15:10:00+00:00,open_trade_exit_unpriced
+feed_gaps-1729,60,always_short,2025-02-27 15:10:00+00:00,open_trade_exit_unpriced
+feed_gaps-1729,60,always_short,2025-02-28 15:10:00+00:00,open_trade_exit_unpriced

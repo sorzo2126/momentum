@@ -1,0 +1,30 @@
+{
+  "source_path": "C:\\Users\\mn262\\Downloads\\Untitled (1).ipynb",
+  "source_sha256": "b3539322f8fabae175df108f9f73f49cca23423e0c9df860e5a5d5600466844e",
+  "variants": [
+    {
+      "trades": 289,
+      "rfqs": 1231,
+      "fill_rate": 0.2347684809098294,
+      "net_pnl_pct": 26.113004252244,
+      "max_dd_pct": 0.4233965311251589,
+      "es_tick_099_pct": 0.00047122986608083453,
+      "es_day_099_pct": -6.861247857922144,
+      "final_inventory": -6437365.3387596905,
+      "cell": 0,
+      "elapsed_seconds": 4.330418300000019
+    },
+    {
+      "trades": 289,
+      "rfqs": 1231,
+      "fill_rate": 0.2347684809098294,
+      "net_pnl_pct": 26.113004252244,
+      "max_dd_pct": 0.4233965311251589,
+      "es_tick_099_pct": 0.00047122986608083453,
+      "es_day_099_pct": 0.0,
+      "final_inventory": -6437365.3387596905,
+      "cell": 1,
+      "elapsed_seconds": 7.580418700003065
+    }
+  ]
+}

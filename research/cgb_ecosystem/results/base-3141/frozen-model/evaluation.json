@@ -1,0 +1,149 @@
+{
+  "60": {
+    "risk_metrics": {
+      "long": {
+        "coverage_q80": 0.84375,
+        "pinball_q80": 3.174663826394834
+      },
+      "short": {
+        "coverage_q80": 0.7777777777777777,
+        "pinball_q80": 3.2880532993128275
+      }
+    },
+    "experts": {
+      "local": {
+        "log_loss": 1.0545390763300864,
+        "brier": 0.6354212397559137,
+        "endpoint_mae_ticks": 13.153895904295876,
+        "rows": 576,
+        "sessions": 8
+      },
+      "structural": {
+        "log_loss": 1.0268839606736662,
+        "brier": 0.6137060709943316,
+        "endpoint_mae_ticks": 12.38926550408099,
+        "rows": 576,
+        "sessions": 8
+      },
+      "supervised": {
+        "log_loss": 0.9837814343525481,
+        "brier": 0.5888510085017274,
+        "endpoint_mae_ticks": 11.687104328256876,
+        "rows": 576,
+        "sessions": 8
+      },
+      "mixture": {
+        "log_loss": 0.9837814343525481,
+        "brier": 0.5888510085017273,
+        "endpoint_mae_ticks": 11.687104328256876,
+        "rows": 576,
+        "sessions": 8
+      },
+      "train_frequency": {
+        "log_loss": 1.074936188682969,
+        "brier": 0.6512573409636486,
+        "endpoint_mae_ticks": 13.48936631944431,
+        "rows": 576,
+        "sessions": 8
+      }
+    }
+  },
+  "120": {
+    "risk_metrics": {
+      "long": {
+        "coverage_q80": 0.8583333333333334,
+        "pinball_q80": 5.3382171003739725
+      },
+      "short": {
+        "coverage_q80": 0.8354166666666667,
+        "pinball_q80": 4.621573904464823
+      }
+    },
+    "experts": {
+      "local": {
+        "log_loss": 1.0003479876716626,
+        "brier": 0.6045160434051439,
+        "endpoint_mae_ticks": 21.60413533877,
+        "rows": 480,
+        "sessions": 8
+      },
+      "structural": {
+        "log_loss": 1.0027665800323515,
+        "brier": 0.6066030811054904,
+        "endpoint_mae_ticks": 21.678893295809292,
+        "rows": 480,
+        "sessions": 8
+      },
+      "supervised": {
+        "log_loss": 1.0074236937905523,
+        "brier": 0.607935708637549,
+        "endpoint_mae_ticks": 19.749353666349815,
+        "rows": 480,
+        "sessions": 8
+      },
+      "mixture": {
+        "log_loss": 1.0074236937905523,
+        "brier": 0.607935708637549,
+        "endpoint_mae_ticks": 19.749353666349815,
+        "rows": 480,
+        "sessions": 8
+      },
+      "train_frequency": {
+        "log_loss": 1.0134534052671051,
+        "brier": 0.6154976851851853,
+        "endpoint_mae_ticks": 22.1672395833333,
+        "rows": 480,
+        "sessions": 8
+      }
+    }
+  },
+  "240": {
+    "risk_metrics": {
+      "long": {
+        "coverage_q80": 0.8854166666666666,
+        "pinball_q80": 9.97675204742677
+      },
+      "short": {
+        "coverage_q80": 0.8229166666666666,
+        "pinball_q80": 9.605830716882997
+      }
+    },
+    "experts": {
+      "local": {
+        "log_loss": 1.0739431358368812,
+        "brier": 0.6464346635757854,
+        "endpoint_mae_ticks": 35.01466651651175,
+        "rows": 288,
+        "sessions": 8
+      },
+      "structural": {
+        "log_loss": 1.0778549046042856,
+        "brier": 0.6496969908103343,
+        "endpoint_mae_ticks": 35.14011941373119,
+        "rows": 288,
+        "sessions": 8
+      },
+      "supervised": {
+        "log_loss": 1.1303934082910354,
+        "brier": 0.6979390431767135,
+        "endpoint_mae_ticks": 36.02483009930386,
+        "rows": 288,
+        "sessions": 8
+      },
+      "mixture": {
+        "log_loss": 1.0778549046042856,
+        "brier": 0.6496969908103342,
+        "endpoint_mae_ticks": 35.14011941373119,
+        "rows": 288,
+        "sessions": 8
+      },
+      "train_frequency": {
+        "log_loss": 1.0800394550782009,
+        "brier": 0.6531716177983536,
+        "endpoint_mae_ticks": 35.72190473894037,
+        "rows": 288,
+        "sessions": 8
+      }
+    }
+  }
+}

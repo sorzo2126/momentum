@@ -1,0 +1,98 @@
+[
+  {
+    "asset": "equation-d4ddce48104edffd.svg",
+    "latex": "J'(s)=p(s)\\left[1+\\beta(s-c)(1-p(s))\\right]=0."
+  },
+  {
+    "asset": "equation-9505c27cd29b1bc4.svg",
+    "latex": "u_t=\\phi u_{t-1}+0.075\\epsilon^u_t+J^u_t,\r\n\\qquad\r\nc_t=\\phi c_{t-1}+0.085\\epsilon^c_t+J^c_t."
+  },
+  {
+    "asset": "equation-7772ed00d37242c3.svg",
+    "latex": "r^{U}_t=0.22u_t+0.9\\sigma_t\\eta^U_t,"
+  },
+  {
+    "asset": "equation-c668088d5d21b535.svg",
+    "latex": "r^{C}_t=\\beta_t r^{U}_t+\\gamma_t c_t+(b_t-b_{t-1})+0.75\\sigma_t\\eta^C_t."
+  },
+  {
+    "asset": "equation-175931269eee61b5.svg",
+    "latex": "q_t=\\tanh(0.75c_t+0.55u_t+0.4\\epsilon^q_t)."
+  },
+  {
+    "asset": "equation-34a959878ef724d5.svg",
+    "latex": "b_t=\\rho b_{t-1}+\\frac{0.35q_t(1-0.85A_t)}{\\sqrt{L_t}}."
+  },
+  {
+    "asset": "equation-5655789a91169649.svg",
+    "latex": "P_t=\\frac{V^+_t-V^-_t}{V^+_t+V^-_t},\r\n\\qquad\r\n\\widehat A_t=|P_t|\\exp\\left[-\\max\\{\\operatorname{sign}(P_t)Q_t,0\\}\\right]."
+  },
+  {
+    "asset": "equation-4ed8cf9e91bcb1a1.svg",
+    "latex": "z_t(T)=a_t+b_t\\frac{1-e^{-T/\\lambda}}{T/\\lambda}\r\n+c_t\\left(\\frac{1-e^{-T/\\lambda}}{T/\\lambda}-e^{-T/\\lambda}\\right),\r\n\\qquad \\lambda=2.5."
+  },
+  {
+    "asset": "equation-85e8ca0530209574.svg",
+    "latex": "D_t(T)=e^{-Tz_t(T)}."
+  },
+  {
+    "asset": "equation-e02217679993bf57.svg",
+    "latex": "P_t^{\\mathrm{dirty}}=\\sum_j CF_jD_t(T_j),\r\n\\qquad\r\nP_t^{\\mathrm{clean}}=P_t^{\\mathrm{dirty}}-AI_t."
+  },
+  {
+    "asset": "equation-f9c7c6549c8766c1.svg",
+    "latex": "P_t^{\\mathrm{dirty}}=\\sum_j\\frac{CF_j}{(1+y_t/2)^{2T_j}}."
+  },
+  {
+    "asset": "equation-b4309a8046737b89.svg",
+    "latex": "\\operatorname{DV01}_{100k}=1000\\frac{P(z-10^{-4})-P(z+10^{-4})}{2}."
+  },
+  {
+    "asset": "equation-001be96eb7555992.svg",
+    "latex": "\\text{face amount}=100{,}000\\,\r\n\\frac{\\operatorname{DV01}_{\\mathrm{future}}}{\\operatorname{DV01}_{\\mathrm{cash},100k}}."
+  },
+  {
+    "asset": "equation-15f9b0799760c0cb.svg",
+    "latex": "F_i=\\frac{P_i^{\\mathrm{dirty}}e^{r_i\\Delta}\r\n-\\sum_{0<T_j\\leq\\Delta} C_{ij}e^{r_i(\\Delta-T_j)}\r\n-AI_{i,\\mathrm{delivery}}}{CF_i}."
+  },
+  {
+    "asset": "equation-c0ef409ad64a9f9e.svg",
+    "latex": "F^{\\mathrm{fair}}=\\min_i F_i."
+  },
+  {
+    "asset": "equation-ec5d863c4a8f8b65.svg",
+    "latex": "S_t(T_n)=\\frac{1-D_t(T_n)}{\\sum_{j=1}^{n}\\delta_jD_t(T_j)},\r\n\\qquad \\delta_j=1."
+  },
+  {
+    "asset": "equation-5aa631a11283dbda.svg",
+    "latex": "F_t(T,T+1)=\\frac{D_t(T)}{D_t(T+1)}-1."
+  },
+  {
+    "asset": "equation-ce02d2ebe18387f8.svg",
+    "latex": "p(\\text{path }i\\mid x)=p(g_i\\mid x)\\,p(\\text{path }i\\mid g_i,x)."
+  },
+  {
+    "asset": "equation-7e55961980db7424.svg",
+    "latex": "p_i(x)=\\sum_{k=1}^{3}\\omega_k p_{ik}(x),\r\n\\qquad \\omega_k\\geq0,\\quad \\sum_k\\omega_k=1."
+  },
+  {
+    "asset": "equation-6f53cd7a753998cd.svg",
+    "latex": "I_t=p_t(\\mathrm{up})-p_t(\\mathrm{down})."
+  },
+  {
+    "asset": "equation-715d97706023f791.svg",
+    "latex": "\\operatorname{MAE}_{t,h}^{d}=\\max_{0\\leq u\\leq h}\\left[-d\\frac{m_{t+u}-m_t}{\\tau}\\right]_+,\r\n\\qquad d\\in\\{-1,+1\\}."
+  },
+  {
+    "asset": "equation-260655e9284c7520.svg",
+    "latex": "\\operatorname{LogLoss}=-\\frac{1}{N}\\sum_t\\log p_t(y_t),\r\n\\qquad\r\n\\operatorname{Brier}=\\frac{1}{N}\\sum_t\\sum_{k=1}^{3}(p_{t,k}-\\mathbf{1}\\{y_t=k\\})^2."
+  },
+  {
+    "asset": "equation-7f376071bbc671b2.svg",
+    "latex": "\\Pi^{\\mathrm{long}}=\\frac{b_{\\mathrm{exit}}-a_{\\mathrm{entry}}}{\\tau}V_{\\mathrm{tick}}-C,\r\n\\qquad\r\n\\Pi^{\\mathrm{short}}=\\frac{b_{\\mathrm{entry}}-a_{\\mathrm{exit}}}{\\tau}V_{\\mathrm{tick}}-C."
+  },
+  {
+    "asset": "equation-15d549ac48dd2c9e.svg",
+    "latex": "N_{\\mathrm{eff}}=\\frac{1}{\\sum_i p_i^2}."
+  }
+]

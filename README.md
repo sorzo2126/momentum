@@ -6,6 +6,7 @@ A research project for an intraday CGB duration indicator over 60, 120 and 240 m
 
 | Purpose | Open |
 |---|---|
+| Inspect the executed synthetic CAD/US bond ecosystem | [Full simulation report](research/cgb_ecosystem/REPORT.md), [results notebook](research/cgb_ecosystem/simulation-results.ipynb) and [experiment code](research/cgb_ecosystem/simulation/structured_simulation.py) |
 | Add data and improve the model | [Iteration and improvement](docs/12-iteration-and-improvement.md) |
 | Understand each design choice | [First-principles derivation](docs/10-structural-model-derivation.md) |
 | Run the current implementation | [Notebook](notebooks/cgb-conditional-paths.ipynb) and [operating guide](docs/11-running-and-testing.md) |
@@ -26,6 +27,7 @@ A research project for an intraday CGB duration indicator over 60, 120 and 240 m
 | `logic/` | English teaching guide and six complete English physics essays |
 | `archive/` | Earlier design notes, baseline notebook and Step 1 reference code |
 | `data/` | Input instructions; no market dataset |
+| `research/cgb_ecosystem/` | [Complete simulation study](research/cgb_ecosystem/README.md): hypotheses, notebook, report, generator, exact model snapshot, raw histories, fitted models, forecasts, ledgers, plots and audits |
 
 ## Mathematics and code
 
@@ -33,9 +35,9 @@ All explanatory documents are Markdown. Guides 07–10 and 12 embed rendered vec
 
 The current notebook imports the canonical package to avoid implementation drift. Install it with `python -m pip install -e .`; `requirements-tested.txt` records the tested dependency versions. A notebook environment is needed to open `.ipynb` interactively. CPU is the default; CUDA is an explicit configuration choice.
 
-Run `python -m unittest discover -s tests -p test_scenarios.py -v` for the new model and `python tests/verify_pipeline.py` for the earlier measurement/accounting regression checks. See [the verification record](audits/implementation-verification.md) for exact claims and outcomes. Synthetic exercises remain inside tests, not notebook inputs or research results.
+Run `python -m unittest discover -s tests -p test_scenarios.py -v` for the new model and `python tests/verify_pipeline.py` for the earlier measurement/accounting regression checks. See [the verification record](audits/implementation-verification.md) for exact claims and outcomes. The separately labeled synthetic ecosystem experiment now lives together in [research/cgb_ecosystem](research/cgb_ecosystem/README.md); it supplies no real-market validation and does not populate the blank live-market notebook inputs.
 
-The `momentum train`, `momentum forecast` and `momentum show` commands fit an identified experiment, publish a frozen forecast, and read the saved result. The operating guide provides schemas and examples. Fitted artifacts and local market data are ignored by Git.
+The `momentum train`, `momentum forecast` and `momentum show` commands fit an identified experiment, publish a frozen forecast, and read the saved result. The operating guide provides schemas and examples. Live-market datasets and ordinary local fit outputs are ignored by Git. The explicitly published synthetic study includes its fitted artifacts and synthetic inputs.
 
 ## Research boundary
 

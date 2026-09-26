@@ -1,0 +1,55 @@
+{
+  "research": {
+    "grid_minutes": 1,
+    "horizons_minutes": [
+      60,
+      120,
+      240
+    ],
+    "tick_size": 0.01,
+    "tick_value_cad": 10.0,
+    "cgb_stale_seconds": 30.0,
+    "us_stale_seconds": 30.0,
+    "context_stale_seconds": 30.0,
+    "rates_stale_seconds": 300.0,
+    "vwap_stale_seconds": 300.0,
+    "volatility_window": 60,
+    "beta_window": 120,
+    "momentum_windows": [
+      5,
+      15,
+      30,
+      60
+    ],
+    "phase_threshold": 0.75,
+    "efficiency_threshold": 0.35,
+    "neutral_band_sigma": 0.35,
+    "feature_modules": [
+      "cgb",
+      "us",
+      "curve",
+      "book",
+      "vwap"
+    ],
+    "min_train_sessions": 24,
+    "min_cal_sessions": 8,
+    "min_test_sessions": 8,
+    "embargo_minutes": 240,
+    "xgb_device": "cpu",
+    "random_state": 1729
+  },
+  "scenarios": {
+    "decision_step_minutes": 5,
+    "transition_prior_count": 10.0,
+    "neighbor_count": 64,
+    "kernel_floor": 1e-06,
+    "max_flow_delay_seconds": 30.0,
+    "minimum_classified_fraction": 0.8,
+    "recovery_retrace_sigma": 0.75,
+    "recovery_timeout_minutes": 20,
+    "trees": 100,
+    "tree_depth": 2,
+    "learning_rate": 0.03,
+    "random_state": 20260924
+  }
+}

@@ -1,0 +1,27 @@
+const fs=require('fs'),path=require('path'),crypto=require('crypto');
+const {mathjax}=require('mathjax-full/js/mathjax.js');
+const {TeX}=require('mathjax-full/js/input/tex.js');
+const {SVG}=require('mathjax-full/js/output/svg.js');
+const {liteAdaptor}=require('mathjax-full/js/adaptors/liteAdaptor.js');
+const {RegisterHTMLHandler}=require('mathjax-full/js/handlers/html.js');
+const {AllPackages}=require('mathjax-full/js/input/tex/AllPackages.js');
+const katex=require('katex');
+const root=process.env.CGB_SIMULATION_OUTPUT ? path.resolve(process.env.CGB_SIMULATION_OUTPUT) : path.resolve(__dirname,'..');
+const adaptor=liteAdaptor();RegisterHTMLHandler(adaptor);
+const renderer=mathjax.document('',{InputJax:new TeX({packages:AllPackages}),OutputJax:new SVG({fontCache:'local'})});
+const source=fs.readFileSync(path.join(root,'REPORT.md'),'utf8');
+const equations=[];const xml=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+fs.mkdirSync(path.join(root,'equations'),{recursive:true});
+const output=source.replace(/\$\$([\s\S]*?)\$\$/g,(match,body)=>{
+ const tex=body.trim();katex.renderToString(tex,{displayMode:true,throwOnError:true,strict:'ignore'});
+ const name='equation-'+crypto.createHash('sha256').update(tex).digest('hex').slice(0,16)+'.svg';
+ const node=renderer.convert(tex,{display:true});let svg=adaptor.outerHTML(adaptor.firstChild(node));
+ if(svg.includes('data-mjx-error')||svg.includes('data-mml-node="merror"'))throw Error('Invalid equation');
+ svg=svg.replace(/\b(width|height)="([0-9.]+)ex"/g,(_,attr,n)=>`${attr}="${(Number(n)*10).toFixed(2)}"`);
+ svg=svg.replace(/(<svg\b[^>]*>)/,`$1<title>Research equation</title><metadata id="latex-source">${xml(tex)}</metadata><style>svg{color:#202124}@media(prefers-color-scheme:dark){svg{color:#e8eaed}}</style>`);
+ fs.writeFileSync(path.join(root,'equations',name),svg);equations.push({asset:name,latex:tex});
+ return `![Research equation](equations/${name})`;
+});
+if(!equations.length)throw Error('No raw equations found; already rendered?');
+fs.writeFileSync(path.join(root,'REPORT.md'),output);fs.writeFileSync(path.join(root,'equations/source.json'),JSON.stringify(equations,null,2));
+console.log(JSON.stringify({equations:equations.length,checked_with:'KaTeX and MathJax',output:'SVG in Markdown'}));

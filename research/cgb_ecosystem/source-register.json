@@ -1,0 +1,40 @@
+{
+  "checked_on": "2026-09-26",
+  "sources": [
+    {
+      "url": "https://www.bankofcanada.ca/2025/03/staff-analytical-note-2025-10/",
+      "title": "Is anyone surprised? High-frequency US and domestic macro announcements",
+      "verification": "Primary web page opened"
+    },
+    {
+      "url": "https://www.bankofcanada.ca/2018/12/staff-analytical-note-2018-38/",
+      "title": "Does US or Canadian Macro News Drive Canadian Bond Yields?",
+      "verification": "Primary web page opened"
+    },
+    {
+      "url": "https://www.bis.org/publications/paper-25-zero-coupon-yield-curves-technical-documentation",
+      "title": "Zero-coupon yield curves: technical documentation",
+      "verification": "Primary web page opened via legacy redirect"
+    },
+    {
+      "url": "https://www.m-x.ca/en/markets/interest-rate-derivatives/cgb",
+      "title": "CGB contract specifications",
+      "verification": "Official exchange search result retrieved"
+    },
+    {
+      "url": "https://www.m-x.ca/en/markets/interest-rate-derivatives/bond-futures-conversion-factor",
+      "title": "Bond Futures Conversion Factor",
+      "verification": "Official search result retrieved; direct web open blocked"
+    },
+    {
+      "url": "https://www.m-x.ca/f_publications_en/bond_futures_manual_en.pdf",
+      "title": "Pricing Bond Futures",
+      "verification": "Official document search result retrieved; not a full-document review"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.18897",
+      "title": "Generation of synthetic financial time series by diffusion models",
+      "verification": "Primary abstract page opened; abstract-level use only"
+    }
+  ]
+}

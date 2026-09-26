@@ -1,0 +1,12 @@
+{
+  "unchanged_from_prepackaging_manifest": 717,
+  "scope": "All originally inventoried results, plots, equations, reference and example audit files, and root CSV tables remain byte-identical. Source relocation and documentation changes are described in docs/provenance.md.",
+  "relative_links_checked": 105,
+  "broken_relative_links": 0,
+  "frozen_models_loaded_after_relocation": 7,
+  "notebook_code_cells_executed": 11,
+  "notebook_images": 25,
+  "notebook_errors": 0,
+  "light_and_dark_preview_images": 49,
+  "scientific_checks_passed": 9
+}

@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "seeds": [
+    1729,
+    2718,
+    3141
+  ],
+  "sessions": 40,
+  "train_sessions": 24,
+  "calibration_sessions": 8,
+  "test_sessions": 8,
+  "session_minutes": 480,
+  "session_timezone": "America/New_York",
+  "session_open": "08:00",
+  "session_close": "16:00",
+  "horizons_minutes": [
+    60,
+    120,
+    240
+  ],
+  "decision_minutes": 5,
+  "model_trees": 100,
+  "modules": [
+    "cgb",
+    "us",
+    "curve",
+    "book",
+    "vwap"
+  ],
+  "stress_worlds": [
+    "fast_decay",
+    "liquidity_shock",
+    "decoupling",
+    "feed_gaps"
+  ],
+  "entry_delay_minutes": 1,
+  "contracts": 1,
+  "signal_threshold": 0.2,
+  "roundtrip_fee_cad": 4.0,
+  "base_extra_slippage_ticks": 1.0,
+  "stressed_extra_slippage_ticks": 4.0,
+  "costs_are_assumptions": true,
+  "market_calibrated": false,
+  "no_threshold_or_parameter_selection_on_test": true
+}

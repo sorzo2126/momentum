@@ -1,0 +1,5 @@
+# Amendment: continuation versus opposing forecasts
+
+This amendment was specified after E01/E02 completed and before alignment outputs were calculated. Its text was initially appended to the main protocol, then moved here to preserve the original protocol's recorded hash.
+
+Inspect the three saved one-hour TEST worlds without new fitting or policy changes. Define observed momentum from the existing 30-minute standardized move: positive at or above 0.75, negative at or below -0.75, balanced otherwise. Compare forecast direction (sign of the existing up-minus-down indicator) and actual saved trade direction with that observed direction. Label them continuation, opposing, or balanced-origin. Retain an explicit zero-forecast category if present. Report counts, forecast losses, subsequent signed midpoint changes and saved price-touch benchmark P&L. The existing absolute-indicator threshold of 0.2 is descriptive only. These conditional outcome summaries do not establish that adding an alignment filter would improve a strategy; no new policy is selected or evaluated.

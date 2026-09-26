@@ -1,0 +1,167 @@
+{
+  "display_mode": "historical_synthetic_replay",
+  "selection_rule": "First TEST session, 10:30 America/New_York; chosen by clock, not forecast or outcome.",
+  "decision_time": "2025-02-19T15:30:00+00:00",
+  "instrument": "CGB",
+  "contract": "SIM_CGB",
+  "bid": 112.74,
+  "ask": 112.77,
+  "midpoint": 112.755,
+  "tick_size": 0.01,
+  "tick_value_cad_per_contract": 10.0,
+  "run_id": "0c109771-25d5-418f-8aa8-54d76f20a20b",
+  "code_contract_version": "cad-conditional-paths-v1",
+  "state_series_hash": "1252a3113f5bf25ea7005d0ff6a4b8a7545ef0d94a1c39be72d6355780020d99",
+  "model_available_after": "2025-02-18 21:00:00+00:00",
+  "observed_context": {
+    "mom_ticks_5": 15.500000000001537,
+    "mom_ticks_30": 21.50000000000176,
+    "vwap_distance_ticks": 26.900592437709747,
+    "vwap_distance_sigma": 2.163227167355484,
+    "common_ticks_1": -1.5892896227559508,
+    "local_ticks_1": 14.089289622757372,
+    "beta_us_prior": 0.3567955144093231,
+    "cad_us_corr_prior": 0.3607279306107309,
+    "cad_slope25_bp_5": 1.273957757299911,
+    "cad_slope510_bp_5": 1.0229804901917987,
+    "spread_ticks": 3.0000000000001137,
+    "state_age_minutes": 5,
+    "recovery_failures": 0,
+    "recovery_active": 0,
+    "flow_pressure": -0.0799031476997578,
+    "reference_available": true
+  },
+  "data_status": {
+    "CGB": {
+      "event_age_seconds": 1.0,
+      "received_age_seconds": 0.65,
+      "freshness_limit_seconds": 30.0
+    },
+    "US10": {
+      "event_age_seconds": 1.0,
+      "freshness_limit_seconds": 30.0
+    },
+    "CAD_benchmarks": {
+      "event_age_seconds": 1.0,
+      "freshness_limit_seconds": 300.0
+    },
+    "classified_flow": {
+      "available": true,
+      "enabled_in_model": true
+    },
+    "swaps_ois_forwards": {
+      "observed_at_snapshot": false,
+      "enabled_in_model": false
+    },
+    "missing_model_features": [
+      "local_z_30"
+    ],
+    "feature_fraction": 0.9782608695652174,
+    "empirical_reliability_on_live_CAD": "not_established"
+  },
+  "forecasts": [
+    {
+      "decision_time": "2025-02-19T15:30:00+00:00",
+      "p_down": 0.5039083957672119,
+      "p_neutral": 0.1768077611923217,
+      "p_up": 0.3192838430404663,
+      "endpoint_mean_ticks": -3.373535164265914,
+      "endpoint_q10_ticks": -20.593238826393947,
+      "endpoint_q90_ticks": 13.818116795749289,
+      "mae_long_q80_ticks": 17.0411622161606,
+      "mae_short_q80_ticks": 12.361792530235462,
+      "effective_scenarios": 1668.8256866506988,
+      "predictive_entropy": 0.9250131358515388,
+      "expert_disagreement": 0.0014361530244422,
+      "nearest_distance": 0.7011797448132214,
+      "observed_feature_fraction": 0.9782608695652174,
+      "unsupported_future_state_mass": 0.0,
+      "horizon_minutes": 60,
+      "observed_state": "up-responsive",
+      "neutral_band_ticks": 3.052844949901079,
+      "endpoint_mean_price": 112.72126464835733,
+      "endpoint_q10_price": 112.54906761173605,
+      "endpoint_q90_price": 112.8931811679575,
+      "target_time": "2025-02-19T16:30:00+00:00"
+    },
+    {
+      "decision_time": "2025-02-19T15:30:00+00:00",
+      "p_down": 0.43424725248887,
+      "p_neutral": 0.2239606548100107,
+      "p_up": 0.3417920927011192,
+      "endpoint_mean_ticks": -4.141589929160478,
+      "endpoint_q10_ticks": -33.03572489550206,
+      "endpoint_q90_ticks": 20.212626517502425,
+      "mae_long_q80_ticks": 27.88994070963861,
+      "mae_short_q80_ticks": 19.83356424780003,
+      "effective_scenarios": 1364.2493538211936,
+      "predictive_entropy": 0.9687350887972088,
+      "expert_disagreement": 0.0051197334115761,
+      "nearest_distance": 0.6866564139092708,
+      "observed_feature_fraction": 0.9782608695652174,
+      "unsupported_future_state_mass": 0.0,
+      "horizon_minutes": 120,
+      "observed_state": "up-responsive",
+      "neutral_band_ticks": 4.3173747319723175,
+      "endpoint_mean_price": 112.71358410070839,
+      "endpoint_q10_price": 112.42464275104497,
+      "endpoint_q90_price": 112.95712626517502,
+      "target_time": "2025-02-19T17:30:00+00:00"
+    },
+    {
+      "decision_time": "2025-02-19T15:30:00+00:00",
+      "p_down": 0.5393799897842324,
+      "p_neutral": 0.1194800548624968,
+      "p_up": 0.3411399553532707,
+      "endpoint_mean_ticks": -10.708190402278133,
+      "endpoint_q10_ticks": -61.00512030038937,
+      "endpoint_q90_ticks": 31.285647434036537,
+      "mae_long_q80_ticks": 44.76855939353703,
+      "mae_short_q80_ticks": 30.845021655108635,
+      "effective_scenarios": 833.3575457922095,
+      "predictive_entropy": 0.8681036738257797,
+      "expert_disagreement": 0.001800207328505,
+      "nearest_distance": 0.6863491240963344,
+      "observed_feature_fraction": 0.9782608695652174,
+      "unsupported_future_state_mass": 0.0,
+      "horizon_minutes": 240,
+      "observed_state": "up-responsive",
+      "neutral_band_ticks": 6.105689899802158,
+      "endpoint_mean_price": 112.64791809597722,
+      "endpoint_q10_price": 112.1449487969961,
+      "endpoint_q90_price": 113.06785647434036,
+      "target_time": "2025-02-19T19:30:00+00:00"
+    }
+  ],
+  "endpoint_relative_to_observed_leg": {
+    "60": {
+      "observed_leg": "upward",
+      "p_endpoint_continuation": 0.3192838430404663,
+      "p_endpoint_opposite": 0.5039083957672119,
+      "p_endpoint_neutral": 0.1768077611923217,
+      "meaning": "Endpoint beyond the neutral band in the observed leg's direction; not uninterrupted movement or trend survival."
+    },
+    "120": {
+      "observed_leg": "upward",
+      "p_endpoint_continuation": 0.3417920927011192,
+      "p_endpoint_opposite": 0.43424725248887,
+      "p_endpoint_neutral": 0.2239606548100107,
+      "meaning": "Endpoint beyond the neutral band in the observed leg's direction; not uninterrupted movement or trend survival."
+    },
+    "240": {
+      "observed_leg": "upward",
+      "p_endpoint_continuation": 0.3411399553532707,
+      "p_endpoint_opposite": 0.5393799897842324,
+      "p_endpoint_neutral": 0.1194800548624968,
+      "meaning": "Endpoint beyond the neutral band in the observed leg's direction; not uninterrupted movement or trend survival."
+    }
+  },
+  "excluded_columns": [
+    "return_ticks",
+    "mae_long_ticks",
+    "mae_short_ticks",
+    "class_id",
+    "outcome_available",
+    "truth"
+  ]
+}

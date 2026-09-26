@@ -10,12 +10,14 @@ The entire simulation study is collected here: hypotheses, mathematical report, 
 4. [Results interpretation](docs/results-and-limitations.md).
 5. [Reproduction instructions](docs/reproducing.md) and [provenance](docs/provenance.md).
 6. [Full thesis-grounded review](docs/thesis-review/REPORT.md): all 47 source documents, actual component attribution, mathematical derivations, and an [ordered research plan](docs/thesis-review/research-plan.md) for the next synthetic experiments.
+7. [First structure experiments and trader display](experiments/structure-lab-v1/README.md): component attribution, clock/price baselines, continuation versus opposing forecasts, observability experiments, a strict price control, source-code comparison and a read-only trader snapshot.
 
 ## Everything included
 
 | Location | Contents |
 |---|---|
 | `docs/` | Hypotheses, interpretation, reproduction and provenance |
+| `experiments/structure-lab-v1/` | New bounded experiments, raw worlds, comparator fits, audits, reports and trader display; original S0 fits remain unchanged |
 | `simulation/` | Generator, cash-flow valuation, plot/report assembly and verification |
 | `model_snapshot/momentum/` | Exact eight source files used by the fitted models; study commands load this snapshot |
 | `results/` | Every completed run, raw compressed inputs, forecasts, ledgers, fitted models and evaluation tables |

@@ -1,0 +1,4 @@
+seed,horizon_minutes,cal_origins,test_origins,objective,cal_objective,local,structural,supervised_local,supervised_uniform
+1729,60,576,576,mean volatility-normalized marginal CRPS,3.857080767383559,0.0,6.703167311382955e-17,0.9999999999999994,4.440892098500626e-16
+2718,60,576,576,mean volatility-normalized marginal CRPS,4.647245356466494,0.0,0.0,0.9999999999999993,6.10622663543836e-16
+3141,60,576,576,mean volatility-normalized marginal CRPS,5.214211699770729,4.163336342344335e-16,0.0,0.9999999999999996,0.0

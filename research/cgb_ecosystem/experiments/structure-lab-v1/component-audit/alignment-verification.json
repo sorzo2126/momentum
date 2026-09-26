@@ -1,0 +1,16 @@
+{
+  "source_hashes": {
+    "results\\base-1729\\features.csv.gz": "bb18c2b5d329eb17f4fc35f8fd4b7fd9961f35a15998ecae19967cd7ab74954e",
+    "results\\base-1729\\predictions-and-outcomes.csv.gz": "f4225940b10eedcb3b3aa9916721d554f780ad433cb716e3e77737543f71e2fd",
+    "results\\base-1729\\trade-ledger.csv": "a06bbe1a1c18f18305cd043e0451fe562f5b0f79f9bb33b30d9d11b04146ce61",
+    "results\\base-2718\\features.csv.gz": "fb21186df12e505f858dc7702f2cff7c10c92e1f42d0071d1c1323f5eb4acf2f",
+    "results\\base-2718\\predictions-and-outcomes.csv.gz": "db42c5d8250cde42c520c33b15d73d1143eab8fcebdb6491f4e5a3042e2d36ce",
+    "results\\base-2718\\trade-ledger.csv": "d203516dd53c93675191c1d896bdf5ff012a29b65ff7773f9165814318aceef4",
+    "results\\base-3141\\features.csv.gz": "01a7e5925c5d2fb596e0a60514b6f3d8ede67a46c8f997098af113a52267d29b",
+    "results\\base-3141\\predictions-and-outcomes.csv.gz": "ed17b6908a0c01d0456539300df7bf1c9472147819dffb44a38c9ad48bef3073",
+    "results\\base-3141\\trade-ledger.csv": "083ace1e2d9b16013dd18511a4e0181b1766fd8a93ae07396ce2d5f9a5a2dda0"
+  },
+  "sources_unchanged": true,
+  "classification": "Existing absolute 30-minute momentum threshold 0.75; existing forecast sign; no new trades or filter",
+  "script_sha256": "5764abb916a53f572764812dbd8c5143a87ad95496976de9be14b2e5b9080a5a"
+}

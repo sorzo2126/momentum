@@ -1270,6 +1270,11 @@
       "sha256": "539992628f18385bf2b9dcee2b10cc123ae1875aaedc619076ed6cd8ba2616d3"
     },
     {
+      "path": "docs/trader-use.md",
+      "bytes": 14327,
+      "sha256": "503bea68df0341b87737641763bed263347467599510422a7c2a8870200c2053"
+    },
+    {
       "path": "equations/equation-001be96eb7555992.svg",
       "bytes": 14454,
       "sha256": "7425cbebd2c3fa823e74e43775a2523d7df63433d280b2faff41f4e24d59b888"
@@ -1413,6 +1418,501 @@
       "path": "execution-summary.csv",
       "bytes": 26069,
       "sha256": "475267df5bb62c5a5104c11a0a75d764e36db89113ed16e6d0c0add5b86eace9"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/alignment-forecast-summary.csv",
+      "bytes": 836,
+      "sha256": "6127aafe48e8b0b10fde1ee544f6a125641a6c50ac60882a0cf7ccd06a3c5669"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/alignment-forecasts.csv.gz",
+      "bytes": 387856,
+      "sha256": "1bef51cf1205232670b4e5c87642299bbdeacd796be635c8cdea548757e4ea89"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/alignment-protocol.md",
+      "bytes": 1076,
+      "sha256": "efebd8d2820dab6c64a867f129d43365ef1302b886e7f59b2bb1e6b7ab62ed78"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/alignment-trade-summary.csv",
+      "bytes": 578,
+      "sha256": "456aeaea77de121f0eda32772a5368aafe964e8eb5d6318a09b8495f0e67b0e0"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/alignment-trades.csv",
+      "bytes": 36486,
+      "sha256": "cdd30e106f88c8504779fcc8a80bdf86c91d471ededc5ae329d7f59bbe5249dd"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/alignment-verification.json",
+      "bytes": 1334,
+      "sha256": "a6ccad734054a6221d553c5fec0a7e1e11c0db4e26ee9687f33923145f395c38"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/alignment_audit.py",
+      "bytes": 3436,
+      "sha256": "5764abb916a53f572764812dbd8c5143a87ad95496976de9be14b2e5b9080a5a"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/baseline-comparison.png",
+      "bytes": 164841,
+      "sha256": "79e2757a0707157f340201ef2ea24bc1a63703148ce728c7438c22053578d359"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/baseline-paired-differences.csv",
+      "bytes": 17840,
+      "sha256": "218c739f21da9edb21597f6746f14ced4d519111ab004b79d0653c97d9065be5"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/baseline-scores-per-origin.csv.gz",
+      "bytes": 443155,
+      "sha256": "3a25ae648359dd23869d1721a1720ef818af4d3304fca16e489ba94a957f699e"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/baseline-scores-per-session.csv",
+      "bytes": 49534,
+      "sha256": "8650809fcd1d0cd746b0dc0df72586bd3e354238dc216822771509dd1ceed202"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/baseline-summary.csv",
+      "bytes": 5438,
+      "sha256": "6d7a3933cc3d70d3042fd24180f540faa6ce79088797d27240ba0702b1f694c3"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/cal-path-mixture-weights.csv",
+      "bytes": 516,
+      "sha256": "b77440027ff1d9244bd9718a1592f8f773c8d6e7645ba0fb0f8a0ecd5a9b5106"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/feature-columns.json",
+      "bytes": 5045,
+      "sha256": "95e4546ed92224b1f56ce01dae153c91d57d6d104ab43aee31fb2f40e638875d"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/1729-120-clock_only.json",
+      "bytes": 219210,
+      "sha256": "d5183f1deb58c0c6b226c1642c88b14e8e39745c818507747e88e4922c3dd862"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/1729-120-price_only.json",
+      "bytes": 221940,
+      "sha256": "6c002af3b85e4c3a63fb20da2769a1b72fa116086276b6f40929fcca0e082248"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/1729-240-clock_only.json",
+      "bytes": 212163,
+      "sha256": "b03928129b77613febebc5380ea48622bb81303e991c4ebcf203e55fc8b7335d"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/1729-240-price_only.json",
+      "bytes": 227553,
+      "sha256": "5a08039ae4d1523c10b02d8eac263fb76d13ac361dd64ac60d506a6d02d6ee25"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/1729-60-clock_only.json",
+      "bytes": 227836,
+      "sha256": "b9385cc51a61e582c0bc272ada7f06d7a658b831743c1bd24318840866985d11"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/1729-60-price_only.json",
+      "bytes": 229594,
+      "sha256": "e6f5c74cfd7f3b1137af0fc08b03c7bef972ed08a126ae98088b3aa7338fb372"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/2718-120-clock_only.json",
+      "bytes": 222024,
+      "sha256": "e07bb0af78bc394a07903ac4d41a1af1f946d0c2d3870ef54b3866ce5b89db44"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/2718-120-price_only.json",
+      "bytes": 229724,
+      "sha256": "8c7c43c9c20a7b9b48f3e777d5e1da8d1846a2fda6ca0621c6fdcb87cfe6309f"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/2718-240-clock_only.json",
+      "bytes": 210665,
+      "sha256": "c45d5c38373cd7cccb44a4bf764f2ee2fc5cd97f8b12778d7ba239ccbee7a2c6"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/2718-240-price_only.json",
+      "bytes": 224845,
+      "sha256": "92f7491de6113927eaa965a5fc19e94bde38d786c877b86e2fe6461b49944b37"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/2718-60-clock_only.json",
+      "bytes": 227250,
+      "sha256": "ba85dcf361a46ad39e6ccc2115307486d17e10c465adf6428cff6ab902d93c24"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/2718-60-price_only.json",
+      "bytes": 223375,
+      "sha256": "f182a7a34bd12242f261d16c1d1d615fc690b999ee8719149f51f3bfe7e4a3ac"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/3141-120-clock_only.json",
+      "bytes": 223479,
+      "sha256": "e1910b6dd0f20293e5c72814188916eed1050cc2b0e48eb9cd1030e8f3f8b04c"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/3141-120-price_only.json",
+      "bytes": 229072,
+      "sha256": "9c6579a98070b13bc9b65c45ebc9fe065a05af03fa8f7acf1ac3c242d7a16b88"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/3141-240-clock_only.json",
+      "bytes": 212469,
+      "sha256": "e2a563843c99a4f1f74d72287fbf65955f7cd27670c1d9b579b2de3889bb09c6"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/3141-240-price_only.json",
+      "bytes": 220115,
+      "sha256": "c52feec18ca086d049e14146cc507119a7704b41a32713b8ee9f6e5971123f19"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/3141-60-clock_only.json",
+      "bytes": 226530,
+      "sha256": "3a41ca5f5e38411f7d56f27ba18cdd57efb20639ac9c06edc0d58345c2a68d50"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/fitted-baselines/3141-60-price_only.json",
+      "bytes": 224765,
+      "sha256": "0df717c0ee3de5570e6dff2fdf1af8da09f5a9f4a53a8b17b6a93f3498ade7f9"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/path-attribution.png",
+      "bytes": 80263,
+      "sha256": "bcfd8934cb781ea5b728e04ff5ae519491dfa36eb59f69af2a9cb05c82208383"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/path-paired-differences.csv",
+      "bytes": 12285,
+      "sha256": "5d05c181c747ebe4b0bbc993a3c9435aede76a0050fe946b35a273d1ee0d9baa"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/path-scores-per-origin.csv.gz",
+      "bytes": 652186,
+      "sha256": "266f4a409e88ff71fa590556affd8c5b0e0abba00ea559d3bc2e4024f871cac0"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/path-scores-per-session.csv",
+      "bytes": 28943,
+      "sha256": "7fab8ee2456ff29b9389327840690f386da9fa71065eb3c1e2c8c61c17a7d253"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/path-summary.csv",
+      "bytes": 3563,
+      "sha256": "b4f8444d87fe1d4a937fc909730479606167452a3ebf76f1ccbe0803fc44ff6f"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/protocol.md",
+      "bytes": 3605,
+      "sha256": "cfc1c1026a697b671e3b01cd920df700888d8dd06de3687f6f00058c90392a3d"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/README.md",
+      "bytes": 1673,
+      "sha256": "3082a179846232be9ccf70a89863a09af61cf294c10011b962d06d5d512c20f8"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/report.md",
+      "bytes": 11193,
+      "sha256": "26edca8a45e66b2519074464ca5b47a1d35338b177d690e9fc6eb3c81ecf1ba9"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/run_audit.py",
+      "bytes": 16055,
+      "sha256": "21372eeeb026a015d417897c894b18be379cd70c75e98837498a0163220d65c7"
+    },
+    {
+      "path": "experiments/structure-lab-v1/component-audit/verification.json",
+      "bytes": 30056,
+      "sha256": "dcdd43be03f16628a82da68d65e45bcce5b775aecf9ab843114d4d1936660469"
+    },
+    {
+      "path": "experiments/structure-lab-v1/docs/fractal-structure.md",
+      "bytes": 21926,
+      "sha256": "f82242eb1f29a648b89747697ba97ad3ff979bb59fd0afda9a69d9fcbe13c6a0"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/audit_independent.py",
+      "bytes": 7425,
+      "sha256": "7c83fb49de3aa9ac75b396404e5a3d3f58abf7703011b5f35fa5d6ecde8d800d"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/equations/equation-49b6365a8ec8ab20.svg",
+      "bytes": 11702,
+      "sha256": "f9d9c182d3b351b8caecd69265bfe7da56384e286feafc9ea333e1e8c69639c5"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/equations/equation-71c74ea9f7fe37d8.svg",
+      "bytes": 11140,
+      "sha256": "e4e747b3870880cbcf6b368f70350f2c6f9ae99257dd1c6aef3668ba6d0e16d2"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/equations/equation-73aff6ebb818772d.svg",
+      "bytes": 11668,
+      "sha256": "3e209ffe6d62d0cd5e5576263001a5c5ee380182474fdd997ed7896436914594"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/equations/equation-ce295e3f59c582a0.svg",
+      "bytes": 8488,
+      "sha256": "6972014e319e788d322d571b654c3f7d345a509d1a61ba3fc07a6889513d6f25"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/equations/source.json",
+      "bytes": 593,
+      "sha256": "03b1b227919d5b9c90ad70d2a19343215e3436012069aa918019730884966760"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/figures/01-observability-gap.png",
+      "bytes": 96087,
+      "sha256": "63e48f116625aca9c830fb87e3b6ab84199def3ca53c78de0d39afcc87dd41b6"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/figures/02-observable-twins.png",
+      "bytes": 168572,
+      "sha256": "234429b5a74ecb0f0433da2c1f0b350d98917941059e846884296b9344638796"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/figures/03-martingale-control.png",
+      "bytes": 111907,
+      "sha256": "e3ff19cc439fac405ef4a39e8dae501981a438831713443aa08d67a4f211687b"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/independent-audit.json",
+      "bytes": 4730,
+      "sha256": "68699ddd3aa985b9b5123a0ab05857fc05d63f998e1da980bf769b2f27fa5f90"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/independent-audit.md",
+      "bytes": 7514,
+      "sha256": "057f8d9a6916967f687c3df56e02203d15695b843509dfa9402fe188215dbc72"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/protocol.json",
+      "bytes": 3317,
+      "sha256": "50518dcbb6a1d19ace1e0aca9bbc28dc31ea7ec3a0c3428f992eb22cc0b821e4"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/REPORT.md",
+      "bytes": 10469,
+      "sha256": "f23ce158ed7eb773a45f5502e0267d19c5ad3213fe4548f76723833d29ce9ecb"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/cal-worlds.npz",
+      "bytes": 614096,
+      "sha256": "730a50402ef43264cf2c340ced211925715a74970a0d91b77bd9b2ab167c9f0e"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/COMPLETE.json",
+      "bytes": 187,
+      "sha256": "98240ce41789709574e2023b5ac2039640d30724574b9a3905e5dca70d6c21a7"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/forecast-rows.csv.gz",
+      "bytes": 12075052,
+      "sha256": "0545c29a004ed5231c1afe16340765560e9c2571ff1800b6b746bed79a44124e"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/forecast-summary.csv",
+      "bytes": 7520,
+      "sha256": "dde114125c8954d65e2017a98ac75f1565333e6a75c1fa8e5419b4348dd21654"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/martingale-ledger.csv.gz",
+      "bytes": 412816,
+      "sha256": "ea9d7b49c0f5ca326345308f2ff91b779bd47bdec97629ea1877ed1310be3cdf"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/martingale-per-world.csv",
+      "bytes": 271022,
+      "sha256": "f52fda869539546afe29adb04b0efa051195a53c16ff9d9f1c9b2f4f5de1426a"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/martingale-summary.csv",
+      "bytes": 830,
+      "sha256": "ab2bc933a70a52a8d8fb4b3a3db26d995b4c29a2978743534213b751b36cb7f8"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/martingale-worlds.npz",
+      "bytes": 325979,
+      "sha256": "719d18b87e1d1eca938df8f542987fe90eac902601f8509d6cecd6f445e38ca0"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/paired-gaps.csv",
+      "bytes": 4330,
+      "sha256": "f431c1e57fa1ea32f05f77072a900ef7d730080e18800e174b9c0ffb2a7b144d"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/per-world-scores.csv",
+      "bytes": 591611,
+      "sha256": "62c608f4d037716b3351a96a354ebe57c58edfa2f80bff06001c6c7a4350e76a"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/ridge-noisy_current_proxy-120.npz",
+      "bytes": 934,
+      "sha256": "d4eca8b51a5f1d77c41529a79dac7f3909842df615bb5cb6d36e8703b67370df"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/ridge-noisy_current_proxy-240.npz",
+      "bytes": 934,
+      "sha256": "96841a79bec8d55181cebcbfd839fc2fece60c440ebf0d044465a7cd9f41bbfb"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/ridge-noisy_current_proxy-60.npz",
+      "bytes": 932,
+      "sha256": "0db0b3640d6d2aac15ebb9ce1f49ecc37bad60c0f558d25c563e81ab57ea399a"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/ridge-precise_30min_late_proxy-120.npz",
+      "bytes": 933,
+      "sha256": "bf4095e2afe31e63ad0be26915341ba3638685faecf7d07e4d0b2f2c47a5d9c1"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/ridge-precise_30min_late_proxy-240.npz",
+      "bytes": 934,
+      "sha256": "9f6180c0d74947bbdd4a2e84d2e113c66cf975603de98164a81dc8775cae3830"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/ridge-precise_30min_late_proxy-60.npz",
+      "bytes": 934,
+      "sha256": "12cb17ab6f5f40c43287faf00987563fa18fec641801e64be91d821e59f3cc46"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/ridge-precise_5min_late_proxy-120.npz",
+      "bytes": 935,
+      "sha256": "627c8e999f25d164c48f2862d2c2d3e3cdf7fe4dce9e4997c09fcaf73e688659"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/ridge-precise_5min_late_proxy-240.npz",
+      "bytes": 933,
+      "sha256": "f0d6a19b1739bc0e219c05776983e23ae2f599a9b5536837cf9b2985ee20a34f"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/ridge-precise_5min_late_proxy-60.npz",
+      "bytes": 934,
+      "sha256": "d2d186f9641f5237a6cf2863e7ede832789a02e7ff81db4bcb24db297ef0a557"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/ridge-precise_current_proxy-120.npz",
+      "bytes": 934,
+      "sha256": "03fef48807119a43844039d2739690e6eefe4471bc23ec13c42829b3959a7f71"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/ridge-precise_current_proxy-240.npz",
+      "bytes": 934,
+      "sha256": "15f5ebc9260f2b27b7820df11a76eb1a0de573ca43cff0c484670f027353ddf0"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/ridge-precise_current_proxy-60.npz",
+      "bytes": 933,
+      "sha256": "1f70c8893a3e0ba3a5ef7adca3a72f495789ef676f68b78e1d69ba266d666233"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/ridge-price_only-120.npz",
+      "bytes": 908,
+      "sha256": "f1d34ffb4a9c9c846f0d4d5ba1b184f45779b8496d2874f02ecc41a4e1691a78"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/ridge-price_only-240.npz",
+      "bytes": 909,
+      "sha256": "091392ec0e502756d7e4cc1e819530e2b7e07c619d7821b1e6335aa39ddb2f11"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/ridge-price_only-60.npz",
+      "bytes": 909,
+      "sha256": "de12203f1175e44640022d3c94bd743bbe2a24b19b23b65bff3ba06caddc119d"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/test-worlds.npz",
+      "bytes": 2452575,
+      "sha256": "323b8dff12864d4da900c8f55d8688028379e6e390874234ac0e9ef6c6902893"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/train-worlds.npz",
+      "bytes": 1839663,
+      "sha256": "d72f6a6e316b8809eb8ae3d53d96c19b8d8a5c90db0016f6dddcf294b3f669f3"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/twins-verification.json",
+      "bytes": 420,
+      "sha256": "f91af0fded64451e30bbd4536f6e18731a3497139268bba0a4f79316c2b6b4c3"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/twins.csv.gz",
+      "bytes": 4591346,
+      "sha256": "93bd46ff35b144f5ad56a486fc56120d3995776d4c2f0a947c73eeba9395561a"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/results/verification.json",
+      "bytes": 1872,
+      "sha256": "0269be13699115402fbff97de485edf2c317332a1dad7702448d49461aa88d72"
+    },
+    {
+      "path": "experiments/structure-lab-v1/observability/run.py",
+      "bytes": 19659,
+      "sha256": "950e2bb547926b35aa1d517bbfc518d37927d7efae7557337f8e1e895582faa7"
+    },
+    {
+      "path": "experiments/structure-lab-v1/preservation-verification.json",
+      "bytes": 639,
+      "sha256": "219b2e7671e1434801d251260c223805766640788203481e64cba72e8f71e40c"
+    },
+    {
+      "path": "experiments/structure-lab-v1/README.md",
+      "bytes": 14550,
+      "sha256": "9af7ee4746d6ca5361a52b00dab589c563038fd71ced639d5c17a0a7cda49ca1"
+    },
+    {
+      "path": "experiments/structure-lab-v1/render-check-dark.png",
+      "bytes": 111947,
+      "sha256": "95e9c5e87394a3c96bbf2464a73b4af2fe77919b87922aef57b7b091066dae77"
+    },
+    {
+      "path": "experiments/structure-lab-v1/render-check-light.png",
+      "bytes": 111533,
+      "sha256": "5ecee1a2b675e113dc4378ea16e354dc911d0c1715d432703a40e80788fabc48"
+    },
+    {
+      "path": "experiments/structure-lab-v1/render-verification.json",
+      "bytes": 3061,
+      "sha256": "c355f95626ca3f645605576ba6ccb6f253e776df6c2a85b9e5ccdaf2e2b8e30c"
+    },
+    {
+      "path": "experiments/structure-lab-v1/trader-view/build_snapshot.py",
+      "bytes": 17527,
+      "sha256": "9e90f9b7fc24d447f3ef6bdabb82e4fd3486cf1b08105438b9a10f7fd50a8171"
+    },
+    {
+      "path": "experiments/structure-lab-v1/trader-view/horizon-forecasts.csv",
+      "bytes": 1568,
+      "sha256": "55f77f1e91d785a1e6503be1cb9d3d51e9621c2dd2ea6afebf784fd3ed8c65f9"
+    },
+    {
+      "path": "experiments/structure-lab-v1/trader-view/snapshot.json",
+      "bytes": 6402,
+      "sha256": "438ac8d63e3a4df5d69a17a1fd4dd342dd1adf069a5935705b2f700824a3e45c"
+    },
+    {
+      "path": "experiments/structure-lab-v1/trader-view/trader-snapshot.png",
+      "bytes": 462788,
+      "sha256": "7b8a261846313367255b8c8b912d380ee8d913771c77c38bb98df2f3556f91e6"
+    },
+    {
+      "path": "experiments/structure-lab-v1/trader-view/trader-snapshot.svg",
+      "bytes": 218539,
+      "sha256": "30f5763d93126398eee8c0ab2bbdbac311e4649e389d3d0e95f8b0258a1547f6"
+    },
+    {
+      "path": "experiments/structure-lab-v1/trader-view/verification.json",
+      "bytes": 1379,
+      "sha256": "be0a82659da1bdd587388ddf55a24d0dc8c54685fbef9fcb31102270e6311ff0"
+    },
+    {
+      "path": "experiments/structure-lab-v1/verify_presentation.cjs",
+      "bytes": 3662,
+      "sha256": "7e753ce772e698923e0802f2d7518ab38dc4f67a15454f0fe2227218a9b2b11e"
     },
     {
       "path": "feature-correlations.csv",
@@ -1626,8 +2126,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3712,
-      "sha256": "aef661ffe7d19f2f337ee8767a962493d1fd985699e9570a392fb695963fcb68"
+      "bytes": 4160,
+      "sha256": "8812a5ebd329c0b739752fc89b176492d18bd5ea067530042bc51ae70903e23c"
     },
     {
       "path": "reference/provided-example.ipynb",

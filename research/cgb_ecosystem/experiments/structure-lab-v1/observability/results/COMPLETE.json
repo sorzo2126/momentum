@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "experiment_groups": [
+    "E04",
+    "E05",
+    "E06"
+  ],
+  "protocol_sha256": "50518dcbb6a1d19ace1e0aca9bbc28dc31ea7ec3a0c3428f992eb22cc0b821e4"
+}

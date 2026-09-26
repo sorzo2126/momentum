@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "decision_time": "2025-02-19T15:30:00+00:00",
+  "source_sha256": {
+    "results/base-1729/predictions-and-outcomes.csv.gz": "f4225940b10eedcb3b3aa9916721d554f780ad433cb716e3e77737543f71e2fd",
+    "results/base-1729/features.csv.gz": "bb18c2b5d329eb17f4fc35f8fd4b7fd9961f35a15998ecae19967cd7ab74954e",
+    "results/base-1729/observations.csv.gz": "d8b2a15c1917d4abb79524f2397653466cb409d3ec0a6a4af2ec8e8f03ef550a",
+    "results/base-1729/frozen-model/deployment.json": "0eb830139c171ceae42ef23ac4ace38fa12fb82c8c359728baa7cf16494732b9",
+    "results/base-1729/inputs/quotes.csv.gz": "3f36354fb4f8f0185607bdb6658f982c14cfe700dc92e642c42cc0c3c5aed3ff",
+    "results/base-1729/inputs/rates.csv.gz": "e13905864fe8d4001d4b1507b4812b43ed47bba529cafa5121fe0fccb6376ccb"
+  },
+  "checks": [
+    "Probability rows sum to one",
+    "Endpoint bounds ordered",
+    "MAE quantiles nonnegative",
+    "Model available before decision",
+    "Read prediction allowlist excludes outcomes",
+    "Quotes filtered on both event and availability timestamps",
+    "Snapshot has all three saved horizons",
+    "Missing feature identified separately",
+    "Swaps/OIS not claimed as active model evidence",
+    "Plot history stops at decision",
+    "Continuation label reuses direction masses exactly; up/down map correctly and balanced omits label"
+  ]
+}

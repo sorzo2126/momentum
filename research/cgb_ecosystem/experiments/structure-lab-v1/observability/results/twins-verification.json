@@ -1,0 +1,8 @@
+{
+  "prefix_through_minute": 180,
+  "prefix_observations_identical": true,
+  "prefix_forecasts_identical": true,
+  "first_different_received_minute": 182,
+  "first_different_forecast_minute": 182,
+  "interpretation": "Identical histories cannot reveal hidden branch identity; after new evidence arrives, the same observer begins to distinguish them. This is a target-switch toy world, not inventory clearing."
+}

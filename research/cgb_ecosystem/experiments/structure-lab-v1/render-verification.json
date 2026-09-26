@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "documents": 9,
+  "scheme_checks": 18,
+  "rendered_equations": 4,
+  "results": [
+    {
+      "file": "../../docs/trader-use.md",
+      "scheme": "light",
+      "images": 1,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "../../docs/trader-use.md",
+      "scheme": "dark",
+      "images": 1,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "README.md",
+      "scheme": "light",
+      "images": 1,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "README.md",
+      "scheme": "dark",
+      "images": 1,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "component-audit/README.md",
+      "scheme": "light",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "component-audit/README.md",
+      "scheme": "dark",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "component-audit/alignment-protocol.md",
+      "scheme": "light",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "component-audit/alignment-protocol.md",
+      "scheme": "dark",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "component-audit/protocol.md",
+      "scheme": "light",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "component-audit/protocol.md",
+      "scheme": "dark",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "component-audit/report.md",
+      "scheme": "light",
+      "images": 2,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "component-audit/report.md",
+      "scheme": "dark",
+      "images": 2,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "docs/fractal-structure.md",
+      "scheme": "light",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "docs/fractal-structure.md",
+      "scheme": "dark",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "observability/REPORT.md",
+      "scheme": "light",
+      "images": 7,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "observability/REPORT.md",
+      "scheme": "dark",
+      "images": 7,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "observability/independent-audit.md",
+      "scheme": "light",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "observability/independent-audit.md",
+      "scheme": "dark",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    }
+  ]
+}

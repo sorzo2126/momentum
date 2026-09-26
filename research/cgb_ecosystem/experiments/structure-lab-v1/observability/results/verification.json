@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "observer_checks": [
+    {
+      "configuration": "price_only",
+      "future_message_poison_prefix_gap": 0.0,
+      "minimum_filter_variance": 0.026181535137136523
+    },
+    {
+      "configuration": "precise_current_proxy",
+      "future_message_poison_prefix_gap": 0.0,
+      "minimum_filter_variance": 0.0034883209547754658
+    },
+    {
+      "configuration": "noisy_current_proxy",
+      "future_message_poison_prefix_gap": 0.0,
+      "minimum_filter_variance": 0.021706072279403958
+    },
+    {
+      "configuration": "precise_5min_late_proxy",
+      "future_message_poison_prefix_gap": 0.0,
+      "minimum_filter_variance": 0.011813270248162073
+    },
+    {
+      "configuration": "precise_30min_late_proxy",
+      "future_message_poison_prefix_gap": 0.0,
+      "minimum_filter_variance": 0.0253214367382995
+    }
+  ],
+  "twins": {
+    "prefix_through_minute": 180,
+    "prefix_observations_identical": true,
+    "prefix_forecasts_identical": true,
+    "first_different_received_minute": 182,
+    "first_different_forecast_minute": 182,
+    "interpretation": "Identical histories cannot reveal hidden branch identity; after new evidence arrives, the same observer begins to distinguish them. This is a target-switch toy world, not inventory clearing."
+  },
+  "martingale": {
+    "bounded_predictable_positions": true,
+    "steps_independent_symmetric": true,
+    "touch_accounting_reconciled": true,
+    "roundtrip_cost_ticks": 2.4,
+    "selection": "All four policies retained; none selected or tuned using final outcomes."
+  },
+  "protocol_sha256": "50518dcbb6a1d19ace1e0aca9bbc28dc31ea7ec3a0c3428f992eb22cc0b821e4",
+  "code_sha256": "950e2bb547926b35aa1d517bbfc518d37927d7efae7557337f8e1e895582faa7",
+  "source_scope": "This new standalone world does not modify S0 or fit its CGB model."
+}

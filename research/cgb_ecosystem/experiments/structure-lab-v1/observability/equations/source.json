@@ -1,0 +1,18 @@
+[
+  {
+    "asset": "equation-ce295e3f59c582a0.svg",
+    "latex": "z_{t+1}=\\phi z_t+\\eta_{t+1},\\qquad\nr_{t+1}=z_t+\\epsilon_{t+1}."
+  },
+  {
+    "asset": "equation-73aff6ebb818772d.svg",
+    "latex": "a_h=\\frac{1-\\phi^h}{1-\\phi},\\qquad\nV_h=h\\sigma_\\epsilon^2+\\sigma_\\eta^2\\sum_{j=1}^{h-1}a_j^2."
+  },
+  {
+    "asset": "equation-49b6365a8ec8ab20.svg",
+    "latex": "R_{t,h}\\mid O_t\\sim\\mathcal N\\left(a_hm_t,\\ V_h+a_h^2P_t\\right)."
+  },
+  {
+    "asset": "equation-71c74ea9f7fe37d8.svg",
+    "latex": "\\Delta_h(t)=\\frac12\\log\\left(\\frac{V_h+a_h^2P_t}{V_h}\\right)."
+  }
+]

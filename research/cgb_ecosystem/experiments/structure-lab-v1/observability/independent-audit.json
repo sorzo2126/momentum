@@ -1,0 +1,149 @@
+{
+  "status": "PASS",
+  "scope": "Reproduction of previously reported bounded independent checks only.",
+  "experiment_files_unchanged": true,
+  "source_and_input_sha256": {
+    "run.py": "950e2bb547926b35aa1d517bbfc518d37927d7efae7557337f8e1e895582faa7",
+    "protocol.json": "50518dcbb6a1d19ace1e0aca9bbc28dc31ea7ec3a0c3428f992eb22cc0b821e4",
+    "results/verification.json": "0269be13699115402fbff97de485edf2c317332a1dad7702448d49461aa88d72",
+    "results/martingale-worlds.npz": "719d18b87e1d1eca938df8f542987fe90eac902601f8509d6cecd6f445e38ca0",
+    "results/martingale-ledger.csv.gz": "ea9d7b49c0f5ca326345308f2ff91b779bd47bdec97629ea1877ed1310be3cdf",
+    "results/twins.csv.gz": "93bd46ff35b144f5ad56a486fc56120d3995776d4c2f0a947c73eeba9395561a"
+  },
+  "audit_code_sha256": "7c83fb49de3aa9ac75b396404e5a3d3f58abf7703011b5f35fa5d6ecde8d800d",
+  "kalman_direct_gaussian_conditioning": [
+    {
+      "delay_minutes": 0,
+      "minute": 0,
+      "worlds": 8,
+      "maximum_mean_error": 0.0,
+      "variance_error": 0.0
+    },
+    {
+      "delay_minutes": 0,
+      "minute": 1,
+      "worlds": 8,
+      "maximum_mean_error": 5.551115123125783e-17,
+      "variance_error": 3.469446951953614e-18
+    },
+    {
+      "delay_minutes": 0,
+      "minute": 8,
+      "worlds": 8,
+      "maximum_mean_error": 5.412337245047638e-16,
+      "variance_error": 2.6020852139652106e-18
+    },
+    {
+      "delay_minutes": 0,
+      "minute": 20,
+      "worlds": 8,
+      "maximum_mean_error": 8.049116928532385e-16,
+      "variance_error": 7.806255641895632e-18
+    },
+    {
+      "delay_minutes": 5,
+      "minute": 0,
+      "worlds": 8,
+      "maximum_mean_error": 0.0,
+      "variance_error": 6.938893903907228e-18
+    },
+    {
+      "delay_minutes": 5,
+      "minute": 1,
+      "worlds": 8,
+      "maximum_mean_error": 8.326672684688674e-17,
+      "variance_error": 8.673617379884035e-18
+    },
+    {
+      "delay_minutes": 5,
+      "minute": 8,
+      "worlds": 8,
+      "maximum_mean_error": 2.7755575615628914e-16,
+      "variance_error": 1.734723475976807e-17
+    },
+    {
+      "delay_minutes": 5,
+      "minute": 20,
+      "worlds": 8,
+      "maximum_mean_error": 4.163336342344337e-16,
+      "variance_error": 6.938893903907228e-18
+    },
+    {
+      "delay_minutes": 30,
+      "minute": 0,
+      "worlds": 8,
+      "maximum_mean_error": 2.7755575615628914e-17,
+      "variance_error": 6.938893903907228e-18
+    },
+    {
+      "delay_minutes": 30,
+      "minute": 1,
+      "worlds": 8,
+      "maximum_mean_error": 6.245004513516506e-17,
+      "variance_error": 0.0
+    },
+    {
+      "delay_minutes": 30,
+      "minute": 8,
+      "worlds": 8,
+      "maximum_mean_error": 1.8041124150158794e-16,
+      "variance_error": 2.7755575615628914e-17
+    },
+    {
+      "delay_minutes": 30,
+      "minute": 20,
+      "worlds": 8,
+      "maximum_mean_error": 3.0531133177191805e-16,
+      "variance_error": 2.42861286636753e-17
+    }
+  ],
+  "future_sum_moment_checks": [
+    {
+      "horizon_minutes": 1,
+      "mean_loading_error": 0.0,
+      "innovation_variance_error": 0.0
+    },
+    {
+      "horizon_minutes": 2,
+      "mean_loading_error": 2.220446049250313e-15,
+      "innovation_variance_error": 0.0
+    },
+    {
+      "horizon_minutes": 60,
+      "mean_loading_error": 0.0,
+      "innovation_variance_error": 0.0
+    },
+    {
+      "horizon_minutes": 120,
+      "mean_loading_error": 0.0,
+      "innovation_variance_error": 5.684341886080802e-14
+    },
+    {
+      "horizon_minutes": 240,
+      "mean_loading_error": 0.0,
+      "innovation_variance_error": 1.1368683772161603e-13
+    }
+  ],
+  "martingale": {
+    "ledger_rows": 61440,
+    "past_only_directions_match": true,
+    "gross_reconstruction_maximum_error_ticks": 0.0,
+    "touch_net_reconstruction_maximum_error_ticks": 0.0
+  },
+  "twins_first_paired_difference_minute": {
+    "pressure_truth": 181,
+    "received_return": 182,
+    "received_proxy": 186,
+    "forecast60_mean_ticks": 182
+  },
+  "interpretation_corrections": [
+    "The twin observer is deliberately misspecified throughout, not only after the switch.",
+    "First unequal paired input/forecast is not a reliable branch-detection time.",
+    "Adjacent martingale blocks are separately liquidated and re-entered even if side is unchanged."
+  ],
+  "checks_requiring_source_inspection": [
+    "TRAIN-only ridge scaling/coefficient and independent CAL residual-variance fitting.",
+    "Oracle excludes future innovations; filter consumes received time columns only.",
+    "Confidence intervals aggregate by independent world rather than overlapping origin."
+  ]
+}

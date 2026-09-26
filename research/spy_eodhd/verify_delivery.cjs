@@ -3,14 +3,22 @@
 const fs=require('fs'),path=require('path'),crypto=require('crypto'),{pathToFileURL}=require('url'),{chromium}=require('playwright');
 const root=__dirname,sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 function walk(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?(['private','__pycache__'].includes(e.name)?[]:walk(path.join(dir,e.name))):[path.join(dir,e.name)]);}
+async function mathMarkdown(md){
+ if(!md.includes('$$'))return md;
+ const cache=path.join(root,'private','katex-0.16.22.cjs');
+ if(!fs.existsSync(cache)){const response=await fetch('https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.js');if(!response.ok)throw Error('Cannot load pinned math renderer');fs.mkdirSync(path.dirname(cache),{recursive:true});fs.writeFileSync(cache,await response.text());}
+ const katex=require(cache);
+ return md.replace(/\$\$([\s\S]*?)\$\$/g,(_,formula)=>'\n<div class="display-math">'+katex.renderToString(formula,{displayMode:true,throwOnError:true,output:'mathml'})+'</div>\n')
+  .replace(/(?<!\$)\$([^\n$]+)\$(?!\$)/g,(match,formula)=>formula.trim()!==formula?match:katex.renderToString(formula,{displayMode:false,throwOnError:true,output:'mathml'}));
+}
 (async()=>{
  const {marked}=await import(pathToFileURL(require.resolve('marked')).href),files=walk(root).filter(p=>p.endsWith('.md'));
  const browser=await chromium.launch({headless:true,executablePath:process.env.BROWSER_EXECUTABLE}),checks=[];
  try{const page=await browser.newPage({viewport:{width:1000,height:1000}});
  for(const file of files){const md=fs.readFileSync(file,'utf8');
-  if(md.includes('$$'))throw Error('Unrendered display formula: '+file);
+  if([...md.matchAll(/```[\s\S]*?```/g)].some(m=>m[0].includes('$$')))throw Error('Formula inside code box: '+file);
   for(const m of md.matchAll(/\]\((<[^>]+>|[^\s)]+)\)/g)){const target=m[1].replace(/^<|>$/g,'');if(/^(https?:|mailto:|#)/.test(target))continue;if(!fs.existsSync(path.resolve(path.dirname(file),decodeURIComponent(target.split('#')[0]))))throw Error('Broken document link: '+target);}
-  const html=marked.parse(md).replace(/src="([^"]+)"/g,(_,url)=>{const p=path.resolve(path.dirname(file),url);if(!fs.existsSync(p))throw Error('Missing figure: '+p);return `src="data:image/png;base64,${fs.readFileSync(p).toString('base64')}"`;});
+  const html=marked.parse(await mathMarkdown(md)).replace(/src="([^"]+)"/g,(_,url)=>{const p=path.resolve(path.dirname(file),url);if(!fs.existsSync(p))throw Error('Missing figure: '+p);return `src="data:image/png;base64,${fs.readFileSync(p).toString('base64')}"`;});
   for(const scheme of ['light','dark']){await page.emulateMedia({colorScheme:scheme});await page.setContent(`<style>:root{color-scheme:light dark}body{font:16px/1.6 system-ui;margin:24px;max-width:950px;background:light-dark(#fff,#17191c);color:light-dark(#202124,#e8eaed)}h1,h2{line-height:1.3}img{max-width:100%}table{display:block;overflow:auto;border-collapse:collapse;font-size:13px}td,th{border-bottom:1px solid #888;padding:8px}pre{overflow:auto}code{overflow-wrap:anywhere}</style>${html}`,{waitUntil:'load'});
    const state=await page.evaluate(()=>({broken:[...document.images].filter(x=>!x.complete||!x.naturalWidth).length,mathBoxes:[...document.querySelectorAll('pre')].filter(x=>x.textContent.includes('$$')).length}));if(state.broken||state.mathBoxes)throw Error('Render failure '+file);checks.push({file:path.relative(root,file),scheme,status:'PASS'});
   }

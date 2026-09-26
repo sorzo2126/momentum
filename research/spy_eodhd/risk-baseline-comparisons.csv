@@ -1,0 +1,22 @@
+horizon_minutes,metric,difference,mean,low,high,sessions
+60,endpoint_absolute_error,mixture minus volatility-scaled TRAIN distribution; negative favours mixture,0.19137536364294616,-0.39527929850424187,0.6826541025782484,49
+60,endpoint_squared_error,mixture minus volatility-scaled TRAIN distribution; negative favours mixture,80.20032565874915,-112.02072024813816,261.2076755001256,49
+60,interval_score,mixture minus volatility-scaled TRAIN distribution; negative favours mixture,-4.7175066944085025,-7.921154330660254,-1.4589009968080418,49
+60,long_pinball,mixture minus volatility-scaled TRAIN distribution; negative favours mixture,-0.33223362123976274,-0.7266780836306861,0.05844338310755308,49
+60,short_pinball,mixture minus volatility-scaled TRAIN distribution; negative favours mixture,-0.46550906770640127,-0.8691978469740578,-0.022732812200454183,49
+60,endpoint_absolute_error,mixture minus zero price-change forecast; negative favours mixture,0.21099589455929718,-0.32665367821126245,0.6725394337707088,49
+60,endpoint_squared_error,mixture minus zero price-change forecast; negative favours mixture,83.82443374076301,-101.7959246185567,268.27479087327043,49
+120,endpoint_absolute_error,mixture minus volatility-scaled TRAIN distribution; negative favours mixture,0.10754223532566291,-0.6290694034651864,0.8662380982530842,49
+120,endpoint_squared_error,mixture minus volatility-scaled TRAIN distribution; negative favours mixture,183.58516175069406,-199.99583113943908,613.2852122160424,49
+120,interval_score,mixture minus volatility-scaled TRAIN distribution; negative favours mixture,-11.95434770076271,-19.98752883963159,-4.526310601183092,49
+120,long_pinball,mixture minus volatility-scaled TRAIN distribution; negative favours mixture,-0.5909449313679309,-1.2182444951315765,-0.04015372975074547,49
+120,short_pinball,mixture minus volatility-scaled TRAIN distribution; negative favours mixture,-0.6364576989785063,-1.365669641670545,0.07374268313480811,49
+120,endpoint_absolute_error,mixture minus zero price-change forecast; negative favours mixture,0.10876607875889616,-0.6410073767488077,0.8597008823341636,49
+120,endpoint_squared_error,mixture minus zero price-change forecast; negative favours mixture,181.34920756570395,-202.35533052553006,607.3688315739961,49
+240,endpoint_absolute_error,mixture minus volatility-scaled TRAIN distribution; negative favours mixture,0.9776446000728707,-0.5247063167524564,2.724535477069705,49
+240,endpoint_squared_error,mixture minus volatility-scaled TRAIN distribution; negative favours mixture,860.3230347857613,-148.50684716149098,2288.2798213041237,49
+240,interval_score,mixture minus volatility-scaled TRAIN distribution; negative favours mixture,-21.57959925258184,-43.29302216883412,-2.037706315440285,49
+240,long_pinball,mixture minus volatility-scaled TRAIN distribution; negative favours mixture,-1.5584740131980308,-2.6589531897374576,-0.5252462853391573,49
+240,short_pinball,mixture minus volatility-scaled TRAIN distribution; negative favours mixture,-0.3841407762130126,-2.258832695546399,2.0255198246943955,49
+240,endpoint_absolute_error,mixture minus zero price-change forecast; negative favours mixture,1.0330642303596975,-0.48446753378845137,2.7762644749433196,49
+240,endpoint_squared_error,mixture minus zero price-change forecast; negative favours mixture,807.0720175207389,-206.20319866650442,2035.924578124223,49

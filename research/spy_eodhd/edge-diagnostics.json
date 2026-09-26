@@ -1,0 +1,137 @@
+{
+  "status": "post-hoc descriptive analysis of already inspected TEST; not fresh confirmation",
+  "method": "Frozen predictions and TRAIN artifacts only. No refit, new parameters, policy search, or PnL. Risk baseline uses session-weighted TRAIN outcomes scaled by the same known origin volatility.",
+  "interval_score_alpha": 0.2,
+  "pinball_quantile": 0.8,
+  "uncertainty": "Same 2000 circular five-session block replications and seed 1729 as original. Multiple exploratory comparisons; no multiplicity adjustment.",
+  "correlations": "Pooled overlapping origins, descriptive and not independent-sample significance tests.",
+  "input_sha256": {
+    "predictions.csv.gz": "1cecb082cd099449df74ba7d72167c54830a3f45fb184d95afbc539aaffbfbd3",
+    "session-scores.csv": "2a1dc7dbfc9287ae7ba45c4d1074b2673289830b90a1470e1ad8e80c9f7498a8",
+    "features.csv.gz": "c898d7c30a6af70621c64cb25dc096999f92aae21070aaaab82c6100e437616b",
+    "clean-bars.csv.gz": "350dc9123624955ee287bc0ba9b67de3ddcde6151cf56deae66a787b4f363397",
+    "frozen-model.pkl": "5933cc2361325e7244c0007051563629dce3f37cc9359b899fd3861d51a35f22"
+  },
+  "horizons": {
+    "60": {
+      "origins": 2646,
+      "sessions": 49,
+      "observed_class_counts": {
+        "0": 863,
+        "1": 850,
+        "2": 933
+      },
+      "maximum_class_probability_quantiles": {
+        "0.0": 0.334159780233041,
+        "0.5": 0.36478848841183215,
+        "0.9": 0.39744345605348685,
+        "0.99": 0.4384389661366204,
+        "1.0": 0.4900436098949438
+      },
+      "origins_with_max_probability_over_half": 0,
+      "direction_balance_pp_quantiles": {
+        "0.0": -11.05918849128762,
+        "0.5": 3.17318952981098,
+        "0.9": 9.70997798779235,
+        "1.0": 26.329339377203297
+      },
+      "fraction_direction_balance_positive": 0.8401360544217688,
+      "fraction_probability_balance_and_mean_opposite_sign": 0.5355253212396069,
+      "endpoint_mean_cents_quantiles": {
+        "0.0": -30.738895707003813,
+        "0.5": -2.0531882197018154,
+        "0.9": 4.948593178254244,
+        "1.0": 21.424242317648403
+      },
+      "raw_endpoint_forecast_actual_correlation": -0.030757634726753094,
+      "normalized_endpoint_forecast_actual_correlation": -0.02065367367400927,
+      "median_neutral_band_cents": 40.44735650533775,
+      "median_endpoint_interval_width_cents": 271.30116598791466,
+      "train_path_count": 7776,
+      "median_effective_scenarios": 3829.891798236982,
+      "median_normalized_class_entropy": 0.9970023890635198,
+      "origin_clock_first": "10:35",
+      "origin_clock_last": "15:00"
+    },
+    "120": {
+      "origins": 2058,
+      "sessions": 49,
+      "observed_class_counts": {
+        "0": 646,
+        "1": 720,
+        "2": 692
+      },
+      "maximum_class_probability_quantiles": {
+        "0.0": 0.3356506378810471,
+        "0.5": 0.356807122635314,
+        "0.9": 0.4270824346150466,
+        "0.99": 0.4672173123285826,
+        "1.0": 0.5135363197261751
+      },
+      "origins_with_max_probability_over_half": 3,
+      "direction_balance_pp_quantiles": {
+        "0.0": -17.939302607975016,
+        "0.5": 4.456893408875717,
+        "0.9": 14.115244121516096,
+        "1.0": 29.496139090723304
+      },
+      "fraction_direction_balance_positive": 0.9577259475218659,
+      "fraction_probability_balance_and_mean_opposite_sign": 0.7487852283770651,
+      "endpoint_mean_cents_quantiles": {
+        "0.0": -60.52295683808208,
+        "0.5": -3.48315167009176,
+        "0.9": 9.115060356078615,
+        "1.0": 41.686862459996334
+      },
+      "raw_endpoint_forecast_actual_correlation": -0.024134585871360293,
+      "normalized_endpoint_forecast_actual_correlation": 0.014776213633759616,
+      "median_neutral_band_cents": 61.47528016203033,
+      "median_endpoint_interval_width_cents": 395.1763989798117,
+      "train_path_count": 6048,
+      "median_effective_scenarios": 3140.0505955754147,
+      "median_normalized_class_entropy": 0.9973689993305662,
+      "origin_clock_first": "10:35",
+      "origin_clock_last": "14:00"
+    },
+    "240": {
+      "origins": 882,
+      "sessions": 49,
+      "observed_class_counts": {
+        "0": 259,
+        "1": 359,
+        "2": 264
+      },
+      "maximum_class_probability_quantiles": {
+        "0.0": 0.3361770493475109,
+        "0.5": 0.3745456597436506,
+        "0.9": 0.4391382936283991,
+        "0.99": 0.4795921756571107,
+        "1.0": 0.4965448718774763
+      },
+      "origins_with_max_probability_over_half": 0,
+      "direction_balance_pp_quantiles": {
+        "0.0": -23.612074317608588,
+        "0.5": 2.954175090274064,
+        "0.9": 7.822807204178406,
+        "1.0": 14.675361156320072
+      },
+      "fraction_direction_balance_positive": 0.8106575963718821,
+      "fraction_probability_balance_and_mean_opposite_sign": 0.15759637188208617,
+      "endpoint_mean_cents_quantiles": {
+        "0.0": -76.10066508600397,
+        "0.5": 3.833974017870378,
+        "0.9": 16.631197309770936,
+        "1.0": 55.42473815525444
+      },
+      "raw_endpoint_forecast_actual_correlation": -0.09385571182423905,
+      "normalized_endpoint_forecast_actual_correlation": -0.03764818117277327,
+      "median_neutral_band_cents": 102.74536578192642,
+      "median_endpoint_interval_width_cents": 611.3340504569169,
+      "train_path_count": 2592,
+      "median_effective_scenarios": 1565.4694385041025,
+      "median_normalized_class_entropy": 0.9950978740612815,
+      "origin_clock_first": "10:35",
+      "origin_clock_last": "12:00"
+    }
+  }
+}

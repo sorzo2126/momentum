@@ -2,7 +2,7 @@
 
 This folder is an independent real-data experiment. It uses the existing Fractal EODHD credential to retrieve SPY bars, refits the momentum architecture on SPY, and evaluates frozen forecasts. No CGB weights or market data are used or modified.
 
-Start with the [full report](REPORT.md), [notebook](SPY-real-data-study.ipynb) or [basket design](basket-design.md).
+Start with the [Fractal source deep dive and redesign](FRACTAL-DEEP-DIVE.md), [trading-edge review](EDGE-REVIEW.md), [full report](REPORT.md), [notebook](SPY-real-data-study.ipynb) or [basket design](basket-design.md).
 
 The first SPY result is modest: the one-hour mixture slightly improves on a constant class-frequency forecast, trails price-only, and has uncertainty intervals spanning no improvement. The chart works on real data; this test does not establish an edge.
 

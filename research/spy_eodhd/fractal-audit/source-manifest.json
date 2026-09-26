@@ -1,0 +1,4271 @@
+{
+  "scope": "Static audit; source notebooks not executed or modified. Both numbering conventions include Markdown cells.",
+  "files": [
+    {
+      "file": "1 leader univers.ipynb",
+      "sha256": "20fc30bd184fb7b48b57f5634328efb9e3e2142c44e278e828c3effa16cc1736",
+      "cells": [
+        {
+          "zero_based_cell": 0,
+          "one_based_cell": 1,
+          "type": "markdown",
+          "source_lines": 12,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 1,
+          "one_based_cell": 2,
+          "type": "code",
+          "source_lines": 23,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 2,
+          "one_based_cell": 3,
+          "type": "code",
+          "source_lines": 7,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 3,
+          "one_based_cell": 4,
+          "type": "code",
+          "source_lines": 1,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 4,
+          "one_based_cell": 5,
+          "type": "code",
+          "source_lines": 9,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 5,
+          "one_based_cell": 6,
+          "type": "code",
+          "source_lines": 9,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 6,
+          "one_based_cell": 7,
+          "type": "code",
+          "source_lines": 10,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 7,
+          "one_based_cell": 8,
+          "type": "code",
+          "source_lines": 4,
+          "definitions": [
+            {
+              "name": "_redact_api_key",
+              "line": 1,
+              "end_line": 4
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 8,
+          "one_based_cell": 9,
+          "type": "code",
+          "source_lines": 8,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 9,
+          "one_based_cell": 10,
+          "type": "code",
+          "source_lines": 3,
+          "definitions": [
+            {
+              "name": "_print_block",
+              "line": 1,
+              "end_line": 3
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 10,
+          "one_based_cell": 11,
+          "type": "code",
+          "source_lines": 9,
+          "definitions": [
+            {
+              "name": "_get_session",
+              "line": 1,
+              "end_line": 9
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 11,
+          "one_based_cell": 12,
+          "type": "code",
+          "source_lines": 5,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 12,
+          "one_based_cell": 13,
+          "type": "code",
+          "source_lines": 5,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 13,
+          "one_based_cell": 14,
+          "type": "code",
+          "source_lines": 4,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 14,
+          "one_based_cell": 15,
+          "type": "code",
+          "source_lines": 9,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 15,
+          "one_based_cell": 16,
+          "type": "code",
+          "source_lines": 5,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 16,
+          "one_based_cell": 17,
+          "type": "code",
+          "source_lines": 15,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 17,
+          "one_based_cell": 18,
+          "type": "code",
+          "source_lines": 8,
+          "definitions": [
+            {
+              "name": "get_all_tickers",
+              "line": 3,
+              "end_line": 8
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 18,
+          "one_based_cell": 19,
+          "type": "code",
+          "source_lines": 8,
+          "definitions": [
+            {
+              "name": "filter_trading_session",
+              "line": 1,
+              "end_line": 8
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 19,
+          "one_based_cell": 20,
+          "type": "code",
+          "source_lines": 13,
+          "definitions": [
+            {
+              "name": "_normalize_ohlc_frame",
+              "line": 1,
+              "end_line": 13
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 20,
+          "one_based_cell": 21,
+          "type": "code",
+          "source_lines": 12,
+          "definitions": [
+            {
+              "name": "_read_local_ohlc",
+              "line": 1,
+              "end_line": 12
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 21,
+          "one_based_cell": 22,
+          "type": "code",
+          "source_lines": 4,
+          "definitions": [
+            {
+              "name": "_next_daily_start",
+              "line": 1,
+              "end_line": 4
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 22,
+          "one_based_cell": 23,
+          "type": "code",
+          "source_lines": 6,
+          "definitions": [
+            {
+              "name": "_is_covered_until",
+              "line": 1,
+              "end_line": 6
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 23,
+          "one_based_cell": 24,
+          "type": "code",
+          "source_lines": 7,
+          "definitions": [
+            {
+              "name": "_merge_ohlc_history",
+              "line": 1,
+              "end_line": 7
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 24,
+          "one_based_cell": 25,
+          "type": "code",
+          "source_lines": 3,
+          "definitions": [
+            {
+              "name": "_write_ohlc_csv",
+              "line": 1,
+              "end_line": 3
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 25,
+          "one_based_cell": 26,
+          "type": "code",
+          "source_lines": 6,
+          "definitions": [
+            {
+              "name": "_incremental_fetch_ohlc",
+              "line": 1,
+              "end_line": 6
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 26,
+          "one_based_cell": 27,
+          "type": "code",
+          "source_lines": 15,
+          "definitions": [
+            {
+              "name": "_read_time_indexed_csv",
+              "line": 1,
+              "end_line": 15
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 27,
+          "one_based_cell": 28,
+          "type": "code",
+          "source_lines": 17,
+          "definitions": [
+            {
+              "name": "_write_history_csv",
+              "line": 1,
+              "end_line": 17
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 28,
+          "one_based_cell": 29,
+          "type": "code",
+          "source_lines": 43,
+          "definitions": [
+            {
+              "name": "fetch_eodhd_daily",
+              "line": 1,
+              "end_line": 43
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 29,
+          "one_based_cell": 30,
+          "type": "code",
+          "source_lines": 18,
+          "definitions": [
+            {
+              "name": "_load_one_ticker_ohlc",
+              "line": 1,
+              "end_line": 18
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 30,
+          "one_based_cell": 31,
+          "type": "code",
+          "source_lines": 12,
+          "definitions": [
+            {
+              "name": "_load_price_series",
+              "line": 1,
+              "end_line": 12
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 31,
+          "one_based_cell": 32,
+          "type": "code",
+          "source_lines": 31,
+          "definitions": [
+            {
+              "name": "load_prices",
+              "line": 1,
+              "end_line": 31
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 32,
+          "one_based_cell": 33,
+          "type": "code",
+          "source_lines": 37,
+          "definitions": [
+            {
+              "name": "load_ohlc_universe",
+              "line": 1,
+              "end_line": 37
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 33,
+          "one_based_cell": 34,
+          "type": "code",
+          "source_lines": 2,
+          "definitions": [
+            {
+              "name": "_gpu_array",
+              "line": 1,
+              "end_line": 2
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 34,
+          "one_based_cell": 35,
+          "type": "code",
+          "source_lines": 2,
+          "definitions": [
+            {
+              "name": "_cpu_array",
+              "line": 1,
+              "end_line": 2
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 35,
+          "one_based_cell": 36,
+          "type": "code",
+          "source_lines": 4,
+          "definitions": [
+            {
+              "name": "_to_log_returns_tensor",
+              "line": 1,
+              "end_line": 4
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 36,
+          "one_based_cell": 37,
+          "type": "code",
+          "source_lines": 33,
+          "definitions": [
+            {
+              "name": "_rolling_sum_std_gpu",
+              "line": 1,
+              "end_line": 33
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 37,
+          "one_based_cell": 38,
+          "type": "code",
+          "source_lines": 32,
+          "definitions": [
+            {
+              "name": "_ewma_mean_adjust_false_gpu",
+              "line": 1,
+              "end_line": 32
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 38,
+          "one_based_cell": 39,
+          "type": "code",
+          "source_lines": 35,
+          "definitions": [
+            {
+              "name": "_inverse_vol_weights_tensor",
+              "line": 12,
+              "end_line": 35
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 39,
+          "one_based_cell": 40,
+          "type": "code",
+          "source_lines": 2,
+          "definitions": [
+            {
+              "name": "_composite_return_tensor",
+              "line": 1,
+              "end_line": 2
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 40,
+          "one_based_cell": 41,
+          "type": "code",
+          "source_lines": 14,
+          "definitions": [
+            {
+              "name": "_project_capped_simplex_batch",
+              "line": 1,
+              "end_line": 14
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 41,
+          "one_based_cell": 42,
+          "type": "code",
+          "source_lines": 7,
+          "definitions": [
+            {
+              "name": "_ffill_rows_tensor",
+              "line": 1,
+              "end_line": 7
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 42,
+          "one_based_cell": 43,
+          "type": "code",
+          "source_lines": 48,
+          "definitions": [
+            {
+              "name": "_rolling_beta_tensor",
+              "line": 11,
+              "end_line": 48
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 43,
+          "one_based_cell": 44,
+          "type": "code",
+          "source_lines": 8,
+          "definitions": [
+            {
+              "name": "_ffill_fill_tensor",
+              "line": 1,
+              "end_line": 8
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 44,
+          "one_based_cell": 45,
+          "type": "code",
+          "source_lines": 7,
+          "definitions": [
+            {
+              "name": "to_log_returns",
+              "line": 1,
+              "end_line": 7
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 45,
+          "one_based_cell": 46,
+          "type": "code",
+          "source_lines": 2,
+          "definitions": [
+            {
+              "name": "_min_active_for_cap",
+              "line": 1,
+              "end_line": 2
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 46,
+          "one_based_cell": 47,
+          "type": "code",
+          "source_lines": 9,
+          "definitions": [
+            {
+              "name": "SpreadResult",
+              "line": 2,
+              "end_line": 9
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 47,
+          "one_based_cell": 48,
+          "type": "code",
+          "source_lines": 30,
+          "definitions": [
+            {
+              "name": "_alpha_metrics",
+              "line": 10,
+              "end_line": 30
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 48,
+          "one_based_cell": 49,
+          "type": "code",
+          "source_lines": 74,
+          "definitions": [
+            {
+              "name": "stationarity_gpu",
+              "line": 11,
+              "end_line": 74
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 49,
+          "one_based_cell": 50,
+          "type": "code",
+          "source_lines": 29,
+          "definitions": [
+            {
+              "name": "risk_gaussian",
+              "line": 8,
+              "end_line": 29
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 50,
+          "one_based_cell": 51,
+          "type": "code",
+          "source_lines": 65,
+          "definitions": [
+            {
+              "name": "risk_evt_pot",
+              "line": 8,
+              "end_line": 65
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 51,
+          "one_based_cell": 52,
+          "type": "code",
+          "source_lines": 21,
+          "definitions": [
+            {
+              "name": "sharpe_and_maxdd",
+              "line": 8,
+              "end_line": 21
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 52,
+          "one_based_cell": 53,
+          "type": "code",
+          "source_lines": 43,
+          "definitions": [
+            {
+              "name": "build_spread_from_prices",
+              "line": 14,
+              "end_line": 43
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 53,
+          "one_based_cell": 54,
+          "type": "code",
+          "source_lines": 10,
+          "definitions": [
+            {
+              "name": "build_spread",
+              "line": 1,
+              "end_line": 10
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 54,
+          "one_based_cell": 55,
+          "type": "code",
+          "source_lines": 6,
+          "definitions": [
+            {
+              "name": "_latest_weight_snapshot",
+              "line": 1,
+              "end_line": 6
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 55,
+          "one_based_cell": 56,
+          "type": "code",
+          "source_lines": 3,
+          "definitions": [
+            {
+              "name": "_last_valid",
+              "line": 1,
+              "end_line": 3
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 56,
+          "one_based_cell": 57,
+          "type": "code",
+          "source_lines": 2,
+          "definitions": [
+            {
+              "name": "_fmt_pct",
+              "line": 1,
+              "end_line": 2
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 57,
+          "one_based_cell": 58,
+          "type": "code",
+          "source_lines": 59,
+          "definitions": [
+            {
+              "name": "export_spread",
+              "line": 1,
+              "end_line": 59
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 58,
+          "one_based_cell": 59,
+          "type": "code",
+          "source_lines": 53,
+          "definitions": [
+            {
+              "name": "export_all_to_excel",
+              "line": 1,
+              "end_line": 53
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 59,
+          "one_based_cell": 60,
+          "type": "code",
+          "source_lines": 28,
+          "definitions": [
+            {
+              "name": "build_pure_momentum_rotation",
+              "line": 12,
+              "end_line": 28
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 60,
+          "one_based_cell": 61,
+          "type": "code",
+          "source_lines": 36,
+          "definitions": [
+            {
+              "name": "export_leader_tickers",
+              "line": 11,
+              "end_line": 36
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 61,
+          "one_based_cell": 62,
+          "type": "code",
+          "source_lines": 25,
+          "definitions": [
+            {
+              "name": "persist_cell01_warehouse",
+              "line": 13,
+              "end_line": 25
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 62,
+          "one_based_cell": 63,
+          "type": "code",
+          "source_lines": 49,
+          "definitions": [
+            {
+              "name": "backtest_leader_only",
+              "line": 12,
+              "end_line": 49
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 63,
+          "one_based_cell": 64,
+          "type": "code",
+          "source_lines": 44,
+          "definitions": [
+            {
+              "name": "run_all_spreads",
+              "line": 1,
+              "end_line": 44
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 64,
+          "one_based_cell": 65,
+          "type": "code",
+          "source_lines": 59,
+          "definitions": []
+        }
+      ]
+    },
+    {
+      "file": "2 metriques.ipynb",
+      "sha256": "1834f55a3bf757ded219c74899b5c513e709fb76111bdd0e35b37954f4472b62",
+      "cells": [
+        {
+          "zero_based_cell": 0,
+          "one_based_cell": 1,
+          "type": "markdown",
+          "source_lines": 14,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 1,
+          "one_based_cell": 2,
+          "type": "code",
+          "source_lines": 36,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 2,
+          "one_based_cell": 3,
+          "type": "code",
+          "source_lines": 17,
+          "definitions": [
+            {
+              "name": "_candidate_site_packages",
+              "line": 3,
+              "end_line": 17
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 3,
+          "one_based_cell": 4,
+          "type": "code",
+          "source_lines": 47,
+          "definitions": [
+            {
+              "name": "_prewarm_cupy_kernels",
+              "line": 29,
+              "end_line": 47
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 4,
+          "one_based_cell": 5,
+          "type": "code",
+          "source_lines": 18,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 5,
+          "one_based_cell": 6,
+          "type": "code",
+          "source_lines": 38,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 6,
+          "one_based_cell": 7,
+          "type": "code",
+          "source_lines": 5,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 7,
+          "one_based_cell": 8,
+          "type": "code",
+          "source_lines": 13,
+          "definitions": [
+            {
+              "name": "gpu_asset_stream",
+              "line": 3,
+              "end_line": 13
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 8,
+          "one_based_cell": 9,
+          "type": "code",
+          "source_lines": 3,
+          "definitions": [
+            {
+              "name": "_sym_tag",
+              "line": 2,
+              "end_line": 3
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 9,
+          "one_based_cell": 10,
+          "type": "code",
+          "source_lines": 4,
+          "definitions": [
+            {
+              "name": "stage1_path",
+              "line": 3,
+              "end_line": 4
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 10,
+          "one_based_cell": 11,
+          "type": "code",
+          "source_lines": 4,
+          "definitions": [
+            {
+              "name": "stage1_json_path",
+              "line": 3,
+              "end_line": 4
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 11,
+          "one_based_cell": 12,
+          "type": "code",
+          "source_lines": 10,
+          "definitions": [
+            {
+              "name": "load_leader_tickers",
+              "line": 4,
+              "end_line": 10
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 12,
+          "one_based_cell": 13,
+          "type": "code",
+          "source_lines": 9,
+          "definitions": [
+            {
+              "name": "_assert_pit_alignment",
+              "line": 2,
+              "end_line": 9
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 13,
+          "one_based_cell": 14,
+          "type": "code",
+          "source_lines": 10,
+          "definitions": [
+            {
+              "name": "save_parquet_safe",
+              "line": 2,
+              "end_line": 10
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 14,
+          "one_based_cell": 15,
+          "type": "code",
+          "source_lines": 15,
+          "definitions": [
+            {
+              "name": "load_parquet_safe",
+              "line": 2,
+              "end_line": 15
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 15,
+          "one_based_cell": 16,
+          "type": "code",
+          "source_lines": 7,
+          "definitions": [
+            {
+              "name": "trim_to_asof",
+              "line": 2,
+              "end_line": 7
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 16,
+          "one_based_cell": 17,
+          "type": "code",
+          "source_lines": 14,
+          "definitions": [
+            {
+              "name": "log_returns",
+              "line": 6,
+              "end_line": 14
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 17,
+          "one_based_cell": 18,
+          "type": "code",
+          "source_lines": 57,
+          "definitions": [
+            {
+              "name": "gaussian_roll",
+              "line": 10,
+              "end_line": 57
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 18,
+          "one_based_cell": 19,
+          "type": "code",
+          "source_lines": 10,
+          "definitions": [
+            {
+              "name": "win_view",
+              "line": 2,
+              "end_line": 10
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 19,
+          "one_based_cell": 20,
+          "type": "code",
+          "source_lines": 14,
+          "definitions": [
+            {
+              "name": "_gpu_edf_var_es_cache",
+              "line": 2,
+              "end_line": 14
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 20,
+          "one_based_cell": 21,
+          "type": "code",
+          "source_lines": 3,
+          "definitions": [
+            {
+              "name": "_min_exceedances",
+              "line": 2,
+              "end_line": 3
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 21,
+          "one_based_cell": 22,
+          "type": "code",
+          "source_lines": 13,
+          "definitions": [
+            {
+              "name": "_k_grid",
+              "line": 2,
+              "end_line": 13
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 22,
+          "one_based_cell": 23,
+          "type": "code",
+          "source_lines": 29,
+          "definitions": [
+            {
+              "name": "_gpd_nll",
+              "line": 11,
+              "end_line": 29
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 23,
+          "one_based_cell": 24,
+          "type": "code",
+          "source_lines": 22,
+          "definitions": [
+            {
+              "name": "_gpd_fit_mle_scipy",
+              "line": 3,
+              "end_line": 22
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 24,
+          "one_based_cell": 25,
+          "type": "code",
+          "source_lines": 18,
+          "definitions": [
+            {
+              "name": "_gpd_pwm",
+              "line": 3,
+              "end_line": 18
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 25,
+          "one_based_cell": 26,
+          "type": "code",
+          "source_lines": 14,
+          "definitions": [
+            {
+              "name": "_ks_gpd_distance",
+              "line": 2,
+              "end_line": 14
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 26,
+          "one_based_cell": 27,
+          "type": "code",
+          "source_lines": 16,
+          "definitions": [
+            {
+              "name": "_k_grid_two_stage",
+              "line": 2,
+              "end_line": 16
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 27,
+          "one_based_cell": 28,
+          "type": "code",
+          "source_lines": 75,
+          "definitions": [
+            {
+              "name": "_fit_best_gpd_on_sorted",
+              "line": 3,
+              "end_line": 75
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 28,
+          "one_based_cell": 29,
+          "type": "code",
+          "source_lines": 85,
+          "definitions": [
+            {
+              "name": "_evt_preselect_gpu",
+              "line": 2,
+              "end_line": 85
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 29,
+          "one_based_cell": 30,
+          "type": "code",
+          "source_lines": 57,
+          "definitions": [
+            {
+              "name": "_fit_evt_side_gpu_preselected",
+              "line": 2,
+              "end_line": 57
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 30,
+          "one_based_cell": 31,
+          "type": "code",
+          "source_lines": 62,
+          "definitions": [
+            {
+              "name": "_fit_evt_windows",
+              "line": 6,
+              "end_line": 23
+            },
+            {
+              "name": "evt_params_from_series",
+              "line": 27,
+              "end_line": 62
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 31,
+          "one_based_cell": 32,
+          "type": "code",
+          "source_lines": 27,
+          "definitions": [
+            {
+              "name": "evt_quant_es",
+              "line": 8,
+              "end_line": 27
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 32,
+          "one_based_cell": 33,
+          "type": "code",
+          "source_lines": 9,
+          "definitions": [
+            {
+              "name": "_expand_qnorm",
+              "line": 3,
+              "end_line": 9
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 33,
+          "one_based_cell": 34,
+          "type": "code",
+          "source_lines": 61,
+          "definitions": [
+            {
+              "name": "rolling_hurst",
+              "line": 9,
+              "end_line": 61
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 34,
+          "one_based_cell": 35,
+          "type": "code",
+          "source_lines": 101,
+          "definitions": [
+            {
+              "name": "rolling_lyap_kernel",
+              "line": 11,
+              "end_line": 101
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 35,
+          "one_based_cell": 36,
+          "type": "code",
+          "source_lines": 95,
+          "definitions": [
+            {
+              "name": "classify_gas_fluid_linear_nonlin",
+              "line": 12,
+              "end_line": 95
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 36,
+          "one_based_cell": 37,
+          "type": "code",
+          "source_lines": 52,
+          "definitions": [
+            {
+              "name": "premice_signals",
+              "line": 10,
+              "end_line": 52
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 37,
+          "one_based_cell": 38,
+          "type": "code",
+          "source_lines": 31,
+          "definitions": [
+            {
+              "name": "premice_signals_from_stage1_history",
+              "line": 2,
+              "end_line": 31
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 38,
+          "one_based_cell": 39,
+          "type": "code",
+          "source_lines": 83,
+          "definitions": [
+            {
+              "name": "entropy_mixture_series",
+              "line": 10,
+              "end_line": 83
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 39,
+          "one_based_cell": 40,
+          "type": "code",
+          "source_lines": 46,
+          "definitions": [
+            {
+              "name": "sanity_validate_entropy",
+              "line": 2,
+              "end_line": 46
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 40,
+          "one_based_cell": 41,
+          "type": "code",
+          "source_lines": 25,
+          "definitions": [
+            {
+              "name": "sanity_validate_monotonicity",
+              "line": 2,
+              "end_line": 25
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 41,
+          "one_based_cell": 42,
+          "type": "code",
+          "source_lines": 14,
+          "definitions": [
+            {
+              "name": "_enforce_tail_monotonicity",
+              "line": 2,
+              "end_line": 14
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 42,
+          "one_based_cell": 43,
+          "type": "code",
+          "source_lines": 14,
+          "definitions": [
+            {
+              "name": "_enforce_pairwise_es_vs_var",
+              "line": 2,
+              "end_line": 14
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 43,
+          "one_based_cell": 44,
+          "type": "code",
+          "source_lines": 33,
+          "definitions": [
+            {
+              "name": "sanity_validate_sheet",
+              "line": 2,
+              "end_line": 33
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 44,
+          "one_based_cell": 45,
+          "type": "code",
+          "source_lines": 8,
+          "definitions": [
+            {
+              "name": "sanity_validate_regime",
+              "line": 2,
+              "end_line": 8
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 45,
+          "one_based_cell": 46,
+          "type": "code",
+          "source_lines": 10,
+          "definitions": [
+            {
+              "name": "smooth_evt_params",
+              "line": 2,
+              "end_line": 10
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 46,
+          "one_based_cell": 47,
+          "type": "code",
+          "source_lines": 6,
+          "definitions": [
+            {
+              "name": "dynamic_thresholds_for_date",
+              "line": 2,
+              "end_line": 6
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 47,
+          "one_based_cell": 48,
+          "type": "code",
+          "source_lines": 7,
+          "definitions": [
+            {
+              "name": "_gpu_sort_cumsum_arrays",
+              "line": 2,
+              "end_line": 7
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 48,
+          "one_based_cell": 49,
+          "type": "code",
+          "source_lines": 7,
+          "definitions": [
+            {
+              "name": "_gpu_sort_rows",
+              "line": 2,
+              "end_line": 7
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 49,
+          "one_based_cell": 50,
+          "type": "code",
+          "source_lines": 12,
+          "definitions": [
+            {
+              "name": "_gpu_shock_flags",
+              "line": 2,
+              "end_line": 12
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 50,
+          "one_based_cell": 51,
+          "type": "code",
+          "source_lines": 10,
+          "definitions": [
+            {
+              "name": "_gpu_digamma_vec",
+              "line": 2,
+              "end_line": 10
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 51,
+          "one_based_cell": 52,
+          "type": "code",
+          "source_lines": 34,
+          "definitions": [
+            {
+              "name": "_gpu_entropy_body_batched",
+              "line": 2,
+              "end_line": 34
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 52,
+          "one_based_cell": 53,
+          "type": "code",
+          "source_lines": 29,
+          "definitions": [
+            {
+              "name": "_gpu_ks_gpd_distance_rows",
+              "line": 2,
+              "end_line": 29
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 53,
+          "one_based_cell": 54,
+          "type": "code",
+          "source_lines": 23,
+          "definitions": [
+            {
+              "name": "_prewarm_metric_gpu_kernels",
+              "line": 2,
+              "end_line": 23
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 54,
+          "one_based_cell": 55,
+          "type": "code",
+          "source_lines": 1,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 55,
+          "one_based_cell": 56,
+          "type": "code",
+          "source_lines": 9,
+          "definitions": [
+            {
+              "name": "expanding_robust_scale",
+              "line": 2,
+              "end_line": 9
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 56,
+          "one_based_cell": 57,
+          "type": "code",
+          "source_lines": 163,
+          "definitions": [
+            {
+              "name": "hybrid_var_es",
+              "line": 8,
+              "end_line": 163
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 57,
+          "one_based_cell": 58,
+          "type": "code",
+          "source_lines": 16,
+          "definitions": [
+            {
+              "name": "ensure_alpha_cols",
+              "line": 3,
+              "end_line": 16
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 58,
+          "one_based_cell": 59,
+          "type": "code",
+          "source_lines": 10,
+          "definitions": [
+            {
+              "name": "pit_only_cols",
+              "line": 2,
+              "end_line": 10
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 59,
+          "one_based_cell": 60,
+          "type": "code",
+          "source_lines": 28,
+          "definitions": [
+            {
+              "name": "build_M_pit_from_returns",
+              "line": 7,
+              "end_line": 28
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 60,
+          "one_based_cell": 61,
+          "type": "code",
+          "source_lines": 32,
+          "definitions": [
+            {
+              "name": "save_stage1_symbol",
+              "line": 4,
+              "end_line": 32
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 61,
+          "one_based_cell": 62,
+          "type": "code",
+          "source_lines": 89,
+          "definitions": [
+            {
+              "name": "build_daily_w252_frame",
+              "line": 13,
+              "end_line": 89
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 62,
+          "one_based_cell": 63,
+          "type": "code",
+          "source_lines": 22,
+          "definitions": [
+            {
+              "name": "validate_stage1_export",
+              "line": 2,
+              "end_line": 22
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 63,
+          "one_based_cell": 64,
+          "type": "code",
+          "source_lines": 23,
+          "definitions": [
+            {
+              "name": "load_valid_stage1_checkpoint",
+              "line": 3,
+              "end_line": 23
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 64,
+          "one_based_cell": 65,
+          "type": "code",
+          "source_lines": 68,
+          "definitions": [
+            {
+              "name": "compute_symbol",
+              "line": 10,
+              "end_line": 68
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 65,
+          "one_based_cell": 66,
+          "type": "code",
+          "source_lines": 39,
+          "definitions": [
+            {
+              "name": "compute_all",
+              "line": 4,
+              "end_line": 39
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 66,
+          "one_based_cell": 67,
+          "type": "code",
+          "source_lines": 12,
+          "definitions": [
+            {
+              "name": "main",
+              "line": 3,
+              "end_line": 12
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 67,
+          "one_based_cell": 68,
+          "type": "code",
+          "source_lines": 4,
+          "definitions": []
+        }
+      ]
+    },
+    {
+      "file": "3 beta.ipynb",
+      "sha256": "c28fa21cd02553e3cf6818d733c55c74fdc68bc37df38ac76fab1aabba8f2ee3",
+      "cells": [
+        {
+          "zero_based_cell": 0,
+          "one_based_cell": 1,
+          "type": "markdown",
+          "source_lines": 14,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 1,
+          "one_based_cell": 2,
+          "type": "code",
+          "source_lines": 57,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 2,
+          "one_based_cell": 3,
+          "type": "code",
+          "source_lines": 10,
+          "definitions": [
+            {
+              "name": "_ordered_unique",
+              "line": 2,
+              "end_line": 10
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 3,
+          "one_based_cell": 4,
+          "type": "code",
+          "source_lines": 27,
+          "definitions": [
+            {
+              "name": "_validate_leader_legs",
+              "line": 3,
+              "end_line": 27
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 4,
+          "one_based_cell": 5,
+          "type": "code",
+          "source_lines": 18,
+          "definitions": [
+            {
+              "name": "load_leader_universe",
+              "line": 4,
+              "end_line": 18
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 5,
+          "one_based_cell": 6,
+          "type": "code",
+          "source_lines": 15,
+          "definitions": [
+            {
+              "name": "load_data_batch_cached",
+              "line": 4,
+              "end_line": 15
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 6,
+          "one_based_cell": 7,
+          "type": "code",
+          "source_lines": 3,
+          "definitions": [
+            {
+              "name": "to_log_returns",
+              "line": 2,
+              "end_line": 3
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 7,
+          "one_based_cell": 8,
+          "type": "code",
+          "source_lines": 34,
+          "definitions": [
+            {
+              "name": "capped_simplex_weights",
+              "line": 3,
+              "end_line": 34
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 8,
+          "one_based_cell": 9,
+          "type": "code",
+          "source_lines": 9,
+          "definitions": [
+            {
+              "name": "inverse_vol_weights",
+              "line": 3,
+              "end_line": 9
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 9,
+          "one_based_cell": 10,
+          "type": "code",
+          "source_lines": 7,
+          "definitions": [
+            {
+              "name": "expanding_hedge_ratio",
+              "line": 3,
+              "end_line": 7
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 10,
+          "one_based_cell": 11,
+          "type": "code",
+          "source_lines": 17,
+          "definitions": [
+            {
+              "name": "causal_stationary_level_spread",
+              "line": 3,
+              "end_line": 17
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 11,
+          "one_based_cell": 12,
+          "type": "code",
+          "source_lines": 24,
+          "definitions": [
+            {
+              "name": "alpha_state_features",
+              "line": 3,
+              "end_line": 24
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 12,
+          "one_based_cell": 13,
+          "type": "code",
+          "source_lines": 30,
+          "definitions": [
+            {
+              "name": "expanding_fragility_law",
+              "line": 4,
+              "end_line": 30
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 13,
+          "one_based_cell": 14,
+          "type": "code",
+          "source_lines": 60,
+          "definitions": [
+            {
+              "name": "compute_smart_spread_pack",
+              "line": 6,
+              "end_line": 60
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 14,
+          "one_based_cell": 15,
+          "type": "code",
+          "source_lines": 39,
+          "definitions": [
+            {
+              "name": "stationarity_diagnostics",
+              "line": 5,
+              "end_line": 39
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 15,
+          "one_based_cell": 16,
+          "type": "code",
+          "source_lines": 9,
+          "definitions": [
+            {
+              "name": "build_stationarity_report",
+              "line": 4,
+              "end_line": 9
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 16,
+          "one_based_cell": 17,
+          "type": "code",
+          "source_lines": 5,
+          "definitions": [
+            {
+              "name": "test_stationarity",
+              "line": 3,
+              "end_line": 5
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 17,
+          "one_based_cell": 18,
+          "type": "code",
+          "source_lines": 38,
+          "definitions": [
+            {
+              "name": "_beta_stats",
+              "line": 3,
+              "end_line": 38
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 18,
+          "one_based_cell": 19,
+          "type": "code",
+          "source_lines": 31,
+          "definitions": [
+            {
+              "name": "_spread_stats",
+              "line": 3,
+              "end_line": 31
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 19,
+          "one_based_cell": 20,
+          "type": "code",
+          "source_lines": 19,
+          "definitions": [
+            {
+              "name": "_safe_coint",
+              "line": 3,
+              "end_line": 19
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 20,
+          "one_based_cell": 21,
+          "type": "code",
+          "source_lines": 26,
+          "definitions": [
+            {
+              "name": "_expanding_coint_stats",
+              "line": 3,
+              "end_line": 26
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 21,
+          "one_based_cell": 22,
+          "type": "code",
+          "source_lines": 20,
+          "definitions": [
+            {
+              "name": "_add_ticker_spread_stats",
+              "line": 3,
+              "end_line": 20
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 22,
+          "one_based_cell": 23,
+          "type": "code",
+          "source_lines": 62,
+          "definitions": [
+            {
+              "name": "_export_beta_audit_csvs",
+              "line": 4,
+              "end_line": 62
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 23,
+          "one_based_cell": 24,
+          "type": "code",
+          "source_lines": 24,
+          "definitions": [
+            {
+              "name": "_export_pack",
+              "line": 5,
+              "end_line": 24
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 24,
+          "one_based_cell": 25,
+          "type": "code",
+          "source_lines": 12,
+          "definitions": [
+            {
+              "name": "_reset_date",
+              "line": 4,
+              "end_line": 12
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 25,
+          "one_based_cell": 26,
+          "type": "code",
+          "source_lines": 42,
+          "definitions": [
+            {
+              "name": "_split_beta_tables",
+              "line": 4,
+              "end_line": 42
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 26,
+          "one_based_cell": 27,
+          "type": "code",
+          "source_lines": 33,
+          "definitions": [
+            {
+              "name": "main_beta",
+              "line": 7,
+              "end_line": 33
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 27,
+          "one_based_cell": 28,
+          "type": "code",
+          "source_lines": 4,
+          "definitions": []
+        }
+      ]
+    },
+    {
+      "file": "4 matrices.ipynb",
+      "sha256": "64068402b14a2f480b60ce2e08b6bb15062f0594ae9075e8615b0497474d0921",
+      "cells": [
+        {
+          "zero_based_cell": 0,
+          "one_based_cell": 1,
+          "type": "markdown",
+          "source_lines": 2,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 1,
+          "one_based_cell": 2,
+          "type": "code",
+          "source_lines": 1,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 2,
+          "one_based_cell": 3,
+          "type": "code",
+          "source_lines": 170,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 3,
+          "one_based_cell": 4,
+          "type": "code",
+          "source_lines": 20,
+          "definitions": []
+        }
+      ]
+    },
+    {
+      "file": "5 algo fractal x.ipynb",
+      "sha256": "72316ab247e5a6ae8fbc1e6fdf2bb81af6bbbe8756cafa45f47b3095b16a74a4",
+      "cells": [
+        {
+          "zero_based_cell": 0,
+          "one_based_cell": 1,
+          "type": "code",
+          "source_lines": 13,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 1,
+          "one_based_cell": 2,
+          "type": "code",
+          "source_lines": 94,
+          "definitions": [
+            {
+              "name": "log",
+              "line": 16,
+              "end_line": 19
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 2,
+          "one_based_cell": 3,
+          "type": "code",
+          "source_lines": 22,
+          "definitions": [
+            {
+              "name": "assert_gpu_only_runtime_contract",
+              "line": 2,
+              "end_line": 22
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 3,
+          "one_based_cell": 4,
+          "type": "code",
+          "source_lines": 18,
+          "definitions": [
+            {
+              "name": "_xgb_gpu_params",
+              "line": 2,
+              "end_line": 18
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 4,
+          "one_based_cell": 5,
+          "type": "code",
+          "source_lines": 4,
+          "definitions": [
+            {
+              "name": "_cupy_float32",
+              "line": 2,
+              "end_line": 4
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 5,
+          "one_based_cell": 6,
+          "type": "code",
+          "source_lines": 6,
+          "definitions": [
+            {
+              "name": "_torch_cuda_tensor",
+              "line": 2,
+              "end_line": 4
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 6,
+          "one_based_cell": 7,
+          "type": "code",
+          "source_lines": 2,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 7,
+          "one_based_cell": 8,
+          "type": "code",
+          "source_lines": 11,
+          "definitions": [
+            {
+              "name": "_torch_row_sanitize_cuda",
+              "line": 2,
+              "end_line": 11
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 8,
+          "one_based_cell": 9,
+          "type": "code",
+          "source_lines": 15,
+          "definitions": [
+            {
+              "name": "_torch_take_rows_cuda",
+              "line": 2,
+              "end_line": 15
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 9,
+          "one_based_cell": 10,
+          "type": "code",
+          "source_lines": 116,
+          "definitions": [
+            {
+              "name": "_audit_numpy",
+              "line": 2,
+              "end_line": 10
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 10,
+          "one_based_cell": 11,
+          "type": "code",
+          "source_lines": 19,
+          "definitions": [
+            {
+              "name": "_require_unique_sequence",
+              "line": 2,
+              "end_line": 7
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 11,
+          "one_based_cell": 12,
+          "type": "code",
+          "source_lines": 7,
+          "definitions": [
+            {
+              "name": "_canonical_block_tag",
+              "line": 2,
+              "end_line": 5
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 12,
+          "one_based_cell": 13,
+          "type": "code",
+          "source_lines": 2,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 13,
+          "one_based_cell": 14,
+          "type": "code",
+          "source_lines": 12,
+          "definitions": [
+            {
+              "name": "_block_tag_of_state",
+              "line": 2,
+              "end_line": 12
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 14,
+          "one_based_cell": 15,
+          "type": "code",
+          "source_lines": 13,
+          "definitions": [
+            {
+              "name": "infer_asset_class",
+              "line": 2,
+              "end_line": 13
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 15,
+          "one_based_cell": 16,
+          "type": "code",
+          "source_lines": 2,
+          "definitions": [
+            {
+              "name": "fx_point_mult",
+              "line": 1,
+              "end_line": 2
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 16,
+          "one_based_cell": 17,
+          "type": "code",
+          "source_lines": 48,
+          "definitions": [
+            {
+              "name": "get_instrument_spec",
+              "line": 1,
+              "end_line": 48
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 17,
+          "one_based_cell": 18,
+          "type": "code",
+          "source_lines": 35,
+          "definitions": [
+            {
+              "name": "allowed_edges",
+              "line": 2,
+              "end_line": 22
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 18,
+          "one_based_cell": 19,
+          "type": "code",
+          "source_lines": 12,
+          "definitions": [
+            {
+              "name": "_sanitize",
+              "line": 2,
+              "end_line": 12
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 19,
+          "one_based_cell": 20,
+          "type": "code",
+          "source_lines": 5,
+          "definitions": [
+            {
+              "name": "mhash",
+              "line": 2,
+              "end_line": 3
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 20,
+          "one_based_cell": 21,
+          "type": "code",
+          "source_lines": 50,
+          "definitions": [
+            {
+              "name": "_clean_numeric_series",
+              "line": 2,
+              "end_line": 11
+            },
+            {
+              "name": "_num_col",
+              "line": 13,
+              "end_line": 21
+            },
+            {
+              "name": "_num_col_at",
+              "line": 23,
+              "end_line": 32
+            },
+            {
+              "name": "_num_array",
+              "line": 34,
+              "end_line": 36
+            },
+            {
+              "name": "_ohlc_series_at",
+              "line": 38,
+              "end_line": 50
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 21,
+          "one_based_cell": 22,
+          "type": "code",
+          "source_lines": 3,
+          "definitions": [
+            {
+              "name": "_raw_num",
+              "line": 2,
+              "end_line": 3
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 22,
+          "one_based_cell": 23,
+          "type": "code",
+          "source_lines": 6,
+          "definitions": [
+            {
+              "name": "_enforce_order",
+              "line": 2,
+              "end_line": 6
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 23,
+          "one_based_cell": 24,
+          "type": "code",
+          "source_lines": 7,
+          "definitions": [
+            {
+              "name": "_get_scalar",
+              "line": 2,
+              "end_line": 7
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 24,
+          "one_based_cell": 25,
+          "type": "code",
+          "source_lines": 3,
+          "definitions": [
+            {
+              "name": "_unit_fix",
+              "line": 2,
+              "end_line": 3
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 25,
+          "one_based_cell": 26,
+          "type": "code",
+          "source_lines": 19,
+          "definitions": [
+            {
+              "name": "_expanding_stat_series",
+              "line": 2,
+              "end_line": 13
+            },
+            {
+              "name": "_expanding_quantile_series",
+              "line": 15,
+              "end_line": 18
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 26,
+          "one_based_cell": 27,
+          "type": "code",
+          "source_lines": 4,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 27,
+          "one_based_cell": 28,
+          "type": "code",
+          "source_lines": 17,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 28,
+          "one_based_cell": 29,
+          "type": "code",
+          "source_lines": 2,
+          "definitions": [
+            {
+              "name": "_sigm",
+              "line": 2,
+              "end_line": 2
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 29,
+          "one_based_cell": 30,
+          "type": "code",
+          "source_lines": 14,
+          "definitions": [
+            {
+              "name": "_z_expanding_norm",
+              "line": 2,
+              "end_line": 11
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 30,
+          "one_based_cell": 31,
+          "type": "code",
+          "source_lines": 4,
+          "definitions": [
+            {
+              "name": "_diff5",
+              "line": 2,
+              "end_line": 4
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 31,
+          "one_based_cell": 32,
+          "type": "code",
+          "source_lines": 16,
+          "definitions": [
+            {
+              "name": "_build_regime_M22",
+              "line": 2,
+              "end_line": 15
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 32,
+          "one_based_cell": 33,
+          "type": "code",
+          "source_lines": 12,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 33,
+          "one_based_cell": 34,
+          "type": "code",
+          "source_lines": 11,
+          "definitions": [
+            {
+              "name": "_require_local_existing_file",
+              "line": 2,
+              "end_line": 11
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 34,
+          "one_based_cell": 35,
+          "type": "code",
+          "source_lines": 6,
+          "definitions": [
+            {
+              "name": "load_manifest_paths",
+              "line": 2,
+              "end_line": 6
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 35,
+          "one_based_cell": 36,
+          "type": "code",
+          "source_lines": 19,
+          "definitions": [
+            {
+              "name": "_normalize_loaded_frame",
+              "line": 2,
+              "end_line": 7
+            },
+            {
+              "name": "_read_dataframe_path",
+              "line": 9,
+              "end_line": 12
+            },
+            {
+              "name": "_load_df_generic",
+              "line": 14,
+              "end_line": 15
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 36,
+          "one_based_cell": 37,
+          "type": "code",
+          "source_lines": 18,
+          "definitions": [
+            {
+              "name": "audit_feature_causality_columns",
+              "line": 2,
+              "end_line": 18
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 37,
+          "one_based_cell": 38,
+          "type": "code",
+          "source_lines": 7,
+          "definitions": [
+            {
+              "name": "align_daily_timeframe",
+              "line": 2,
+              "end_line": 7
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 38,
+          "one_based_cell": 39,
+          "type": "code",
+          "source_lines": 7,
+          "definitions": [
+            {
+              "name": "_load_spread_pack_daily",
+              "line": 2,
+              "end_line": 5
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 39,
+          "one_based_cell": 40,
+          "type": "code",
+          "source_lines": 30,
+          "definitions": [
+            {
+              "name": "_resolve_stationarity_flags",
+              "line": 2,
+              "end_line": 30
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 40,
+          "one_based_cell": 41,
+          "type": "code",
+          "source_lines": 12,
+          "definitions": [
+            {
+              "name": "join_spread_pack_pit",
+              "line": 2,
+              "end_line": 12
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 41,
+          "one_based_cell": 42,
+          "type": "code",
+          "source_lines": 21,
+          "definitions": [
+            {
+              "name": "trim_to_complete_metric_history",
+              "line": 2,
+              "end_line": 21
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 42,
+          "one_based_cell": 43,
+          "type": "code",
+          "source_lines": 43,
+          "definitions": [
+            {
+              "name": "derive_pattern_features_from_graph",
+              "line": 2,
+              "end_line": 43
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 43,
+          "one_based_cell": 44,
+          "type": "code",
+          "source_lines": 16,
+          "definitions": [
+            {
+              "name": "apply_patterns",
+              "line": 2,
+              "end_line": 16
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 44,
+          "one_based_cell": 45,
+          "type": "code",
+          "source_lines": 84,
+          "definitions": [
+            {
+              "name": "adaptive_tp_sl",
+              "line": 2,
+              "end_line": 84
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 45,
+          "one_based_cell": 46,
+          "type": "code",
+          "source_lines": 10,
+          "definitions": [
+            {
+              "name": "compute_tpsl_arrays",
+              "line": 2,
+              "end_line": 10
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 46,
+          "one_based_cell": 47,
+          "type": "code",
+          "source_lines": 24,
+          "definitions": [
+            {
+              "name": "zfc_block_series",
+              "line": 2,
+              "end_line": 24
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 47,
+          "one_based_cell": 48,
+          "type": "code",
+          "source_lines": 16,
+          "definitions": [
+            {
+              "name": "zureck_sprt",
+              "line": 2,
+              "end_line": 16
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 48,
+          "one_based_cell": 49,
+          "type": "code",
+          "source_lines": 13,
+          "definitions": [
+            {
+              "name": "zureck_variety",
+              "line": 2,
+              "end_line": 13
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 49,
+          "one_based_cell": 50,
+          "type": "code",
+          "source_lines": 14,
+          "definitions": [
+            {
+              "name": "_zk_orientation",
+              "line": 2,
+              "end_line": 14
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 50,
+          "one_based_cell": 51,
+          "type": "code",
+          "source_lines": 115,
+          "definitions": [
+            {
+              "name": "_regime_motion_context",
+              "line": 2,
+              "end_line": 37
+            },
+            {
+              "name": "zureck_tag_p11",
+              "line": 39,
+              "end_line": 115
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 51,
+          "one_based_cell": 52,
+          "type": "code",
+          "source_lines": 12,
+          "definitions": [
+            {
+              "name": "zureck_amp22",
+              "line": 2,
+              "end_line": 12
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 52,
+          "one_based_cell": 53,
+          "type": "code",
+          "source_lines": 6,
+          "definitions": [
+            {
+              "name": "zureck_coherence",
+              "line": 2,
+              "end_line": 6
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 53,
+          "one_based_cell": 54,
+          "type": "code",
+          "source_lines": 22,
+          "definitions": [
+            {
+              "name": "_zureck_pointer_filter",
+              "line": 2,
+              "end_line": 22
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 54,
+          "one_based_cell": 55,
+          "type": "code",
+          "source_lines": 12,
+          "definitions": [
+            {
+              "name": "_regime_emission",
+              "line": 2,
+              "end_line": 12
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 55,
+          "one_based_cell": 56,
+          "type": "code",
+          "source_lines": 58,
+          "definitions": [
+            {
+              "name": "_regime_refine",
+              "line": 2,
+              "end_line": 58
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 56,
+          "one_based_cell": 57,
+          "type": "code",
+          "source_lines": 124,
+          "definitions": [
+            {
+              "name": "_regime_price_context",
+              "line": 2,
+              "end_line": 34
+            },
+            {
+              "name": "build_tags_from_features_strict",
+              "line": 36,
+              "end_line": 109
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 57,
+          "one_based_cell": 58,
+          "type": "code",
+          "source_lines": 13,
+          "definitions": [
+            {
+              "name": "real_market_log_return_from_ohlc",
+              "line": 2,
+              "end_line": 13
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 58,
+          "one_based_cell": 59,
+          "type": "code",
+          "source_lines": 39,
+          "definitions": [
+            {
+              "name": "_graph_market_evidence_from_ohlc",
+              "line": 2,
+              "end_line": 39
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 59,
+          "one_based_cell": 60,
+          "type": "code",
+          "source_lines": 215,
+          "definitions": [
+            {
+              "name": "build_transition_graph_tminus1_t",
+              "line": 2,
+              "end_line": 215
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 60,
+          "one_based_cell": 61,
+          "type": "code",
+          "source_lines": 6,
+          "definitions": [
+            {
+              "name": "_col_mean",
+              "line": 2,
+              "end_line": 6
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 61,
+          "one_based_cell": 62,
+          "type": "code",
+          "source_lines": 14,
+          "definitions": [
+            {
+              "name": "FrontiereStateFrame",
+              "line": 2,
+              "end_line": 14
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 62,
+          "one_based_cell": 63,
+          "type": "code",
+          "source_lines": 37,
+          "definitions": [
+            {
+              "name": "TransitionCoherenceFrame",
+              "line": 2,
+              "end_line": 37
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 63,
+          "one_based_cell": 64,
+          "type": "code",
+          "source_lines": 54,
+          "definitions": [
+            {
+              "name": "split_train_val_test",
+              "line": 2,
+              "end_line": 54
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 64,
+          "one_based_cell": 65,
+          "type": "code",
+          "source_lines": 66,
+          "definitions": [
+            {
+              "name": "_index_bounds",
+              "line": 2,
+              "end_line": 6
+            },
+            {
+              "name": "_index_set",
+              "line": 8,
+              "end_line": 9
+            },
+            {
+              "name": "_audit_rows_append",
+              "line": 11,
+              "end_line": 16
+            },
+            {
+              "name": "_split_tokens",
+              "line": 18,
+              "end_line": 22
+            },
+            {
+              "name": "split_causality_audit_frame",
+              "line": 24,
+              "end_line": 66
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 65,
+          "one_based_cell": 66,
+          "type": "code",
+          "source_lines": 11,
+          "definitions": [
+            {
+              "name": "split_causality_audit_frame_by_horizon",
+              "line": 2,
+              "end_line": 11
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 66,
+          "one_based_cell": 67,
+          "type": "code",
+          "source_lines": 25,
+          "definitions": [
+            {
+              "name": "TrainOnlyScaler",
+              "line": 2,
+              "end_line": 25
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 67,
+          "one_based_cell": 68,
+          "type": "code",
+          "source_lines": 29,
+          "definitions": [
+            {
+              "name": "preprocessing_causality_audit_frame",
+              "line": 2,
+              "end_line": 29
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 68,
+          "one_based_cell": 69,
+          "type": "code",
+          "source_lines": 25,
+          "definitions": [
+            {
+              "name": "holdout_causality_audit_frame",
+              "line": 2,
+              "end_line": 25
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 69,
+          "one_based_cell": 70,
+          "type": "code",
+          "source_lines": 66,
+          "definitions": [
+            {
+              "name": "RequiredVarietyState",
+              "line": 2,
+              "end_line": 66
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 70,
+          "one_based_cell": 71,
+          "type": "code",
+          "source_lines": 3,
+          "definitions": [
+            {
+              "name": "read_variety_score",
+              "line": 2,
+              "end_line": 3
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 71,
+          "one_based_cell": 72,
+          "type": "code",
+          "source_lines": 14,
+          "definitions": [
+            {
+              "name": "_compute_block_side_probs",
+              "line": 2,
+              "end_line": 11
+            },
+            {
+              "name": "compute_entry_probs_by_block",
+              "line": 13,
+              "end_line": 14
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 72,
+          "one_based_cell": 73,
+          "type": "code",
+          "source_lines": 3,
+          "definitions": [
+            {
+              "name": "compute_exit_probs_by_block",
+              "line": 2,
+              "end_line": 3
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 73,
+          "one_based_cell": 74,
+          "type": "code",
+          "source_lines": 6,
+          "definitions": [
+            {
+              "name": "maxdd_fraction",
+              "line": 2,
+              "end_line": 6
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 74,
+          "one_based_cell": 75,
+          "type": "code",
+          "source_lines": 19,
+          "definitions": [
+            {
+              "name": "compute_cycle_metrics_from_journal",
+              "line": 2,
+              "end_line": 19
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 75,
+          "one_based_cell": 76,
+          "type": "code",
+          "source_lines": 18,
+          "definitions": [
+            {
+              "name": "trade_journal_causality_frame",
+              "line": 2,
+              "end_line": 18
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 76,
+          "one_based_cell": 77,
+          "type": "code",
+          "source_lines": 185,
+          "definitions": [
+            {
+              "name": "run_trading_backtest",
+              "line": 2,
+              "end_line": 156
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 77,
+          "one_based_cell": 78,
+          "type": "code",
+          "source_lines": 7,
+          "definitions": [
+            {
+              "name": "sharpe_annualized",
+              "line": 2,
+              "end_line": 7
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 78,
+          "one_based_cell": 79,
+          "type": "code",
+          "source_lines": 4,
+          "definitions": [
+            {
+              "name": "entry_quality_from_coherence",
+              "line": 2,
+              "end_line": 4
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 79,
+          "one_based_cell": 80,
+          "type": "code",
+          "source_lines": 391,
+          "definitions": [
+            {
+              "name": "xgb_train_tag",
+              "line": 2,
+              "end_line": 391
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 80,
+          "one_based_cell": 81,
+          "type": "code",
+          "source_lines": 21,
+          "definitions": [
+            {
+              "name": "xgb_predict_tag",
+              "line": 2,
+              "end_line": 21
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 81,
+          "one_based_cell": 82,
+          "type": "code",
+          "source_lines": 28,
+          "definitions": [
+            {
+              "name": "train_xgb_by_horizon",
+              "line": 2,
+              "end_line": 28
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 82,
+          "one_based_cell": 83,
+          "type": "code",
+          "source_lines": 10,
+          "definitions": [
+            {
+              "name": "predict_xgb_by_horizon",
+              "line": 2,
+              "end_line": 10
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 83,
+          "one_based_cell": 84,
+          "type": "code",
+          "source_lines": 8,
+          "definitions": [
+            {
+              "name": "_frontier_weights_tensor",
+              "line": 2,
+              "end_line": 8
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 84,
+          "one_based_cell": 85,
+          "type": "code",
+          "source_lines": 4,
+          "definitions": [
+            {
+              "name": "_slice_frontier_weights",
+              "line": 2,
+              "end_line": 4
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 85,
+          "one_based_cell": 86,
+          "type": "code",
+          "source_lines": 36,
+          "definitions": [
+            {
+              "name": "zureck_born_pnext",
+              "line": 2,
+              "end_line": 36
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 86,
+          "one_based_cell": 87,
+          "type": "code",
+          "source_lines": 14,
+          "definitions": [
+            {
+              "name": "_born_subset",
+              "line": 2,
+              "end_line": 10
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 87,
+          "one_based_cell": 88,
+          "type": "code",
+          "source_lines": 8,
+          "definitions": [
+            {
+              "name": "born_audit",
+              "line": 2,
+              "end_line": 8
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 88,
+          "one_based_cell": 89,
+          "type": "code",
+          "source_lines": 24,
+          "definitions": [
+            {
+              "name": "_state_train_transition_inputs",
+              "line": 2,
+              "end_line": 7
+            },
+            {
+              "name": "_weighted_state_transition_count",
+              "line": 9,
+              "end_line": 21
+            },
+            {
+              "name": "count_transitions_train",
+              "line": 23,
+              "end_line": 24
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 89,
+          "one_based_cell": 90,
+          "type": "code",
+          "source_lines": 11,
+          "definitions": [
+            {
+              "name": "count_frontier_passages_train",
+              "line": 2,
+              "end_line": 11
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 90,
+          "one_based_cell": 91,
+          "type": "code",
+          "source_lines": 18,
+          "definitions": [
+            {
+              "name": "count_spread_weighted_train",
+              "line": 2,
+              "end_line": 18
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 91,
+          "one_based_cell": 92,
+          "type": "code",
+          "source_lines": 4,
+          "definitions": [
+            {
+              "name": "score_law",
+              "line": 2,
+              "end_line": 4
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 92,
+          "one_based_cell": 93,
+          "type": "code",
+          "source_lines": 25,
+          "definitions": [
+            {
+              "name": "compose_laws",
+              "line": 2,
+              "end_line": 25
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 93,
+          "one_based_cell": 94,
+          "type": "code",
+          "source_lines": 22,
+          "definitions": [
+            {
+              "name": "AshbyHomeostaticSystem",
+              "line": 2,
+              "end_line": 22
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 94,
+          "one_based_cell": 95,
+          "type": "code",
+          "source_lines": 29,
+          "definitions": [
+            {
+              "name": "BatesonDoubleBindFrame",
+              "line": 2,
+              "end_line": 29
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 95,
+          "one_based_cell": 96,
+          "type": "code",
+          "source_lines": 36,
+          "definitions": [
+            {
+              "name": "PaloAltoDiagnosis",
+              "line": 2,
+              "end_line": 36
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 96,
+          "one_based_cell": 97,
+          "type": "code",
+          "source_lines": 7,
+          "definitions": [
+            {
+              "name": "CyberneticIntervention",
+              "line": 2,
+              "end_line": 7
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 97,
+          "one_based_cell": 98,
+          "type": "code",
+          "source_lines": 48,
+          "definitions": [
+            {
+              "name": "_enrich_cyber_state",
+              "line": 2,
+              "end_line": 48
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 98,
+          "one_based_cell": 99,
+          "type": "code",
+          "source_lines": 9,
+          "definitions": [
+            {
+              "name": "PerformativeFeedback",
+              "line": 2,
+              "end_line": 9
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 99,
+          "one_based_cell": 100,
+          "type": "code",
+          "source_lines": 56,
+          "definitions": [
+            {
+              "name": "CyberneticMemory",
+              "line": 2,
+              "end_line": 56
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 100,
+          "one_based_cell": 101,
+          "type": "code",
+          "source_lines": 18,
+          "definitions": [
+            {
+              "name": "HomeostaticStrata",
+              "line": 2,
+              "end_line": 18
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 101,
+          "one_based_cell": 102,
+          "type": "code",
+          "source_lines": 31,
+          "definitions": [
+            {
+              "name": "FullCyberneticTradingSystem",
+              "line": 2,
+              "end_line": 31
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 102,
+          "one_based_cell": 103,
+          "type": "code",
+          "source_lines": 18,
+          "definitions": [
+            {
+              "name": "cyber_diagnose",
+              "line": 2,
+              "end_line": 18
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 103,
+          "one_based_cell": 104,
+          "type": "code",
+          "source_lines": 40,
+          "definitions": [
+            {
+              "name": "build_deterministic_tagger_tminus252_to_t",
+              "line": 2,
+              "end_line": 40
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 104,
+          "one_based_cell": 105,
+          "type": "code",
+          "source_lines": 21,
+          "definitions": [
+            {
+              "name": "support_resistance_frontier",
+              "line": 2,
+              "end_line": 21
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 105,
+          "one_based_cell": 106,
+          "type": "code",
+          "source_lines": 54,
+          "definitions": [
+            {
+              "name": "_regime_feature_score",
+              "line": 9,
+              "end_line": 19
+            },
+            {
+              "name": "_regime_frontier_components",
+              "line": 24,
+              "end_line": 36
+            },
+            {
+              "name": "regime_exit_frontier",
+              "line": 38,
+              "end_line": 54
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 106,
+          "one_based_cell": 107,
+          "type": "code",
+          "source_lines": 14,
+          "definitions": [
+            {
+              "name": "regime_exit_frontier_by_tag",
+              "line": 2,
+              "end_line": 14
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 107,
+          "one_based_cell": 108,
+          "type": "code",
+          "source_lines": 37,
+          "definitions": [
+            {
+              "name": "_regime_bricks",
+              "line": 2,
+              "end_line": 37
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 108,
+          "one_based_cell": 109,
+          "type": "code",
+          "source_lines": 58,
+          "definitions": [
+            {
+              "name": "graph_memory_252_from_tags",
+              "line": 2,
+              "end_line": 58
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 109,
+          "one_based_cell": 110,
+          "type": "code",
+          "source_lines": 144,
+          "definitions": [
+            {
+              "name": "monte_carlo_leg_propagation",
+              "line": 2,
+              "end_line": 144
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 110,
+          "one_based_cell": 111,
+          "type": "code",
+          "source_lines": 3,
+          "definitions": [
+            {
+              "name": "_audit_col_name",
+              "line": 2,
+              "end_line": 3
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 111,
+          "one_based_cell": 112,
+          "type": "code",
+          "source_lines": 9,
+          "definitions": [
+            {
+              "name": "_split_labels",
+              "line": 2,
+              "end_line": 9
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 112,
+          "one_based_cell": 113,
+          "type": "code",
+          "source_lines": 7,
+          "definitions": [
+            {
+              "name": "_state_parts",
+              "line": 2,
+              "end_line": 7
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 113,
+          "one_based_cell": 114,
+          "type": "code",
+          "source_lines": 6,
+          "definitions": [
+            {
+              "name": "_coherence_series_for_states",
+              "line": 2,
+              "end_line": 6
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 114,
+          "one_based_cell": 115,
+          "type": "code",
+          "source_lines": 3,
+          "definitions": [
+            {
+              "name": "_xgb_arch_series",
+              "line": 2,
+              "end_line": 3
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 115,
+          "one_based_cell": 116,
+          "type": "code",
+          "source_lines": 194,
+          "definitions": [
+            {
+              "name": "build_xgb_direct_weight_cybernetic_architecture",
+              "line": 2,
+              "end_line": 194
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 116,
+          "one_based_cell": 117,
+          "type": "code",
+          "source_lines": 173,
+          "definitions": [
+            {
+              "name": "build_dataset",
+              "line": 2,
+              "end_line": 173
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 117,
+          "one_based_cell": 118,
+          "type": "code",
+          "source_lines": 8,
+          "definitions": [
+            {
+              "name": "graph_prior_rows",
+              "line": 2,
+              "end_line": 8
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 118,
+          "one_based_cell": 119,
+          "type": "code",
+          "source_lines": 2,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 119,
+          "one_based_cell": 120,
+          "type": "code",
+          "source_lines": 2,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 120,
+          "one_based_cell": 121,
+          "type": "code",
+          "source_lines": 48,
+          "definitions": [
+            {
+              "name": "graph_zurek_pointer_window_prior_rows",
+              "line": 2,
+              "end_line": 48
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 121,
+          "one_based_cell": 122,
+          "type": "code",
+          "source_lines": 20,
+          "definitions": [
+            {
+              "name": "_realized_market_tag_idx",
+              "line": 2,
+              "end_line": 20
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 122,
+          "one_based_cell": 123,
+          "type": "code",
+          "source_lines": 36,
+          "definitions": [
+            {
+              "name": "market_target_tag_frame",
+              "line": 2,
+              "end_line": 36
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 123,
+          "one_based_cell": 124,
+          "type": "code",
+          "source_lines": 26,
+          "definitions": [
+            {
+              "name": "build_market_targets_by_horizon",
+              "line": 2,
+              "end_line": 26
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 124,
+          "one_based_cell": 125,
+          "type": "code",
+          "source_lines": 3,
+          "definitions": [
+            {
+              "name": "_graph_tag_ok",
+              "line": 2,
+              "end_line": 3
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 125,
+          "one_based_cell": 126,
+          "type": "code",
+          "source_lines": 77,
+          "definitions": [
+            {
+              "name": "state_probs_to_tag_probs",
+              "line": 2,
+              "end_line": 9
+            },
+            {
+              "name": "_one_hot_tag_probs",
+              "line": 11,
+              "end_line": 19
+            },
+            {
+              "name": "_tag_probability_eval",
+              "line": 21,
+              "end_line": 64
+            },
+            {
+              "name": "_tag_index_accuracy",
+              "line": 66,
+              "end_line": 68
+            },
+            {
+              "name": "_masked_tag_accuracy",
+              "line": 70,
+              "end_line": 77
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 126,
+          "one_based_cell": 127,
+          "type": "code",
+          "source_lines": 48,
+          "definitions": [
+            {
+              "name": "graph_zurek_reliability_rows",
+              "line": 2,
+              "end_line": 48
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 127,
+          "one_based_cell": 128,
+          "type": "code",
+          "source_lines": 38,
+          "definitions": [
+            {
+              "name": "accuracy_logloss_by_tag",
+              "line": 2,
+              "end_line": 38
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 128,
+          "one_based_cell": 129,
+          "type": "code",
+          "source_lines": 16,
+          "definitions": [
+            {
+              "name": "metrics_cuda_runtime_contract_frame",
+              "line": 2,
+              "end_line": 16
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 129,
+          "one_based_cell": 130,
+          "type": "code",
+          "source_lines": 31,
+          "definitions": [
+            {
+              "name": "canonical_metric_payload",
+              "line": 2,
+              "end_line": 31
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 130,
+          "one_based_cell": 131,
+          "type": "code",
+          "source_lines": 66,
+          "definitions": [
+            {
+              "name": "canonical_model_validation_report_frame",
+              "line": 2,
+              "end_line": 66
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 131,
+          "one_based_cell": 132,
+          "type": "code",
+          "source_lines": 62,
+          "definitions": [
+            {
+              "name": "_introspect_dead_code_and_duplicates_audit",
+              "line": 2,
+              "end_line": 62
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 132,
+          "one_based_cell": 133,
+          "type": "code",
+          "source_lines": 43,
+          "definitions": [
+            {
+              "name": "final_contract_audit_frames",
+              "line": 2,
+              "end_line": 43
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 133,
+          "one_based_cell": 134,
+          "type": "code",
+          "source_lines": 6,
+          "definitions": [
+            {
+              "name": "_base_daily_frame",
+              "line": 2,
+              "end_line": 6
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 134,
+          "one_based_cell": 135,
+          "type": "code",
+          "source_lines": 6,
+          "definitions": [
+            {
+              "name": "_with_date_split",
+              "line": 2,
+              "end_line": 6
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 135,
+          "one_based_cell": 136,
+          "type": "code",
+          "source_lines": 9,
+          "definitions": [
+            {
+              "name": "_wide_array_frame",
+              "line": 2,
+              "end_line": 9
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 136,
+          "one_based_cell": 137,
+          "type": "code",
+          "source_lines": 34,
+          "definitions": [
+            {
+              "name": "_zureck_audit_frames",
+              "line": 2,
+              "end_line": 34
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 137,
+          "one_based_cell": 138,
+          "type": "code",
+          "source_lines": 14,
+          "definitions": [
+            {
+              "name": "tag_probability_metrics",
+              "line": 2,
+              "end_line": 14
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 138,
+          "one_based_cell": 139,
+          "type": "code",
+          "source_lines": 6,
+          "definitions": [
+            {
+              "name": "audit_only_classification_report",
+              "line": 2,
+              "end_line": 6
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 139,
+          "one_based_cell": 140,
+          "type": "code",
+          "source_lines": 13,
+          "definitions": [
+            {
+              "name": "tag_metrics_frame",
+              "line": 2,
+              "end_line": 13
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 140,
+          "one_based_cell": 141,
+          "type": "code",
+          "source_lines": 17,
+          "definitions": [
+            {
+              "name": "transition_accuracy_audit_frame",
+              "line": 2,
+              "end_line": 17
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 141,
+          "one_based_cell": 142,
+          "type": "code",
+          "source_lines": 40,
+          "definitions": [
+            {
+              "name": "anti_tautology_baseline_audit_frame",
+              "line": 2,
+              "end_line": 40
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 142,
+          "one_based_cell": 143,
+          "type": "code",
+          "source_lines": 4,
+          "definitions": [
+            {
+              "name": "tag_confusion_frame",
+              "line": 2,
+              "end_line": 4
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 143,
+          "one_based_cell": 144,
+          "type": "code",
+          "source_lines": 25,
+          "definitions": [
+            {
+              "name": "_graph_accuracy_payload",
+              "line": 2,
+              "end_line": 13
+            },
+            {
+              "name": "graph_tag_accuracy",
+              "line": 15,
+              "end_line": 25
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 144,
+          "one_based_cell": 145,
+          "type": "code",
+          "source_lines": 22,
+          "definitions": [
+            {
+              "name": "graph_back_window_accuracy",
+              "line": 2,
+              "end_line": 22
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 145,
+          "one_based_cell": 146,
+          "type": "code",
+          "source_lines": 213,
+          "definitions": [
+            {
+              "name": "born_bayes_posterior_by_horizon",
+              "line": 2,
+              "end_line": 213
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 146,
+          "one_based_cell": 147,
+          "type": "code",
+          "source_lines": 1072,
+          "definitions": [
+            {
+              "name": "train_joint7",
+              "line": 2,
+              "end_line": 1072
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 147,
+          "one_based_cell": 148,
+          "type": "code",
+          "source_lines": 59,
+          "definitions": [
+            {
+              "name": "_require_contract",
+              "line": 3,
+              "end_line": 5
+            },
+            {
+              "name": "_check_invariants",
+              "line": 7,
+              "end_line": 59
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 148,
+          "one_based_cell": 149,
+          "type": "code",
+          "source_lines": 9,
+          "definitions": [
+            {
+              "name": "_audit_frame",
+              "line": 2,
+              "end_line": 9
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 149,
+          "one_based_cell": 150,
+          "type": "code",
+          "source_lines": 371,
+          "definitions": [
+            {
+              "name": "_check_causal_audit_payload",
+              "line": 2,
+              "end_line": 371
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 150,
+          "one_based_cell": 151,
+          "type": "code",
+          "source_lines": 19,
+          "definitions": [
+            {
+              "name": "_deploy_payload",
+              "line": 2,
+              "end_line": 19
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 151,
+          "one_based_cell": 152,
+          "type": "code",
+          "source_lines": 12,
+          "definitions": [
+            {
+              "name": "_live_metrics_payload",
+              "line": 2,
+              "end_line": 12
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 152,
+          "one_based_cell": 153,
+          "type": "code",
+          "source_lines": 4,
+          "definitions": [
+            {
+              "name": "_operational_memory_payload",
+              "line": 2,
+              "end_line": 4
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 153,
+          "one_based_cell": 154,
+          "type": "code",
+          "source_lines": 28,
+          "definitions": [
+            {
+              "name": "_check_live_payload_contract",
+              "line": 2,
+              "end_line": 28
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 154,
+          "one_based_cell": 155,
+          "type": "code",
+          "source_lines": 13,
+          "definitions": [
+            {
+              "name": "_atomic_write_path",
+              "line": 2,
+              "end_line": 6
+            },
+            {
+              "name": "save_deploy_bundle",
+              "line": 8,
+              "end_line": 13
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 155,
+          "one_based_cell": 156,
+          "type": "code",
+          "source_lines": 9,
+          "definitions": [
+            {
+              "name": "save_live_state",
+              "line": 2,
+              "end_line": 9
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 156,
+          "one_based_cell": 157,
+          "type": "code",
+          "source_lines": 20,
+          "definitions": [
+            {
+              "name": "live_cycle_state",
+              "line": 2,
+              "end_line": 20
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 157,
+          "one_based_cell": 158,
+          "type": "code",
+          "source_lines": 140,
+          "definitions": [
+            {
+              "name": "run_symbol",
+              "line": 2,
+              "end_line": 140
+            }
+          ]
+        },
+        {
+          "zero_based_cell": 158,
+          "one_based_cell": 159,
+          "type": "code",
+          "source_lines": 91,
+          "definitions": [
+            {
+              "name": "main",
+              "line": 1,
+              "end_line": 83
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "6 signaux.ipynb",
+      "sha256": "f78410fcadb0ac268793265c13f52b9fc7617fd5170ed39d105d7092bea97ae2",
+      "cells": [
+        {
+          "zero_based_cell": 0,
+          "one_based_cell": 1,
+          "type": "markdown",
+          "source_lines": 2,
+          "definitions": []
+        },
+        {
+          "zero_based_cell": 1,
+          "one_based_cell": 2,
+          "type": "code",
+          "source_lines": 525,
+          "definitions": [
+            {
+              "name": "load_leader",
+              "line": 118,
+              "end_line": 131
+            },
+            {
+              "name": "_raw_ohlc_frame",
+              "line": 133,
+              "end_line": 155
+            },
+            {
+              "name": "read_adjclose",
+              "line": 157,
+              "end_line": 165
+            },
+            {
+              "name": "read_ohlc",
+              "line": 167,
+              "end_line": 185
+            },
+            {
+              "name": "read_signal_tags",
+              "line": 187,
+              "end_line": 211
+            },
+            {
+              "name": "read_graph_tags_t",
+              "line": 213,
+              "end_line": 238
+            },
+            {
+              "name": "current_signal",
+              "line": 240,
+              "end_line": 246
+            },
+            {
+              "name": "load_summary",
+              "line": 248,
+              "end_line": 271
+            },
+            {
+              "name": "linreg_stats_on_returns",
+              "line": 274,
+              "end_line": 291
+            },
+            {
+              "name": "z_for",
+              "line": 293,
+              "end_line": 298
+            },
+            {
+              "name": "build_signal_table",
+              "line": 301,
+              "end_line": 323
+            },
+            {
+              "name": "signals_for_leg",
+              "line": 325,
+              "end_line": 339
+            },
+            {
+              "name": "render_signal_table",
+              "line": 343,
+              "end_line": 360
+            },
+            {
+              "name": "print_regression_tables",
+              "line": 362,
+              "end_line": 369
+            },
+            {
+              "name": "_show_png",
+              "line": 372,
+              "end_line": 382
+            },
+            {
+              "name": "_plot_year",
+              "line": 384,
+              "end_line": 409
+            },
+            {
+              "name": "plot_ticker_last_year",
+              "line": 411,
+              "end_line": 437
+            },
+            {
+              "name": "plot_regressions",
+              "line": 439,
+              "end_line": 459
+            },
+            {
+              "name": "_build_signaux_ui",
+              "line": 466,
+              "end_line": 523
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "status": "PASS",
-  "documents": 5,
-  "render_checks": 10,
+  "documents": 10,
+  "render_checks": 20,
   "notebook_cells": 20,
   "notebook_error_outputs": 0,
   "browser_cases": 17,
@@ -24,6 +24,56 @@
     },
     {
       "file": "basket-design.md",
+      "scheme": "dark",
+      "status": "PASS"
+    },
+    {
+      "file": "EDGE-REVIEW.md",
+      "scheme": "light",
+      "status": "PASS"
+    },
+    {
+      "file": "EDGE-REVIEW.md",
+      "scheme": "dark",
+      "status": "PASS"
+    },
+    {
+      "file": "fractal-audit\\exposure.md",
+      "scheme": "light",
+      "status": "PASS"
+    },
+    {
+      "file": "fractal-audit\\exposure.md",
+      "scheme": "dark",
+      "status": "PASS"
+    },
+    {
+      "file": "fractal-audit\\state-model.md",
+      "scheme": "light",
+      "status": "PASS"
+    },
+    {
+      "file": "fractal-audit\\state-model.md",
+      "scheme": "dark",
+      "status": "PASS"
+    },
+    {
+      "file": "fractal-audit\\training-execution.md",
+      "scheme": "light",
+      "status": "PASS"
+    },
+    {
+      "file": "fractal-audit\\training-execution.md",
+      "scheme": "dark",
+      "status": "PASS"
+    },
+    {
+      "file": "FRACTAL-DEEP-DIVE.md",
+      "scheme": "light",
+      "status": "PASS"
+    },
+    {
+      "file": "FRACTAL-DEEP-DIVE.md",
       "scheme": "dark",
       "status": "PASS"
     },

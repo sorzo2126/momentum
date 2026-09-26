@@ -1,5 +1,7 @@
 # Independent SPY real-data experiment
 
+A subsequent [review of trading-edge evidence](EDGE-REVIEW.md) examines these frozen results in more detail and adds explicitly post-hoc comparisons with a simple risk-distribution baseline. The original fit, forecasts and scores below are unchanged.
+
 The existing momentum architecture runs on real SPY history, but this first held-out test does **not** establish a convincing directional forecasting advantage. Its one-hour probability score improves slightly on a constant training-frequency forecast and trails the simpler price-only learner. The paired uncertainty intervals include no improvement. This is a separate equity experiment: no CGB weights or market observations were used, and no CGB files were changed.
 
 This run uses Fractal's existing EODHD connection as the data source. It refits the momentum observer and conditional-path architecture developed in this repository. It is not a replication of Fractal's complete six-notebook basket selection and deployment strategy.

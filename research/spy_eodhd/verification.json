@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "checks": {
+    "prefix_invariance": true,
+    "future_feature_poisoning": true,
+    "future_bar_extrema_only": true,
+    "bar_end_is_start_plus_5m": true,
+    "no_missing_prices_or_volume": true,
+    "no_synthetic_quotes_or_flow": true,
+    "chronological_train_cal_test": true,
+    "targets_end_inside_session_and_split": true,
+    "original_CGB_weights_not_loaded": true,
+    "all_three_classes_supported": true,
+    "probabilities_sum_to_one": true,
+    "raw_bar_count": 19746,
+    "retained_sessions": 241,
+    "retained_bars": 18798,
+    "quality_excluded_sessions": 10,
+    "source_sha256": "b13851867407f21bf3588709d9626b4689a9a2fc30442c6d7d9afa15471b56fd",
+    "protocol_sha256": "c3acaea3f9951369454ef045ebb5add6421edaf24175a4811c88f1698776d1c0",
+    "runner_sha256": "fa97cde0a34b2de1ddbc011f8c2e8cc41fbca6789a429532b6b00764295ea5bc",
+    "local_event_observer_sha256": "16537788ed680df462908a05dfc6a2d88ba297a1fe53d7ced938c769aa458d5a",
+    "reused_source_sha256": {
+      "scenarios.py": "c42274671efa55fc03381c206c1e4d2dd1de64c6374ff929ce35a42bc8cf32d7",
+      "states.py": "3e608b74bc6d4edc0e440df3cd18672c74e447fbb84099d150c3cdf4609cc571",
+      "model.py": "36ee962cc3b5d68f06e6ca09ac7f7f932f595326e8830359a0eebe48b4247d71"
+    },
+    "ui_session": "2026-07-15",
+    "elapsed_seconds": 108.91
+  }
+}

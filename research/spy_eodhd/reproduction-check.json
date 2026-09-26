@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-09-26T13:50:38.430850+00:00",
+  "scope": "Engineering reproducibility; no new model selection or API access",
+  "checks": {
+    "metrics_numeric_and_metadata_equality": true,
+    "comparisons_numeric_and_metadata_equality": true,
+    "all_horizon_path_contracts": true,
+    "final_runner_matches_verification": true,
+    "protocol_matches_recorded_split": true
+  },
+  "path_checks": {
+    "60": {
+      "shape": [
+        7776,
+        13
+      ],
+      "finite": true,
+      "origin_zero_exact": true,
+      "endpoint_identity": true,
+      "maximum_endpoint_absolute_error": 0.0,
+      "OHLC_adverse_extrema_cover_close_extrema": true
+    },
+    "120": {
+      "shape": [
+        6048,
+        25
+      ],
+      "finite": true,
+      "origin_zero_exact": true,
+      "endpoint_identity": true,
+      "maximum_endpoint_absolute_error": 0.0,
+      "OHLC_adverse_extrema_cover_close_extrema": true
+    },
+    "240": {
+      "shape": [
+        2592,
+        49
+      ],
+      "finite": true,
+      "origin_zero_exact": true,
+      "endpoint_identity": true,
+      "maximum_endpoint_absolute_error": 0.0,
+      "OHLC_adverse_extrema_cover_close_extrema": true
+    }
+  },
+  "output_comparison": {
+    "metrics": {
+      "rows": 27,
+      "columns": [
+        "horizon_minutes",
+        "model",
+        "rows",
+        "sessions",
+        "log_loss",
+        "brier",
+        "accuracy"
+      ],
+      "first_sha256": "5767af79bab7805498c8194772052a5c93174f0d0bab6ebb69938399d2c52aad",
+      "final_sha256": "5767af79bab7805498c8194772052a5c93174f0d0bab6ebb69938399d2c52aad"
+    },
+    "comparisons": {
+      "rows": 15,
+      "columns": [
+        "horizon_minutes",
+        "baseline",
+        "difference",
+        "mean",
+        "low",
+        "high",
+        "sessions"
+      ],
+      "first_sha256": "dc2e860bf3e51d1fbd7037300744a4866f14ec5e956121de292731a6b2e894c9",
+      "final_sha256": "dc2e860bf3e51d1fbd7037300744a4866f14ec5e956121de292731a6b2e894c9"
+    }
+  },
+  "version_sha256": {
+    "protocol": "c3acaea3f9951369454ef045ebb5add6421edaf24175a4811c88f1698776d1c0",
+    "first_run_source": "19cf5a2626046e214df429715504ea84c0dc7f7266c1f9ccdb50d8c203451666",
+    "final_run_source": "fa97cde0a34b2de1ddbc011f8c2e8cc41fbca6789a429532b6b00764295ea5bc",
+    "local_event_observer": "16537788ed680df462908a05dfc6a2d88ba297a1fe53d7ced938c769aa458d5a"
+  },
+  "statement": "Added local presentation observer, quality reason counts and stored normalized close paths. Every first-run versus final-run metrics and comparisons table value is exactly identical."
+}

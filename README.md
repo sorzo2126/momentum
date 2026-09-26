@@ -1,11 +1,12 @@
 # Momentum
 
-A research project for an intraday CGB duration indicator over 60, 120 and 240 minutes. It contains the model, notebook, mathematical reasoning, iteration protocol, lessons and paper catalog. **Market inputs remain blank; no predictive edge has been established.**
+A research project for intraday momentum indicators over 60, 120 and 240 minutes. It contains the model, notebooks, mathematical reasoning, iteration protocol, lessons and paper catalog. **CGB live-market inputs remain blank. A separate SPY experiment now uses real historical data; no predictive edge has been established.**
 
 ## Start here
 
 | Purpose | Open |
 |---|---|
+| Inspect the independent real-SPY test | [Real-data report](research/spy_eodhd/REPORT.md), [notebook](research/spy_eodhd/SPY-real-data-study.ipynb) and [basket research plan](research/spy_eodhd/basket-design.md) |
 | Inspect the executed synthetic CAD/US bond ecosystem | [Full simulation report](research/cgb_ecosystem/REPORT.md), [results notebook](research/cgb_ecosystem/simulation-results.ipynb) and [experiment code](research/cgb_ecosystem/simulation/structured_simulation.py) |
 | Add data and improve the model | [Iteration and improvement](docs/12-iteration-and-improvement.md) |
 | Understand each design choice | [First-principles derivation](docs/10-structural-model-derivation.md) |
@@ -28,6 +29,7 @@ A research project for an intraday CGB duration indicator over 60, 120 and 240 m
 | `archive/` | Earlier design notes, baseline notebook and Step 1 reference code |
 | `data/` | Input instructions; no market dataset |
 | `research/cgb_ecosystem/` | [Complete simulation study](research/cgb_ecosystem/README.md): hypotheses, notebook, report, generator, exact model snapshot, raw histories, fitted models, forecasts, ledgers, plots and audits |
+| `research/spy_eodhd/` | [Independent real-SPY study](research/spy_eodhd/README.md): EODHD adapter, frozen evaluation, chart source, notebook, audits and basket design; vendor rows and fitted artifacts remain local |
 
 ## Mathematics and code
 
@@ -43,4 +45,4 @@ The `momentum train`, `momentum forecast` and `momentum show` commands fit an id
 
 The current model learns direct horizon-specific transitions among five descriptive states, fits future-state and future-price XGBoost heads, and combines three distributions over TRAIN historical paths. Direction, expected movement and adverse excursion come from one coherent distribution per horizon. CAL fits mixture weights; TEST supplies subsequent diagnostics. Separate horizons do not form a single joint path process.
 
-The intended default experiment includes CGB, US duration and the Canadian curve. Optional flow, OIS, swaps, forwards, book, VWAP and context need sufficient real coverage. Bid/ask costs use prices in a separate accounting layer. No real-data fit, predictive edge, full event-level L2 reconstruction, automatic retraining or live order execution is claimed. Local scale transfer and state relevance remain falsifiable market hypotheses.
+The intended CAD experiment includes CGB, US duration and the Canadian curve. Optional flow, OIS, swaps, forwards, book, VWAP and context need sufficient real coverage. Bid/ask costs use prices in a separate accounting layer. The separately fitted SPY study tests the architecture on historical OHLCV; it supplies no CGB validation. No predictive edge, full event-level L2 reconstruction, automatic retraining or live order execution is claimed. Local scale transfer and state relevance remain falsifiable market hypotheses.

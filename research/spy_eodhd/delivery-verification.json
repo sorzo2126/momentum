@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "documents": 5,
+  "render_checks": 10,
+  "notebook_cells": 20,
+  "notebook_error_outputs": 0,
+  "browser_cases": 17,
+  "inline_data_and_hash_verified": true,
+  "checks": [
+    {
+      "file": "AUDIT.md",
+      "scheme": "light",
+      "status": "PASS"
+    },
+    {
+      "file": "AUDIT.md",
+      "scheme": "dark",
+      "status": "PASS"
+    },
+    {
+      "file": "basket-design.md",
+      "scheme": "light",
+      "status": "PASS"
+    },
+    {
+      "file": "basket-design.md",
+      "scheme": "dark",
+      "status": "PASS"
+    },
+    {
+      "file": "README.md",
+      "scheme": "light",
+      "status": "PASS"
+    },
+    {
+      "file": "README.md",
+      "scheme": "dark",
+      "status": "PASS"
+    },
+    {
+      "file": "REPORT.md",
+      "scheme": "light",
+      "status": "PASS"
+    },
+    {
+      "file": "REPORT.md",
+      "scheme": "dark",
+      "status": "PASS"
+    },
+    {
+      "file": "ui\\UI.md",
+      "scheme": "light",
+      "status": "PASS"
+    },
+    {
+      "file": "ui\\UI.md",
+      "scheme": "dark",
+      "status": "PASS"
+    }
+  ]
+}

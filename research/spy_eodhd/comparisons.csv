@@ -1,0 +1,16 @@
+horizon_minutes,baseline,difference,mean,low,high,sessions
+60,train_frequency,mixture minus baseline log loss; negative favours mixture,-0.0016395525175060312,-0.0074017286683312295,0.0038917801342883396,49
+60,momentum_only,mixture minus baseline log loss; negative favours mixture,-0.003209401939743123,-0.009144289826524394,0.0027348070562506635,49
+60,clock_only,mixture minus baseline log loss; negative favours mixture,-0.0013634164628546156,-0.01011424796392343,0.006620274050987743,49
+60,price_only,mixture minus baseline log loss; negative favours mixture,0.0008675002015816681,-0.004714289223894357,0.006729332496041095,49
+60,direct_full,mixture minus baseline log loss; negative favours mixture,-0.0009233052171949561,-0.0025522392375858325,0.0005976851525399506,49
+120,train_frequency,mixture minus baseline log loss; negative favours mixture,-0.005621624250335016,-0.013970646908506622,0.002457177557953538,49
+120,momentum_only,mixture minus baseline log loss; negative favours mixture,-0.0011689166329760972,-0.007980368275937427,0.005265744669922644,49
+120,clock_only,mixture minus baseline log loss; negative favours mixture,-0.007083559339604645,-0.018477461003445415,0.00464464492582515,49
+120,price_only,mixture minus baseline log loss; negative favours mixture,0.003684661653572342,-0.003145946030977317,0.011135123731557985,49
+120,direct_full,mixture minus baseline log loss; negative favours mixture,-0.0029965692159347464,-0.007036259149260856,0.0004400287940260848,49
+240,train_frequency,mixture minus baseline log loss; negative favours mixture,-0.004095263675497274,-0.02009594843756644,0.012211042957595819,49
+240,momentum_only,mixture minus baseline log loss; negative favours mixture,-0.0071941988416171715,-0.026328356361576925,0.011613323112163827,49
+240,clock_only,mixture minus baseline log loss; negative favours mixture,-0.003791932174460094,-0.02098719664922562,0.013761245806287853,49
+240,price_only,mixture minus baseline log loss; negative favours mixture,-0.003018970733202079,-0.01512412445622162,0.008493669547574344,49
+240,direct_full,mixture minus baseline log loss; negative favours mixture,-0.003922483022011226,-0.011272372280242726,0.0029792897643287075,49

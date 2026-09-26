@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "tests": 32,
+  "scope": "Display mapping and explicit test health envelope; no live service or statistical forecast validation.",
+  "source_snapshot_sha256": "438ac8d63e3a4df5d69a17a1fd4dd342dd1adf069a5935705b2f700824a3e45c",
+  "code_sha256": "d2530f39d08319812f094634d36c0c356c91dbbdbc169f08eff23a89d4d235d0",
+  "checks": [
+    {
+      "case": "Saved upward phase maps up probability to continuation",
+      "status": "PASS"
+    },
+    {
+      "case": "Downward phase maps down probability to continuation",
+      "status": "PASS"
+    },
+    {
+      "case": "Balanced phase has no invented continuation probability",
+      "status": "PASS"
+    },
+    {
+      "case": "Equal class probabilities have no arbitrary winner",
+      "status": "PASS"
+    },
+    {
+      "case": "Complete selected inputs are distinguished from missing inputs",
+      "status": "PASS"
+    },
+    {
+      "case": "Horizon selection 120",
+      "status": "PASS"
+    },
+    {
+      "case": "Horizon selection 240",
+      "status": "PASS"
+    },
+    {
+      "case": "Horizon unavailable",
+      "status": "PASS"
+    },
+    {
+      "case": "Explicit upstream unavailability",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject mismatched run identity",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject wrong futures contract",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject unknown model status",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject model newer than forecast",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject future forecast",
+      "status": "PASS"
+    },
+    {
+      "case": "Expire at the next five-minute update boundary",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject horizon beyond session",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject wrong target",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject duplicate horizon",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject mixed origin",
+      "status": "PASS"
+    },
+    {
+      "case": "Required US source stale while heartbeat is fresh",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject old health heartbeat",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject missing source policy",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject one missing required source",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject source received in the future",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject malformed probabilities",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject nonfinite forecast",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject reversed quantiles",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject negative adverse excursion",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject unknown observer state",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject crossed anchor quote",
+      "status": "PASS"
+    },
+    {
+      "case": "Reject altered midpoint anchor",
+      "status": "PASS"
+    },
+    {
+      "case": "Future outcome fields cannot change displayed card",
+      "status": "PASS"
+    }
+  ]
+}

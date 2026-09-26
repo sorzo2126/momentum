@@ -40,7 +40,8 @@ function walk(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.
       }
     }
   }finally{await browser.close();}
-  const result={status:'PASS',documents:files.length,scheme_checks:results.length,rendered_equations:4,results};
+  const equationCount=walk(root).filter(f=>path.basename(f)==='source.json'&&path.basename(path.dirname(f))==='equations').reduce((n,f)=>n+JSON.parse(fs.readFileSync(f,'utf8')).length,0);
+  const result={status:'PASS',documents:files.length,scheme_checks:results.length,rendered_equations:equationCount,results};
   fs.writeFileSync(path.join(root,'render-verification.json'),JSON.stringify(result,null,2)+'\n');
   console.log(JSON.stringify({...result,results:undefined}));
 })().catch(e=>{console.error(e);process.exit(1);});

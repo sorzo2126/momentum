@@ -4,6 +4,8 @@ The one-hour model remains worth developing. We now have a narrower and more use
 
 This folder contains the first bounded batch from the [research plan](../../docs/thesis-review/research-plan.md), a focused source-code comparison with Fractal X, and a trader display built from an actual saved synthetic forecast. The original S0 histories, fitted models and results remain unchanged. Component comparisons reuse previously inspected S0 TEST data and are retrospective diagnostics. The separate observability laboratory saved its protocol before generating its new worlds.
 
+For the smaller live-product design, read [the compact indicator](compact-indicator/REPORT.md): ten verified source excerpts, a one-horizon panel, explicit failure behaviour, and 32 logical display checks.
+
 ## What the new experiments say
 
 ### The one-hour result survives a useful comparison, but has a time-of-day weakness

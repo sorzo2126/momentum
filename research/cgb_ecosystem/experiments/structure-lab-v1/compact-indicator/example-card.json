@@ -1,0 +1,36 @@
+{
+  "status": "limited_inputs",
+  "headline": "Downside is the most likely endpoint",
+  "reason": "local_z_30",
+  "forecast": {
+    "p_down": 0.5039083957672119,
+    "p_neutral": 0.1768077611923217,
+    "p_up": 0.3192838430404663,
+    "endpoint_mean_ticks": -3.373535164265914,
+    "endpoint_q10_ticks": -20.593238826393947,
+    "endpoint_q90_ticks": 13.818116795749289,
+    "mae_long_q80_ticks": 17.0411622161606,
+    "mae_short_q80_ticks": 12.361792530235462,
+    "neutral_band_ticks": 3.052844949901079,
+    "relative": {
+      "direction": "up",
+      "continuation": 0.3192838430404663,
+      "opposite": 0.5039083957672119,
+      "neutral": 0.1768077611923217
+    },
+    "anchor_midpoint": 112.755,
+    "anchor_spread_ticks": 3.0000000000001137
+  },
+  "mode": "historical_synthetic_replay",
+  "horizon_minutes": 60,
+  "decision_time": "2025-02-19T15:30:00+00:00",
+  "target_time": "2025-02-19T16:30:00+00:00",
+  "observed_state": "up-responsive",
+  "observed_direction": "up",
+  "identity": {
+    "run_id": "0c109771-25d5-418f-8aa8-54d76f20a20b",
+    "code_contract_version": "cad-conditional-paths-v1",
+    "state_series_hash": "1252a3113f5bf25ea7005d0ff6a4b8a7545ef0d94a1c39be72d6355780020d99"
+  },
+  "interpretation": "Endpoint at the target time, measured from the frozen origin; no trend-survival claim."
+}

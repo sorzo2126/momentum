@@ -1,8 +1,8 @@
 {
   "status": "PASS",
-  "documents": 9,
-  "scheme_checks": 18,
-  "rendered_equations": 4,
+  "documents": 11,
+  "scheme_checks": 22,
+  "rendered_equations": 6,
   "results": [
     {
       "file": "../../docs/trader-use.md",
@@ -32,6 +32,38 @@
       "file": "README.md",
       "scheme": "dark",
       "images": 1,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "compact-indicator/REPORT.md",
+      "scheme": "light",
+      "images": 3,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "compact-indicator/REPORT.md",
+      "scheme": "dark",
+      "images": 3,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "compact-indicator/source-dossier.md",
+      "scheme": "light",
+      "images": 0,
+      "broken": 0,
+      "rawMath": false,
+      "mathBoxes": 0
+    },
+    {
+      "file": "compact-indicator/source-dossier.md",
+      "scheme": "dark",
+      "images": 0,
       "broken": 0,
       "rawMath": false,
       "mathBoxes": 0

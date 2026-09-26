@@ -1,0 +1,183 @@
+{
+  "cases": {
+    "saved": {
+      "60": {
+        "status": "limited_inputs",
+        "headline": "Downside is the most likely endpoint",
+        "reason": "local_z_30",
+        "forecast": {
+          "p_down": 0.5039083957672119,
+          "p_neutral": 0.1768077611923217,
+          "p_up": 0.3192838430404663,
+          "endpoint_mean_ticks": -3.373535164265914,
+          "endpoint_q10_ticks": -20.593238826393947,
+          "endpoint_q90_ticks": 13.818116795749289,
+          "mae_long_q80_ticks": 17.0411622161606,
+          "mae_short_q80_ticks": 12.361792530235462,
+          "neutral_band_ticks": 3.052844949901079,
+          "relative": {
+            "direction": "up",
+            "continuation": 0.3192838430404663,
+            "opposite": 0.5039083957672119,
+            "neutral": 0.1768077611923217
+          },
+          "anchor_midpoint": 112.755,
+          "anchor_spread_ticks": 3.0000000000001137
+        },
+        "mode": "historical_synthetic_replay",
+        "horizon_minutes": 60,
+        "decision_time": "2025-02-19T15:30:00+00:00",
+        "target_time": "2025-02-19T16:30:00+00:00",
+        "observed_state": "up-responsive",
+        "observed_direction": "up",
+        "identity": {
+          "run_id": "0c109771-25d5-418f-8aa8-54d76f20a20b",
+          "code_contract_version": "cad-conditional-paths-v1",
+          "state_series_hash": "1252a3113f5bf25ea7005d0ff6a4b8a7545ef0d94a1c39be72d6355780020d99"
+        },
+        "interpretation": "Endpoint at the target time, measured from the frozen origin; no trend-survival claim."
+      },
+      "120": {
+        "status": "limited_inputs",
+        "headline": "Downside is the most likely endpoint",
+        "reason": "local_z_30",
+        "forecast": {
+          "p_down": 0.43424725248887,
+          "p_neutral": 0.2239606548100107,
+          "p_up": 0.3417920927011192,
+          "endpoint_mean_ticks": -4.141589929160478,
+          "endpoint_q10_ticks": -33.03572489550206,
+          "endpoint_q90_ticks": 20.212626517502425,
+          "mae_long_q80_ticks": 27.88994070963861,
+          "mae_short_q80_ticks": 19.83356424780003,
+          "neutral_band_ticks": 4.3173747319723175,
+          "relative": {
+            "direction": "up",
+            "continuation": 0.3417920927011192,
+            "opposite": 0.43424725248887,
+            "neutral": 0.2239606548100107
+          },
+          "anchor_midpoint": 112.755,
+          "anchor_spread_ticks": 3.0000000000001137
+        },
+        "mode": "historical_synthetic_replay",
+        "horizon_minutes": 120,
+        "decision_time": "2025-02-19T15:30:00+00:00",
+        "target_time": "2025-02-19T17:30:00+00:00",
+        "observed_state": "up-responsive",
+        "observed_direction": "up",
+        "identity": {
+          "run_id": "0c109771-25d5-418f-8aa8-54d76f20a20b",
+          "code_contract_version": "cad-conditional-paths-v1",
+          "state_series_hash": "1252a3113f5bf25ea7005d0ff6a4b8a7545ef0d94a1c39be72d6355780020d99"
+        },
+        "interpretation": "Endpoint at the target time, measured from the frozen origin; no trend-survival claim."
+      },
+      "240": {
+        "status": "limited_inputs",
+        "headline": "Downside is the most likely endpoint",
+        "reason": "local_z_30",
+        "forecast": {
+          "p_down": 0.5393799897842324,
+          "p_neutral": 0.1194800548624968,
+          "p_up": 0.3411399553532707,
+          "endpoint_mean_ticks": -10.708190402278133,
+          "endpoint_q10_ticks": -61.00512030038937,
+          "endpoint_q90_ticks": 31.285647434036537,
+          "mae_long_q80_ticks": 44.76855939353703,
+          "mae_short_q80_ticks": 30.845021655108635,
+          "neutral_band_ticks": 6.105689899802158,
+          "relative": {
+            "direction": "up",
+            "continuation": 0.3411399553532707,
+            "opposite": 0.5393799897842324,
+            "neutral": 0.1194800548624968
+          },
+          "anchor_midpoint": 112.755,
+          "anchor_spread_ticks": 3.0000000000001137
+        },
+        "mode": "historical_synthetic_replay",
+        "horizon_minutes": 240,
+        "decision_time": "2025-02-19T15:30:00+00:00",
+        "target_time": "2025-02-19T19:30:00+00:00",
+        "observed_state": "up-responsive",
+        "observed_direction": "up",
+        "identity": {
+          "run_id": "0c109771-25d5-418f-8aa8-54d76f20a20b",
+          "code_contract_version": "cad-conditional-paths-v1",
+          "state_series_hash": "1252a3113f5bf25ea7005d0ff6a4b8a7545ef0d94a1c39be72d6355780020d99"
+        },
+        "interpretation": "Endpoint at the target time, measured from the frozen origin; no trend-survival claim."
+      }
+    },
+    "stale": {
+      "60": {
+        "status": "unavailable",
+        "headline": "Reading unavailable",
+        "reason": "Stale US duration quote",
+        "forecast": null,
+        "mode": "historical_synthetic_replay",
+        "horizon_minutes": 60,
+        "decision_time": "2025-02-19T15:30:00+00:00",
+        "target_time": "2025-02-19T16:30:00+00:00"
+      },
+      "120": {
+        "status": "unavailable",
+        "headline": "Reading unavailable",
+        "reason": "Stale US duration quote",
+        "forecast": null,
+        "mode": "historical_synthetic_replay",
+        "horizon_minutes": 120,
+        "decision_time": "2025-02-19T15:30:00+00:00",
+        "target_time": "2025-02-19T17:30:00+00:00"
+      },
+      "240": {
+        "status": "unavailable",
+        "headline": "Reading unavailable",
+        "reason": "Stale US duration quote",
+        "forecast": null,
+        "mode": "historical_synthetic_replay",
+        "horizon_minutes": 240,
+        "decision_time": "2025-02-19T15:30:00+00:00",
+        "target_time": "2025-02-19T19:30:00+00:00"
+      }
+    },
+    "expired": {
+      "60": {
+        "status": "expired",
+        "headline": "Reading expired",
+        "reason": "Awaiting the next scheduled forecast",
+        "forecast": null,
+        "mode": "historical_synthetic_replay",
+        "horizon_minutes": 60,
+        "decision_time": "2025-02-19T15:30:00+00:00",
+        "target_time": "2025-02-19T16:30:00+00:00"
+      },
+      "120": {
+        "status": "expired",
+        "headline": "Reading expired",
+        "reason": "Awaiting the next scheduled forecast",
+        "forecast": null,
+        "mode": "historical_synthetic_replay",
+        "horizon_minutes": 120,
+        "decision_time": "2025-02-19T15:30:00+00:00",
+        "target_time": "2025-02-19T17:30:00+00:00"
+      },
+      "240": {
+        "status": "expired",
+        "headline": "Reading expired",
+        "reason": "Awaiting the next scheduled forecast",
+        "forecast": null,
+        "mode": "historical_synthetic_replay",
+        "horizon_minutes": 240,
+        "decision_time": "2025-02-19T15:30:00+00:00",
+        "target_time": "2025-02-19T19:30:00+00:00"
+      }
+    }
+  },
+  "provenance": "Saved historical synthetic forecast; health and failure states are UI fixtures.",
+  "context": {
+    "past_30m_ticks": 21.50000000000176,
+    "vwap_distance_ticks": 26.900592437709747
+  }
+}

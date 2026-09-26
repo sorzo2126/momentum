@@ -1420,6 +1420,91 @@
       "sha256": "475267df5bb62c5a5104c11a0a75d764e36db89113ed16e6d0c0add5b86eace9"
     },
     {
+      "path": "experiments/structure-lab-v1/compact-indicator/build_preview_cases.py",
+      "bytes": 1675,
+      "sha256": "c1690fbc6484059c9d02c2fb371bee2b9455e18206056aede92ddbd7bda525d7"
+    },
+    {
+      "path": "experiments/structure-lab-v1/compact-indicator/compact-preview.png",
+      "bytes": 29320,
+      "sha256": "d7a115e1a22bab21f613765f7b1cb9e1ea3bd7ed9541ec8d37c3a1aab1f592b8"
+    },
+    {
+      "path": "experiments/structure-lab-v1/compact-indicator/delivery-verification.json",
+      "bytes": 531,
+      "sha256": "151d1ba744c9df578950045189d156d1fd7205a6e5345213ed871038fbf4345e"
+    },
+    {
+      "path": "experiments/structure-lab-v1/compact-indicator/equations/equation-1e7a7b027749f12e.svg",
+      "bytes": 8259,
+      "sha256": "0ec683f4e0522878059904f6e12675b1e7bae87722a9206bcb95128462486056"
+    },
+    {
+      "path": "experiments/structure-lab-v1/compact-indicator/equations/equation-70d52ef387501063.svg",
+      "bytes": 17222,
+      "sha256": "572d7df5ff7904cbbd8ec1f8b375868a3374b7059dca6f890f5cb9174c0cf8ba"
+    },
+    {
+      "path": "experiments/structure-lab-v1/compact-indicator/equations/source.json",
+      "bytes": 417,
+      "sha256": "c86b120415f0392fb43bfd586f2b3c73286395ec0e7676c33afd94b9b3d13231"
+    },
+    {
+      "path": "experiments/structure-lab-v1/compact-indicator/example-card.json",
+      "bytes": 1354,
+      "sha256": "13acfd7cb67bd822664057a7c5a2234f7b1f5eb460300cc2f99b98ec581a9f3c"
+    },
+    {
+      "path": "experiments/structure-lab-v1/compact-indicator/indicator.py",
+      "bytes": 7469,
+      "sha256": "d2530f39d08319812f094634d36c0c356c91dbbdbc169f08eff23a89d4d235d0"
+    },
+    {
+      "path": "experiments/structure-lab-v1/compact-indicator/logic-verification.json",
+      "bytes": 3285,
+      "sha256": "c5c2f19956461eedcece180d2551664462d0e0e292bb0ad3f3f536bdac5861ed"
+    },
+    {
+      "path": "experiments/structure-lab-v1/compact-indicator/preview-cases.json",
+      "bytes": 7239,
+      "sha256": "49065f3dbb800aa579bc45f1b61082d795221552ef631f2f01063e4e63408eb4"
+    },
+    {
+      "path": "experiments/structure-lab-v1/compact-indicator/preview-verification.json",
+      "bytes": 1199,
+      "sha256": "b7b29035f0f15e0e595191af2b0a96222c550e857912a356dc8843a5454da0d5"
+    },
+    {
+      "path": "experiments/structure-lab-v1/compact-indicator/quotes.json",
+      "bytes": 7819,
+      "sha256": "b5f14b2c0d1c778d9d655a5264f42acd3d1d33550852a788825c1df27c611f97"
+    },
+    {
+      "path": "experiments/structure-lab-v1/compact-indicator/REPORT.md",
+      "bytes": 12637,
+      "sha256": "ddbb5959b155e5988ef1f690512e4676c6bbec2318599fcbd59954bd9afb41b1"
+    },
+    {
+      "path": "experiments/structure-lab-v1/compact-indicator/source-dossier.md",
+      "bytes": 9417,
+      "sha256": "9f2ade10a7eb97ff37a82e67337e2fa854f9b25f8f2d4ead5c36fcf98dacd3e1"
+    },
+    {
+      "path": "experiments/structure-lab-v1/compact-indicator/stale-preview.png",
+      "bytes": 17132,
+      "sha256": "617d5c6b42c312ca9c6200a86b81de0b5f4ac3935552c421f40b5a3facbc4884"
+    },
+    {
+      "path": "experiments/structure-lab-v1/compact-indicator/test_indicator.py",
+      "bytes": 6253,
+      "sha256": "44dd35e396efa67987334e4932ba509286d9c2ecf58ad894339dbd52afc561ed"
+    },
+    {
+      "path": "experiments/structure-lab-v1/compact-indicator/verify_preview.cjs",
+      "bytes": 3712,
+      "sha256": "cacee3b810b46012aef572ccc9d7feb77af9f79fd68e04fce33e2e599f0938ef"
+    },
+    {
       "path": "experiments/structure-lab-v1/component-audit/alignment-forecast-summary.csv",
       "bytes": 836,
       "sha256": "6127aafe48e8b0b10fde1ee544f6a125641a6c50ac60882a0cf7ccd06a3c5669"
@@ -1861,8 +1946,8 @@
     },
     {
       "path": "experiments/structure-lab-v1/README.md",
-      "bytes": 14550,
-      "sha256": "9af7ee4746d6ca5361a52b00dab589c563038fd71ced639d5c17a0a7cda49ca1"
+      "bytes": 14757,
+      "sha256": "0befdec2128b864376c297763b97fa9e26e4307b3554209b1b32d8dcd22a7344"
     },
     {
       "path": "experiments/structure-lab-v1/render-check-dark.png",
@@ -1876,8 +1961,8 @@
     },
     {
       "path": "experiments/structure-lab-v1/render-verification.json",
-      "bytes": 3061,
-      "sha256": "c355f95626ca3f645605576ba6ccb6f253e776df6c2a85b9e5ccdaf2e2b8e30c"
+      "bytes": 3740,
+      "sha256": "b2aa2a803002b75d23dbc41cab7ca4911367f6c43c4e49a7958a5b05f6887b12"
     },
     {
       "path": "experiments/structure-lab-v1/trader-view/build_snapshot.py",
@@ -1911,8 +1996,8 @@
     },
     {
       "path": "experiments/structure-lab-v1/verify_presentation.cjs",
-      "bytes": 3662,
-      "sha256": "7e753ce772e698923e0802f2d7518ab38dc4f67a15454f0fe2227218a9b2b11e"
+      "bytes": 3862,
+      "sha256": "0d4c355d9eea6907f7ee531fcd062cf24f25fcda995e48ea346733b5c24b4d36"
     },
     {
       "path": "feature-correlations.csv",

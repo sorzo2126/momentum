@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "fragment_sha256": "684641650a8e0e4209b9f40f7c1da0a6879a90e3c70e1c737c2e6a8c7a6b1aaf",
+  "scope": "Interactive saved-forecast preview; no live connection.",
+  "checks": [
+    {
+      "scheme": "light",
+      "width": 736,
+      "status": "PASS",
+      "horizon_switches": 3,
+      "failure_states": 2,
+      "details_tested": true
+    },
+    {
+      "scheme": "light",
+      "width": 360,
+      "status": "PASS",
+      "horizon_switches": 3,
+      "failure_states": 2,
+      "details_tested": true
+    },
+    {
+      "scheme": "light",
+      "width": 320,
+      "status": "PASS",
+      "horizon_switches": 3,
+      "failure_states": 2,
+      "details_tested": true
+    },
+    {
+      "scheme": "dark",
+      "width": 736,
+      "status": "PASS",
+      "horizon_switches": 3,
+      "failure_states": 2,
+      "details_tested": true
+    },
+    {
+      "scheme": "dark",
+      "width": 360,
+      "status": "PASS",
+      "horizon_switches": 3,
+      "failure_states": 2,
+      "details_tested": true
+    },
+    {
+      "scheme": "dark",
+      "width": 320,
+      "status": "PASS",
+      "horizon_switches": 3,
+      "failure_states": 2,
+      "details_tested": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "asset": "equation-70d52ef387501063.svg",
+    "latex": "p_{\\mathrm{continue}}=\n\\begin{cases}\np_{\\mathrm{up}},&d=+1,\\\\\np_{\\mathrm{down}},&d=-1,\n\\end{cases}\n\\qquad\np_{\\mathrm{opposite}}=\n\\begin{cases}\np_{\\mathrm{down}},&d=+1,\\\\\np_{\\mathrm{up}},&d=-1.\n\\end{cases}"
+  },
+  {
+    "asset": "equation-1e7a7b027749f12e.svg",
+    "latex": "I_t=p_{\\mathrm{up},t}-p_{\\mathrm{down},t}."
+  }
+]

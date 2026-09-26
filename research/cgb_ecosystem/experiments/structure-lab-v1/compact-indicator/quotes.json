@@ -1,0 +1,175 @@
+{
+  "purpose": "Exact short source excerpts for the compact CGB decision-support display. Interpretations are separately labelled.",
+  "source_root_at_review": "C:\\Users\\mn262\\Downloads\\fractal-x-main\\fractal-x-main",
+  "verification": "Every excerpt matched its stated source line exactly; aggregate excerpt word count per source is at most 25.",
+  "word_counts_by_source": {
+    "theses/source/PHYSICS/01 beta.md": 12,
+    "theses/source/PHYSICS/02 smart beta.md": 16,
+    "theses/source/PHYSICS/03 zureck.md": 5,
+    "theses/source/PHYSICS/04 zureck vs laplace.md": 11,
+    "theses/source/PHYSICS/09 ummo.md": 4,
+    "6 signaux.ipynb": 15,
+    "5 algo fractal x.ipynb": 3,
+    "0 README_MODEL.md": 20
+  },
+  "quotes": [
+    {
+      "id": "Q01",
+      "file": "theses/source/PHYSICS/01 beta.md",
+      "line": 12,
+      "language": "en",
+      "quote": "What remains stable as long as no one breaks the system's invariances?",
+      "translation": null,
+      "decision": "Name the reference and show when it is weakening; a direction score alone cannot describe reference validity.",
+      "source_sha256": "78838c5489e82506a0c6631e0f359dd2d2906fcf7bbb289a55a3061e310e3a24",
+      "source_location": {
+        "repository_relative_path": "theses/source/PHYSICS/01 beta.md",
+        "physical_line_1based": 12
+      },
+      "word_count": 12
+    },
+    {
+      "id": "Q02",
+      "file": "theses/source/PHYSICS/02 smart beta.md",
+      "line": 20,
+      "language": "en",
+      "quote": "I define (w) as a small vector of exposures, because that is where constraints actually bite",
+      "translation": null,
+      "decision": "Organise the compact evidence view by economic exposure: CGB duration, common US duration, Canadian curve and liquidity response; avoid a wall of unrelated indicators.",
+      "source_sha256": "26f20ad642da1f9641bc5c5d841b5b2507b821b32a447276fc682d71cac543e5",
+      "source_location": {
+        "repository_relative_path": "theses/source/PHYSICS/02 smart beta.md",
+        "physical_line_1based": 20
+      },
+      "word_count": 16
+    },
+    {
+      "id": "Q03",
+      "file": "theses/source/PHYSICS/03 zureck.md",
+      "line": 119,
+      "language": "en",
+      "quote": "ρ is a hidden state.",
+      "translation": null,
+      "decision": "Label inferred pressure separately from directly observed price, flow and depth. Do not present an inferred unfinished seller as a measured inventory.",
+      "source_sha256": "bbaae911d2709a9517d846eaf2f0db870703bd2debfcd837d2e55c0cd0d27453",
+      "source_location": {
+        "repository_relative_path": "theses/source/PHYSICS/03 zureck.md",
+        "physical_line_1based": 119
+      },
+      "word_count": 5
+    },
+    {
+      "id": "Q04",
+      "file": "theses/source/PHYSICS/04 zureck vs laplace.md",
+      "line": 50,
+      "language": "en",
+      "quote": "The calculation is done at t... the action at t+1 (anti-circularity).",
+      "translation": null,
+      "decision": "Display forecast origin, horizon and data freshness. A present state label and its future forecast must never share an ambiguous time label.",
+      "source_sha256": "ead3fe609cf88ab67b3ef4df5a3c1f3d55b99831f10b58b2f0e47411f5974811",
+      "source_location": {
+        "repository_relative_path": "theses/source/PHYSICS/04 zureck vs laplace.md",
+        "physical_line_1based": 50
+      },
+      "word_count": 11
+    },
+    {
+      "id": "Q05",
+      "file": "theses/source/PHYSICS/09 ummo.md",
+      "line": 726,
+      "language": "fr",
+      "quote": "(vrai, faux, vrai-et-faux, ni-vrai-ni-faux)",
+      "translation": "(true, false, both true and false, neither true nor false)",
+      "decision": "As our operational adaptation, distinguish support, opposition, conflicting fresh evidence and unavailable evidence. The source supplies a four-valued vocabulary; our feed/evidence mapping is a design choice.",
+      "source_sha256": "1e4f1b44bb78ce09af41a9f4c37bf394684fdc9a9da4b75fc13257ee7df82b94",
+      "source_location": {
+        "repository_relative_path": "theses/source/PHYSICS/09 ummo.md",
+        "physical_line_1based": 726
+      },
+      "word_count": 4
+    },
+    {
+      "id": "Q06",
+      "file": "6 signaux.ipynb",
+      "cell": 1,
+      "line": 214,
+      "language": "fr",
+      "quote": "Tag du graph a T par barre",
+      "translation": "Graph tag at T for each bar",
+      "decision": "Keep the observed-state overlay tied to completed observations, distinct from the forecast line.",
+      "source_sha256": "f78410fcadb0ac268793265c13f52b9fc7617fd5170ed39d105d7092bea97ae2",
+      "source_location": {
+        "repository_relative_path": "6 signaux.ipynb",
+        "notebook_cell_index_0based": 1,
+        "cell_source_line_1based": 214
+      },
+      "word_count": 7
+    },
+    {
+      "id": "Q07",
+      "file": "6 signaux.ipynb",
+      "cell": 1,
+      "line": 241,
+      "language": "fr",
+      "quote": "Dernier tag predit t+1",
+      "translation": "Latest predicted tag for t+1",
+      "decision": "Keep the forecast visibly forward-looking and horizon-specific; do not repaint observed bars with future predictions.",
+      "source_sha256": "f78410fcadb0ac268793265c13f52b9fc7617fd5170ed39d105d7092bea97ae2",
+      "source_location": {
+        "repository_relative_path": "6 signaux.ipynb",
+        "notebook_cell_index_0based": 1,
+        "cell_source_line_1based": 241
+      },
+      "word_count": 4
+    },
+    {
+      "id": "Q08",
+      "file": "5 algo fractal x.ipynb",
+      "cell": 102,
+      "line": 14,
+      "language": "fr",
+      "quote": "JAMAIS vers thr/pos/bias",
+      "translation": "NEVER toward threshold/position/bias",
+      "decision": "In this specific source path, Ashby diagnostics are published rather than applied to trading parameters. A contradiction/health indicator can inform the trader without silently issuing a control action.",
+      "source_sha256": "72316ab247e5a6ae8fbc1e6fdf2bb81af6bbbe8756cafa45f47b3095b16a74a4",
+      "source_location": {
+        "repository_relative_path": "5 algo fractal x.ipynb",
+        "notebook_cell_index_0based": 102,
+        "cell_source_line_1based": 14
+      },
+      "word_count": 3
+    },
+    {
+      "id": "Q09",
+      "file": "0 README_MODEL.md",
+      "line": 599,
+      "language": "fr",
+      "quote": "La performance ne remplace jamais le contrat de donnees. Un artefact incoherent est invalide meme si ses metriques sont bonnes.",
+      "translation": "Performance never replaces the data contract. An inconsistent artifact is invalid even if its metrics are good.",
+      "decision": "An expired or mismatched live snapshot must be visibly unavailable, regardless of the displayed historical model score.",
+      "source_sha256": "a9b3950b00458afa4deda25179612e787f6b2de75d7902ad13edb67a31db5775",
+      "source_location": {
+        "repository_relative_path": "0 README_MODEL.md",
+        "physical_line_1based": 599
+      },
+      "word_count": 20
+    },
+    {
+      "id": "Q10",
+      "file": "6 signaux.ipynb",
+      "cell": 1,
+      "line": 22,
+      "language": "fr",
+      "quote": "tags/Sharpe \"indispo\" si rien",
+      "translation": "tags/Sharpe unavailable if nothing is present",
+      "decision": "Missing readings become an explicit unavailable state, never a neutral numeric forecast. Actual code uses ? for a missing tag and NaN for absent metrics.",
+      "source_sha256": "f78410fcadb0ac268793265c13f52b9fc7617fd5170ed39d105d7092bea97ae2",
+      "source_location": {
+        "repository_relative_path": "6 signaux.ipynb",
+        "notebook_cell_index_0based": 1,
+        "cell_source_line_1based": 22
+      },
+      "word_count": 4
+    }
+  ]
+}

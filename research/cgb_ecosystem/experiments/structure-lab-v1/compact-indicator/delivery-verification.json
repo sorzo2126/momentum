@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "prior_commit": "514bdb00c739b5b42154cda9cd7ecec4e0a4ccc6",
+  "prior_inventory_files": 1107,
+  "prior_files_unchanged": 1104,
+  "allowed_modified_documents": [
+    "experiments/structure-lab-v1/README.md",
+    "experiments/structure-lab-v1/render-verification.json",
+    "experiments/structure-lab-v1/verify_presentation.cjs"
+  ],
+  "quote_sources_hash_matched": 10,
+  "display_contract_tests": 32,
+  "browser_viewport_theme_cases": 6,
+  "original_fitted_models_and_results_changed": false
+}
